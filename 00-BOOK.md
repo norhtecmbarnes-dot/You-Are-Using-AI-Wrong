@@ -868,6 +868,41 @@ evaluations. Corroborated by The Hacker News, Fortune, The Verge and CSA's analy
 
 ---
 
+**⚑ ✅ The reward chain — verified link by link, and NEVER IN THIS REGISTER UNTIL NOW. (Ch. 27 · Rule 10)**
+
+> **Chapter 26 tells the reader: *"you can separate them, because they are labelled."*** It names four things the model
+> supplied rather than the author — **the arithmetic on the tool subscriptions**, **the corrections**, **the sources
+> behind the fly**, and **the labour behind the feedback signal.**
+>
+> **Three of those were verified. None of the three were in this register.** They sat in the working documents —
+> `Tool-Evaluation-AIWriteBook.md` and `SESSION-RECORD-2026-10-11.md` — which a reader of the book will never open.
+> **So the chapter's claim was true and uncheckable at the same time**, which is exactly the defect Rule 15 exists to
+> catch: *if the output can't be checked, it needs a citation.* **Promoted here so the claim holds inside the book.**
+
+**The author's claim, as stated:** *the RLHF reward mechanism borrows from the biology — and the fruit fly proves
+reward is general-purpose.* Checked link by link. **All four hold:**
+
+| Link | Source | Status |
+|---|---|---|
+| Google mapped an adult **male** fly brain, **166,000+ neurons**, reconstructed by AI from millions of 2D EM images | Sept 2026 | ✅ |
+| **FlyWire** — the adult **female** brain: **139,255 neurons, 54.5 million synapses** | 2 Oct 2024 | ✅ |
+| The connectome **running on Intel Loihi 2**, learning tasks with **dopamine cells used as the reinforcement signal** — DOOM, Mario, Beat Saber | arXiv 2508.16792 | ✅ |
+| The demos show behaviour **a fly would never have**, because the reward signal is general-purpose | — | ✅ |
+
+- **Source material on disk:** `samples/yt-fruit-fly-brain-RZizGRsh4QY.txt` (4,029 words) and
+  `samples/reddit-moralityscaling-fly-beat-saber.txt`. **The transcripts exist; the chain was checked against them.**
+- ⚠️ **One re-check owed before print.** These were verified in an earlier session and this register never carried
+  them. **Per Rule 12b, a verification with no date is not a verification** — so re-confirm the two neuron counts and
+  the Loihi citation once, date it, and let it stand.
+
+**⚠️ And the one label Chapter 26 names that is genuinely unclear: *"the four corrections."*** This register records a
+**different** four — the four errors corrected in the ML review of October 2026 (`00-BOOK.md` §9). Chapter 27 records a
+**third** set: the author corrected the model on *searching versus sourcing*, two earlier books predate his title,
+and two tools do not share a company. **The chapter's "four corrections" may be one of those, or a fourth thing. It
+should be made specific before print** — *a count with no list is not a label.*
+
+---
+
 **✅ Verified since this document was first written — safe to use:**
 
 - **NotebookLM is source-grounded by construction.** *"Its defining characteristic is that it is
