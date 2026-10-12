@@ -137,6 +137,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* checking costs tokens and most facts are not worth the tokens. A wrong lunch order and a wrong safety limit are not the same error, and treating them alike spends the budget on the one that does not matter.
 - **Rule: score every fact for criticality, and let the score decide how hard you check it. Verify the critical ones every time; let the cheap ones ride.**
 
+**15b. Testimony is its own source — but only for what you witnessed.**
+- *Assumption:* if I can't cite it, I can't use it.
+- *True:* your own experience needs no citation. **A witness does not footnote their own life** — they were there, and that is the whole of what they are claiming. What a witness cannot do is testify to a general rule. *"This happened to me"* is testimony. *"This is what happens"* is a claim about the world.
+- **Rule: state your own experience plainly and without a source, and source every inference you draw from it. The witness owns what happened. The witness does not own what it means.**
+
 **15. Your first wave's trust may not transfer.**
 - *Assumption:* IT adopted it and it worked, so it's vetted for the rest of us.
 - *True:* IT had a compiler. Code either runs or it doesn't — their trust was **earned**. Reports have no compiler, so the trust you inherited was **unearned**.

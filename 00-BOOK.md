@@ -681,6 +681,12 @@ self-correction this register exists to record.** Payroll and access are the cle
 > labelled that way on purpose. **It needs no external source and it cannot be checked against one** — which is
 > exactly what makes it the strongest material in the book and the easiest to overstate. **It is presented as what
 > he saw. Nothing more is claimed for it.**
+>
+> **⚑ This is the general case, written down as Rule 15b:** *a witness does not footnote their own life.* **He was
+> there, and that is the whole of what he is claiming.** But note where the line falls in his own account, because
+> he drew it correctly before the rule existed — **the SAP story is testimony and carries no source; the claim that
+> disunified HR, payroll and access systems cause breaches is a claim about the world, and he went and found the
+> cases for it.** *The witness owns what happened. The witness does not own what it means.*
 
 **As stated by the author:**
 
