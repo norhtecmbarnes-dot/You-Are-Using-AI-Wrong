@@ -147,6 +147,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* IT had a compiler. Code either runs or it doesn't — their trust was **earned**. Reports have no compiler, so the trust you inherited was **unearned**.
 - **Rule: find your test, or find your source. If the output can't be checked, it needs a citation.**
 
+**15c. Most of what a person says is not a claim.**
+- *Assumption:* everything I tell it is information, and information should be checked.
+- *True:* people lie, exaggerate, joke, and tell stories to make a point. **A model has no register for any of that.** It cannot tell a description from a fact, an illustration from an assertion, or a joke from a threat — so it does the only two things left to it: **it either tries to validate everything, or it believes everything.** Neither is judgement. **There is no word in its world for *bullshit*** — for speech that is indifferent to whether it is true.
+- **Rule: say what is background, what is a claim, and what is not to be checked. Then it can spend its effort where it matters instead of everywhere. An unvalidated story is not a risk; treating every sentence as a proposition is.**
+
 **16. Buy the tool for the job, not the tool for everything.**
 - *Assumption:* a subscription to a general chat engine is the thing to buy.
 - *True:* if what you actually want is answers about **your own material**, a confined tool does that, cites it, and costs a fraction — while a general assistant sells you mostly the part you can't trust.
@@ -176,6 +181,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *Assumption:* build an agent and it will be smart.
 - *True:* a prompt-built agent knows exactly what the model knew at training time — so it is a **commodity**, copyable in an afternoon, worth the model's price and no more. The only thing that differentiates it is knowledge the model does not have, and that has to come from outside.
 - **Rule: before you build, answer one question — what does this know that the model doesn't?** If the answer is nothing, you have built a demo, not a product.
+
+**21b. Automating a process is not the same as justifying it.**
+- *Assumption:* the win is doing the existing work faster.
+- *True:* organisations run processes nobody has re-costed in years — bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply — the stated purpose and the real cost — **so it needs no knowledge from the model at all.**
+- **Rule: ask it to question the process, and say plainly that questioning makes it *alert*, not *correct*. A wrong question costs nothing and the human still decides. Before you automate a process, find out whether it should exist.**
 
 ---
 
