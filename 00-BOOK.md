@@ -605,6 +605,18 @@ The book's credibility depends on this section. Nothing here is to be asserted f
 
 - **The grounding test** (Ch. 1, Ch. 18) — real, run on this machine. Four models; three scored 5/5;
   one failed the grounding test by inventing a capital for a fictional country. Reproducible.
+  The benchmark is `BENCHMARK` in `src/lib/models/alpha.ts` (PersonalAI-Dashboard): five fixed
+  prompts — exact string, 17 × 23, fixed JSON, three colours in three words, and the Zubrowka
+  grounding prompt — each with a deterministic code check. Verified against the source 12 October
+  2026.
+- **⚑ Mata v. Avianca, Inc.** (Ch. 1) — *Mata v. Avianca, Inc.*, No. 22-cv-1461 (PKC), Opinion and
+  Order on Sanctions, S.D.N.Y., 22 June 2023 (Judge P. Kevin Castel). Lawyers filed a brief citing
+  judicial decisions that did not exist, generated with ChatGPT; the lawyers and their firm were
+  sanctioned under Rule 11 — a $5,000 penalty jointly and severally, plus letters to the plaintiff
+  and to each judge falsely identified as an author. **Verified against the primary source**
+  (the court's own Opinion and Order, `nhd.uscourts.gov` / Document 54, 22-cv-1461) and
+  CourtListener, 12 October 2026. The sanctions order is the citation; the lawyers' names
+  (Schwartz, LoDuca) and the firm name stay out of the chapter unless the author wants them.
 - **The Alpha challenge** (Ch. 18) — five code-scored tests, ties to the incumbent. Real result.
 - **The self-education loop** (Ch. 22) — real, verified live. 10 tools checked, 9 baselines.
 - **The VocalLab bug** (Ch. 23) — a payload that was JSON wearing an audio file's name, caught by
