@@ -79,28 +79,90 @@ def title_for(fname):
     return prettify(stem)
 
 
+SHADOWED = []          # chapter numbers claimed twice; the root wins, and we say so
+
+
+def extract_draft(text):
+    """-> the chapter prose, or None if this is an unfilled skeleton.
+
+    The skeletons carry the plan spec, the concept and the evidence as REFERENCE
+    material. None of that belongs in the book, so once the author writes under
+    '## DRAFT' the build reads that section and nothing else.
+
+    A skeleton whose DRAFT section is still the placeholder is NOT a chapter, and
+    returns None so the caller skips it. Otherwise including chapters/ would put
+    twenty-three empty chapter headings in the manuscript.
+    """
+    m = re.search(r"(?m)^##\s+DRAFT\s*$", text)
+    if not m:
+        return text                                  # a real chapter file: use it whole
+    body = re.sub(r"(?s)^\s*\*\(.*?\)\*\s*", "", text[m.end():]).strip()
+    return body or None
+
+
 def discover():
-    """[(kind, filename, title)] in reading order."""
-    rows = []
-    for f in sorted(os.listdir(B)):
-        if not f.endswith(".md") or not os.path.isfile(os.path.join(B, f)):
-            continue
-        if f in SKIP or f.startswith("00-"):
-            continue
+    """[(kind, filename, title)] in reading order.
+
+    Scans the book root AND chapters/. A chapter found in the root wins, because
+    the root holds promoted chapters and chapters/ holds the skeletons. Filenames
+    come back relative to the book folder, so a path like
+    'chapters/Chapter-02-x.md' resolves correctly when the content is read.
+    """
+    found = {}
+
+    def consider(relpath, f):
+        if not f.endswith(".md") or f in SKIP or f.startswith("00-"):
+            return
         if f.startswith("Preface"):
-            rows.append((-2, "front", f, title_for(f)))
+            key, sortkey, kind = "front-preface", -2, "front"
         elif f.startswith("Introduction"):
-            rows.append((-1, "front", f, title_for(f)))
+            key, sortkey, kind = "front-intro", -1, "front"
         elif f.startswith("Chapter-DRAFT-"):
-            if f in PLACEMENT:
-                rows.append((PLACEMENT[f], "chapter", f, title_for(f)))
-        elif re.match(r"^Chapter-\d+-", f):
-            rows.append((int(re.match(r"^Chapter-(\d+)-", f).group(1)), "chapter", f, title_for(f)))
-    rows.sort(key=lambda r: r[0])
-    return [(r[1], r[2], r[3]) for r in rows]
+            if f not in PLACEMENT:
+                return
+            key, sortkey, kind = "ch-%d" % PLACEMENT[f], PLACEMENT[f], "chapter"
+        else:
+            m = re.match(r"^Chapter-(\d+)-", f)
+            if not m:
+                return
+            key, sortkey, kind = "ch-%d" % int(m.group(1)), int(m.group(1)), "chapter"
+        if key not in found:                 # root scanned first, so root wins
+            found[key] = (sortkey, kind, relpath, title_for(f))
+        else:
+            SHADOWED.append((key, relpath, found[key][2]))
+
+    for f in sorted(os.listdir(B)):
+        if os.path.isfile(os.path.join(B, f)):
+            consider(f, f)
+    subdir = os.path.join(B, "chapters")
+    if os.path.isdir(subdir):
+        for f in sorted(os.listdir(subdir)):
+            if os.path.isfile(os.path.join(subdir, f)):
+                consider("chapters/" + f, f)
+
+    return [(r[1], r[2], r[3]) for r in sorted(found.values(), key=lambda r: r[0])]
 
 
 FILES = discover()
+
+
+def buildable():
+    """The entries that will actually become chapters — those with prose written.
+
+    Discovery returns every file it can see, including the unfilled skeletons in
+    chapters/. This filters to the ones that have something to print, and must be
+    used for BOTH the body and the contents placeholder, or the contents lists
+    chapters that are not in the book.
+    """
+    out = []
+    for kind, fname, title in FILES:
+        p = os.path.join(B, fname)
+        if not os.path.exists(p):
+            continue
+        if extract_draft(open(p, encoding="utf-8").read()) is None:
+            continue
+        out.append((kind, fname, title))
+    return out
 
 
 # ------------------------------------------------------------------ docx helpers
@@ -251,7 +313,7 @@ def build(toc_entries=None):
     # ---- contents ----
     doc.add_heading("Contents", level=1).paragraph_format.space_before = Inches(0.4)
     if toc_entries is None:
-        for _k, _fn, ttl in FILES:
+        for _k, _fn, ttl in buildable():
             e = doc.add_paragraph(); e.paragraph_format.first_line_indent = Inches(0)
             e.paragraph_format.space_after = Pt(6)
             e.add_run(ttl)
@@ -276,16 +338,20 @@ def build(toc_entries=None):
     for r in bf.runs:
         r.font.name = "Garamond"; r.font.size = Pt(9)
 
-    added = []
-    for n, (_kind, fname, title) in enumerate(FILES):
+    added, skipped = [], []
+    for n, (_kind, fname, title) in enumerate(buildable()):
         path = os.path.join(B, fname)
         if not os.path.exists(path):
             print("  MISSING:", fname)
             continue
+        body_text = extract_draft(open(path, encoding="utf-8").read())
+        if body_text is None:                   # a skeleton with no prose written yet
+            skipped.append(title)
+            continue
         if n:                                   # every chapter starts on a fresh page
             doc.add_page_break()
         doc.add_heading(title, level=1)
-        text = strip_author_notes(open(path, encoding="utf-8").read())
+        text = strip_author_notes(body_text)
         first_para = True
         for raw in text.split("\n"):
             line = raw.rstrip()
@@ -360,8 +426,18 @@ def to_pdf():
     return os.path.exists(PDF)
 
 
-def measure():
-    """-> (contents_page_1based, [(title, printed_page)]) or None."""
+def measure(only=None):
+    """-> (offset, [(title, printed_page)]) or None.
+
+    `only` is the list of filenames actually written into the document. Without it
+    this would try to locate the skeleton entries too, report them all missing, and
+    skip the page-number pass on a book that is perfectly fine.
+
+    The printed page number is derived from where the FIRST chapter's heading
+    actually lands, not from the Contents page. Counting from the Contents page
+    fails silently the moment the contents runs to two pages, which shifts every
+    number in the book by one.
+    """
     try:
         from pypdf import PdfReader
     except ImportError:
@@ -369,61 +445,93 @@ def measure():
         return None
     r = PdfReader(PDF)
 
-    contents_pg = None
-    for i, page in enumerate(r.pages):
-        if "Contents" in (page.extract_text() or ""):
-            contents_pg = i + 1
-            break
-    if contents_pg is None:
+    norm = lambda s: re.sub(r"\s+", " ", s or "").lower()
+
+    def top_of(i):
+        return norm(r.pages[i].extract_text())[:200]     # headings sit at the top
+
+    def find(title, start_page):
+        """1-based pdf page carrying this heading at the top, or 0.
+
+        start_page is 1-based, matching the page numbers this function returns;
+        searching begins ON that page, not after it.
+        """
+        key = norm(title)
+        if not key:
+            return 0
+        for i in range(max(0, start_page - 1), len(r.pages)):
+            # Match the WHOLE heading: chapter titles also occur in running prose
+            # ("ask me anything" appears in the Preface), and a partial key lands
+            # on the prose instead of the heading.
+            if key in top_of(i):
+                return i + 1
+        return 0
+
+    entries = [(t, f) for _k, f, t in FILES if only is None or f in only]
+    if not entries:
         return None
 
-    # body numbering restarts at 1 on the page after the contents page
-    offset = contents_pg
+    # The first heading appears at least twice: once in the contents list and once
+    # on its own page. The body begins on its own page, so take the LAST occurrence.
+    # (Counting from "the page after the contents" breaks as soon as the contents
+    # runs to two pages, and matching "Contents" anywhere in the text catches body
+    # prose that happens to use the word.)
+    key0 = norm(entries[0][0])
+    pages_with_first = [i + 1 for i in range(len(r.pages)) if key0 and key0 in top_of(i)]
+    if not pages_with_first:
+        return None
+    first_pg = pages_with_first[-1]
+    offset = first_pg - 1          # that page is printed page 1
 
     out = []
-    norm = lambda s: re.sub(r"\s+", " ", s or "").lower()
-    for _k, _fn, title in FILES:
-        # Match the WHOLE heading, not just the title phrase. Chapter titles also
-        # occur in running prose ("ask me anything" appears in the Preface), and a
-        # partial key lands on the prose instead of the heading.
-        key = norm(title)
-        hit = 0
-        for i in range(contents_pg, len(r.pages)):        # never match front matter
-            # Normalise whitespace: the PDF text layer wraps lines, so a raw
-            # substring test misses a heading that is present but split.
-            top = norm(r.pages[i].extract_text())[:200]
-            if key and key in top:
-                hit = (i + 1) - offset
-                break
-        out.append((title, hit))
-    return contents_pg, out
+    for title, _f in entries:
+        pg = find(title, first_pg)
+        out.append((title, (pg - offset) if pg else 0))
+    return offset, out
 
 
 if __name__ == "__main__":
     print("pass 1 - build with the chapter list, then render to measure")
     print("   files discovered:", len(FILES))
-    build(None)
+    if SHADOWED:
+        print("   !! chapter numbers claimed twice - the root file wins in each case:")
+        for key, shadowed, kept in SHADOWED:
+            print("      %s : keeping %s, ignoring %s" % (key, kept, shadowed))
+        print("      (settle the numbering, or one of these chapters is not in the book)")
+    added = build(None)
     if not to_pdf():
         print("   !! LibreOffice not found or the render failed; the .docx is still written")
         print("DOCX:", DOCX)
         raise SystemExit(0)
 
-    m = measure()
+    m = measure(added)
     if not m:
         print("   !! could not measure; leaving the chapter-list contents page")
         print("DOCX:", DOCX, "\nPDF :", PDF)
         raise SystemExit(0)
 
-    contents_pg, entries = m
-    missing = [t for t, p in entries if not p]
-    if missing:
-        print("   !! not located:", missing)
-    else:
-        print("pass 2 - rebuild with real page numbers (body begins after contents, front matter p%d)" % contents_pg)
-        for t, p in entries:
-            print("      %-46s p%d" % (t[:46], p))
-        build(entries)
-        to_pdf()
+    offset, entries = m
+    pages = [p for _t, p in entries]
+    problems = []
+    if any(p <= 0 for p in pages):
+        problems.append("some chapters were not located: %s" % [t for t, p in entries if not p])
+    if pages and pages[0] != 1:
+        problems.append("the first chapter should be p1, measured p%d" % pages[0])
+    if pages != sorted(pages):
+        problems.append("page numbers are not in reading order: %s" % pages)
+
+    if problems:
+        print("   !! the page measurement looks wrong, so the contents keeps the chapter list")
+        for pr in problems:
+            print("      " + pr)
+        print("DOCX:", DOCX, "\nPDF :", PDF)
+        raise SystemExit(0)
+
+    print("pass 2 - rebuild with real page numbers (front matter spans %d page(s))" % offset)
+    for t, p in entries:
+        print("      %-46s p%d" % (t[:46], p))
+    build(entries)
+    to_pdf()
 
     print("DOCX:", DOCX)
     print("PDF :", PDF if os.path.exists(PDF) else "(not produced)")
