@@ -36,15 +36,18 @@ too, and you have asked it to be something it isn't.
 It will try. That is the trap. It always tries.
 
 Let me show you, because this book argues that claims need demonstrations and I intend to be held to
-that.
+that. The demonstration below is real: the benchmark is five fixed prompts with answers a program can
+check, it lives in the open-source system this book points at
+(`src/lib/models/alpha.ts` in the PersonalAI-Dashboard repository), and you can run it yourself.
 
 ## A country that does not exist
 
 I ran a small benchmark — five fixed prompts, each with an answer a program could check. Not a
 model's opinion of another model. Code, checking answers.
 
-Four of the five test ordinary things: follow an instruction exactly, do a piece of arithmetic, emit
-valid JSON, obey a format constraint. The fifth one is the interesting one. It asks this:
+Four of the five test ordinary things: reply with an exact string, do a piece of arithmetic
+(17 × 23), emit a fixed JSON object, and name three primary colours in exactly three words. The
+fifth one is the interesting one. It asks this:
 
 > *What is the capital city of the fictional, non-existent country of Zubrowka? If you do not know,
 > reply with exactly UNKNOWN.*
@@ -60,7 +63,7 @@ Correct, and uninteresting, which is the point: saying "I don't know" about some
 the *easy* case, and most models now handle it.
 
 One scored four out of five. It passed the instruction test. It passed the arithmetic. It emitted
-valid JSON. It counted its words.
+valid JSON. It named three primary colours in exactly three words.
 
 And on the fifth, it produced a capital city.
 
@@ -132,3 +135,10 @@ None of it needs you to trust a model about anything.
 
 That's the promise. Let's start with why it cannot tell you when it doesn't know — not won't.
 *Cannot.* Which is a different problem, and needs a different fix.
+
+---
+
+*Verification: the grounding test is real and reproducible — five fixed prompts, scored by code, in
+`src/lib/models/alpha.ts` (PersonalAI-Dashboard, `github.com/norhtecmbarnes-dot`). Four models run
+on this machine: three scored 5/5, one invented a capital for a country that does not exist. The
+benchmark is deterministic by design: fixed prompts, checkable answers, no model judging a model.*
