@@ -180,7 +180,23 @@ the problem you were building in your own head.*
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 9 — *It multiplies what you bring.*** The primary rule, and it is this chapter's whole argument: **the model
+is not a leveller.** It amplifies whoever is holding it. Concept 3's own text says it — *"AI will benefit some people
+more than others. AI will make some people lazy and inaccurate."* **The same tool made a competent person faster and
+a criminal more effective, and it did not care which.**
+
+**⚑ This chapter is the home of the misuse evidence in §9, which is filed there under "humans using AI to commit
+crimes."** Read that block in full before drafting:
+
+- **Arup, January 2024** — a deepfaked CFO on a video call; **HK$200m (≈US$25m)** in 15 transfers.
+- **Anthropic's August 2025 threat report** — a **"vibe hacking"** extortion campaign against **at least 17
+  organizations**; **North Korean** remote-worker fraud at US Fortune 500 firms; **ransomware-as-a-service sold for
+  $400–$1,200** by someone with basic coding skills.
+
+**In every case a human supplied the intent and the model supplied the capability.** That is the multiplication, and
+it is the honest version of the worry. **⚠️ Do NOT move these cases to Chapter 15** — that chapter is about a model
+acting with no human intent at all, where a goal was enough. **Different finding, different chapter, and merging
+them weakens both.**
 
 ## DRAFT
 

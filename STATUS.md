@@ -16,6 +16,13 @@
     21 rules + 5 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
                                           12b date it; 12c whitelist the source; 14b verify by criticality)
     21 evidence entries         verified, in 00-BOOK.md section 9
+    ⚠️  3 of 25 skeletons         have their "rules this chapter carries" filled in.
+                                 22 still hold the placeholder. The template says every
+                                 chapter carries at least one rule, so this is a real gap —
+                                 and it is the SAME defect Chapter 15 had: an unfilled
+                                 field nobody had looked at. Filling it needs a judgement
+                                 per chapter (concepts do not map 1:1 to rules), so it is
+                                 done one at a time and confirmed, not bulk-written.
 
 **And the controls are now installable** — the book is not only an argument:
 
