@@ -1,0 +1,16 @@
+# The prior book's PDF is 35 MB. The extracted text (61,577 words) is committed instead,
+# and the PDF stays in ~/Downloads where it came from.
+samples/*.pdf
+
+# build scratch
+book-build/_render.log
+
+# python
+__pycache__/
+*.pyc
+
+# editors / OS
+Thumbs.db
+desktop.ini
+~$*
+.DS_Store
