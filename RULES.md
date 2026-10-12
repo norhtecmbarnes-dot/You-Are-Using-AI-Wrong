@@ -92,6 +92,16 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* real questions have several legitimate frames — GAAP or cash, gross or net, annualised or not — and the model picks one silently without telling you which.
 - **Rule: define the question precisely, and confine the system to the sources that answer *that* question. Definition precedes answer.**
 
+**11b. Ask it to be checkable, not impressive.**
+- *Assumption:* a good answer is one that impresses me.
+- *True:* impressive is the pushed mode — you said what you wanted and it produced the smallest thing that satisfied you. **A claim you can check is worth more than a claim you admire**, and only one of those two is doing work.
+- **Rule: ask for something you can verify, not something you can admire. Give the problem, not the answer — a named output ends the search, a named problem starts it.**
+
+**11c. Keep the corrections.**
+- *Assumption:* a smooth session means it went well.
+- *True:* the corrections are the only evidence that anything was checked. **A session with no corrections in it was a session where nothing was checked** — and your own memory will not report that honestly, because memory has no error bar.
+- **Rule: keep the record of what it got wrong. That record is the proof the method is running, and it is the only error bar you have on yourself.**
+
 **12. Confinement is the design, not a limitation.**
 - *Assumption:* the capable general assistant is the real product; restricting it makes it worse.
 - *True:* an assistant that answers from its own memory is the deviation. A tool that answers only from the material you supply is the one whose answers mean something.

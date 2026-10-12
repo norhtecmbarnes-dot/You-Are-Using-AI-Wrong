@@ -13,8 +13,14 @@
      4 exist as prose           Preface, Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     12 concepts captured        CONCEPTS.md
-    21 rules + 5 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
-                                          12b date it; 12c whitelist the source; 14b verify by criticality)
+    21 rules + 7 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
+                                          11b be checkable; 11c keep the corrections;
+                                          12b date it; 12c whitelist the source;
+                                          14b verify by criticality)
+    ⚑  RULES-AUDIT.md          the rules page audited for holes. One real hole found, and it
+                                 was Chapter 26: the model-written chapter's six-condition
+                                 method - the most runnable thing in the book - was not on the
+                                 page at all. Rules 11b and 11c come from it.
     21 evidence entries         verified, in 00-BOOK.md section 9
     ⚠️  3 of 25 skeletons         have their "rules this chapter carries" filled in.
                                  22 still hold the placeholder. The template says every
