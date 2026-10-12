@@ -14,7 +14,7 @@ What it usually does not say is this:
 
 Instead, the interface says *ask*. The cursor waits. The system responds.
 
-The framing matters. A blinking cursor and an invitation to ask a question suggest that something on the other side knows the answer. Not merely that it can help you write, organise, translate, or reason through material. That it *knows*.
+The framing matters. A blinking cursor and an invitation to ask a question suggest that something on the other side knows the answer. Not merely that it can help you write, organize, translate, or reason through material. That it *knows*.
 
 So naturally, people ask it things.
 
@@ -184,7 +184,7 @@ The shift is simple:
 
 This is not a limitation to resent. It is a division of labour.
 
-Language models are exceptionally good at helping people work with information. They can summarise long documents, compare policies, extract structured data, rewrite technical material for different audiences, classify feedback, draft code, explain processes, and translate between the languages used by people and the formats used by software.
+Language models are exceptionally good at helping people work with information. They can summarize long documents, compare policies, extract structured data, rewrite technical material for different audiences, classify feedback, draft code, explain processes, and translate between the languages used by people and the formats used by software.
 
 None of those abilities requires the model to be where the facts live.
 
@@ -194,7 +194,7 @@ A well-designed system might work like this:
 
 1. A person asks a question.
 2. The system retrieves relevant information from approved sources.
-3. The model explains, summarises, compares, or reformats that information.
+3. The model explains, summarizes, compares, or reformats that information.
 4. The system shows the sources and preserves the limits of what was found.
 5. A person makes the decision when the decision matters.
 

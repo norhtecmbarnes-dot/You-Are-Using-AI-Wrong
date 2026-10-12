@@ -130,7 +130,7 @@ user takes *"a risk that scales with the cost of being wrong."*
 1. **The alternative he proposes is already the book's position.** Chapter 2's claim is that a real memory
    and a confabulation are *"indistinguishable from the outside — and from the inside."* That **is** "no
    internal way to mark the difference." **He is restating the book's own rule as a correction to it.**
-2. ⚠️ **Softening to "risk scales with cost" hands the reader a licence** — *if it's low-stakes, trust it* —
+2. ⚠️ **Softening to "risk scales with cost" hands the reader a license** — *if it's low-stakes, trust it* —
    which is the exact habit the book indicts. The rule is a **policy**, not a claim about frequency.
 
 **⭐ The distinction that keeps both:**

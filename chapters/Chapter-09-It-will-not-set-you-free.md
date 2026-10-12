@@ -27,8 +27,8 @@
 > skills. It can never be the replacement.
 >
 > Humans live in the real world, where they process information from multiple senses and store that
-> information efficiently in their brain. They can remember smells, colours, taste and sounds. They see
-> the world in colour and in three dimensions. An AI can only pretend to understand in these ways. It
+> information efficiently in their brain. They can remember smells, colors, taste and sounds. They see
+> the world in color and in three dimensions. An AI can only pretend to understand in these ways. It
 > can mimic understanding but really never can.
 >
 > As humans, if we let the AI provide the answers, we filter out all that we can sense and know that
@@ -60,7 +60,7 @@ trial designed to answer it. **Do not cite it as findings.**
 **But its introduction is a gift**, because it cites the findings that *do* exist — and two of them
 matter enormously to this book.
 
-> **Finding 1 — better with it, worse without it.** As the protocol summarises: *"Randomized
+> **Finding 1 — better with it, worse without it.** As the protocol summarizes: *"Randomized
 > controlled trials have found that students performed better when using general-purpose generative AI
 > tools but performed worse when these tools were taken away [19, 20]. This suggests that students may
 > have relied on the tool to bypass cognitive processes essential for developing cognitive skills,

@@ -33,7 +33,7 @@ Three readers, in order of value:
    is wrong — they need the model that explains it.
 2. **The builder who hasn't started.** They are about to build on the wrong assumption, and this book
    is the cheapest possible intervention.
-3. **The leader signing the cheques.** They need to know why "we'll just use a bigger model" is not a
+3. **The leader signing the checks.** They need to know why "we'll just use a bigger model" is not a
    strategy, without needing to read code.
 
 Deliberately *not* for: people who want a prompt list. There is no prompt list in this book.
@@ -135,7 +135,7 @@ Each chapter below names its **claim**, the **demonstration** it carries, and th
 ### Part II — The model that works
 
 **7. A function, not a source**
-- Claim: the reliable framing is *transformation of supplied input*. Summarise this. Translate this.
+- Claim: the reliable framing is *transformation of supplied input*. Summarize this. Translate this.
   Restructure this. Extract from this. Against attached facts the model is superb; as the origin of a
   fact it is not.
 - Demo: the same request run twice — once asking it to remember, once handing it the material. Same

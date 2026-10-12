@@ -46,7 +46,7 @@ Chapter 11; the two definitions are bridged there, not merged.)
 > limit the choices to that information that is relevant, and not rely on an AI's memory.
 
 **Why it works.** Three separate claims, each strong on its own, and together they're the book's most
-*practical* chapter — the one that finally speaks to the reader who signs the cheques rather than the
+*practical* chapter — the one that finally speaks to the reader who signs the checks rather than the
 one who writes the code.
 
 ### 1. The overspend — and why it isn't stupidity
@@ -59,7 +59,7 @@ otherwise sensible people do this, because the mechanism is the interesting part
 > nobody economises — that isn't irrational, it is the *correct* response to the price signal someone
 > else chose.
 
-So the organisation ends up buying frontier-tier reasoning to summarise a meeting note. The fix isn't
+So the organization ends up buying frontier-tier reasoning to summarize a meeting note. The fix isn't
 "tell people to use less"; it's **routing** — match the task to the model, in code, by rules. And that
 is exactly the pattern this book already builds (the provider registry: probe, filter by capability,
 walk the order, take the first that fits). *A router is how you stop overpaying without asking anyone to
@@ -71,7 +71,7 @@ subscription is cheap; the trust is what costs money.**
 
 ### 2. The adoption path — and the test that got lost on the way
 
-This is the sharpest organisational observation in the book, and it has a precise mechanism:
+This is the sharpest organizational observation in the book, and it has a precise mechanism:
 
 - **Wave one: IT, for code.** The expensive model was justified here, and more importantly the group had
   a *verification loop that could not be fooled* — the code either runs or it doesn't. Their trust was
@@ -80,7 +80,7 @@ This is the sharpest organisational observation in the book, and it has a precis
   with no compiler: reports, analysis, summaries, decisions. Their trust was **inherited**, not earned.
 
 **Same tool, two waves, radically different trustworthiness — and the difference is whether the output
-could be checked.** That is the whole argument of the book demonstrated inside one organisation, and it
+could be checked.** That is the whole argument of the book demonstrated inside one organization, and it
 is the strongest possible set-up for "let it build code, because code is checkable" (Ch. 15).
 
 ### 3. Confined knowledge — the prescription, and it already has a name
@@ -129,13 +129,13 @@ enough that the answer can exist.**
 - **Expensive models are not a scam.** They are correct for hard reasoning. The claim is narrower:
   *right-size the model to the task* — and route in code, don't lecture the staff.
 - **Same vendor rule as always.** Claude, GPT, NotebookLM may appear as examples of a **pattern**, never
-  as culprits. The behaviour described is a normal response to a price signal and a tool design.
+  as culprits. The behavior described is a normal response to a price signal and a tool design.
 - **Never sneer at the second wave.** They inherited a tool from a group whose trust had been earned by
   a compiler, and they had nothing to check against. That's the design's fault, not theirs.
 
 **Verification — CLOSED (both items resolved, do not re-flag):**
 
-- **✅ NotebookLM's confinement behaviour is confirmed.** University of Chicago, Academic Technology
+- **✅ NotebookLM's confinement behavior is confirmed.** University of Chicago, Academic Technology
   Solutions (*Google NotebookLM: An AI Tool for Research and Studying*, April 2026): *"Its defining
   characteristic is that it is source-grounding, meaning it operates only within the boundaries of the
   sources uploaded by the user. It does not generate answers from general training data."* Answers carry

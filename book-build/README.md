@@ -72,7 +72,7 @@ They are planning material, not book content. To change that, edit `SKIP` in the
     6 x 9 in trim          0.75in top/bottom, 0.70in sides — trade paperback, not letter
     Garamond 11pt          justified, indented paragraphs, chapter openings un-indented
     Heading 1 per chapter, Heading 2/3 inside chapters
-    centred * * *          for markdown horizontal rules
+    centered * * *          for markdown horizontal rules
     title page             "YOU ARE USING AI WRONG / And It Isn't Your Fault"
     copyright page         CC BY-SA 4.0, with the MIT/code split stated
     live TOC field         updates in Word and on Docs import

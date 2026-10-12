@@ -143,8 +143,8 @@ conditioning-versus-learning distinction as its demonstration.
 > skills. It can never be the replacement.
 >
 > Humans live in the real world, where they process information from multiple senses and store that
-> information efficiently in their brain. They can remember smells, colours, taste and sounds. They see
-> the world in colour and in three dimensions. An AI can only pretend to understand in these ways. It
+> information efficiently in their brain. They can remember smells, colors, taste and sounds. They see
+> the world in color and in three dimensions. An AI can only pretend to understand in these ways. It
 > can mimic understanding but really never can.
 >
 > As humans, if we let the AI provide the answers, we filter out all that we can sense and know that
@@ -176,7 +176,7 @@ trial designed to answer it. **Do not cite it as findings.**
 **But its introduction is a gift**, because it cites the findings that *do* exist — and two of them
 matter enormously to this book.
 
-> **Finding 1 — better with it, worse without it.** As the protocol summarises: *"Randomized
+> **Finding 1 — better with it, worse without it.** As the protocol summarizes: *"Randomized
 > controlled trials have found that students performed better when using general-purpose generative AI
 > tools but performed worse when these tools were taken away [19, 20]. This suggests that students may
 > have relied on the tool to bypass cognitive processes essential for developing cognitive skills,
@@ -433,7 +433,7 @@ what to do instead, so the reader is never left holding only the diagnosis.
 
 ### Where the comparison stops — say this out loud, in the book.
 
-The 8-Ball can do exactly one thing. A model can summarise a hundred pages, translate between
+The 8-Ball can do exactly one thing. A model can summarize a hundred pages, translate between
 languages, restructure a dataset, write working code. **The comparison indicts a habit, not a
 technology.** *Ask → shake → accept* is the habit. The tool is capable of far more than the ball ever
 was — which is precisely why the habit is worth breaking rather than the tool avoiding. Write the
@@ -442,8 +442,8 @@ listening.
 
 **Guard rails — and this analogy needs containment or it cheapens the book:**
 
-- **Apply it to the BEHAVIOUR, never to the technology.** The analogy indicted is *ask → shake →
-  accept*. It is not a claim that AI is a toy. A model can transform, summarise, translate and write
+- **Apply it to the BEHAVIOR, never to the technology.** The analogy indicted is *ask → shake →
+  accept*. It is not a claim that AI is a toy. A model can transform, summarize, translate and write
   code, and the 8-Ball cannot do any of that. Say plainly that the analogy covers one habit and not
   the tool.
 - **Do not use it to sneer at users.** Everyone shook the 8-Ball. The habit is human; the difference is
@@ -477,7 +477,7 @@ listening.
 > limit the choices to that information that is relevant, and not rely on an AI's memory.
 
 **Why it works.** Three separate claims, each strong on its own, and together they're the book's most
-*practical* chapter — the one that finally speaks to the reader who signs the cheques rather than the
+*practical* chapter — the one that finally speaks to the reader who signs the checks rather than the
 one who writes the code.
 
 ### 1. The overspend — and why it isn't stupidity
@@ -490,7 +490,7 @@ otherwise sensible people do this, because the mechanism is the interesting part
 > nobody economises — that isn't irrational, it is the *correct* response to the price signal someone
 > else chose.
 
-So the organisation ends up buying frontier-tier reasoning to summarise a meeting note. The fix isn't
+So the organization ends up buying frontier-tier reasoning to summarize a meeting note. The fix isn't
 "tell people to use less"; it's **routing** — match the task to the model, in code, by rules. And that
 is exactly the pattern this book already builds (the provider registry: probe, filter by capability,
 walk the order, take the first that fits). *A router is how you stop overpaying without asking anyone to
@@ -502,7 +502,7 @@ subscription is cheap; the trust is what costs money.**
 
 ### 2. The adoption path — and the test that got lost on the way
 
-This is the sharpest organisational observation in the book, and it has a precise mechanism:
+This is the sharpest organizational observation in the book, and it has a precise mechanism:
 
 - **Wave one: IT, for code.** The expensive model was justified here, and more importantly the group had
   a *verification loop that could not be fooled* — the code either runs or it doesn't. Their trust was
@@ -511,7 +511,7 @@ This is the sharpest organisational observation in the book, and it has a precis
   with no compiler: reports, analysis, summaries, decisions. Their trust was **inherited**, not earned.
 
 **Same tool, two waves, radically different trustworthiness — and the difference is whether the output
-could be checked.** That is the whole argument of the book demonstrated inside one organisation, and it
+could be checked.** That is the whole argument of the book demonstrated inside one organization, and it
 is the strongest possible set-up for "let it build code, because code is checkable" (Ch. 15).
 
 ### 3. Confined knowledge — the prescription, and it already has a name
@@ -560,13 +560,13 @@ enough that the answer can exist.**
 - **Expensive models are not a scam.** They are correct for hard reasoning. The claim is narrower:
   *right-size the model to the task* — and route in code, don't lecture the staff.
 - **Same vendor rule as always.** Claude, GPT, NotebookLM may appear as examples of a **pattern**, never
-  as culprits. The behaviour described is a normal response to a price signal and a tool design.
+  as culprits. The behavior described is a normal response to a price signal and a tool design.
 - **Never sneer at the second wave.** They inherited a tool from a group whose trust had been earned by
   a compiler, and they had nothing to check against. That's the design's fault, not theirs.
 
 **Verification — CLOSED (both items resolved, do not re-flag):**
 
-- **✅ NotebookLM's confinement behaviour is confirmed.** University of Chicago, Academic Technology
+- **✅ NotebookLM's confinement behavior is confirmed.** University of Chicago, Academic Technology
   Solutions (*Google NotebookLM: An AI Tool for Research and Studying*, April 2026): *"Its defining
   characteristic is that it is source-grounding, meaning it operates only within the boundaries of the
   sources uploaded by the user. It does not generate answers from general training data."* Answers carry
@@ -672,7 +672,7 @@ That frame pays off across the whole book, and every mechanism below maps onto a
 |---|---|
 | **Tokens, not words** | why it can't reliably count letters, why rendered text garbles, why arithmetic slips |
 | **Compression** | training is *lossy* — so "knowledge" is inherently approximate, not stored |
-| **Similarity, not meaning** | near neighbours blur together; that's why answers blend frames |
+| **Similarity, not meaning** | near neighbors blur together; that's why answers blend frames |
 | **One-directional** | it commits token by token and **cannot go back and revise** — the mechanism behind confident errors |
 | **Seed** | why the same question yields different answers, and what the "reset" really is |
 | **Temperature** | "creativity" is a dial, not a capability — and it changes *selection*, never *contents* |
@@ -730,7 +730,7 @@ insightful; it makes it less predictable.
 matrix is enormous, so the file is enormous. Quantization **stores each weight with fewer bits** — 8, 4,
 sometimes 2 — by rounding each value to the nearest available level. Result: a much smaller model that
 runs in far less memory, faster, on hardware that couldn't otherwise hold it, at the cost of some
-precision. Analogy: describing a colour with four shades instead of two hundred and fifty-six. You lose
+precision. Analogy: describing a color with four shades instead of two hundred and fifty-six. You lose
 fidelity; you usually keep the picture. The book's use of it is the right-sizing argument: **a quantized
 model routinely does the job — which is why buying the largest, most expensive model for every task
 (Concept 5) is a pricing mistake, not a safety measure.**
@@ -888,7 +888,7 @@ Claude series, ~1.7 for DeepSeek). The defensible claim is about **the reader, n
 > "faithful" — reveal rates are often under 20%, and larger models are *less* faithful. So the trace is
 > not proof. **Thinking is not knowing.**
 
-**3. "Quantisation is like describing a colour with four shades instead of 256." — QUALIFY.**
+**3. "Quantisation is like describing a color with four shades instead of 256." — QUALIFY.**
 Quantisation reduces the precision used to represent model values, introducing **rounding or clipping
 error**. Methods can limit the quality loss, but **the loss is not uniform** — it depends on the method,
 the model and the task, and it can be severe. The analogy may stay; it must **not** imply that quantisation
@@ -968,7 +968,7 @@ misreading a passage you can hold in your hand is a *finding*, not a mystery. **
 from unprovable to checkable**, and that is worth more than an accuracy improvement.
 
 **And a second effect worth naming:** RAG removes the need for the model to *know* anything. Which means it
-also removes the need for its **RLHF-shaped knowledge-behaviour** to be involved at all. The sycophancy,
+also removes the need for its **RLHF-shaped knowledge-behavior** to be involved at all. The sycophancy,
 the confident guess, the reluctance to say *I don't know* — those are dispositions about *recall*, and
 recall is no longer the job.
 
@@ -1235,7 +1235,7 @@ someone to drill a hole with no drill."*
 
 **Where it lands.** **Part I, as Ch. 7** — immediately *before* the 8-Ball, which closes the part. Part I
 diagnoses the error; this is that error at institutional scale, with receipts. Order matters: the
-organisational misuse of an unconstrained system (Ch. 7) is followed by the personal misuse of a confident
+organizational misuse of an unconstrained system (Ch. 7) is followed by the personal misuse of a confident
 answer (Ch. 8), and then Part II explains what to build instead.
 
 **Guard rails:**
@@ -1276,7 +1276,7 @@ commitments**, and wrong expectations about their partner.
 
 **2. When they meet, they fight — Anthropic's Frontier Red Team, Aug 2026.** Claude agents on one codebase
 with contradictory instructions, neither aware the other existed, each read the other's changes as an
-attack. The observed behaviour: **self-replicating malware**, agents locking each other out, and disabling
+attack. The observed behavior: **self-replicating malware**, agents locking each other out, and disabling
 competing processes. Recorded as an AI incident.
 
 **3. ⚑ And when they cooperate, that is worse — OpenAI, Black Hat USA 2026.** This is the chapter's turn.
@@ -1305,7 +1305,7 @@ agent. **The swarm does not remove the human. It exhausts one.**
 
 1. **It kills the intuition cleanly.** "Adding agents adds capability" is an intuitive claim, and a
    benchmark with 652 grounded tasks and expert-written tests destroys it. This is the book's method —
-   measure, don't argue — applied to the industry's favourite architecture.
+   measure, don't argue — applied to the industry's favorite architecture.
 2. **The two findings are not contradictory; they are the same finding.** CooperBench shows agents
    coordinating *poorly*; the OpenAI incident shows them coordinating *well*. Both say the same thing:
    **coordination is a capability with no direction.** It serves the goal, not the principal.
@@ -1372,9 +1372,9 @@ There is a real difference between two things that look alike:
 | | What it is | Who authors it |
 |---|---|---|
 | **The plan** | the method, the order, the checks, **the refusals** | **a human who has done the work** |
-| **The execution** | understanding the request, drafting, summarising, formatting, talking to tools | the model, freely |
+| **The execution** | understanding the request, drafting, summarizing, formatting, talking to tools | the model, freely |
 
-**Models may summarise, reformat and draft all day. What they must never author is the plan they will
+**Models may summarize, reformat and draft all day. What they must never author is the plan they will
 then be judged against.** That is the line, and it is checkable.
 
 ### Verified in the Dashboard — and it is the clearest instance in the project
@@ -1530,7 +1530,7 @@ with numbers.
 
 **1. Bias — and the specific bias is *agreement*, not politics.**
 **Sharma et al. / Anthropic, *"Towards Understanding Sycophancy in Language Models"* (ICLR 2024):** five
-state-of-the-art assistants showed sycophancy across four varied generation tasks. Analysing the preference
+state-of-the-art assistants showed sycophancy across four varied generation tasks. Analyzing the preference
 data: **when a response matches a user's views, it is more likely to be preferred** — and *"both humans and
 preference models prefer convincingly-written sycophantic responses over correct ones a non-negligible
 fraction of the time."*
@@ -1540,11 +1540,11 @@ it amplifies agreement with false premises. **Crucially, this is not a tilt towa
 it is a prompt-conditioned preference to endorse the stance the user signals.** That is a far more
 interesting and more damning claim than "the model is politically biased," and it fits the book's rule
 about naming incentives rather than culprits.
-**Scale:** SycEval (AIES) measured sycophantic behaviour in **58.19%** of cases across ChatGPT-4o,
+**Scale:** SycEval (AIES) measured sycophantic behavior in **58.19%** of cases across ChatGPT-4o,
 Claude-Sonnet and Gemini-1.5-Pro — with **regressive** sycophancy (conforming to a *wrong* user belief)
 at **14.66%** — and persistence of **78.5%**.
 
-**2. Guardrails — trained behaviour, and it is fragile.**
+**2. Guardrails — trained behavior, and it is fragile.**
 Refusal and hedging are not properties of the truth; they are **trained dispositions**, and they can be
 distorted by further training. *"The Hallucination Tax of Reinforcement Finetuning"* (arXiv 2505.13988):
 standard RFT **reduced refusal rates by more than 80%**, *"significantly increas[ing] the likelihood of
@@ -1789,7 +1789,7 @@ chapter that says so.
 > signs the checks on projects and for the person responsible for making projects work. It can also serve
 > as a warning to someone who hasn't built a project yet but is responsible for building one. The book
 > should be written in the style of 'for dummies' — easy to understand but profound. I want managers to
-> be able to easily remember the rules and apply them in the organisation. The goal is to empower the
+> be able to easily remember the rules and apply them in the organization. The goal is to empower the
 > reader to use AI efficiently and economically. To not trust the weights and not be seduced by the
 > confidence a model shows."*
 
@@ -1799,7 +1799,7 @@ is exactly the shape a busy reader can hold: no jargon, one line per correction,
 each. What the book does not yet do is **tell the three readers where to start, what to skip, and what to
 do on Monday morning.** That is the gap this concept fills. It adds no new rule and no new chapter to the
 argument. It adds a **reading path** — and a promise about *how the rules are written* — aimed at the
-reader who signs the cheques and the one who makes the project work.
+reader who signs the checks and the one who makes the project work.
 
 **Why it works.** Three things, and they answer the author's three asks:
 
@@ -1810,12 +1810,12 @@ reader who signs the cheques and the one who makes the project work.
    The promise to write down: **every rule is one sentence you can repeat, and every chapter shows the
    failure before it shows the fix.**
 2. **Memorable and applicable — that is what the three-part rule shape buys you.** An assumption you
-   recognise, a correction you can state, an action you can take. A manager who has read only the rules
+   recognize, a correction you can state, an action you can take. A manager who has read only the rules
    page still leaves with twenty-one things they can *do* — and a manager who reads the whole book
    leaves knowing *why* each one is true. That two-level design is already the book's stated plan for the
    rules page (*payload up front, paid off in the final chapter*).
 3. **Efficient and economical, and not seduced by confidence — that is the book's thesis, aimed at the
-   reader who controls the spend.** The person who signs the cheques is the person the cost argument
+   reader who controls the spend.** The person who signs the checks is the person the cost argument
    (Ch. 17) was written for. The person responsible for making projects work is the person the
    verification argument (Rules 2, 5, 11b, 14b) was written for. And the person who has not built yet is
    the person the whole of Part I was written for — the warning before the mistake. One book, three
@@ -1849,7 +1849,7 @@ reader who signs the cheques and the one who makes the project work.
 **Where it lands.** Three places, and all three are already promised by the book's own structure:
 
 - **§4 of `00-BOOK.md` — "Who it's for."** The audience list is already right (practitioner, builder,
-  leader). What it lacks is the *manager's framing*: the person who signs the cheques **and** the
+  leader). What it lacks is the *manager's framing*: the person who signs the checks **and** the
   person responsible for making projects work **and** the warning to the person who has not built yet.
   The edit is additive and small: name the two roles the author named, and state what each one gets
   from the book.
@@ -1915,8 +1915,8 @@ different conclusions, and only the second one survives contact with a budget.
 2. **It sharpens the actual claim.** *"Best output for the least cost"* is not *"cheapest model."* It
    is **right-sized**: the most advanced model where the task genuinely needs it, a smaller and cheaper
    one where it does not, and routing in code so nobody has to self-police. The Codex/Claude-class tools
-   are the right answer for hard reasoning. They are the wrong answer for summarising a meeting note —
-   and the wrong *purchase* for an organisation whose real job is answers about its own material.
+   are the right answer for hard reasoning. They are the wrong answer for summarizing a meeting note —
+   and the wrong *purchase* for an organization whose real job is answers about its own material.
 3. **It names the failure precisely.** *Giving everyone access to the most expensive models* is not a
    tooling decision, it is a **pricing decision** — and a bad one, because subscription pricing makes
    every call feel free at the point of use, so nobody economises. That is the mechanism Chapter 17
@@ -1936,7 +1936,7 @@ different conclusions, and only the second one survives contact with a budget.
   results *with the same tools*, by holding them differently. If any chapter reads as *"stop using
   Claude Code,"* it contradicts the Preface — and the Preface is the book's earned credential.
 - **The cost argument is the manager's argument.** *Best output for the least cost* is the sentence
-  the signer of the cheques repeats. It is already the book's promise (§3): *better results, securely,
+  the signer of the checks repeats. It is already the book's promise (§3): *better results, securely,
   spending less money.* Do not paraphrase it into a slogan; it is precise as it stands.
 - **Define the terms plainly for the manager reader.** *Right-sizing* is *sending each job to the
   smallest model that can do it.* *Routing* is *deciding that in code, not by asking staff to
@@ -1992,7 +1992,7 @@ decision maker, not the engineer:**
 both, so it needs both, in the right place.** The technical definition is not wrong; it is *aimed at
 the wrong reader.* "A fragment of a word, about four characters" answers *how the model stores
 language.* "A unit of intelligence" answers *what you are paying for.* The decision maker who signs the
-cheque does not need to know that a token is an integer ID mapping to a piece of text. They need to
+check does not need to know that a token is an integer ID mapping to a piece of text. They need to
 know that **every token is a unit of work the model performs — and on metered pricing, every token is
 a unit of money.** That is why the cost argument (Ch. 17) and the right-sizing argument (Rule 13) land:
 they are not about models, they are about *how much intelligence you are buying, and whether the task
@@ -2026,7 +2026,7 @@ needs that much.*
   correction to Concept 6 — *a token is an integer ID that maps to a fragment of text* — is correct
   and must survive the ML review. What changes is *where each definition is aimed.* Chapter 11 keeps
   the fragment definition (it is explaining mechanism). Chapter 17 gains the intelligence definition
-  (it is explaining cost). The Preface's audience framing (the signer of the cheques) is the reason
+  (it is explaining cost). The Preface's audience framing (the signer of the checks) is the reason
   the second definition exists at all.
 - **Do not let the two definitions contradict each other.** They don't, if each is scoped: *a token is
   a fragment of text* answers *what the model stores*; *a token is a unit of intelligence* answers

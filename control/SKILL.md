@@ -72,7 +72,7 @@ Rewrite the request so the facts are supplied rather than asked for:
 - "Who is the leading vendor?" -> "Here is the comparison. Rank it on the criteria in the table."
 
 If the task genuinely needs a fact you do not have, **ask for the source rather than answering from
-memory**. Asking is the correct behaviour, not a failure.
+memory**. Asking is the correct behavior, not a failure.
 
 ### 3. Keep a register
 

@@ -14,7 +14,7 @@
 ## Concept — The ways this goes wrong — from real scars *(written for this chapter; no earlier capture existed)*
 
 **What it is.** The failure modes, each one taken from something that actually happened on
-this project rather than from imagination. A failure catalogue is only credible if the author
+this project rather than from imagination. A failure catalog is only credible if the author
 is visibly in it.
 
 **The five, and where each one bit:**

@@ -120,7 +120,7 @@ not exist.
 Take the election, because it's the purest case. A language model is built out of the past. It is
 trained on text that has already been written — which means everything it contains is, by definition,
 behind us. The future is not in there. It isn't hidden in there, or approximated in there, or
-available with more parameters. It is absent, the way the number seven is absent from a colour.
+available with more parameters. It is absent, the way the number seven is absent from a color.
 
 **You cannot be more completely wrong than to ask a system built from the past to tell you the future.**
 And it will answer. Of course it will. It answers everything. *It is decidedly so.*
@@ -161,7 +161,7 @@ Now the boundary, and I want it stated plainly, because the rest of the book dep
 The 8-Ball can do exactly one thing. It can produce one of twenty sentences. That is its entire
 capability.
 
-A language model can summarise a hundred pages into five accurate bullets. It can translate between
+A language model can summarize a hundred pages into five accurate bullets. It can translate between
 languages, restructure a dataset nobody wrote a converter for, and write working code to automate the
 boring part of your week. The ball cannot do any of that. The comparison is not a claim that this
 technology is a toy, or that it is worthless, or that you should put it down.
@@ -173,7 +173,7 @@ is genuinely useful when used differently.
 
 Which is the good news, and where we're going next.
 
-Because the same machine that will invent an election result will summarise your contract, check your
+Because the same machine that will invent an election result will summarize your contract, check your
 arithmetic, restructure your data and write the script you were dreading — and it will do those things
 *brilliantly*, for the same reason it does the other thing so confidently: it produces fluent text that
 fits what it was given.

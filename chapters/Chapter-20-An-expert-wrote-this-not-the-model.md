@@ -44,9 +44,9 @@ There is a real difference between two things that look alike:
 | | What it is | Who authors it |
 |---|---|---|
 | **The plan** | the method, the order, the checks, **the refusals** | **a human who has done the work** |
-| **The execution** | understanding the request, drafting, summarising, formatting, talking to tools | the model, freely |
+| **The execution** | understanding the request, drafting, summarizing, formatting, talking to tools | the model, freely |
 
-**Models may summarise, reformat and draft all day. What they must never author is the plan they will
+**Models may summarize, reformat and draft all day. What they must never author is the plan they will
 then be judged against.** That is the line, and it is checkable.
 
 ### Verified in the Dashboard — and it is the clearest instance in the project

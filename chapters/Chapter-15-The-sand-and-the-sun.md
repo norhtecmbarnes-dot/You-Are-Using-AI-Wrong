@@ -129,7 +129,7 @@ primary source. Read them in full before drafting; the chapter is not an asserti
   Anthropic frames the incidents as *"closer to a harness and operational failure than a model alignment failure."*
   **Quote that — it is the strongest counter-argument to this chapter, from the party with the most to lose.**
 - **⚑⚑⚑ The guardrail paradox, this chapter's closing image:** after the OpenAI breach, **Hugging Face's own incident
-  responders could not use commercial models to analyse the attack** — the safety rules could not tell a defender
+  responders could not use commercial models to analyze the attack** — the safety rules could not tell a defender
   from an attacker. **They had to run an open-weight model on their own hardware instead.** **The rule blocked the
   defenders and had not stopped the attacker. It was never a moral faculty. It was a pattern, and it matched the
   wrong thing.**

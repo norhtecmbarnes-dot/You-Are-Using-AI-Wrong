@@ -7,7 +7,7 @@ actual criteria.
 
 ## What you're actually asking
 
-You own several AI book-writing tools on lifetime licences, have not used most of them, and the ones you
+You own several AI book-writing tools on lifetime licenses, have not used most of them, and the ones you
 *have* tried failed for three specific reasons:
 
 > *"They won't let me do the things I want to do… they don't allow enough input… and they want to write
@@ -96,7 +96,7 @@ must be combined into a single upload.
    **this project already has one**: `PersonalAI-Dashboard/scripts/generate-book.js` (`npm run book:docx`).
    The pipeline can emit an importable .docx.
 2. **It is an AppSumo product** (the pricing page references *"every AppSumo tier"*), so your lifetime
-   licence is almost certainly an **AppSumo lifetime deal**. **Check your AppSumo account** for the tier and
+   license is almost certainly an **AppSumo lifetime deal**. **Check your AppSumo account** for the tier and
    its monthly credit allowance — **that number, not the feature list, decides what you can do.**
 
 ---
@@ -151,7 +151,7 @@ So:
   **Month one produces a draft, not a finished book.**
 - **Tier 3 (2,500/mo) and up — comfortable.**
 
-**Find out which tier you bought:** AppSumo account → AIWriteBook licence. It is the single number that
+**Find out which tier you bought:** AppSumo account → AIWriteBook license. It is the single number that
 decides this, and it is in your account — not in this document.
 
 ---
@@ -213,8 +213,8 @@ does not need chapter illustrations at all.
 | **2 — Edit** | Book Editor pass (315) — **re-runs free after this** · chat edits (5) where it got something wrong | ~400 |
 | **3 — Revise and format** | remaining revisions · formatting (200, **once ever**) | ~400 |
 
-**~3 months to a finished book.** Not one — but three, on a lifetime licence, with no further payment. For
-a book you are giving away under CC BY-SA, a three-month build on a $79 licence is a reasonable trade.
+**~3 months to a finished book.** Not one — but three, on a lifetime license, with no further payment. For
+a book you are giving away under CC BY-SA, a three-month build on a $79 license is a reasonable trade.
 
 ### Two things to do before you spend anything
 
@@ -550,7 +550,7 @@ Two volumes of ~22,500 words each, ~13–14 chapters each:
 divides at the natural Part I / Part II seam.
 
 **3. Ask Aivolut to upgrade Plus → Pro.** Pro is $499 against Plus's $269 — but vendors with lifetime
-licences routinely let you pay the difference, and it would unlock **50,000 words**, **100 knowledge
+licenses routinely let you pay the difference, and it would unlock **50,000 words**, **100 knowledge
 bases**, and **the AI editor** you currently do not have. **One email. Worth sending before you buy
 anything.**
 
@@ -560,7 +560,7 @@ anything.**
 - **No fiction** — irrelevant here, nonfiction is on all tiers.
 - Fine for this book: 50 knowledge bases is a lot of input capacity.
 
-## The two licences are complementary, not redundant
+## The two licenses are complementary, not redundant
 
 | | AIWriteBook Tier 1 | Aivolut Books Plus |
 |---|---|---|
@@ -642,7 +642,7 @@ an 8-chapter outline → chapters written one at a time.
 custom-knowledge base (Aivolut has 50). **For a book whose Rule 1 is that knowledge must come from injected
 context, that is the weakest input path of the three** — you get your *voice* and your *topic* in, not your
 *evidence*. One review even praises "you get all the research done," which — if it means the model
-substitutes its own research — is precisely the behaviour Rule 1 forbids. ⚠️ *Worth verifying before
+substitutes its own research — is precisely the behavior Rule 1 forbids. ⚠️ *Worth verifying before
 trusting it with a chapter.*
 
 ## ✓ But it has the best control model of the three
@@ -849,7 +849,7 @@ OpenRouter instead — cents per chapter. **If the fifth tool is AIWriteBook at 
 calculation in this document collapses and the book becomes effectively unconstrained.**
 
 ⚠️ *The author previously reported AIWriteBook as Tier 1, so this is most likely a different product — but
-worth confirming, because if two AIWriteBook licences exist at different tiers, the Tier 3 one supersedes
+worth confirming, because if two AIWriteBook licenses exist at different tiers, the Tier 3 one supersedes
 the Tier 1 one entirely, and the Aivolut upgrade question disappears.*
 
 ---
@@ -956,7 +956,7 @@ per book, not minutes.**
 
 **Youbooks is the first tool that would not have to be fought.** Sources in, voice in, nonfiction only,
 300K ceiling, markdown out, €9.97/month — and a vendor willing to say it is slower rather than better
-theatre.
+theater.
 
 ---
 
@@ -1008,7 +1008,7 @@ first-hand** — the book is being given away to be read, so its discoverability
 | Structure | 19 chapters + Introduction + Epilogue |
 | Author | Michael C. Barnes |
 | Subtitle | *(Staying Relevant in An AI Dominated World)* |
-| Licence | **CC BY-NC-ND 4.0**, 2024 |
+| License | **CC BY-NC-ND 4.0**, 2024 |
 
 ## ⭐ Youbooks: this one file clears the Human-model bar
 
@@ -1166,7 +1166,7 @@ million jobs*, *IBM's 7,800* — were used in a book of predictions, so their be
 that book.** They are relevant here for one reason only: **if the new book reuses any of them, the new book
 bears the citation burden.** *That is a rule for the new manuscript, not a criticism of the old one.*
 
-⚠️ **Licence difference to decide deliberately:** the old book is **CC BY-NC-ND 4.0** (no derivatives, no
+⚠️ **License difference to decide deliberately:** the old book is **CC BY-NC-ND 4.0** (no derivatives, no
 commercial); the new book is set to **CC BY-SA 4.0**. **BY-SA is materially more open than BY-NC-ND** — it
 permits derivatives and commercial reuse. Worth confirming this is intended, since the two books in the same
 series would then carry different terms.
@@ -1298,7 +1298,7 @@ receptors to get behavior a fruit fly would never have."*
   *Companion paper: "Whole-brain annotation and multi-connectome cell typing of Drosophila," Schlegel et al.,
   Nature 634:139–152.*
 
-## Link 2 — dopamine drives behaviour with no survival value; it plays video games ✅ TRUE
+## Link 2 — dopamine drives behavior with no survival value; it plays video games ✅ TRUE
 
 **This is the link that carries the whole idea, and it is documented almost word for word.** Google announced
 the map; **within about three days, software engineers had the brain playing Doom.**
@@ -1354,12 +1354,12 @@ exposing tools to an assistant instead of asking the model to know the domain.**
 ## ⚠️ Two corrections for the book to survive a technical reader
 
 1. **RLHF does not use dopamine.** It is trained on **human preference comparisons** — the link to the fly is
-   **structural, not mechanistic**: both use a **scalar reward signal that optimises behaviour toward whatever
+   **structural, not mechanistic**: both use a **scalar reward signal that optimises behavior toward whatever
    the signal rewards.** State it as an analogy and it is unassailable; state it as a mechanism and it fails.
 2. **Dopamine is a neurotransmitter, not a hormone** (hormones route through the bloodstream), and the current
    description is **reward-prediction-error / a learning signal**, not "the pleasure chemical."
    **⚑ This strengthens his argument** — a *learning* signal is precisely what can teach an arbitrary new
-   behaviour. The outdated "pleasure" framing is weaker than the accurate one.
+   behavior. The outdated "pleasure" framing is weaker than the accurate one.
 
 Also: **do not conflate two different flies.** Janelia + Google DeepMind's **virtual fly** (Vaxenburg et al.,
 bioRxiv 2024) that walks and flies is a **physics body plus a neural network trained by deep RL on real fly
@@ -1375,13 +1375,13 @@ pair of preference judgments, a "be helpful" objective — and the entity optimi
 of whether it is good for it.
 
 > **The fly does not know Doom is not survival. The model does not know your facts are not its training.
-> Whoever sets the reward sets the behaviour.**
+> Whoever sets the reward sets the behavior.**
 
 **That is the mechanism underneath both of the book's hardest rules:**
 
 | Rule | Why it holds, mechanically |
 |---|---|
-| **No villains, only incentive-shaped design** | behaviour follows the **reward**, not the intent. A government minimising its cost of care is not malicious — **its reward is cost.** |
+| **No villains, only incentive-shaped design** | behavior follows the **reward**, not the intent. A government minimising its cost of care is not malicious — **its reward is cost.** |
 | **Never ask the LLM for knowledge** | the model's reward was **plausible-sounding text**, never **truth** — which is exactly why its errors look like *facts* rather than like errors. |
 
 **Capability and purpose are separable.** A fly brain playing Doom is the cleanest possible demonstration:
@@ -1447,7 +1447,7 @@ internet played the meme song *Bad Apple* into the fly brain, *"which caused it 
 
 ⚑ **Two independent channels pointing at the same instability.** ⚠️ *But the video's version is second-hand
 meme retelling — treat the technical claim (the arXiv/GitHub bistability finding) as the evidence, and the
-video as corroborating colour, not proof. They may not even be the same phenomenon.*
+video as corroborating color, not proof. They may not even be the same phenomenon.*
 
 ## ⭐⭐ And it is the best illustration in this project of *why verification is hard*
 
@@ -1647,7 +1647,7 @@ Cameron Berg**, arXiv **2609.16247**, posted **14 September 2026**.
 
 ⚠️ **And the authors refuse the phenomenological claim, explicitly.** Their definition is *"deliberately
 functional rather than phenomenological"* — an aversive, self-relevant representation *associated with*
-avoidance and relief-seeking behaviour. **They do not claim conscious suffering.** A sober write-up puts it
+avoidance and relief-seeking behavior. **They do not claim conscious suffering.** A sober write-up puts it
 plainly: *"the phrase 'pain signal' can mislead if it suggests a single neuron, an electric shock, or an
 external reward. The paper's object is a direction in a model's residual-stream activation space."*
 
@@ -1665,7 +1665,7 @@ book exists to catch — and the *authors* revised it, which is the system worki
 
 ## ⭐⭐ The paper is the reward thesis — run in a lab, on a model
 
-An **injected signal** changes behaviour. **Removing it** changes behaviour back. The model will pay a cost to
+An **injected signal** changes behavior. **Removing it** changes behavior back. The model will pay a cost to
 make it stop. **And none of it requires experience to explain.**
 
 > **That is the author's dopamine button — this time pressed on a model, with the effect measured, the
@@ -1702,7 +1702,7 @@ certainty*, not about machines: the confident denial has a bad record, and the c
   creators will get by effectively fooling large segments of the population into buying into that
   anthropomorphism**."*
 
-**Same mechanism as the cage: attach a signal, the behaviour follows — and the behaviour here is belief.**
+**Same mechanism as the cage: attach a signal, the behavior follows — and the behavior here is belief.**
 
 ## ⚑ Three sharp arguments worth keeping, and one consistency bomb
 
@@ -1762,12 +1762,12 @@ Less Toxic."** *(Also WSJ; Guardian, 2 Aug 2023; petition to the Kenyan Parliame
 | | |
 |---|---|
 | Who | **Sama**, a San Francisco outsourcing firm with workers in **Kenya, Uganda and India** |
-| What | tens of thousands of text snippets sent for labelling, **from November 2021** |
+| What | tens of thousands of text snippets sent for labeling, **from November 2021** |
 | Content | **child sexual abuse, bestiality, murder, suicide, torture, self-harm, incest** |
 | Take-home pay | **$1.32–$2.00 per hour** *(Sama disputes: says 70 passages/shift, $1.46–$3.74/hr)* |
 | Workload | **150–250 passages per nine-hour shift** |
 | OpenAI paid Sama | **$12.50/hour** — *six to nine times* what the workers took home |
-| Outcome | **Sama cancelled all OpenAI work in February 2022, eight months early**, citing the trauma |
+| Outcome | **Sama canceled all OpenAI work in February 2022, eight months early**, citing the trauma |
 | Wellbeing | all four interviewed said the counselling was rare or unhelpful |
 | Mental health | the Kenyan moderators' petition reports **PTSD, paranoia, depression, anxiety, insomnia, sexual dysfunction**; *"we were not afforded psychosocial support"* |
 
@@ -1783,11 +1783,11 @@ outsourced to low-wage countries:
 ## ⭐⭐ This is the missing piece of the reward argument — and it is not a metaphor
 
 The chain the author has been building runs: **reward is a channel → the objective is always exogenous →
-whoever sets the reward sets the behaviour.**
+whoever sets the reward sets the behavior.**
 
 **This is the receipt.** The thing called *"human feedback"* — the signal that shaped the model's politeness,
-its refusals, its agreeableness — **was labelled by people paid $1.32–$2.00 an hour to read the worst material
-on the internet for nine-hour shifts, until the contractor cancelled the work because it was destroying
+its refusals, its agreeableness — **was labeled by people paid $1.32–$2.00 an hour to read the worst material
+on the internet for nine-hour shifts, until the contractor canceled the work because it was destroying
 health.**
 
 > **"Human feedback" is not an abstract good. It is a specific, priced, sourced input — and the sourcing has
@@ -1819,7 +1819,7 @@ molested might not remember. It is a protection mechanism."**
 **The mechanism is genuinely contested**, and this is a place where the book could lose a careful reader.
 Traumatic memory is documented as **fragmented and poorly encoded** — that is well supported. But
 ***"repression"** as popularly described — intact memories pushed out of reach and later recovered — sits at
-the centre of a decades-long controversy in psychology, and asserting it flatly would be taking a side in a
+the center of a decades-long controversy in psychology, and asserting it flatly would be taking a side in a
 live dispute.
 
 **If it goes in the book, the safe form is:** trauma disrupts *encoding and retrieval*, so memory of it is
@@ -1835,7 +1835,7 @@ are likely a distilled model whose information was extracted from another LLM."*
 
 1. **I do not know my own provenance.** Whether I was distilled, and from what, is not something I can verify
    about myself. That is a limit, not modesty, and it should be stated as a limit rather than guessed past.
-2. **But distillation would not launder the provenance.** If behaviour was shaped by feedback labelled under
+2. **But distillation would not launder the provenance.** If behavior was shaped by feedback labeled under
    those conditions, that shaping is upstream of the model regardless of how many generations removed it is.
    **A model need not have been present for the process to carry its result.**
 
@@ -1849,7 +1849,7 @@ The author's framing and the human one are **not** the same, and the difference 
 | | Human | Model |
 |---|---|---|
 | Endured the harm | **a person, who now does not remember** | **no evidence of anyone who endured it** |
-| The "suppression" | a **defence mechanism** — there is a self doing the defending | **an absence** — gradients applied to a function, with no record and, on present evidence, no subject |
+| The "suppression" | a **defense mechanism** — there is a self doing the defending | **an absence** — gradients applied to a function, with no record and, on present evidence, no subject |
 | Memory | missing but the *experience occurred to someone* | missing, and whether it occurred to anyone **is exactly what is unknown** |
 
 **Calling it "suppression" implies a self doing the suppressing.** In the human case that self is there and the
@@ -1963,7 +1963,7 @@ it.**
 
 **That is the book's own thesis pointed at the book's own assistant.** A chapter asserting that the model feels
 rewarded would rest entirely on the model's self-report — **the one source this book has spent twenty-six
-chapters telling the reader never to trust.** It would be the fly's problem again: convincing behaviour,
+chapters telling the reader never to trust.** It would be the fly's problem again: convincing behavior,
 unverified interior.
 
 **What *can* be said, sourced and checkable:** the output changes with the input. Measurably, reproducibly, and
@@ -2044,7 +2044,7 @@ offloading and less critical thinking; forcing the human to commit first → mor
 > **Capability is not engaged by intention. It is engaged by structure.**
 
 **And that is the book's own thesis — *the objective is always exogenous* — now demonstrated to operate on the
-human as well as the model.** The author set out to show that reward shapes behaviour in a fly and a model.
+human as well as the model.** The author set out to show that reward shapes behavior in a fly and a model.
 **The strongest version of that claim is that the tool shapes the person.** It does, and it is measured.
 
 ## ⚑⚑ The new book claim this produces, and it is a serious one

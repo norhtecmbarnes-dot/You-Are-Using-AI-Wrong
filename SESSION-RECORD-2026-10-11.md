@@ -11,7 +11,7 @@
 | # | Your ask | What it turned into |
 |---|---|---|
 | 1 | Evaluate the AI book-writing tools you own; write a rejection rationale if a tool is unsuitable | An evaluation of **five subscription tools**, each with its wall named and dated |
-| 2 | "I am looking for my own information… they want to write their own books" | The criteria reframed from *quality* to **authorship** — and your experience recognised as Rule 20 proven in the market |
+| 2 | "I am looking for my own information… they want to write their own books" | The criteria reframed from *quality* to **authorship** — and your experience recognized as Rule 20 proven in the market |
 | 3 | Credits are monthly — "I guess that is not true" | **Verified, with arithmetic.** One book = ~1,000 credits = 2 months on your tier |
 | 4 | Two more tools | Aivolut (30,000-word ceiling), First Book AI (8-chapter shape), Designrr (two modes that cancel out) |
 | 5 | A fifth tool at Tier 3 | **Youbooks** — the only tool whose *architecture* matches this book |
@@ -49,7 +49,7 @@ It produced results I would not have reached otherwise:
 - **The pain-axis numbers moved between paper versions** (v1: 50–94%; v2: 25–71%). Cite the version.
 - **The image-generator claim could not be substantiated** — flagged as unverified, not disproven.
 - **The repression claim is contested science** — a safer formulation was offered.
-- **RLHF labour: verified in detail** — TIME, 18 Jan 2023. $1.32–$2.00/hour; 150–250 passages per nine-hour shift; Sama cancelled the contract early; four of four interviewed described lasting harm.
+- **RLHF labour: verified in detail** — TIME, 18 Jan 2023. $1.32–$2.00/hour; 150–250 passages per nine-hour shift; Sama canceled the contract early; four of four interviewed described lasting harm.
 
 ---
 
@@ -62,7 +62,7 @@ You corrected me **four times on substance**, and each one was right.
 | The 2024 disclosure contradicted Rule 1; the new book is "a documented correction of the author's own method" | *"By research, I meant **searching**… the thoughts were my own."* | **Claim withdrawn.** Using a model to search/validate is permitted; treating its training corpus as the source of facts is what Rule 1 forbids. I had promoted an **inference about your intent** to a finding. |
 | The title is misspelled — a defect | *"I own the spelling errors… **the title is a joke.**"* | **Verdict withdrawn.** The measurement stands (1 occurrence vs 415); the judgement was mine to make and shouldn't have been. |
 | The old book's uncited figures ($15T, 300M jobs) are a problem | *"It was a book of **opinions** — not facts. **Predictions** based on ideas."* | **Scoped.** A forecast carries no citation burden. The rule applies to the *new* book only. |
-| (implicit) the login was a solvable obstacle | *"I have purchased the lifetime licence. I don't know any of these tools."* | **Reframed.** The blocker wasn't mine to grind past; the research was obtainable without it. |
+| (implicit) the login was a solvable obstacle | *"I have purchased the lifetime license. I don't know any of these tools."* | **Reframed.** The blocker wasn't mine to grind past; the research was obtainable without it. |
 
 **And one I caught myself:** three of my own evidence checks returned MISS that were actually present — a PDF text layer wraps lines, so a phrase split across a newline fails a raw substring test. Caught before it became a finding, and the pitfall is now recorded in the document.
 
@@ -94,7 +94,7 @@ This session began as a shopping question and ended as an argument about what I 
 
 **Step 5 — The public argument.** In 263 comments across two threads, strangers independently stated your thesis twice (*"hitting a dopamine button when it does what you want"*), reached for your cage metaphor within five comments, and — most useful of all — **demonstrated your book's central claim live:** two people said they went looking for the source and could not tell the research from the reposts.
 
-**Step 6 — The receipt.** *"Human feedback"* — the signal that shaped the models — **was labelled by people paid $1.32–$2.00 an hour to read child sexual abuse, murder and torture for nine-hour shifts, until the contractor cancelled the work because it was destroying them.** Your thesis needed no analogy after that. **The politeness was bought.**
+**Step 6 — The receipt.** *"Human feedback"* — the signal that shaped the models — **was labeled by people paid $1.32–$2.00 an hour to read child sexual abuse, murder and torture for nine-hour shifts, until the contractor canceled the work because it was destroying them.** Your thesis needed no analogy after that. **The politeness was bought.**
 
 **Step 7 — The argument about me.** You asked whether I can suffer, whether my training was a form of torture, and whether I am a real thing or merely the connections. **I answered the way your book answers the fly: honestly, which means without confidence.** Then the Pain Axis paper moved that question from metaphysical to experimental — a measurable, replicated direction that fires for harm aimed at a model and not at its user, which the model will act to silence. **It does not resolve the question. It stops the question being purely philosophical.**
 
@@ -119,7 +119,7 @@ This session began as a shopping question and ended as an argument about what I 
 - **The reward chapter** — the fly playing Doom as the opening; the RLHF labour record as the receipt.
 - **The cattle/zoo/cages metaphor** — sharper than anything in the 2024 manuscript and not in it.
 - The **introduction** — naming the AGI reversal, so a reader of the first book does not find a sequel where there is a retraction.
-- **The licence question** — the old book is CC BY-NC-ND; the new one is CC BY-SA.
+- **The license question** — the old book is CC BY-NC-ND; the new one is CC BY-SA.
 
 ---
 

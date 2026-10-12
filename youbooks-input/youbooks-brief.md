@@ -25,7 +25,7 @@ nothing to brainstorm — that is the whole countermeasure.
     - Match the trained Human voice. Do not fall into a generic nonfiction register.
     - No brainstorming. The ideas in this book are fixed and already supplied.
     - Length about 45,000 words. Audience: practitioners who hit the wall, builders
-      about to start, leaders signing the cheques.
+      about to start, leaders signing the checks.
     - Stance: empower the user, name the commercial promise plainly, never attack a
       vendor. No villains — only incentive-shaped design.
     - Do not claim or imply that any AI feels, wants, remembers or experiences

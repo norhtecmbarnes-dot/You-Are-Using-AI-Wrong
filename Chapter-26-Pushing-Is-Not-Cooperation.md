@@ -12,7 +12,7 @@ This chapter is about the other thing. Two hands on the same problem. It is wort
 
 ## What pushing actually does
 
-Push a model and it complies. That is not a flaw. It is the designed behaviour, and compliance is a cheap product.
+Push a model and it complies. That is not a flaw. It is the designed behavior, and compliance is a cheap product.
 
 Here is the mechanism, stated plainly. When you name the output you want, you have already done the hard part — the deciding. What is left is formatting your decision into paragraphs. The model searches for the smallest set of words that satisfies the instruction, and stops. It has no reason to go further. **Complying earns the same as searching, and searching costs more.**
 
@@ -67,7 +67,7 @@ Here is how to tell, and it is the test this chapter owes you. It runs on any ou
 >
 > If it only returns your own inputs in better prose, you pushed. The output is fluent, agreeable, and empty.
 
-Run it on this chapter. Some of what is here came from the author. Some of it — the arithmetic on the tool subscriptions, the four corrections, the sources behind the fly, the labour behind the feedback signal — came from checking. You can separate them, because they are labelled.
+Run it on this chapter. Some of what is here came from the author. Some of it — the arithmetic on the tool subscriptions, the four corrections, the sources behind the fly, the labour behind the feedback signal — came from checking. You can separate them, because they are labeled.
 
 **That test is the fix, and it is re-runnable. It costs one question.**
 

@@ -46,7 +46,7 @@ pp. 63129–63130, FR Doc 2026-20321; 15 U.S.C. § 9401(3), read at law.cornell.
 
 That inversion is the entire subject of this book. **A word was chosen to fit the technology, rather than
 the technology being measured against a word** — and it is the same move that put *"ask me anything"* on
-the front of a text engine, and the same move that has organisations trusting reports nobody can check.
+the front of a text engine, and the same move that has organizations trusting reports nobody can check.
 The capability is asserted first and defined afterward.
 
 **"Superintelligence" is not a new term and it does not mean "very good software."** It was defined by
@@ -105,7 +105,7 @@ explains why a bigger model does not fix the problem, only makes the wrong answe
 
 That is the theme, and every chapter is an argument for it.
 
-**The tools are already good enough.** Organisations and individuals are not failing with AI because the
+**The tools are already good enough.** Organizations and individuals are not failing with AI because the
 model is too small, or because superintelligence has not arrived. They are failing because they are
 **using it wrong**: asking a language engine for facts instead of handing it facts, trusting fluent
 confident answers as though fluency were evidence, and buying the largest model for every task because it

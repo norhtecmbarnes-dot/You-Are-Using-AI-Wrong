@@ -51,7 +51,7 @@ That frame pays off across the whole book, and every mechanism below maps onto a
 |---|---|
 | **Tokens, not words** | why it can't reliably count letters, why rendered text garbles, why arithmetic slips |
 | **Compression** | training is *lossy* — so "knowledge" is inherently approximate, not stored |
-| **Similarity, not meaning** | near neighbours blur together; that's why answers blend frames |
+| **Similarity, not meaning** | near neighbors blur together; that's why answers blend frames |
 | **One-directional** | it commits token by token and **cannot go back and revise** — the mechanism behind confident errors |
 | **Seed** | why the same question yields different answers, and what the "reset" really is |
 | **Temperature** | "creativity" is a dial, not a capability — and it changes *selection*, never *contents* |
@@ -116,7 +116,7 @@ insightful; it makes it less predictable.
 matrix is enormous, so the file is enormous. Quantization **stores each weight with fewer bits** — 8, 4,
 sometimes 2 — by rounding each value to the nearest available level. Result: a much smaller model that
 runs in far less memory, faster, on hardware that couldn't otherwise hold it, at the cost of some
-precision. Analogy: describing a colour with four shades instead of two hundred and fifty-six. You lose
+precision. Analogy: describing a color with four shades instead of two hundred and fifty-six. You lose
 fidelity; you usually keep the picture. The book's use of it is the right-sizing argument: **a quantized
 model routinely does the job — which is why buying the largest, most expensive model for every task
 (Concept 5) is a pricing mistake, not a safety measure.**
@@ -274,7 +274,7 @@ Claude series, ~1.7 for DeepSeek). The defensible claim is about **the reader, n
 > "faithful" — reveal rates are often under 20%, and larger models are *less* faithful. So the trace is
 > not proof. **Thinking is not knowing.**
 
-**3. "Quantisation is like describing a colour with four shades instead of 256." — QUALIFY.**
+**3. "Quantisation is like describing a color with four shades instead of 256." — QUALIFY.**
 Quantisation reduces the precision used to represent model values, introducing **rounding or clipping
 error**. Methods can limit the quality loss, but **the loss is not uniform** — it depends on the method,
 the model and the task, and it can be severe. The analogy may stay; it must **not** imply that quantisation
@@ -354,7 +354,7 @@ misreading a passage you can hold in your hand is a *finding*, not a mystery. **
 from unprovable to checkable**, and that is worth more than an accuracy improvement.
 
 **And a second effect worth naming:** RAG removes the need for the model to *know* anything. Which means it
-also removes the need for its **RLHF-shaped knowledge-behaviour** to be involved at all. The sycophancy,
+also removes the need for its **RLHF-shaped knowledge-behavior** to be involved at all. The sycophancy,
 the confident guess, the reluctance to say *I don't know* — those are dispositions about *recall*, and
 recall is no longer the job.
 

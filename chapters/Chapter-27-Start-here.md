@@ -14,7 +14,7 @@
   ends by showing its own work, unfinished parts included.**
 - **⚑ And then it returns to the classroom.** The preface opened with a student saying *"I used AI in a way
   I had never seen before."* This chapter closes by handing the reader the same thing the author handed
-  that class: **a first move they can make this afternoon.** The last line should not summarise the book —
+  that class: **a first move they can make this afternoon.** The last line should not summarize the book —
   it should hand over the tool and step back. *Preface: a student. Last page: the reader.*
 
 ### Structural notes
@@ -65,7 +65,7 @@ everything before it.
   prompt today as "here is ..., now do ..." and watch the same model get it right.
 - *The builder who has not started* — build the contract before the call, and put the facts in
   the request. One rule at the call site is the whole architecture in miniature.
-- *The leader signing the cheques* — stop paying for a bigger model and start paying for
+- *The leader signing the checks* — stop paying for a bigger model and start paying for
   plumbing. Ask which of the five tools was measured on your own tasks. There is no answer
   that is better than a test.
 

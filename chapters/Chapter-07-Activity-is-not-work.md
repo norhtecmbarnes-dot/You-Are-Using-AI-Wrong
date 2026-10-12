@@ -8,7 +8,7 @@
 
 **Claim.** agents have been sold twice now as **autonomy**, and autonomy is the expensive, insecure way to get work done. A system that fires off tasks looks busy; a system that can reach anything costs more than the work is worth. **Neither wave failed for lack of intelligence. Both failed for lack of constraints.**
 
-**Demonstration.** **wave one, 2023** — **AgentGPT and AutoGPT**, agents that spawned tasks from tasks, which the author watched because they were *interesting to watch*, and which died because *there was a lot of activity and very little achieved in terms of output*. **The community's own verdict agrees, almost in his words:** *"like doing stuff for you (tho it barely worked, if at all)"* — and what survived was not the autonomous agent but the *frameworks* (CrewAI, AutoGen, OpenDevin, Devika, MetaGPT). **The ambition was replaced by scaffolding.** **Wave two** — a real framework with real potential, priced in numbers that end the argument: a heavy user at **$3,600/month**, a magazine's day-long test at **$100+ in a single day**, and an overnight heartbeat costing **$18.75** to repeatedly ask whether it was daytime — alongside **138+ disclosed CVEs**, a critical RCE, and **341 malicious marketplace skills**. *No organisation can accept that* — and thirty years in the industry is why the author didn't.
+**Demonstration.** **wave one, 2023** — **AgentGPT and AutoGPT**, agents that spawned tasks from tasks, which the author watched because they were *interesting to watch*, and which died because *there was a lot of activity and very little achieved in terms of output*. **The community's own verdict agrees, almost in his words:** *"like doing stuff for you (tho it barely worked, if at all)"* — and what survived was not the autonomous agent but the *frameworks* (CrewAI, AutoGen, OpenDevin, Devika, MetaGPT). **The ambition was replaced by scaffolding.** **Wave two** — a real framework with real potential, priced in numbers that end the argument: a heavy user at **$3,600/month**, a magazine's day-long test at **$100+ in a single day**, and an overnight heartbeat costing **$18.75** to repeatedly ask whether it was daytime — alongside **138+ disclosed CVEs**, a critical RCE, and **341 malicious marketplace skills**. *No organization can accept that* — and thirty years in the industry is why the author didn't.
 
 **Fix.** **give the agent tools, not authority.** Constrain what it can reach, cap what it can spend, keep it local, route the cheap work to the cheap model. The productivity was never in the autonomy — *"like asking someone to drill a hole with no drill."*
 
@@ -122,7 +122,7 @@ someone to drill a hole with no drill."*
 
 **Where it lands.** **Part I, as Ch. 7** — immediately *before* the 8-Ball, which closes the part. Part I
 diagnoses the error; this is that error at institutional scale, with receipts. Order matters: the
-organisational misuse of an unconstrained system (Ch. 7) is followed by the personal misuse of a confident
+organizational misuse of an unconstrained system (Ch. 7) is followed by the personal misuse of a confident
 answer (Ch. 8), and then Part II explains what to build instead.
 
 **Guard rails:**

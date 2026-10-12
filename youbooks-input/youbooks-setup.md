@@ -58,7 +58,7 @@ others.
 ## 4. Set the project — Step 3
 
     topic      how AI is actually used, and why the failures are usage failures
-    audience   practitioners who hit the wall; builders about to start; leaders signing the cheques
+    audience   practitioners who hit the wall; builders about to start; leaders signing the checks
     length     45,000 words
     models     STANDARD — do NOT select "Advanced Models (4x Price)"
     structure  keep it to the 27 chapters in the sources file

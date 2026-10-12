@@ -56,7 +56,7 @@ system, not a stub:
   to `cloud-thinking`. The expensive tier is reserved for the tasks that need it — which is the rule.
 - **A token budget:** `dailyTokenLimit: 100000`, tracked daily.
 - **Budget-critical fallback:** when `remaining < dailyLimit * 0.1`, the router **forces local** and logs
-  *"Budget critical, using local models."* That is cost-aware behaviour in code, not sentiment.
+  *"Budget critical, using local models."* That is cost-aware behavior in code, not sentiment.
 - **Local models are declared free** — `costPerToken: 0` — and `preferLocal` defaults to `true`.
 
 **⚑ The caveat, and it must go in the book honestly:** the router is **local-first and budget-aware, but

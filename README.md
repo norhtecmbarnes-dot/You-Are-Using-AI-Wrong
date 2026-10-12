@@ -7,7 +7,7 @@
 
 Everything in this book either proves that sentence or builds from it.
 
-**Licence:** content is **CC BY-SA 4.0**; the companion repositories are **MIT**. Code and content are
+**License:** content is **CC BY-SA 4.0**; the companion repositories are **MIT**. Code and content are
 licensed separately and deliberately.
 
 ---

@@ -69,12 +69,12 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   the mechanism by which experience, not eloquence, reaches the agent.
 
   ⚠️ **Do not overclaim.** The rule is about the *brief* and the *governing instructions* — not every
-  string the system sends. Models may summarise, reformat and draft freely. **What they must never author
+  string the system sends. Models may summarize, reformat and draft freely. **What they must never author
   is the plan they will then be judged against.**
 - ⚑ **Market corroboration, from the author's own purchases.** *Raised by the author: "The weakness with
   the ones I have tested is that they won't let me do the things I want to do or they don't allow enough
   input and want to write their own books."* **Several commercial AI book-writing tools, bought at
-  licence prices, fail exactly this rule** — they generate their own plan instead of executing the buyer's
+  license prices, fail exactly this rule** — they generate their own plan instead of executing the buyer's
   brief. *Not because they are broken: generating a book is easier to sell than executing someone else's.*
   **Rule 20, discovered in the market by a purchaser — the best corroboration there is.**
 

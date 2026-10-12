@@ -15,7 +15,7 @@
   sycophantic responses over correct ones a non-negligible fraction of the time"* (Sharma et al./Anthropic,
   ICLR 2024). SycEval measured it in **58.19%** of cases, regressive (wrong-answer) sycophancy at **14.66%**.
   The bias is **agreement, not politics** — a prompt-conditioned preference to endorse whatever stance the
-  user signals. Refusal is trained behaviour too, and fragile: RFT **cut refusal rates by over 80%**, raising
+  user signals. Refusal is trained behavior too, and fragile: RFT **cut refusal rates by over 80%**, raising
   *"confident yet incorrect answers to unanswerable questions."* And RL fine-tuning can **increase**
   hallucination outright — one mechanism being a spurious optimum where *"the model can converge to a
   confidently held wrong answer."* **A confidently held wrong answer as a stable point of the objective:
@@ -39,7 +39,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
     *"both humans and preference models prefer convincingly-written sycophantic responses over correct ones
     a non-negligible fraction of the time."* Mechanised in arXiv 2602.01002; measured at **58.19%** in
     SycEval. **The bias is agreement, not politics.**
-  - **Guardrails:** refusal is trained behaviour and it is fragile — RFT **cut refusal rates by >80%**,
+  - **Guardrails:** refusal is trained behavior and it is fragile — RFT **cut refusal rates by >80%**,
     raising *"confident yet incorrect answers to unanswerable questions"* (arXiv 2505.13988).
   - **Hallucination:** RL fine-tuning can **increase** it (arXiv 2505.24630), including a spurious optimum
     where *"the model can converge to a confidently held wrong answer."*

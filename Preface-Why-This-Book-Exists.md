@@ -4,10 +4,10 @@
 
 ---
 
-I travelled to India on business. While I was there, I offered to give a course on how to use AI more
+I traveled to India on business. While I was there, I offered to give a course on how to use AI more
 effectively.
 
-The conference room was filled with data scientists, programme managers, proposal writers, and other
+The conference room was filled with data scientists, program managers, proposal writers, and other
 highly educated professionals. Everyone had access to Claude Code. All of them were already using AI to
 help with their work.
 
@@ -37,9 +37,9 @@ books were for hands-on users.
 
 This book is for a different audience, and it has a different purpose.
 
-It is for organisations that are not getting the results they expected from AI—or whose results are
-costing too much. It is for organisations planning an AI implementation. And it is for the people who
-sign the cheques and need to keep AI costs under control.
+It is for organizations that are not getting the results they expected from AI—or whose results are
+costing too much. It is for organizations planning an AI implementation. And it is for the people who
+sign the checks and need to keep AI costs under control.
 
 The gap is not a shortage of intelligence, effort, or curiosity. It is a shortage of people explaining
 how these systems actually work.

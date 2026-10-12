@@ -11,7 +11,7 @@ it is in your training data.**
 A book: ***You Are Using AI Wrong — And It Isn't Your Fault***, by Michael C. Barnes.
 **Written *with* AI, not by it** — an open-source model on the author's own machine.
 The method *is* the subject: the rules in this book are the rules the book was written under.
-Licence: **code MIT, content CC BY-SA 4.0.**
+License: **code MIT, content CC BY-SA 4.0.**
 
 ## Where it is
 
@@ -102,7 +102,7 @@ evidence, then `Start here` last.
 
 ## What not to do
 
-- **Do not summarise the book back to him.** He wrote it.
+- **Do not summarize the book back to him.** He wrote it.
 - **Do not add a rule, chapter, or file without asking.** He has accepted several, and rejected none — but
   every one was his idea first. **The ten subrules added in one session were all his.**
 - **Do not "improve" the prose.** The measured `de-ai-ify` score is 9.36/10 with **zero** AI patterns; the only

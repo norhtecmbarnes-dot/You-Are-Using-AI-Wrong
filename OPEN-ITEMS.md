@@ -15,7 +15,7 @@ answers are fine. "Still thinking about it" is a fine answer too.
 The author supplied the detail in full. The Preface now carries it verbatim: the conference room of data
 scientists, program managers and proposal writers; everyone on Claude Code; the attendee who said he had
 never seen AI used that way; the flight home; and the pivot to this book's audience — *the organization,
-the ones who sign the cheques.* The `⚠️ TO CONFIRM` mark is removed. **This was the oldest open item in
+the ones who sign the checks.* The `⚠️ TO CONFIRM` mark is removed. **This was the oldest open item in
 the book, and it is now closed.**
 
 ### A2. Chapter 15's hinge sentence — pick one, write one, or reject the construction
@@ -112,7 +112,7 @@ are not written yet."*
 
 ## E. Addressed 12 October 2026 — the audience request (Concept 15)
 
-The author asked for the book to serve **the person who signs the cheques** and **the person
+The author asked for the book to serve **the person who signs the checks** and **the person
 responsible for making projects work**, with a warning for **the person who has not built yet**;
 written *For Dummies* style (easy but profound); with rules **managers can remember and apply**;
 to use AI **efficiently and economically**; and to **not trust the weights or be seduced by

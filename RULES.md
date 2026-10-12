@@ -17,7 +17,7 @@ None of these require you to give up AI. Every one of them makes it work better.
 
 **Two ways in.** Read this page and you can act today — every rule ends in something you can do.
 Read the book and you will know *why* each one is true. The page is the lobby; the book is the
-argument. If you sign the cheques, your rules are **2, 13, 14, 16 and 17** — start there. If you
+argument. If you sign the checks, your rules are **2, 13, 14, 16 and 17** — start there. If you
 make projects work, your rules are **1, 2, 5, 9, 11b and 14b**. If you have not built yet, read
 Part I first; it is the warning.
 
@@ -190,7 +190,7 @@ Part I first; it is the warning.
 
 **21b. Automating a process is not the same as justifying it.**
 - *Assumption:* the win is doing the existing work faster.
-- *True:* organisations run processes nobody has re-costed in years — bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply — the stated purpose and the real cost — **so it needs no knowledge from the model at all.**
+- *True:* organizations run processes nobody has re-costed in years — bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply — the stated purpose and the real cost — **so it needs no knowledge from the model at all.**
 - **Rule: ask it to question the process, and say plainly that questioning makes it *alert*, not *correct*. A wrong question costs nothing and the human still decides. Before you automate a process, find out whether it should exist.**
 
 ---
@@ -200,7 +200,7 @@ Part I first; it is the warning.
 > **Point it at what you have. Verify it against something outside itself. Keep the judgement.**
 >
 > The model never was a source. It's a very good engine — and you were handed the keys with the
-> dashboard unlabelled.
+> dashboard unlabeled.
 
 ---
 
