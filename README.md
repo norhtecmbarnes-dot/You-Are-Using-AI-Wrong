@@ -28,7 +28,12 @@ machinery that builds the manuscript — so the project can be picked up from an
     ├── STATUS.md                      where the project is right now  <- read this second
     ├── 00-BOOK.md                     master document: thesis, tone rules, 27-chapter outline,
     │                                  and section 9, the evidence register
-    ├── RULES.md                       the 21 rules — the book's spine
+    ├── RULES.md                       the 21 rules + Rule 1b — the book's spine
+    ├── AGENT-CONTRACT.md              the rules as an installable contract: a prompt,
+    │                                  and the three parts that actually enforce anything
+    ├── control/                       the installable skill
+    │   ├── SKILL.md                   load this in an agent to operate under the rules
+    │   └── references/the-rules.md    the full rule register, for the skill
     ├── CONCEPTS.md                    the concept register: the captured material
     ├── DASHBOARD-IMPLEMENTATION.md    every rule mapped to the code that implements it
     ├── LICENSE-CONTENT                CC BY-SA 4.0
@@ -83,6 +88,24 @@ manuscript can be trusted — every claim in it either carries a citation or car
 
 **The same rule applies to this repository's own documents.** If a claim appears here without a
 source, that is a defect.
+
+---
+
+## Want to run your own system under these rules?
+
+**The book is not only an argument. The controls are installable.**
+
+    AGENT-CONTRACT.md       the contract in three parts, plus a prompt to paste into a system prompt
+    control/SKILL.md        the same rules as a loadable skill, for an agent
+    control/references/     the full 22-rule register the skill draws on
+
+**Read `AGENT-CONTRACT.md` first, and read its first section before anything else**, because it says the
+thing most people get wrong: **a prompt cannot enforce anything.** It can only ask. The rules that hold are
+enforced by the human in the loop or by code, and the prompt exists to stop the model working against both.
+
+**If you implement one thing from this book, implement the contract at the boundary** — parse and validate
+before you act on anything a model produced, and reject rather than repair. A repaired payload is a guess
+wearing the shape of data.
 
 ---
 

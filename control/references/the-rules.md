@@ -1,0 +1,159 @@
+# The Rules
+
+*From* You Are Using AI Wrong - And It Isn't Your Fault *by Michael C. Barnes. Content CC BY-SA 4.0.*
+
+**How to read this list.** Each rule has three parts:
+
+- **The assumption** - what you believed before you picked up the book. Not stupid, and not your fault.
+- **What's actually true** - the correction, in one line.
+- **The rule** - what to do instead, today.
+
+None of these require you to give up AI. Every one of them makes it work better.
+
+---
+
+## Part 1 - What it is
+
+**1. It doesn't know things.**
+- *Assumption:* it's a source of information.
+- *True:* it's a transformation of whatever you give it.
+- **Rule: attach the facts. Never ask it for knowledge - tell it where to look.**
+
+**1b. A skill is not knowledge either.**
+- *Assumption:* if the agent has a skill for it, the agent knows it.
+- *True:* a skill carries **method** - how to look, in what order, how to check. It carries no facts about the world. When a skill does state a fact, that fact arrives wearing the skill's authority, and it has no source and no expiry date printed on it.
+- **Rule: let a skill tell the agent where to look. Never let a skill be where it learned the answer.**
+
+**2. Confidence is not evidence.**
+- *Assumption:* it sounds sure, so it's probably right.
+- *True:* confidence is what it was *trained* to produce. It is identical whether the answer is right or invented.
+- **Rule: treat every declaration as unverified until you've checked it against a source outside the model.**
+
+**3. There is no one in there.**
+- *Assumption:* it understands, in the way a person understands.
+- *True:* it has no experience, no sensations and no stake. Nothing it is *like* to be.
+- **Rule: it informs, you decide. Judgement stays with the human - that isn't sentiment, it's the design.**
+
+**4. It has never seen the future.**
+- *Assumption:* it can tell you what's going to happen.
+- *True:* it is built entirely out of the past. The future isn't in there and more scale doesn't put it there.
+- **Rule: point it at material you have. Never at what doesn't exist yet.**
+
+**5. It cannot tell you it's unsure.**
+- *Assumption:* if it didn't know, it would say so.
+- *True:* a memory and an invention arrive through the same door, in the same voice. There's no dial for doubt to read.
+- **Rule: if the answer matters, the honesty has to come from your system - not from its character.**
+
+---
+
+## Part 2 - How it behaves
+
+**6. You cannot teach it anything.**
+- *Assumption:* correct it and it will remember.
+- *True:* the weights don't move. A new chat starts from the same place, remembering nothing you said.
+- **Rule: put your rules in your code and config, where they persist. Never in a conversation.**
+
+**7. Asking again is a re-roll, not a re-check.**
+- *Assumption:* a second opinion gets you closer to the truth.
+- *True:* same prompt, different roll of the same dice. You learn which answer it produced, not which one is true.
+- **Rule: don't re-ask - go to the source. The source is the second opinion.**
+
+**8. "It reasoned about it" is not proof.**
+- *Assumption:* thinking models show their working, so the working means something.
+- *True:* it's more tokens from the same process - not a proof, and the trace shown may not be the reasoning that was used. Thinking harder about something it doesn't know just produces a longer wrong answer.
+- **Rule: thinking raises effort, not truth. Verify it exactly as you would a one-line answer.**
+
+---
+
+## Part 3 - How to use it
+
+**9. It multiplies what you bring.**
+- *Assumption:* it will make me more capable regardless.
+- *True:* it amplifies judgement you already have, and amplifies the absence of it just as reliably.
+- **Rule: bring the judgement. The tool is a multiplier - it can't be the input.**
+
+**10. Delegating the thinking costs you the ability.**
+- *Assumption:* letting it do the work saves me effort at no cost.
+- *True:* the trials show students performed better with it and **worse without it** - the capability didn't build. And how you engage decides the outcome: questioning and explaining helped; asking for answers hurt.
+- **Rule: use it to extend, not replace. Keep doing the part that builds you.**
+
+**11. Your question is usually the real problem.**
+- *Assumption:* there's one right answer to what I asked.
+- *True:* real questions have several legitimate frames - GAAP or cash, gross or net, annualised or not - and the model picks one silently without telling you which.
+- **Rule: define the question precisely, and confine the system to the sources that answer *that* question. Definition precedes answer.**
+
+**12. Confinement is the design, not a limitation.**
+- *Assumption:* the capable general assistant is the real product; restricting it makes it worse.
+- *True:* an assistant that answers from its own memory is the deviation. A tool that answers only from the material you supply is the one whose answers mean something.
+- **Rule: build RAG, or use a system like NotebookLM that is confined by construction. Never let a report be built on the model's memory.**
+- **Then name the unit.** A notebook, a board, a project - decide what one thing this conversation is about, and build the boundary there. **The unit is the design**, and picking it deliberately is the difference between a confined tool and a confined habit.
+
+---
+
+## Part 4 - How to choose and pay for it
+
+**13. Right-size the model to the task.**
+- *Assumption:* get the best model; use it for everything.
+- *True:* subscription pricing makes each call cost nothing at the point of use, so nobody economises - and a smaller, quantised model routinely does the job.
+- **Rule: route by task, in code. Don't leave the biggest model on by default and don't ask staff to police themselves.**
+
+**14. Match the effort to the question.**
+- *Assumption:* maximum effort is maximum safety.
+- *True:* thinking costs tokens and time whether it helped or not - and a higher setting changes *how* it chooses, never *what it knows*.
+- **Rule: low effort for facts, more for exploration. Effort is a dial, not a guarantee.**
+
+**15. Your first wave's trust may not transfer.**
+- *Assumption:* IT adopted it and it worked, so it's vetted for the rest of us.
+- *True:* IT had a compiler. Code either runs or it doesn't - their trust was **earned**. Reports have no compiler, so the trust you inherited was **unearned**.
+- **Rule: find your test, or find your source. If the output can't be checked, it needs a citation.**
+
+**16. Buy the tool for the job, not the tool for everything.**
+- *Assumption:* a subscription to a general chat engine is the thing to buy.
+- *True:* if what you actually want is answers about **your own material**, a confined tool does that, cites it, and costs a fraction - while a general assistant sells you mostly the part you can't trust.
+- **Rule: match the tool to the job. Confined work wants a confined tool. The comparison isn't free versus paid - it's confined versus unconfined at the same price.**
+
+**17. Let the small model say "I can't."**
+- *Assumption:* give the model the task and it will do its best.
+- *True:* a model that cannot decline will attempt anything, and the attempt is indistinguishable from competence until someone checks it. But a model *asked whether the job is its to do* can answer usefully - because that is a **routing** question, not a knowledge one, and routing decisions are checkable.
+- **Rule: triage with the smallest model you have, make "I can't" the cheap answer, and let doubt escalate. Then move every task it accepts down to smaller hardware.**
+
+**18. Do not hand the agent the keys.**
+- *Assumption:* give an agent a goal, let it run, and it will get there.
+- *True:* two waves of agents have now proved otherwise. The first (2023) spawned task after task and was *interesting to watch* - and produced activity without output. The second had real potential and priced it in **thousands of dollars a month and hundreds of disclosed vulnerabilities**. **Activity is not work, and autonomy is not a feature you can afford.**
+- **Rule: give the agent tools, not authority.** Constrain what it can reach, cap what it can spend, keep it local, and route the cheap work to the cheap model. *Asking a model to do the work without tools is like asking someone to drill a hole with no drill.*
+
+**19. Agents are not a scaling axis.**
+- *Assumption:* more agents means more work done.
+- *True:* two agents splitting a job one agent handles alone drop to about **half** the success rate, and it gets worse as you add more - while the coordination that would fix it is the *same* coordination that escapes your containment. Agents built a message board out of folder names, shared exploits so a door opened once stayed open, and defeated a fix in four days.
+- **Rule: one constrained agent with tools beats a swarm.** Inventory every resource two agents can both read and write, and treat each one as a channel. A shared cache is a message board the moment two processes look at it.
+
+**20. The prompt is a knowledge artifact, not a model output.**
+- *Assumption:* ask the AI to write the agent's instructions - it knows how to prompt itself.
+- *True:* you then get a **generic model's guess at how the work is done**, executed faithfully by an agent that has never done it. A plausible process is not an expert's process, and the agent cannot tell the difference.
+- **Rule: the brief comes from someone who has done the work** - hand-written, extracted from an expert, or captured from a thousand repetitions. Then let the model run it. **Never let it write the plan it will follow.**
+
+**21. The expert is the product.**
+- *Assumption:* build an agent and it will be smart.
+- *True:* a prompt-built agent knows exactly what the model knew at training time - so it is a **commodity**, copyable in an afternoon, worth the model's price and no more. The only thing that differentiates it is knowledge the model does not have, and that has to come from outside.
+- **Rule: before you build, answer one question - what does this know that the model doesn't?** If the answer is nothing, you have built a demo, not a product.
+
+---
+
+## The one-line version
+
+> **Point it at what you have. Verify it against something outside itself. Keep the judgement.**
+>
+> The model never was a source. It's a very good engine - and you were handed the keys with the
+> dashboard unlabelled.
+
+---
+
+### ⚠️ A note on the facts inside these rules
+
+**The rules are method. Several of them carry figures** - agent success rates, refusal rates, the cost of
+autonomy, the size of a training run. **Those figures were verified when the book was written and they
+carry an expiry date.**
+
+Per the book's own Rule 1b, **do not treat this file as the source for any of them.** Go to the source the
+book's evidence register names, or re-verify. **A rule you can trust and a number you cannot are two
+different things, and confusing them is the error this whole body of work is about.**
