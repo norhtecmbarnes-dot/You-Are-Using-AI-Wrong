@@ -596,6 +596,85 @@ guessed:
 controlled experiment"* (Trials, 2025; NCT06511102), measuring cognitive effort with pupillometry and
 **fNIRS brain imaging**. **It is a protocol and reports no results — never cite it as findings.**
 
+---
+
+**⚑ ✅ Verified 12 October 2026 — the offboarding failures. Primary sources read. (Concept 14 · Ch. 16)**
+
+> **These are the first entries in this register that carry a verification date**, and so the first that can be
+> aged. They arrived from the author as a claim; the claim survived checking, and **three of the four details
+> did not, exactly as they arrived.** That is the register working, and it is recorded that way on purpose.
+
+**1. Dallas Fire-Rescue — Ivan Gonzales. Payroll and benefits continued 20 months after he resigned.**
+*Primary: the City of Dallas's own Original Petition (DC-26-06167), and the City Manager's memo of 17 April 2026.*
+
+- Resigned **19 June 2023**; his captain sent the termination paperwork to HR **20 June 2023**; **HR did not
+  process it until 23 April 2025.** He therefore stayed active in Workday and on a roster of **264 recruits**.
+- Overpaid **$127,441.34** across June 2023 – February 2025. He was paid biweekly because the standing policy
+  **presumed 40 hours a week for anyone still on the roster** — and nobody had taken him off it.
+  The petition records why it went unnoticed: *"There were many other Ivans and Gonzales's on Captain
+  Womack's roster."*
+- **11 June 2024, a year after resigning, he logged into Workday and updated his direct deposit.** The payments followed.
+- ⚑ **The City's own corrective action is this book's rule, written by a city attorney:** *"improved its separation
+  review process by **cross-referencing resignation paperwork with Workday status** to ensure any unresolved
+  actions are promptly flagged."* It also moved time entry from **one captain** to **individual lieutenants** —
+  removing the single point of failure.
+- ⚑ **No one in this case did anything wrong.** The captain was approving time for 264 people under a standing
+  policy. **He was doing his job. The design failed, and it failed silently for twenty months.**
+
+**2. NCS (Singapore) — Kandula Nagaraju. Credentials never revoked; 180 virtual servers deleted.**
+*Primary: NCS's own statement to Channel NewsAsia, 12 June 2024; Singapore Judiciary hearing record.*
+
+- QA team member, terminated **16 November 2022** for poor performance. **His administrator credentials were
+  never invalidated.** He accessed the QA test system **13 times between January and March 2023**.
+- **On 18–19 March 2023 he ran a script that deleted 180 virtual servers, one at a time**, deliberately slow.
+  Loss: **S$917,832** (≈ US$678,000). Sentenced to **two years and eight months**. No sensitive customer data
+  was on the test servers.
+- ⚑ **NCS named the defect itself, in a sentence that belongs in the chapter:** *"Due to **a human oversight in
+  administering the standalone test environment**, the perpetrator's access to the test environment wasn't
+  terminated immediately upon departure from the company."*
+- ⚑ **The access was an accident; the malice came after.** The company did not lose S$918,000 because it hired
+  a criminal. It lost it because **one system was never told what another system had decided.**
+
+**3. FinWise Bank / American First Finance. Former employee accessed customer records; found a year later.**
+*Primary: filing with the Maine Attorney General's Office; FinWise's SEC Form 10-Q for the quarter ending 30 June 2025.*
+
+- A former employee accessed customer data on **31 May 2024**, **after their employment had ended.**
+  **Discovered 18 June 2025 — more than a year later.** **689,000 people** affected; full names, dates of birth,
+  **Social Security numbers** and account numbers. 12 months of credit monitoring offered; six class actions
+  consolidated in federal court in Utah.
+- ⚠️ **Cite only what is established.** Reporting does **not** state the gap between departure and access, and
+  notes it is **unclear whether the former employee acted maliciously or negligently.** The one-year figure
+  belongs to *discovery*, not to *retention*.
+
+**4. MARTA — former station cleaner. $620,000 in unearned overtime.**
+*Primary: MARTA statements to Atlanta News First, CBS News Atlanta and WSB-TV; the agency's civil filing.*
+
+- **$620,000** in overtime the employee never earned, in an **April 2026** paycheck. MARTA identified the error
+  in **July 2026**, spent about five months trying to recover it, and filed suit around **September 2026**.
+  Both the recipient and the employee who made the error **are no longer with the agency.**
+- ⚠️ **CORRECTED — dates.** These are **2026** events, not 2023–2025. They are weeks old.
+- ⚠️ **CORRECTED — fit, and this one matters.** Media call the recipient a *former* cleaner, but **no source
+  establishes that the overpayment was a post-departure continuation.** **Use it as a payroll-control failure,
+  not as an offboarding case**, absent a source that says the employment had ended before the payment.
+
+**⚑ What the four add up to — and this is the chapter's spine.**
+
+**They are one failure, four times.** A fact about a person — *are they employed, are they authorised, do they
+still work here* — existed in **several systems, none of them authoritative, none carrying an expiry**, and each
+system went on acting on the copy it happened to hold. **HR said left. Payroll said active. The access system said
+authorised.** Three copies of one fact, and nothing in the building was responsible for reconciling them.
+
+⚑ **And not one of them began with a bad actor.** Three were pure administrative drift. In the fourth the access
+was an accident and the malice came afterwards. **So the lesson is not "watch your insiders" — it is "reconcile
+your copies,"** which is Rule 12c, and it is why the Dallas remedy and the NCS post-mortem both land on the same
+sentence: *one system has to be told what the others decided.*
+
+**⚑ The author was right to exclude the case he excluded.** He flagged that health-plan continuation is **not**
+the clean example, because COBRA is a legal right that must be offered. **Correct, and it is the kind of
+self-correction this register exists to record.** Payroll and access are the clean cases; benefits are not.
+
+---
+
 **✅ Verified since this document was first written — safe to use:**
 
 - **NotebookLM is source-grounded by construction.** *"Its defining characteristic is that it is

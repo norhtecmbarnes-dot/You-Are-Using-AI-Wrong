@@ -1734,9 +1734,23 @@ one fact, several copies, no authority, no expiry — is how an orphaned account
 keeps a route in, and how a credential survives the person it belonged to.** Fragmentation is not an untidiness
 problem. It is an attack surface, and every copy that nobody owns is a door nobody is watching.
 
-⚠️ **That last claim needs a source before it goes in the book.** It is the author's assertion, it is widely repeated,
-and by this book's own standard a claim that appears in print carries a citation. **Verify it, or present it as his
-observation rather than as a finding.**
+⚑ **✅ Now sourced — the author supplied the cases, and they are in §9 with primary documents.** Four, verified
+12 October 2026:
+
+- **Dallas Fire-Rescue.** A firefighter resigned; the paperwork sat unprocessed in HR for **22 months** while he
+  stayed active in the payroll system and on a 264-name roster. **$127,441.34.** The City's own memo records the
+  remedy as *cross-referencing the resignation paperwork with the payroll system* — **this rule, written by a city
+  attorney.** And the captain approving the pay was doing his job under a standing policy. **The design failed.**
+- **NCS, Singapore.** Credentials never revoked after a November 2022 termination; **180 virtual servers deleted
+  in March 2023**, one at a time, **S$917,832**. The company's own statement names the cause: *"a human oversight
+  in administering the standalone test environment."*
+- **FinWise Bank.** A former employee reached customer records after employment ended; **found more than a year
+  later**; **689,000 people**, including Social Security numbers.
+- **MARTA.** **$620,000** in unearned overtime in a single paycheck. A payroll-control failure rather than a clean
+  offboarding case, and recorded as such.
+
+**What the four establish is narrower and more useful than "insider risk."** None of them began with a bad actor.
+**Three were pure administrative drift.** The lesson is not *watch your insiders* — it is *reconcile your copies.*
 
 **The handling rule.** Never accept a fact because the system holds it. Ask the three questions in order: **allowed
 source, still valid, worth checking.** A record that fails any of the three is not a weak fact — **it is not a fact,
