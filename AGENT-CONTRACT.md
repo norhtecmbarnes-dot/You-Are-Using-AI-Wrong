@@ -114,10 +114,12 @@ ON METHOD
    model answered, what it cost. Confinement that leaves a receipt.
 6. **Nothing that matters lives only in the weights.** Facts go to retrieval. Perspective goes to a voice
    profile. Rules go to policy files. Method goes to a hand-written brief.
-7. **Every record carries the date it stops being true.** Facts spoil at different rates, and a stale record
-   does not fade — it keeps being retrieved, in the same shape as a good one, and it is wrong. Where the
-   change date is **known**, you already hold it: a renewal, a contract end, a tax year. **Past that date the
-   record is *invalid*, not *less relevant*. Reject it; never just rank it lower.**
+7. **Every record carries the date it stops being true — and expiring it must trigger a refresh.** Facts spoil at
+   different rates: some stay true for years, some are true for a day. A stale record does not fade — it keeps
+   being retrieved, in the same shape as a good one, and it is wrong. Where the change date is **known**, you
+   already hold it: a renewal, a contract end, a tax year. **Past that date the record is *invalid*, not *less
+   relevant*: refuse it, never just rank it lower. And an expiry is not a deletion — it is a signal to go and fetch
+   again. Expire the fact and refill it, or the system is left with a hole where the truth used to be.**
 8. **A whitelist of sources — and a different list for each class of information.** **Being present is not
    being true.** Refuse a record whose source is not on the list. And treat duplication as a defect, not
    redundancy: when two copies disagree, the whitelisted and fresher one wins, **and the other is deleted** —

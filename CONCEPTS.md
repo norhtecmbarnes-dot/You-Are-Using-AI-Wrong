@@ -1633,6 +1633,23 @@ from your system*) that supplies the only fix.
 **5. The fix: the refresh interval is part of the fact, and the fetch date travels with it.** A claim's age must be
 visible at the point of use, or the error is invisible.
 
+**⚑ 5b. And the rate decides when the refresh fires — an expiry is a trigger, not a tombstone. Raised by the author,
+and it is the half of the rule that is easy to miss.**
+
+> *"The model has to know how long the information is going to be true, and **it needs to be triggered to update
+> it.**"*
+
+**Refusing an expired fact leaves the system with a hole where the truth used to be** — safer than serving the stale
+version, and still useless. **The expiry is what tells the system to go and look again.** So the decay rate does
+three jobs, not two:
+
+- **what may be held** (structural: hold it) versus **what must be fetched** (live: never hold it)
+- **how often the trigger fires** — a presidential term can be checked on a long interval; last night's score
+  cannot be cached at all
+- **and what the trigger does when it fires** — not delete the record, but refill it
+
+**An expiry with no trigger is data loss with extra steps.** ✓
+
 **6. ⚑ The milk rule — and the distinction that makes it work. Raised by the author.**
 
 > *"It might be a good policy to put an expiration date on knowledge the same way we do for milk. Some knowledge we
