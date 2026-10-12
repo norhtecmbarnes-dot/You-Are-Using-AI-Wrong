@@ -101,7 +101,9 @@ the advantage come from?**
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 21 — *The expert is the product.* (primary).** The expert is the product: a prompt-built agent is a commodity; only knowledge the model lacks differentiates it. The chapter is Rule 21, and it answers Rule 20's question — where does the non-commodity knowledge come from.
+
+**Rule 20 — *The prompt is a knowledge artifact.* (carried).**
 
 ## DRAFT
 

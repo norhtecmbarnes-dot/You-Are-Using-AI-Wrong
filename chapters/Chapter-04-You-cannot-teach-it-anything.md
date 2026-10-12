@@ -39,8 +39,12 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 6 — *You cannot teach it anything.* (primary).** Weights do not move in a chat; policy lives in code and config, injected as context (Rule 6). Bias enters at training, absorbed not chosen — the same point as Rule 1.
 
+**Rule 1 — *It doesn't know things.* (carried).**
+
+
+**Rule 1b — *A skill is not knowledge either.* (carried).** Rule 1b generalises this chapter's point: conditioning is not learning, and a skill carries method, not facts. The chapter is where the reader learns the weights do not move; 1b is the same rule for skills.
 ## DRAFT
 
 *(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*

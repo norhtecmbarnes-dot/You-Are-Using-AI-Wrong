@@ -69,7 +69,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 13 — *Right-size the model to the task.* (primary).** The division of labour: language at the edges, determinism in the middle. The architecture that makes Rule 13 (route in code) and Rule 14 (match effort) enforceable — no model in the decision path.
 
 ## DRAFT
 

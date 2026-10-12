@@ -42,8 +42,16 @@ not get a section.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 2 — *Confidence is not evidence.* (primary).** The ways this goes wrong: the failure modes from real scars — trusting a fluent answer (Rule 2), a session with no corrections (Rule 11c), inherited trust with no test (Rule 15). The chapter is the rules page turned inside out: every failure is a rule ignored.
 
+**Rule 11c — *Keep the corrections.* (carried).**
+
+**Rule 15 — *Your first wave's trust may not transfer.* (carried).**
+
+
+**Rule 15b — *Testimony is its own source — but only for what you witnessed.* (carried).** Rule 15b belongs in the failure-modes chapter: the author's own cases (Dallas, NCS, FinWise, MARTA) are witness evidence, and the chapter must say which claims are sourced and which are witnessed.
+
+**Rule 15c — *Most of what a person says is not a claim.* (carried).** Rule 15c belongs in the failure-modes chapter: a reader who has just been told 'trust nothing it says' needs the corollary — and not everything YOU say is a claim either.
 ## DRAFT
 
 *(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*

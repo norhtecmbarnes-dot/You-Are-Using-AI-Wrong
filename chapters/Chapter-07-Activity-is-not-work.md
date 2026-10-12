@@ -139,7 +139,9 @@ answer (Ch. 8), and then Part II explains what to build instead.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 18 — *Do not hand the agent the keys.* (primary).** Two waves of agents: the first produced activity without output, the second priced autonomy in thousands a month and hundreds of CVEs. The chapter is Rule 18 — give the agent tools, not authority — with Rule 7 as the corollary: asking again is a re-roll, and so is spawning another agent for the same job.
+
+**Rule 7 — *Asking again is a re-roll, not a re-check.* (carried).**
 
 ## DRAFT
 

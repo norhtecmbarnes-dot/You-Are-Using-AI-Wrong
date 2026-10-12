@@ -114,7 +114,9 @@ deliberate: *let the small model decline* (18), then *don't scale by multiplying
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 19 — *Agents are not a scaling axis.* (primary).** Agents are not a scaling axis: two agents splitting one job drop to about half the success rate, and the coordination that would fix it escapes containment. The chapter is Rule 19, with Rule 18 as the reason — the same containment that a swarm defeats.
+
+**Rule 18 — *Do not hand the agent the keys.* (carried).**
 
 ## DRAFT
 

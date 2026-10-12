@@ -46,7 +46,11 @@ an earlier chapter and this chapter is wrong.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 12 — *Confinement is the design, not a limitation.* (primary).** The recipe, assembled: the full architecture in one place — contracts, injection, code-scored measurement, human gates. This chapter carries Rule 12 (confinement is the design) as its spine, with Rule 1 (attach the facts) and Rule 6 (rules persist in code) as the two pillars that bear the weight.
+
+**Rule 1 — *It doesn't know things.* (carried).**
+
+**Rule 6 — *You cannot teach it anything.* (carried).**
 
 ## DRAFT
 

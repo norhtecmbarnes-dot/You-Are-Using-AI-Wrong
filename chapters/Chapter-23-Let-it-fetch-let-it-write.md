@@ -54,8 +54,12 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 1 — *It doesn't know things.* (primary).** Give it what code fetched, and it does the language work over it: Rule 1 (attach the facts) with the pipeline made explicit. The fetch is code; the writing is language; the boundary is Rule 12's contract.
 
+**Rule 12 — *Confinement is the design, not a limitation.* (carried).**
+
+
+**Rule 21b — *Automating a process is not the same as justifying it.* (carried).** Rule 21b belongs in the fetch-and-write chapter: the pipeline automates a process, and the chapter should ask whether that process should exist before it is made faster.
 ## DRAFT
 
 *(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*

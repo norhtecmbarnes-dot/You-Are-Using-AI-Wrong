@@ -80,7 +80,11 @@ no ending that hides the unfinished parts.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 11b — *Ask it to be checkable, not impressive.* (primary).** Start here: the rules paid off, plus a concrete first move for each reader. The chapter is Rule 11b — ask it to be checkable, not impressive — because the first move is always a checkable one; Rules 1 and 2 are the two the reader applies first.
+
+**Rule 1 — *It doesn't know things.* (carried).**
+
+**Rule 2 — *Confidence is not evidence.* (carried).**
 
 ## DRAFT
 

@@ -104,7 +104,9 @@ fails; Ch. 20 shows what to do instead with the one agent you keep.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 20 — *The prompt is a knowledge artifact.* (primary).** The prompt is a knowledge artifact: a model-written brief is a generic model's guess at how the work is done, executed faithfully. The chapter is Rule 20, generalising Rule 1 from facts to method — never let it write the plan it will follow.
+
+**Rule 1 — *It doesn't know things.* (carried).**
 
 ## DRAFT
 

@@ -392,7 +392,9 @@ and the support is the architecture that supplies provenance instead.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 8 — *"It reasoned about it" is not proof.* (primary).** The world of tokens: fragments, compression, similarity, one-directional writing. The chapter is Rule 8's mechanism made visible — 'it reasoned about it' is not proof, because every token is committed before the next is chosen — with Rule 2 as the consequence: confidence is not evidence.
+
+**Rule 2 — *Confidence is not evidence.* (carried).**
 
 ## DRAFT
 

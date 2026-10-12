@@ -28,7 +28,9 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 15 — *Your first wave's trust may not transfer.* (primary).** Judging is a knowledge question, so it must be measured: the Alpha challenge is Rule 15 — find your test or find your source — run as code, with Rule 11b's 'ask it to be checkable' as the scoring discipline.
+
+**Rule 11b — *Ask it to be checkable, not impressive.* (carried).**
 
 ## DRAFT
 

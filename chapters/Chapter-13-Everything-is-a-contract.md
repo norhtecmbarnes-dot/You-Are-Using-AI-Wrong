@@ -82,7 +82,9 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 6 — *You cannot teach it anything.* (primary).** The boundary is where trust is decided: define the shape, validate, reject rather than repair. Rule 6 (rules persist in code, not conversation) applied to data; Rule 12 (confinement) made mechanical.
+
+**Rule 12 — *Confinement is the design, not a limitation.* (carried).**
 
 ## DRAFT
 

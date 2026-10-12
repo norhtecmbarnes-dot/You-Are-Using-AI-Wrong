@@ -42,7 +42,9 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 2 — *Confidence is not evidence.* (primary).** Scale improves fluency faster than factuality, so the error gets harder to detect as models improve: confidence is still not evidence (Rule 2), and the model still cannot tell you it is unsure (Rule 5).
+
+**Rule 5 — *It cannot tell you it's unsure.* (carried).**
 
 ## DRAFT
 

@@ -29,13 +29,14 @@
                                  method - the most runnable thing in the book - was not on the
                                  page at all. Rules 11b and 11c come from it.
     21 evidence entries         verified, in 00-BOOK.md section 9
-    ⚠️  3 of 25 skeletons         have their "rules this chapter carries" filled in.
-                                 22 still hold the placeholder. The template says every
-                                 chapter carries at least one rule, so this is a real gap —
-                                 and it is the SAME defect Chapter 15 had: an unfilled
-                                 field nobody had looked at. Filling it needs a judgement
-                                 per chapter (concepts do not map 1:1 to rules), so it is
-                                 done one at a time and confirmed, not bulk-written.
+    ✅  25 of 25 skeletons        have their "rules this chapter carries" filled in.
+                                 (12 Oct 2026.) All 31 rules are carried by at least one
+                                 chapter; the map is GENERATED from the skeletons by
+                                 book-build/make-rule-chapter-map.py into
+                                 book-build/rule-chapter-map.csv — the CSV is the index,
+                                 the skeletons are the source. Mappings are PROPOSED from
+                                 each chapter's own claim and concept; the author confirms
+                                 or corrects, one line per chapter.
 
 **And the controls are now installable** — the book is not only an argument:
 
@@ -217,8 +218,9 @@ page) adds no chapter and no rule by design; it routes the existing readers.
 
 ## What happens next
 
-**The bottleneck is drafting, not thinking.** 25 chapters have their material gathered and their
-specifications written. What is missing is the prose pass.
+**The bottleneck is now the prose pass, not the mapping.** 25 chapters have their material gathered,
+their specifications written, and (as of 12 Oct 2026) their rule mapping declared. Every chapter
+in the tracker now shows SPECCED or better. What is missing is the drafting itself.
 
 **And the per-chapter target is not a guess — it is arithmetic.** The plan targets 40,000–50,000
 words, and front matter accounts for 2,349 of them, so:

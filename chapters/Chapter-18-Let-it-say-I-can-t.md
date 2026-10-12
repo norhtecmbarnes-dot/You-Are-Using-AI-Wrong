@@ -146,7 +146,9 @@ effort to the question) and gives Ch. 24 ("The recipe, assembled") its second pi
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 17 — *Let the small model say "I can't".* (primary).** A small model asked whether the job is its to do can answer usefully, because routing is a checkable question. The chapter is Rule 17 — let the small model say 'I can't' — and it exists precisely because of Rule 5: everywhere else the model cannot report its own uncertainty.
+
+**Rule 5 — *It cannot tell you it's unsure.* (carried).**
 
 ## DRAFT
 

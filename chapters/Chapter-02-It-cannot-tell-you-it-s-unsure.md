@@ -42,8 +42,12 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 5 — *It cannot tell you it's unsure.* (primary).** The chapter is Rule 5 made visible: a memory and an invention arrive through the same door, in the same voice — so confidence cannot be read as evidence (Rule 2).
 
+**Rule 2 — *Confidence is not evidence.* (carried).**
+
+
+**Rule 4 — *It has never seen the future.* (carried).** Rule 4 is the same machinery as Rule 5: the model is built entirely out of the past, so a prediction is a confabulation with a date on it. This chapter shows the mechanism; Rule 4 names the consequence.
 ## DRAFT
 
 *(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*

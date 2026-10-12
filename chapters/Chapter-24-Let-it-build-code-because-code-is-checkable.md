@@ -31,7 +31,9 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 15 — *Your first wave's trust may not transfer.* (primary).** Code is checkable — it runs or it doesn't — so verifiable output is where a model's weakness stops mattering. Rule 15 (find your test) aimed at the model's strongest output, with Rule 11b as the discipline.
+
+**Rule 11b — *Ask it to be checkable, not impressive.* (carried).**
 
 ## DRAFT
 

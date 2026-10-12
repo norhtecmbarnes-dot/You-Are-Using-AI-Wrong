@@ -51,7 +51,9 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 2 — *Confidence is not evidence.* (primary).** The training pressure behind the confidence: reinforcement rewards approval, so stated confidence reflects training, not evidence (Rule 2), and visible reasoning is not proof (Rule 8).
+
+**Rule 8 — *"It reasoned about it" is not proof.* (carried).**
 
 ## DRAFT
 

@@ -92,7 +92,13 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 1 — *It doesn't know things.* (primary).** If facts must be injected, the system's quality is its retrieval's quality. Rule 1's plumbing made explicit, with the three storage subrules: date it (12b), whitelist it (12c), meter the check (14b).
+
+**Rule 12b — *Put an expiry date on knowledge.* (carried).**
+
+**Rule 12c — *Whitelist the sources.* (carried).**
+
+**Rule 14b — *Spend the verification where it matters.* (carried).**
 
 ## DRAFT
 

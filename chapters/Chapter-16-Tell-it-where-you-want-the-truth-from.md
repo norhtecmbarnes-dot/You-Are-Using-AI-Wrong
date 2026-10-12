@@ -193,7 +193,11 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 12 — *Confinement is the design, not a limitation.* (primary).** Confinement is the design, not a limitation (Rule 12). Carries Rule 1's 'tell it where to look' and Rule 11's 'definition precedes answer' — confine the knowledge, name the unit.
+
+**Rule 1 — *It doesn't know things.* (carried).**
+
+**Rule 11 — *Your question is usually the real problem.* (carried).**
 
 ## DRAFT
 
