@@ -585,6 +585,8 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | 13 | **The clock is always running** — freshness is a property of the fact, not the pipeline; the expiry is a trigger to refill, not a tombstone; the milk rule (a known date is stored, never estimated). | Ch. 6 | ✅ Captured. Demos are the book's own working material (NotebookLM price cut, rename, CVE growth) — re-check before print. |
 | 14 | **Presence is not provenance** — a stored record is not evidence; whitelist per class, date every fact, meter verification by criticality; duplication is a defect. | Ch. 16 (beside the confinement rules) | ✅ Captured + sourced 12 Oct 2026 — four offboarding/administrative-drift cases in §9 with primary documents. |
 | 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 27 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 27's reader list. Adds no chapter, no rule. |
+| 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 17 (sharpened), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
+| 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 11 (bridge), Ch. 17 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
 
 ## 9. Evidence and verification status
 
@@ -1518,7 +1520,7 @@ the chapter the **author** found rather than the model is the one that holds.
 You-Are-Using-AI-Wrong/                                ← this book. NOT under version control.
 ├── 00-BOOK.md                                         ← this file. The master document.
 ├── CONCEPT.md                                         ← original concept: thesis, promise, positioning, tone rules
-├── CONCEPTS.md                                        ← all fifteen concepts, verbatim + demos + fixes + guard rails
+├── CONCEPTS.md                                        ← all seventeen concepts, verbatim + demos + fixes + guard rails
 ├── Preface-Why-This-Book-Exists.md                     ← ✍️ drafted. The India class — the book's origin
 ├── Introduction-AI-Is-Already-Smart-Enough.md          ← ✍️ drafted. The claim, stated before the argument
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)

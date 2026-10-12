@@ -12,6 +12,15 @@
 
 **Fix.** **right-size the tool and the model, and route in code.** Don't leave the biggest model on by default, don't buy a general chat engine for a confined job, and don't ask staff to self-police.
 
+**The unit the bill is counted in (Concept 17).** Open the cost argument with the decision maker's
+definition of a token: *a token is a unit of intelligence — the smallest unit of work the model
+performs, and on metered pricing, the unit the bill is counted in.* You are not buying a subscription
+to a brain; you are buying a metered quantity of intelligence, and the question this chapter asks is
+whether the task needs that much. (The technical definition — a fragment of text — belongs to
+Chapter 11; the two definitions are bridged there, not merged.)
+
+**Framing to hold (Concept 16).** *The tools are not the problem; the spend is.* Claude Code and Codex are perfectly good tools and offer the most advanced LLMs available commercially — and they are also the most expensive. The issue is never the tool. Simply giving everyone access to the most expensive models does not improve output but does increase cost. The chapter's job is to educate for **the best output for the least cost**: right-size the model to the task, route in code, and buy the tool for the job, not the tool for everything. Never write a tool as the villain, and never write one as the hero — name the parameter each gets right and let the reader place their own tool on it.
+
 ---
 
 ## Concept 5 — The most expensive model for everything, and the answers nobody confined
@@ -201,7 +210,13 @@ look" material instead. See `00-BOOK.md` §7 for the reconciled outline.
 
 ## The rules this chapter carries
 
-*(map the chapter to its rule numbers here before drafting — every chapter carries at least one)*
+**Rule 13 — *Right-size the model to the task.*** The subscription-pricing mechanism: every call free at the point of use, so nobody economises. The chapter is Rule 13 with the adoption path attached.
+
+**Rule 16 — *Buy the tool for the job, not the tool for everything.*** The confinement-versus-unconfined comparison. The chapter's closing argument: confined work wants a confined tool, at the same price.
+
+**Rule 14 — *Match the effort to the question.*** Effort is a dial, not a guarantee; a higher setting changes how the model chooses, never what it knows.
+
+**Rule 14b — *Spend the verification where it matters.*** The cost argument's honest corollary: the expensive line item is the unchecked report, not the seat.
 
 ## DRAFT
 

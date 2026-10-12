@@ -129,7 +129,40 @@ confidence**. Captured as **Concept 15** in `CONCEPTS.md` and applied as routing
 - Also fixed in the same pass: Concepts 13 and 14 were in `CONCEPTS.md` but missing from
   `00-BOOK.md` §8 and the `STATUS.md` table — both now list all 15.
 
-**Still owed from you:** A1 (the India detail) remains the oldest open item.
+**Still owed from you:** *(A1, the India detail, was closed later the same day — see A1 above.)*
+
+---
+
+## G. Addressed 12 October 2026 — "a token is a unit of intelligence" (Concept 17)
+
+The author supplied the decision maker's definition: the technical definition (fragment of a word,
+number of bytes) is correct but aimed at the engineer; **for the decision maker, a token is a unit
+of intelligence.** Captured as **Concept 17** in `CONCEPTS.md` — two definitions, each aimed at its
+own reader, bridged not merged:
+
+- `chapters/Chapter-11-…md` — the technical definition stays (mechanism needs it); a **bridge
+  sentence** now sends the reader forward to Ch. 17 with the second definition.
+- `chapters/Chapter-17-…md` — the cost argument now **opens with the definition**: you are buying a
+  metered quantity of intelligence, and the question is whether the task needs that much.
+- Guard rail recorded: never let "unit of intelligence" drift into "the model is intelligent" — that
+  is the book's central category error wearing a definitions costume. No new rule.
+
+---
+
+## F. Addressed 12 October 2026 — "the tools are not the problem; the spend is" (Concept 16)
+
+The author clarified that the book prosecutes a **habit**, not a product: Claude Code and Codex are
+good tools and the most expensive; the purpose is **best output for the least cost**; giving everyone
+the most expensive models does not improve output but does increase cost. Captured as **Concept 16**
+in `CONCEPTS.md` — a *framing* concept, not a new rule:
+
+- `chapters/Chapter-17-…md` — the plan spec now carries the framing line explicitly, and the
+  chapter's **rule mapping is filled** (Rules 13, 14, 14b, 16). Chapter 17 is one step closer to
+  draftable.
+- Rules 13 and 16 already say the right thing; this concept is the argument behind them, aimed at
+  the habit, not the hardware.
+- Guard rail recorded: no vendor ranking in either direction; no sneer at the expensive tools or
+  the users who bought them; the Preface's consistency (same tools, different results) is protected.
 
 ---
 

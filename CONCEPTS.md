@@ -1890,6 +1890,200 @@ first move* is already Chapter 27's job.
 
 ---
 
+## Concept 16 — The tools are not the problem; the spend is
+
+**Raised by the author, and it is a correction to a misreading this book could invite:**
+
+> *"The issue is never the tools. Claude Code or OpenAI's Codex are perfectly good tools and offer the
+> most advanced LLMs available commercially. However, they also are the most expensive. The purpose of
+> this book is to educate users how to obtain the best output for the least cost. Simply giving everyone
+> access to the most expensive models does not improve output but does increase cost."*
+
+**The claim. The book prosecutes a habit, not a product.** Every chapter that names a tool names it as an
+*example of a pattern* — and this concept is the reason that discipline is not evasion. The reader who
+finishes Chapter 17 (*The most expensive model for everything*) should not leave thinking *"Claude Code
+is bad."* They should leave thinking *"Claude Code is excellent — and it is the wrong instrument for
+half the jobs it is being given, and the wrong line item for the ones it is right for."* Those are two
+different conclusions, and only the second one survives contact with a budget.
+
+**Why it works.** Three things, and they answer the three ways a reader could misread the book:
+
+1. **It protects the messenger.** A book that indicted the tools would be arguing against the reader's
+   own stack — the same stack the India room was running, the same stack the author runs. The Preface
+   already establishes that everyone in that room had the same models and got different results. Naming
+   the tools as culprits would contradict the book's own origin story in the same breath.
+2. **It sharpens the actual claim.** *"Best output for the least cost"* is not *"cheapest model."* It
+   is **right-sized**: the most advanced model where the task genuinely needs it, a smaller and cheaper
+   one where it does not, and routing in code so nobody has to self-police. The Codex/Claude-class tools
+   are the right answer for hard reasoning. They are the wrong answer for summarising a meeting note —
+   and the wrong *purchase* for an organisation whose real job is answers about its own material.
+3. **It names the failure precisely.** *Giving everyone access to the most expensive models* is not a
+   tooling decision, it is a **pricing decision** — and a bad one, because subscription pricing makes
+   every call feel free at the point of use, so nobody economises. That is the mechanism Chapter 17
+   already argues. This concept is the sentence that keeps the mechanism aimed at the *habit* and off
+   the *hardware*.
+
+**The handling rule — and this one is load-bearing:**
+
+- **Never write a tool as the villain.** Claude Code, Codex, a general chat subscription — they appear
+  as examples of a *pattern*: capable, expensive, and routinely mis-bought for confined work. The
+  pattern is the price signal and the absence of confinement, not the product.
+- **Never write a tool as the hero either.** The book does not recommend a winner. The comparison it
+  draws is *confined versus unconfined at the same price* — a parameter, not a product. A chapter that
+  ends *"so buy X"* has committed the sin the book prosecutes: it has answered a knowledge question
+  the reader did not ask, from the model's own weights.
+- **Keep the Preface consistent.** The India room ran the expensive tools. The author got better
+  results *with the same tools*, by holding them differently. If any chapter reads as *"stop using
+  Claude Code,"* it contradicts the Preface — and the Preface is the book's earned credential.
+- **The cost argument is the manager's argument.** *Best output for the least cost* is the sentence
+  the signer of the cheques repeats. It is already the book's promise (§3): *better results, securely,
+  spending less money.* Do not paraphrase it into a slogan; it is precise as it stands.
+- **Define the terms plainly for the manager reader.** *Right-sizing* is *sending each job to the
+  smallest model that can do it.* *Routing* is *deciding that in code, not by asking staff to
+  remember.* *Confined* is *answers only from your own material.* Each is one sentence, and each is
+  a rule the reader can apply the same afternoon.
+
+**Where it lands.** Three places, and all three already exist:
+
+- **Chapter 17 (*The most expensive model for everything*)** — the leader's chapter. Add the
+  distinction explicitly: the tools are good; the *deployment* is wrong. The fix is routing and
+  right-sizing, not switching brands. This is the chapter's existing claim, sharpened against the
+  misreading.
+- **The Rules page (`RULES.md`), Rule 13 and Rule 16** — already say *right-size the model to the
+  task* and *buy the tool for the job, not the tool for everything.* No edit needed; this concept is
+  the argument behind them, not a new rule.
+- **The Preface** — already consistent (same tools, different results). No edit needed. The concept
+  exists to *protect* that consistency as later chapters are drafted.
+
+**Why this does not add a rule.** *"The tools are good; the spend is wrong"* is not a rule a reader
+applies — it is a *framing* the book holds so its rules land on the habit and not the hardware.
+Rules 13, 16 and 17 already carry the actionable content. Adding a twenty-second rule here would be
+inventing structure the book does not need — and the author's instruction stands: no new rules.
+
+**Guard rails:**
+
+- **No vendor ranking, in either direction.** Do not write Codex as better than Claude Code, or a
+  confined tool as better than either. Name the *parameter* each gets right (capability, price,
+  confinement, model freedom) and let the reader place their own tool on it.
+- **No sneer at the expensive tools.** They are the most advanced commercially available. The claim is
+  narrower: advanced is not the same as *appropriate*, and appropriate is not the same as *affordable
+  at this scale.*
+- **No sneer at the users who bought them.** The India room bought the best and used it well — for the
+  wrong jobs. That is the design's failure, not theirs.
+- **The cost claim must stay a mechanism claim.** *Subscription pricing makes every call free at the
+  point of use, so nobody economises.* That is why the spend is wrong. Never *"finance should
+  negotiate harder"* — that is a different book.
+- **Keep it consistent with Rule 2.** The confidence a model shows is not evidence — and neither is
+  its price tag. A more expensive model is not a more trustworthy one. Both are signals the book
+  teaches the reader not to trust.
+
+---
+
+## Concept 17 — A token is a unit of intelligence, not a unit of bytes
+
+**Raised by the author, and it is a correction to the book's own technical definition — aimed at the
+decision maker, not the engineer:**
+
+> *"I think in the book, we describe what a token is. We describe it as a fragment of a word or a
+> number of bytes. This is a technical definition. A better definition for the decision maker is it is
+> a unit of intelligence."*
+
+**The claim. There are two definitions of a token, and they serve two readers — and the book serves
+both, so it needs both, in the right place.** The technical definition is not wrong; it is *aimed at
+the wrong reader.* "A fragment of a word, about four characters" answers *how the model stores
+language.* "A unit of intelligence" answers *what you are paying for.* The decision maker who signs the
+cheque does not need to know that a token is an integer ID mapping to a piece of text. They need to
+know that **every token is a unit of work the model performs — and on metered pricing, every token is
+a unit of money.** That is why the cost argument (Ch. 17) and the right-sizing argument (Rule 13) land:
+they are not about models, they are about *how much intelligence you are buying, and whether the task
+needs that much.*
+
+**Why it works.** Three things:
+
+1. **It is the cost argument in one phrase.** Chapter 17 says *subscription pricing makes every call
+   free at the point of use, so nobody economises.* This concept gives that argument its *noun*: the
+   token is the unit the bill is counted in. A manager who remembers *"a token is a unit of
+   intelligence"* remembers *"the meter is running on intelligence, and I am paying for more of it
+   than this task needs."* The technical definition teaches nothing a signer can act on.
+2. **It is true, in the way the book needs it to be.** A token is not "information" (the book's own
+   correction (a) to Concept 6 is explicit: a token is an index into a vocabulary, and the meaning
+   lives in the relationships). But it is not *nothing* either — it is the smallest unit the model
+   processes, the unit it is *charged* for, and the unit its "thinking" is made of. Calling it a unit
+   of intelligence is not a poetic flourish; it is the definition that makes the price signal visible.
+   A reasoning model's "thinking" is **more tokens** — which is why *it also costs more tokens* is a
+   cost statement, not a technical one (Concept 6's second caution already says this).
+3. **It resolves a tension the book would otherwise have.** Chapter 11 (the technical chapter) needs
+   the fragment definition to explain compression, similarity and the one-directional mechanism.
+   Chapter 17 (the leader's chapter) needs the intelligence definition to explain the bill. If the
+   book only carried the technical one, the cost chapter would be arguing about a unit the reader
+   has never been given a reason to care about. If it only carried the intelligence one, the
+   mechanism chapter would be hand-waving. **Both definitions, in their own chapters, each aimed at
+   its own reader.**
+
+**The handling rule — and this one is load-bearing:**
+
+- **Do not replace the technical definition. Add the decision-maker's definition beside it.** The
+  correction to Concept 6 — *a token is an integer ID that maps to a fragment of text* — is correct
+  and must survive the ML review. What changes is *where each definition is aimed.* Chapter 11 keeps
+  the fragment definition (it is explaining mechanism). Chapter 17 gains the intelligence definition
+  (it is explaining cost). The Preface's audience framing (the signer of the cheques) is the reason
+  the second definition exists at all.
+- **Do not let the two definitions contradict each other.** They don't, if each is scoped: *a token is
+  a fragment of text* answers *what the model stores*; *a token is a unit of intelligence* answers
+  *what you pay for.* A reader who meets both should feel the second one *click* — the unit they were
+  already paying for, finally named. That click is the chapter's job.
+- **Never let "unit of intelligence" drift into "the model is intelligent."** That is the book's
+  central category error (Chapter 1), wearing a definitions costume. The phrase means *the unit of
+  work the model performs* — a metered unit of computation — not a measure of understanding. If a
+  draft sentence reads as though the token *contains* intelligence, it has crossed the line; rewrite
+  it as *the unit the model works in* or *the unit you are billed for.*
+- **Keep it a definition, not a slogan.** It must survive being repeated in a budget meeting. Test:
+  can the signer say *"we are paying for units of intelligence, and this task does not need that many"*
+  without the book open? If yes, the definition has done its job.
+- **Tie it to the existing cost material, do not duplicate it.** Concept 6 already says reasoning
+  models cost more tokens; Rule 14 already says effort is a dial, not a guarantee; Rule 14b already
+  says spend verification where it matters. The intelligence definition is the *frame* that makes those
+  three actionable for a signer. It adds no new rule.
+
+**Where it lands.** Two places, and both are existing material:
+
+- **Chapter 11 (*The world of tokens*)** — the technical definition stays, aimed at the mechanism. Add
+  one bridging sentence at the end of the token explanation: *"There is a second definition, and it
+  belongs to the person who pays: a token is a unit of intelligence. Not because the model
+  understands — it does not — but because it is the smallest unit of work the model performs, and on
+  metered pricing, the unit the bill is counted in."* The bridge sends the reader forward to Ch. 17
+  without pre-empting it.
+- **Chapter 17 (*The most expensive model for everything*)** — the leader's chapter. Open the cost
+  argument with the definition: *"Every model call is counted in tokens. A token is a unit of
+  intelligence — the smallest unit of work the model performs. You are not buying a subscription to a
+  brain; you are buying a metered quantity of intelligence, and the question this chapter asks is
+  whether the task needs that much."* This is the chapter's first paragraph, because it is the frame
+  the rest of the cost argument hangs on.
+
+**Why this does not add a rule.** *"A token is a unit of intelligence"* is a definition, not a rule
+— it tells the reader what they are paying for, not what to do about it. The *actions* are already
+Rules 13 (right-size the model), 14 (match the effort), and 16 (buy the tool for the job). This
+concept is the vocabulary that makes those rules land with the signer.
+
+**Guard rails:**
+
+- **Do not ship "unit of intelligence" into the technical chapter without the bridge.** An engineer
+  reading Chapter 11 needs the fragment definition; an unbridged "unit of intelligence" there reads
+  as the book dodging the mechanism. The bridge sentence is what makes both definitions legitimate in
+  the same book.
+- **Never write "intelligence" as a property the model possesses.** *Unit of intelligence* describes
+  the *unit of work*, not a compliment to the model. If a reviewer reads it as the book granting the
+  model intelligence, rewrite — the book's thesis (a transformation, not a source) forbids it.
+- **Keep the two definitions in their own chapters.** Do not merge them into one paragraph, and do
+  not let the Preface or the Rules page carry the technical one. Each reader gets the definition aimed
+  at them, in the place they are already reading.
+- **The cost claim stays a mechanism claim.** The token is the unit the bill is counted in *on
+  metered pricing.* Do not generalise to "all AI is priced by the token" — subscription seats are
+  priced differently, and Chapter 17 already distinguishes them (*the subscription is cheap; the trust
+  is what costs money*).
+
+---
+
 ## Concept template (for the next one)
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)

@@ -66,6 +66,13 @@ is *one token ≈ four characters ≈ three-quarters of a word* — so "four" is
 (including the leading space). Say it as: *a token is a number standing for a piece of text, and the
 piece is usually about four characters long — sometimes a letter, sometimes a word.*
 
+**⚑ The bridge to the other definition (Concept 17).** There is a second definition of a token, and it
+belongs to the person who pays rather than the person who builds. *A token is a unit of intelligence
+— the smallest unit of work the model performs, and on metered pricing, the unit the bill is counted
+in.* Not because the model understands — it does not — but because it is the unit the work is measured
+in. That definition is the frame Chapter 17 opens with; this chapter keeps the technical one, because
+the mechanism needs it.
+
 **(b) "It predicts the next token based solely on the last token."** This is the one that matters most,
 and it is **not correct**. A transformer attends to **all the preceding tokens** in its context window —
 that attention across the whole context is the entire point of the architecture. Predicting from the
