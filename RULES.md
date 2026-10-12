@@ -98,6 +98,16 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* facts spoil at different rates, and a stored fact past its expiry does not fade — it keeps being retrieved, in the same shape as a good one, and it is wrong. Where the change date is **known**, you already have it: an insurance renewal, a contract end, a tax year.
 - **Rule: write down the date the fact stops being true, and refuse the record after it. Reject an expired fact — never just rank it lower.**
 
+**12c. Whitelist the sources — presence is not provenance.**
+- *Assumption:* if the information is in the system, the system can use it.
+- *True:* **being present is not being true.** A record may come from a source nobody vetted, or from a good source and then expire. And in any system that stores things in more than one place, the same fact ends up in several copies — so the wrong one is retrieved as readily as the right one, and nothing on the record says which is which.
+- **Rule: keep a whitelist of trusted sources, and a different list for each kind of information. Refuse a record whose source is not on it, and treat duplication as a defect: when two copies disagree, the whitelisted and fresher one wins and the other is deleted.**
+
+**14b. Spend the verification where it matters.**
+- *Assumption:* either everything in the system deserves the same scrutiny, or none of it does.
+- *True:* checking costs tokens and most facts are not worth the tokens. A wrong lunch order and a wrong safety limit are not the same error, and treating them alike spends the budget on the one that does not matter.
+- **Rule: score every fact for criticality, and let the score decide how hard you check it. Verify the critical ones every time; let the cheap ones ride.**
+
 ---
 
 ## Part 4 — How to choose and pay for it

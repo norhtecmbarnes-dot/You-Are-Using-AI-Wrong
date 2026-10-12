@@ -1687,6 +1687,68 @@ RAG, will keep them current — and this is the chapter that says neither will, 
 
 ---
 
+## Concept 14 — Presence is not provenance
+
+**Raised by the author, and it is the book's thesis arriving one layer down:**
+
+> *"The risk in all distributed systems is that there winds up being information stored in multiple locations. Simply
+> because the information is in the system doesn't make it true. It could be based from an untrustworthy source, or it
+> could be expired information. There should be a whitelist of trusted sources for various sorts of information. I also
+> believe that information should be scored for its criticality. Some information might not be worth the tokens to
+> verify. Others are critical. Many security breaches occur because networks, passwords, and resources about an
+> employee are not unified."*
+
+**The claim. Being present is not being true.**
+
+The book has already argued that a fluent answer is not evidence of a correct one. **This is the same error one layer
+down: a stored record is not evidence either.** Whether it arrived from a model, a database, a document store or a
+colleague's spreadsheet makes no difference — **the system can retrieve it, and retrieval is not verification.** A
+system that treats its own storage as an authority has simply moved the trust it should not have placed in the model
+onto its own index.
+
+**⚑ Three questions, one per fact — and the three subrules answer them in order:**
+
+| The question | The attribute | Where it is written down |
+|---|---|---|
+| **Where did this come from?** | `source` | **Rule 12c** — a whitelist, and a *different* list per class of information |
+| **Is it still true?** | `valid_until` | **Rule 12b** — the date it stops being true, refused after it |
+| **Is it worth checking?** | `criticality` | **Rule 14b** — the score that decides how hard you look |
+
+**1. Trust is not one list.** A source good for a price is not thereby good for a medical claim. The whitelist is per
+class of information, because credibility does not transfer across domains — and the author's phrasing is exact:
+*trusted sources for **various sorts** of information*.
+
+**2. Duplication is a defect, not redundancy.** The author's framing is the distributed-systems one: the same fact
+ends up stored in more than one place, and **nothing on either copy says which is authoritative.** So the wrong copy
+is retrieved as readily as the right one. The rule follows directly — when two copies disagree, **the whitelisted and
+the fresher one wins, and the other is deleted.** Deleting it is the part that gets skipped, and it is the part that
+matters.
+
+**3. Verification is metered.** Checking costs tokens, and most facts are not worth them. **A wrong lunch order and a
+wrong safety limit are not the same error**, and a system that checks both the same way spends its budget on the one
+that cannot hurt anyone. So criticality is a field on the record, and it decides how hard the system looks.
+
+**⚑ 4. The consequence is security, and this is the part that leaves the book.** The author's example: *"many security
+breaches occur because networks, passwords, and resources about an employee are not unified."* **The same defect —
+one fact, several copies, no authority, no expiry — is how an orphaned account stays open, how a decommissioned asset
+keeps a route in, and how a credential survives the person it belonged to.** Fragmentation is not an untidiness
+problem. It is an attack surface, and every copy that nobody owns is a door nobody is watching.
+
+⚠️ **That last claim needs a source before it goes in the book.** It is the author's assertion, it is widely repeated,
+and by this book's own standard a claim that appears in print carries a citation. **Verify it, or present it as his
+observation rather than as a finding.**
+
+**The handling rule.** Never accept a fact because the system holds it. Ask the three questions in order: **allowed
+source, still valid, worth checking.** A record that fails any of the three is not a weak fact — **it is not a fact,
+and the system must refuse it rather than rank it lower.**
+
+**Why it belongs beside the confinement rules.** Rule 12 confines the model to the material you supply. Rules 12b and
+12c and 14b say **the material you supply is not thereby trustworthy** — you still have to choose the sources, date
+them, and decide which ones are worth the tokens. Confinement is necessary and it is not sufficient, and this is the
+chapter that says so.
+
+---
+
 ## Concept template (for the next one)
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)
