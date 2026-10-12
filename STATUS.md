@@ -16,6 +16,31 @@
     21 rules + 1 subrule        RULES.md   (Rule 1b — a skill is not knowledge either)
     21 evidence entries         verified, in 00-BOOK.md section 9
 
+**And the controls are now installable** — the book is not only an argument:
+
+    AGENT-CONTRACT.md   the rules as a contract in three parts + a prompt to paste
+    control/SKILL.md    the same rules as a loadable agent skill
+    control/references/the-rules.md   the full 22-rule register the skill draws on
+
+Installed here as the skill `ai-usage-contract`. See README for what each is for.
+
+---
+
+## Where prose goes
+
+**The build reads the book root AND `chapters/`.** Both work.
+
+    Chapter-NN-slug.md  in the book root     the drafted chapters live here
+    chapters/Chapter-NN-slug.md             written UNDER a '## DRAFT' heading
+
+**From a skeleton, only the text under `## DRAFT` reaches the book.** The plan spec, the concept and the
+evidence in the same file are reference material and are ignored. A skeleton with nothing under DRAFT is
+skipped, so unfilled files cannot put empty chapter headings in the manuscript.
+
+**If two files claim the same chapter number, the build keeps the one in the root and prints a warning.** It
+does not resolve the collision silently — an unnoticed dropped chapter is exactly the failure this book is
+about. At the time of writing it is warning about chapters 26 and 27.
+
 ---
 
 ## The plan — 27 chapters, four parts
