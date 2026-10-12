@@ -17,6 +17,12 @@
                                           11b be checkable; 11c keep the corrections;
                                           12b date it; 12c whitelist the source;
                                           14b verify by criticality)
+    ⚠️→✅ the rule list existed in three places at three different counts - 28, 22 and 25.
+                                 The 22 was control/references/the-rules.md and the 25 was the
+                                 installed skill copy an agent actually loads. Both now
+                                 REGENERATED from RULES.md by book-build/make-rules-reference.py
+                                 and all three are byte-identical. This is Rule 12c, found in the
+                                 book's own shipped artifacts. Never hand-maintain that reference.
     ⚑  RULES-AUDIT.md          the rules page audited for holes. One real hole found, and it
                                  was Chapter 26: the model-written chapter's six-condition
                                  method - the most runnable thing in the book - was not on the

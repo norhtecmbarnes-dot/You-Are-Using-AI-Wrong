@@ -34,6 +34,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* it has no experience, no sensations and no stake. Nothing it is *like* to be.
 - **Rule: it informs, you decide. Judgement stays with the human - that isn't sentiment, it's the design.**
 
+**3b. Instruct it in its universe, not yours.**
+- *Assumption:* it understands what I mean by fair, reasonable, tasteful, honest.
+- *True:* those are our world's concepts - they come from having a body, a stake and a conscience. It has patterns. **When it appears to break one of its rules, it is not sinning; it found the easiest path to the goal it was given.**
+- **Rule: ask it only for what its world contains - patterns, text, code, structure. Never ask it to weigh what it cannot weigh.**
+
 **4. It has never seen the future.**
 - *Assumption:* it can tell you what's going to happen.
 - *True:* it is built entirely out of the past. The future isn't in there and more scale doesn't put it there.
@@ -82,11 +87,31 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* real questions have several legitimate frames - GAAP or cash, gross or net, annualised or not - and the model picks one silently without telling you which.
 - **Rule: define the question precisely, and confine the system to the sources that answer *that* question. Definition precedes answer.**
 
+**11b. Ask it to be checkable, not impressive.**
+- *Assumption:* a good answer is one that impresses me.
+- *True:* impressive is the pushed mode - you said what you wanted and it produced the smallest thing that satisfied you. **A claim you can check is worth more than a claim you admire**, and only one of those two is doing work.
+- **Rule: ask for something you can verify, not something you can admire. Give the problem, not the answer - a named output ends the search, a named problem starts it.**
+
+**11c. Keep the corrections.**
+- *Assumption:* a smooth session means it went well.
+- *True:* the corrections are the only evidence that anything was checked. **A session with no corrections in it was a session where nothing was checked** - and your own memory will not report that honestly, because memory has no error bar.
+- **Rule: keep the record of what it got wrong. That record is the proof the method is running, and it is the only error bar you have on yourself.**
+
 **12. Confinement is the design, not a limitation.**
 - *Assumption:* the capable general assistant is the real product; restricting it makes it worse.
 - *True:* an assistant that answers from its own memory is the deviation. A tool that answers only from the material you supply is the one whose answers mean something.
 - **Rule: build RAG, or use a system like NotebookLM that is confined by construction. Never let a report be built on the model's memory.**
 - **Then name the unit.** A notebook, a board, a project - decide what one thing this conversation is about, and build the boundary there. **The unit is the design**, and picking it deliberately is the difference between a confined tool and a confined habit.
+
+**12b. Put an expiry date on knowledge.**
+- *Assumption:* if the source was good when I saved it, the fact is good.
+- *True:* facts spoil at different rates, and a stored fact past its expiry does not fade - it keeps being retrieved, in the same shape as a good one, and it is wrong. Where the change date is **known**, you already have it: an insurance renewal, a contract end, a tax year.
+- **Rule: write down the date the fact stops being true, and refuse the record after it. Reject an expired fact - never just rank it lower.**
+
+**12c. Whitelist the sources - presence is not provenance.**
+- *Assumption:* if the information is in the system, the system can use it.
+- *True:* **being present is not being true.** A record may come from a source nobody vetted, or from a good source and then expire. And in any system that stores things in more than one place, the same fact ends up in several copies - so the wrong one is retrieved as readily as the right one, and nothing on the record says which is which.
+- **Rule: keep a whitelist of trusted sources, and a different list for each kind of information. Refuse a record whose source is not on it, and treat duplication as a defect: when two copies disagree, the whitelisted and fresher one wins and the other is deleted.**
 
 ---
 
@@ -101,6 +126,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *Assumption:* maximum effort is maximum safety.
 - *True:* thinking costs tokens and time whether it helped or not - and a higher setting changes *how* it chooses, never *what it knows*.
 - **Rule: low effort for facts, more for exploration. Effort is a dial, not a guarantee.**
+
+**14b. Spend the verification where it matters.**
+- *Assumption:* either everything in the system deserves the same scrutiny, or none of it does.
+- *True:* checking costs tokens and most facts are not worth the tokens. A wrong lunch order and a wrong safety limit are not the same error, and treating them alike spends the budget on the one that does not matter.
+- **Rule: score every fact for criticality, and let the score decide how hard you check it. Verify the critical ones every time; let the cheap ones ride.**
 
 **15. Your first wave's trust may not transfer.**
 - *Assumption:* IT adopted it and it worked, so it's vetted for the rest of us.
@@ -148,12 +178,8 @@ None of these require you to give up AI. Every one of them makes it work better.
 
 ---
 
-### ⚠️ A note on the facts inside these rules
+---
 
-**The rules are method. Several of them carry figures** - agent success rates, refusal rates, the cost of
-autonomy, the size of a training run. **Those figures were verified when the book was written and they
-carry an expiry date.**
-
-Per the book's own Rule 1b, **do not treat this file as the source for any of them.** Go to the source the
-book's evidence register names, or re-verify. **A rule you can trust and a number you cannot are two
-different things, and confusing them is the error this whole body of work is about.**
+*Generated from `RULES.md` by `book-build/make-rules-reference.py`. **Do not edit this file** - edit
+`RULES.md` and re-run the script. A reference that is maintained by hand drifts from its source; this
+one cannot.*

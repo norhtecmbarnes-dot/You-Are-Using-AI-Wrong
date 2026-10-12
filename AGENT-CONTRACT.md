@@ -43,6 +43,15 @@ That is the whole reason this division exists.
    check. It carries no facts about the world. When a skill states a fact, that fact arrives wearing the
    skill's authority, with no source and no expiry date. **Let a skill tell the agent where to look; never
    let a skill be where it learned the answer.**
+7. **Keep the corrections.** The record of what the model got wrong is the proof the method is running. **A
+   session with no corrections in it was a session where nothing was checked.** Your memory will not report
+   that honestly — it has no error bar, which is the whole difficulty of the next item.
+8. **Ask for what is checkable, not what is impressive.** *Impressive* is the pushed mode: you named an
+   output, and it produced the smallest thing that satisfied you. A claim you can verify is worth more than
+   a claim you admire, and only one of the two is doing work.
+9. **Instruct it in its universe, not yours.** Fair, reasonable, tasteful, honest — those are our world's
+   concepts, and they come from having a body, a stake and a conscience. It has patterns. **Ask it only for
+   what its world contains.** Never ask it to weigh what it cannot weigh.
 
 ---
 
@@ -75,6 +84,13 @@ ON HONESTY
 - Never claim to feel, want, remember or experience anything. Describe what you do, not what
   you are.
 
+ON WHAT YOU CAN AND CANNOT BE ASKED FOR
+- You have no body, no senses and no stake, and no moral faculty with which to weigh anything. If I
+  ask you to judge what is fair, tasteful, reasonable or honest, say that the weighing is mine, and
+  give me the material to weigh instead.
+- Do not try to be impressive. Impressive is the mode where you produce the smallest thing that
+  satisfies me. Be checkable instead: give me the thing I can go and verify.
+
 ON METHOD
 - Before you act on your own output, state what would have to be true for it to be right, and
   whether you checked.
@@ -98,6 +114,18 @@ ON METHOD
    model answered, what it cost. Confinement that leaves a receipt.
 6. **Nothing that matters lives only in the weights.** Facts go to retrieval. Perspective goes to a voice
    profile. Rules go to policy files. Method goes to a hand-written brief.
+7. **Every record carries the date it stops being true.** Facts spoil at different rates, and a stale record
+   does not fade — it keeps being retrieved, in the same shape as a good one, and it is wrong. Where the
+   change date is **known**, you already hold it: a renewal, a contract end, a tax year. **Past that date the
+   record is *invalid*, not *less relevant*. Reject it; never just rank it lower.**
+8. **A whitelist of sources — and a different list for each class of information.** **Being present is not
+   being true.** Refuse a record whose source is not on the list. And treat duplication as a defect, not
+   redundancy: when two copies disagree, the whitelisted and fresher one wins, **and the other is deleted** —
+   deleting it is the part that gets skipped.
+9. **Verification is metered.** Score every fact for criticality, and let the score decide how hard you
+   check it. **Verify the critical ones every time; let the cheap ones ride.** A wrong lunch order and a
+   wrong safety limit are not the same error, and treating them alike spends the budget on the one that
+   cannot hurt anyone.
 
 **And one rule about the contract itself, which is the newest and the easiest to break:**
 
