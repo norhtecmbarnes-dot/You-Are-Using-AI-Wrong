@@ -13,7 +13,7 @@
      4 exist as prose           Preface, Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     12 concepts captured        CONCEPTS.md
-    21 rules written            RULES.md
+    21 rules + 1 subrule        RULES.md   (Rule 1b — a skill is not knowledge either)
     21 evidence entries         verified, in 00-BOOK.md section 9
 
 ---

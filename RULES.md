@@ -24,6 +24,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* it's a transformation of whatever you give it.
 - **Rule: attach the facts. Never ask it for knowledge — tell it where to look.**
 
+**1b. A skill is not knowledge either.**
+- *Assumption:* if the agent has a skill for it, the agent knows it.
+- *True:* a skill carries **method** — how to look, in what order, how to check. It carries no facts about the world. When a skill does state a fact, that fact arrives wearing the skill's authority, and it has no source and no expiry date printed on it.
+- **Rule: let a skill tell the agent where to look. Never let a skill be where it learned the answer.**
+
 **2. Confidence is not evidence.**
 - *Assumption:* it sounds sure, so it's probably right.
 - *True:* confidence is what it was *trained* to produce. It is identical whether the answer is right or invented.

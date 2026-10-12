@@ -863,6 +863,19 @@ controlled experiment"* (Trials, 2025; NCT06511102), measuring cognitive effort 
   method gets into an agent — a hand-authored artifact that the model executes rather than invents. It is
   the mechanism by which experience, not eloquence, reaches the agent.
 
+  **⚑ And the other half of that corollary — raised by the author, and it is the missing half.**
+  *"Don't confuse skills for knowledge."* **A skill carries method; it carries no facts.** Everything above
+  says what a skill *is*; this says what it is *not*, and the book's rule is incomplete without it.
+
+  The reason it bites is that **a fact inside a procedure inherits the procedure's credibility.** A reader
+  trusts a recipe because recipes work, and a stale price buried in one arrives with that trust attached,
+  carrying no source and no expiry date. **So the failure is silent: you do not notice it because you are
+  correctly trusting the shape of the thing.**
+
+  **Which makes it Rule 1 one level up, and it now carries that number in `RULES.md` as Rule 1b:**
+  *let a skill tell the agent where to look; never let a skill be where it learned the answer.*
+  **A skill is a recipe, not an ingredient.**
+
   ⚠️ **Do not overclaim.** The rule is about the *brief* and the *governing instructions* — not every
   string the system sends. Models may summarise, reformat and draft freely. **What they must never author
   is the plan they will then be judged against.**
