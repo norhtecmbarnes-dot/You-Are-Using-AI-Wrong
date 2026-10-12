@@ -562,6 +562,15 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 
 The book's credibility depends on this section. Nothing here is to be asserted from memory.
 
+> **⚑ ⚠️ This register fails Rule 12b and should say so.** Every entry carries a source, but **none carries the date
+> it was verified** — so an entry cannot be aged, and by this chapter's own argument an unageable fact is an unknown
+> one. That is a defect in the register, not in the rule.
+>
+> **Closing it means adding a `verified on` date to each of the 21 entries below**, and then re-checking the ones
+> whose class has expired. The ones in the *live* and *priced* classes go first — they are the ones that will have
+> gone off while this book sat on disk. **Until that column exists, treat every figure here as verified-sometime,
+> which is not the same as verified.**
+
 **✅ Verified, safe to use:**
 
 - **The grounding test** (Ch. 1, Ch. 18) — real, run on this machine. Four models; three scored 5/5;

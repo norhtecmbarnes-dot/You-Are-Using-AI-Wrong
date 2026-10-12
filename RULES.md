@@ -93,6 +93,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - **Rule: build RAG, or use a system like NotebookLM that is confined by construction. Never let a report be built on the model's memory.**
 - **Then name the unit.** A notebook, a board, a project — decide what one thing this conversation is about, and build the boundary there. **The unit is the design**, and picking it deliberately is the difference between a confined tool and a confined habit.
 
+**12b. Put an expiry date on knowledge.**
+- *Assumption:* if the source was good when I saved it, the fact is good.
+- *True:* facts spoil at different rates, and a stored fact past its expiry does not fade — it keeps being retrieved, in the same shape as a good one, and it is wrong. Where the change date is **known**, you already have it: an insurance renewal, a contract end, a tax year.
+- **Rule: write down the date the fact stops being true, and refuse the record after it. Reject an expired fact — never just rank it lower.**
+
 ---
 
 ## Part 4 — How to choose and pay for it

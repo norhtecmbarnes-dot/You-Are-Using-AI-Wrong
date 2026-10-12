@@ -1633,6 +1633,40 @@ from your system*) that supplies the only fix.
 **5. The fix: the refresh interval is part of the fact, and the fetch date travels with it.** A claim's age must be
 visible at the point of use, or the error is invisible.
 
+**6. ⚑ The milk rule — and the distinction that makes it work. Raised by the author.**
+
+> *"It might be a good policy to put an expiration date on knowledge the same way we do for milk. Some knowledge we
+> know can be steady for a year. For example, a company has signed up for insurance. The policy is renewed on a given
+> date, and the knowledge of what the cost is won't change until that date. However, if the old data doesn't expire, it
+> will continue to be used in the system, and the information is wrong."*
+
+**A known date must be stored, never estimated.** The insurance renewal is the clean case: you *have* the date the
+policy changes. Writing "premiums last about six months" would be strictly worse than writing down the renewal date
+you already hold. **Estimating an expiry you could have known is not caution — it is the book's original error wearing
+a new hat.**
+
+**And the container is the point.** Milk carries a date on the carton, and the consumer throws it out on that date.
+**The model's knowledge is the one container with no date printed on it** — so the date has to be added by whoever
+fills the container. Which is you.
+
+**7. ⚠️ The failure is not that stale data ranks lower. It is that stale data keeps being used.**
+A record past its expiry does not fade out or get quietly demoted. It sits in the index in exactly the shape of a good
+one, it gets retrieved, and it is wrong. **Nothing about it announces that it has died** — which is section 4's silence,
+arriving as a system defect rather than a model one.
+
+**8. So the fix is a contract, enforced where the book says contracts belong: at the boundary.**
+Every stored fact carries `valid_until`. **Past that date the record is *invalid*, not *less relevant*.** Reject it;
+do not down-weight it. A freshness check is a contract at the boundary, and the boundary is the one place in this book
+that trusts code rather than character.
+
+**⚠️ And the honest limit, because it matters:** most facts arrive with no date at all. The taxonomy above is what
+you fall back on then. **But a default is the fallback, not the method.** When the date is available, storing it beats
+inferring it, every time.
+
+**The handling rule.** Never ask whether the model is current. Ask **what class this claim is in, and when it was
+fetched.** Where a change date is *known*, write that date down and refuse the record after it. **A number without a
+date is not a weaker fact; it is an unknown one wearing the costume of a known one.**
+
 **⚑ The demonstration is the book's own working material — every one of these happened while this book was being
 written:**
 
