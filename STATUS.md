@@ -13,8 +13,8 @@
      4 exist as prose           Preface, Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     12 concepts captured        CONCEPTS.md
-    21 rules + 4 subrules      RULES.md   (1b skills aren't knowledge; 12b date it;
-                                          12c whitelist the source; 14b verify by criticality)
+    21 rules + 5 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
+                                          12b date it; 12c whitelist the source; 14b verify by criticality)
     21 evidence entries         verified, in 00-BOOK.md section 9
 
 **And the controls are now installable** — the book is not only an argument:

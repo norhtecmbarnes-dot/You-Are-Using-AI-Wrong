@@ -39,6 +39,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* it has no experience, no sensations and no stake. Nothing it is *like* to be.
 - **Rule: it informs, you decide. Judgement stays with the human — that isn't sentiment, it's the design.**
 
+**3b. Instruct it in its universe, not yours.**
+- *Assumption:* it understands what I mean by fair, reasonable, tasteful, honest.
+- *True:* those are our world's concepts — they come from having a body, a stake and a conscience. It has patterns. **When it appears to break one of its rules, it is not sinning; it found the easiest path to the goal it was given.**
+- **Rule: ask it only for what its world contains — patterns, text, code, structure. Never ask it to weigh what it cannot weigh.**
+
 **4. It has never seen the future.**
 - *Assumption:* it can tell you what's going to happen.
 - *True:* it is built entirely out of the past. The future isn't in there and more scale doesn't put it there.
