@@ -1,52 +1,63 @@
 # Preface — Why This Book Exists
 
-**STATUS: draft, India detail supplied by the author 12 October 2026.** The story is now told in your
-words. Remaining `⚠️` marks (if any) are for anything still unconfirmed — there are none in the body.
+**STATUS: the author's own tightened edit, 12 October 2026. Standalone front matter — not material for Chapter 1.**
 
 ---
 
-I traveled to India on business. While I was there, I offered to give a course on how to use AI more
+I travelled to India on business. While I was there, I offered to give a course on how to use AI more
 effectively.
 
-The conference room was filled with data scientists, program managers, proposal writers and other highly
-educated professionals. Everyone in the room had access to Claude Code. All of them had been using AI to
-help them with their work.
+The conference room was filled with data scientists, programme managers, proposal writers, and other
+highly educated professionals. Everyone had access to Claude Code. All of them were already using AI to
+help with their work.
 
-I have spent over thirty years in the computer industry. For the last few, I have been building an AI
-system of my own — private, running on my own machine, reading my own documents, doing work I actually get
-paid for. That is what I showed them. Not a list of prompts. How the thing behaves, and how to work with it
-instead of against it.
+I have spent more than thirty years in the computer industry. For the past few years, I have been
+building an AI system of my own: private, running on my own machine, reading my own documents, and
+doing work I actually get paid for.
 
-At the end of the session, one of the attendees told me that **he had never seen anyone use AI the way I
-did.**
+That is what I showed them.
 
-I thought about this. All of these people were familiar with AI and were using it. All of them were using
-the most expensive model and were not getting the results I was showing. I had a long time to think about
-that comment while flying back from India. Over the weeks since, the premise for this book started to take
-hold. I was using AI differently and getting better results.
+Not a list of prompts. Not a tour of features. I showed them how the system behaves, and how to work
+with it instead of against it.
 
-My previous books were instructional. I wrote about how LLMs worked, how they are built, which models did
-what, and told users about tools they could use and prompts they could master. The books were for those
-who were hands-on users. **This book is targeted to a different audience for a different purpose. It is
-targeted to the organization** — to the organizations that are not getting the results they wanted, or
-whose results are costing them too much. It is targeted to the organization that is planning to implement
-AI, and **it is targeted to the ones who sign the cheques and want to keep their AI costs under control.**
+At the end of the session, one attendee told me that he had never seen anyone use AI the way I did.
 
-That is the gap this book is written into — not a shortage of intelligence, or effort, or curiosity. **A
-shortage of anyone telling people how these systems actually work.** And the machine itself has every
-incentive to keep that quiet, because a tool that says *ask me anything* is easier to sell than one that
-says *you bring the knowledge.*
+I kept thinking about that.
 
-So this is what I want to hand you. Not tactics that will be stale by the time you read them, but the shape
-of the thing: what it is, what it cannot do, and how to build with it anyway.
+These were people who knew AI. They were already using it. They had access to one of the most capable
+tools available, yet they were not getting the results I had shown them. I had a long flight home from
+India to think about that comment. In the weeks that followed, the premise of this book began to take
+shape.
 
-And one thing before we start, because I mean it.
+I was using AI differently, and getting better results.
 
-**If you have been using AI wrong, it is not your fault.** Nobody handed you a manual. You were handed a
-blinking cursor that promised to answer everything, and you did what any reasonable person does with a
-promise. The rest of this book explains why that cursor could never keep its word — and what to build
-instead.
+My previous books were instructional. I wrote about how large language models work, how they are
+built, which models do what, and the tools and prompts people can use to get more from them. Those
+books were for hands-on users.
 
+This book is for a different audience, and it has a different purpose.
+
+It is for organisations that are not getting the results they expected from AI—or whose results are
+costing too much. It is for organisations planning an AI implementation. And it is for the people who
+sign the cheques and need to keep AI costs under control.
+
+The gap is not a shortage of intelligence, effort, or curiosity. It is a shortage of people explaining
+how these systems actually work.
+
+The machine itself has every incentive to keep that quiet. A tool that says *ask me anything* is
+easier to sell than one that says *you bring the knowledge.*
+
+So that is what I want to offer you: not tactics that will be stale by the time you read them, but
+the shape of the thing. What it is. What it cannot do. And how to build with it anyway.
+
+And one thing before we begin, because I mean it.
+
+**If you have been using AI wrong, it is not your fault.**
+
+Nobody handed you a manual. You were handed a blinking cursor that promised to answer everything, and
+you did what any reasonable person would do with a promise.
+
+The rest of this book explains why that cursor could never keep its word—and what to build instead.
 ---
 
 ## Notes for the author (not part of the preface)
