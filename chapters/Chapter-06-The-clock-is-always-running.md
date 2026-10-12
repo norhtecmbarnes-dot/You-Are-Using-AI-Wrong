@@ -15,10 +15,26 @@
 
 ## Evidence
 
-*(Nothing in the section-9 register bears directly on this chapter. It carries no
-load-bearing factual claim of its own — its material is the argument and the code,
-not a source to cite. If you add a specific claim while drafting, it must go into
-section 9 first, as a verified entry, before it goes into the chapter.*)
+**This chapter's material is now Concept 13 in `CONCEPTS.md`** — *The clock is always running*. Read that
+before drafting; it carries the claim, the rate taxonomy and the demonstration.
+
+⚠️ **The plan's demonstration — "a hardcoded leaderboard, months old, presented as current truth, and the
+same list fetched live" — has not been built yet.** Either build it (it is small, and it is the kind of
+demonstration this book insists on), or replace it with the examples below, which are already verified.
+
+**The demonstration is available from this book's own working material.** Every one of these happened while
+the book was being written, which makes the chapter self-evidencing:
+
+- **NotebookLM Plus was cut from $7.99 to $4.99 on 8 June 2026** — a *priced* fact that moved mid-project.
+- **The product was renamed "Gemini Notebook" in July 2026** — a *versioned* fact; the register already carries
+  both names.
+- **OpenClaw's disclosed CVEs: 138+ by April 2026, ~45 more on 30 June 2026** — a *live* fact that grew while
+  the notes sat on disk.
+- **And the register warned about itself:** *"Re-check the CVE and cost figures before print — they date
+  fastest of anything in this book."*
+
+⚠️ **Two of these need re-verification before print, per Rule 1b and the chapter's own argument.** A chapter
+about facts expiring cannot be the one place that treats its own facts as permanent.
 
 ---
 

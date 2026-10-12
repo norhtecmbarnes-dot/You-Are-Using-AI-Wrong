@@ -1592,6 +1592,67 @@ line for **Ch. 16** (relying on model knowledge means inheriting the process tha
 
 ---
 
+## Concept 13 — The clock is always running
+
+**Raised by the author, and it is a correction to a widely-held belief:**
+
+> *"Knowledge gained in training, or even the knowledge provided in a RAG system, can spoil at different rates. I
+> might ask who the president is — that answer can be right for four to eight years. However, if I ask which team is
+> ahead in the World Series for a given year, that information will change each day of the series. A model trained
+> cannot know any information that occurs after its training, and the information provided externally also ages."*
+
+**The claim. Freshness is a property of the fact, not of the pipeline.** Everything else in this chapter follows from
+that one line.
+
+**1. The training cutoff is a boundary, not a bug.** Nothing that happened after it exists in the weights, and no
+amount of scale puts it there. This is not a defect to be patched in the next version — it is what a frozen thing is.
+
+**2. ⚑ And the part almost everyone gets wrong: retrieval does not fix this. RAG relocates it.**
+Retrieval moves the question of staleness out of the weights and into the corpus you supplied. Your corpus ages too.
+**RAG is a cure for provenance, not for time, and those are two different problems.** A system that answers from
+retrieved documents is *more* trustworthy about where the answer came from and *exactly as* subject to it having
+gone off.
+
+**3. The rate is not one rate.** Which is why "is the model up to date?" is the wrong question — the answer is
+different for every claim:
+
+| Class | Half-life | Example | What it means |
+|---|---|---|---|
+| **structural** | years | how a mechanism works; a method; a concept | safe to hold |
+| **dated** | 2–8 years, then abruptly | who holds an office | stamp it; fetch at use if it matters |
+| **versioned** | weeks to months | an API, a UI, a product name, a model version | never hold it |
+| **priced** | months, and it moves without notice | a subscription tier | never hold it |
+| **live** | minutes to days | a score, a price, a position | must be fetched at the moment of use |
+| **social** | weeks | who is leading; what people think | fetch, and expect it to move |
+
+**4. The failure mode is silence.** A stale fact is indistinguishable from a fresh one at the point of use. It arrives
+in the same fluent register, with the same confidence, and there is **no invalidation signal** — nothing tells you it
+has gone off. This is Rule 2 (*confidence is not evidence*) applied to time, and it is Rule 5 (*the honesty has to come
+from your system*) that supplies the only fix.
+
+**5. The fix: the refresh interval is part of the fact, and the fetch date travels with it.** A claim's age must be
+visible at the point of use, or the error is invisible.
+
+**⚑ The demonstration is the book's own working material — every one of these happened while this book was being
+written:**
+
+- **NotebookLM Plus was cut from $7.99 to $4.99 on 8 June 2026** — a *priced* fact that moved mid-project.
+- **The product itself was renamed "Gemini Notebook" in July 2026** — a *versioned* fact, and the register already
+  carries both names.
+- **OpenClaw's disclosed CVEs: 138+ by April 2026, with ~45 more batch-published on 30 June 2026** — a *live* fact
+  that grew while the notes sat on disk.
+- **And the register predicted it about itself:** *"Re-check the CVE and cost figures before print — they date
+  fastest of anything in this book."*
+
+**The handling rule.** Never ask whether the model is current. Ask **what class this claim is in, and when it was
+fetched.** Then write the refresh interval down where the fact lives. **A number without a date is not a weaker fact;
+it is an unknown one wearing the costume of a known one.**
+
+**Why it belongs in Part I.** It is the error, not the remedy. The reader arrives believing that a bigger model, or
+RAG, will keep them current — and this is the chapter that says neither will, and tells them what actually does.
+
+---
+
 ## Concept template (for the next one)
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)
