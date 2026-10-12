@@ -28,6 +28,6 @@ section 9 first, as a verified entry, before it goes into the chapter.*)
 
 ## DRAFT
 
-*(write it here. Target roughly 1,300 words. Every load-bearing claim to a source,*
+*(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*
 *citations kept, nothing invented, anything unverifiable marked ⚠️ rather than*
 *smoothed over — the same rule the rest of the book was written under.)*

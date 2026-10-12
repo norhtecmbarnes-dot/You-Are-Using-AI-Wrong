@@ -118,6 +118,6 @@ deliberate: *let the small model decline* (18), then *don't scale by multiplying
 
 ## DRAFT
 
-*(write it here. Target roughly 1,300 words. Same rule as the rest of the book: every*
+*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
 *load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
 *marked ⚠️ rather than smoothed over.)*

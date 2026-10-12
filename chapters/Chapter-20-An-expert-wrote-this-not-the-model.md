@@ -108,6 +108,6 @@ fails; Ch. 20 shows what to do instead with the one agent you keep.
 
 ## DRAFT
 
-*(write it here. Target roughly 1,300 words. Same rule as the rest of the book: every*
+*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
 *load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
 *marked ⚠️ rather than smoothed over.)*

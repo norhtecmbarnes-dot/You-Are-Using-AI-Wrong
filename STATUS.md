@@ -163,7 +163,16 @@ near chapter 4, Concept 12 near chapter 24.
 ## What happens next
 
 **The bottleneck is drafting, not thinking.** 25 chapters have their material gathered and their
-specifications written. What is missing is the prose pass — roughly 1,300 words each.
+specifications written. What is missing is the prose pass.
+
+**And the per-chapter target is not a guess — it is arithmetic.** The plan targets 40,000–50,000
+words, and front matter accounts for 2,349 of them, so:
+
+    (45,000 planned - 2,349 front matter) / 27 chapters  =  1,580 words per chapter
+
+**The chapter files therefore carry a target of 1,600 words**, not the 1,300 they carried until
+11 October 2026. At 1,300 the book would have landed near 38,000 words — under its own floor, and
+the shortfall would not have shown up until the draft was finished.
 
 Two ways to do it, and they are not exclusive:
 

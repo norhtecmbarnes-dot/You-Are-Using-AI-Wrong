@@ -73,6 +73,6 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
 
 ## DRAFT
 
-*(write it here. Target roughly 1,300 words. Every load-bearing claim to a source,*
+*(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*
 *citations kept, nothing invented, anything unverifiable marked ⚠️ rather than*
 *smoothed over — the same rule the rest of the book was written under.)*
