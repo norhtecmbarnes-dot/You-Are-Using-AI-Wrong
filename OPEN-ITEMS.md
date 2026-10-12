@@ -115,6 +115,29 @@ are not written yet."*
 
 ---
 
+## E. Addressed 12 October 2026 — the audience request (Concept 15)
+
+The author asked for the book to serve **the person who signs the cheques** and **the person
+responsible for making projects work**, with a warning for **the person who has not built yet**;
+written *For Dummies* style (easy but profound); with rules **managers can remember and apply**;
+to use AI **efficiently and economically**; and to **not trust the weights or be seduced by
+confidence**. Captured as **Concept 15** in `CONCEPTS.md` and applied as routing, not new rules:
+
+- `00-BOOK.md` §4 rewritten to name the three readers and their rules.
+- `00-BOOK.md` §5 and `RULES.md` header: the "two ways in" promise (act today / know why).
+- `RULES.md` header: which rules belong to the signer (2, 13, 14, 16, 17) and the builder
+  (1, 2, 5, 9, 11b, 14b).
+- `00-BOOK.md` §7 Ch. 27: the three readers named as the audience for the first moves.
+- No new rules, no new chapters. The 21 + 10 stand as written.
+- The generated rules reference regenerated and the installed skill copy updated (both
+  byte-identical to `control/references/the-rules.md`).
+- Also fixed in the same pass: Concepts 13 and 14 were in `CONCEPTS.md` but missing from
+  `00-BOOK.md` §8 and the `STATUS.md` table — both now list all 15.
+
+**Still owed from you:** A1 (the India detail) remains the oldest open item.
+
+---
+
 ## D. Mine, in flight — nothing needed from you
 
 - **22 of 25 chapters declare no rule mapping.** Done one at a time, with you, as chapters get drafted.

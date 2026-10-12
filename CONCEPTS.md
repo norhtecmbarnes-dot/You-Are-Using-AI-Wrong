@@ -1780,6 +1780,116 @@ chapter that says so.
 
 ---
 
+## Concept 15 — The manager's page: rules a signer and a builder can both hold
+
+**Raised by the author, and it is a request about the book's shape, not a new subject:**
+
+> *"I have worked with Hermes in the past. I put together a set of rules and policies. There is a copy of
+> the book as it is. I would like to build out these concepts. The target audience is for the person who
+> signs the checks on projects and for the person responsible for making projects work. It can also serve
+> as a warning to someone who hasn't built a project yet but is responsible for building one. The book
+> should be written in the style of 'for dummies' — easy to understand but profound. I want managers to
+> be able to easily remember the rules and apply them in the organisation. The goal is to empower the
+> reader to use AI efficiently and economically. To not trust the weights and not be seduced by the
+> confidence a model shows."*
+
+**The claim. The rules page is already the manager's page. What is missing is the manager's route through
+the book.** The 21 rules were written as *assumption → what's actually true → what to do instead* — which
+is exactly the shape a busy reader can hold: no jargon, one line per correction, an action at the end of
+each. What the book does not yet do is **tell the three readers where to start, what to skip, and what to
+do on Monday morning.** That is the gap this concept fills. It adds no new rule and no new chapter to the
+argument. It adds a **reading path** — and a promise about *how the rules are written* — aimed at the
+reader who signs the cheques and the one who makes the project work.
+
+**Why it works.** Three things, and they answer the author's three asks:
+
+1. **Easy to understand but profound — that is the book's existing voice, stated as a promise.** The
+   Preface, the Introduction and Chapter 1 already do this: short sentences, a concrete image before the
+   abstraction, the claim stated in plain words and then *earned*. The *For Dummies* style is not a
+   different book; it is this book's tone contract (§6 of `00-BOOK.md`) made explicit to the reader.
+   The promise to write down: **every rule is one sentence you can repeat, and every chapter shows the
+   failure before it shows the fix.**
+2. **Memorable and applicable — that is what the three-part rule shape buys you.** An assumption you
+   recognise, a correction you can state, an action you can take. A manager who has read only the rules
+   page still leaves with twenty-one things they can *do* — and a manager who reads the whole book
+   leaves knowing *why* each one is true. That two-level design is already the book's stated plan for the
+   rules page (*payload up front, paid off in the final chapter*).
+3. **Efficient and economical, and not seduced by confidence — that is the book's thesis, aimed at the
+   reader who controls the spend.** The person who signs the cheques is the person the cost argument
+   (Ch. 17) was written for. The person responsible for making projects work is the person the
+   verification argument (Rules 2, 5, 11b, 14b) was written for. And the person who has not built yet is
+   the person the whole of Part I was written for — the warning before the mistake. One book, three
+   doors, and the rules page is the lobby where all three meet.
+
+**The handling rule — and this one is load-bearing:**
+
+- **Do not invent rules to fit the audience.** The author's instruction is explicit: *"There is no need
+  to invent anything. The rules have been well thought out."* The 21 rules and 10 subrules stand as
+  written. This concept changes **how the reader is routed to them**, not what they say. Any new rule
+  proposed under this concept is a defect, not an addition.
+- **Do not dumb the book down.** *Easy to understand but profound* is not *simple*. Every rule keeps
+  its three parts; every chapter keeps its claim, demonstration and fix. What changes is the *path* —
+  which chapters each reader needs first.
+- **Do not make it a management book.** The book is not about managing people; it is about managing
+  the trust a team places in a tool. The manager's chapter is the cost chapter (Ch. 17). The builder's
+  chapters are the confinement and contract chapters (Ch. 13, 15, 16). The warning is Part I. The
+  concept's job is to say so plainly, not to rewrite any of them.
+- **Keep the incentive framing.** The cost argument names the mechanism — *subscription pricing makes
+  every call free at the point of use, so nobody economises* — never a villain. The manager is not being
+  scolded for buying seats; the manager is being handed the reason the seats are not the expensive part.
+  **The subscription is cheap; the trust is what costs money.** That line is the chapter's, and it is
+  the line the manager will repeat.
+- **Tone: plain, direct, no jargon — and no condescension.** The *For Dummies* style earns its
+  reputation by respecting the reader's intelligence while removing the barrier. The barrier here is
+  vocabulary, not understanding. Define every term the first time it appears, and define it in the
+  reader's own terms: a *confined* tool is one that *only answers from your material*; a *contract* is
+  *a shape you check answers against before you act on them*; *routing* is *sending each job to the
+  smallest model that can do it*.
+
+**Where it lands.** Three places, and all three are already promised by the book's own structure:
+
+- **§4 of `00-BOOK.md` — "Who it's for."** The audience list is already right (practitioner, builder,
+  leader). What it lacks is the *manager's framing*: the person who signs the cheques **and** the
+  person responsible for making projects work **and** the warning to the person who has not built yet.
+  The edit is additive and small: name the two roles the author named, and state what each one gets
+  from the book.
+- **The Rules page (`RULES.md`) — the "How to read this list" header.** Add the two-level promise:
+  *read this page and you can act today; read the book and you will know why.* And the one-line version
+  is already there — *point it at what you have, verify it against something outside itself, keep the
+  judgement* — which is the sentence a manager can repeat in a budget meeting.
+- **Chapter 27 ("Start here") — the concrete first move for each reader.** The outline already
+  promises *"a concrete first move for each of the three readers — practitioner, builder, leader."*
+  The edit is to make the three readers match the author's audience: **the signer**, **the builder
+  responsible for making it work**, and **the person who has not built yet**. Each gets one move, one
+  page, one sentence they can say out loud.
+
+**Why this does not add a chapter.** The book's structure already carries the argument for every
+reader. What the audience request adds is a *promise about the path*, and a path is stated in the front
+matter and the final chapter — not argued in a new chapter. Adding a chapter would break the
+book's own discipline: every chapter carries a claim, a demonstration and a fix, and *the manager's
+first move* is already Chapter 27's job.
+
+**Guard rails:**
+
+- **No new rules.** The 21 + 10 stand. If a draft finds itself needing a twenty-second rule, it is
+  describing a chapter, not a rule — and chapters already exist for the material.
+- **No vendor ranking.** The cost chapter names the *parameter* each tool gets right (confined vs
+  unconfined), never the winner. That discipline is what keeps the manager's trust, which is the
+  entire audience this concept serves.
+- **No condescension.** The manager is not stupid for having bought the seats. The price signal made
+  every call free; that is the mechanism, and the mechanism is the book's subject. *Blame the design,
+  never the reader* applies to the signer exactly as it applies to the practitioner.
+- **Plain language, defined terms, short sentences.** The test: can the reader repeat the rule to a
+  colleague without the book open? If the rule needs the book, it is not written yet.
+- **The confidence warning is already Rule 2.** *Confidence is not evidence.* The audience request —
+  *not be seduced by the confidence a model shows* — is Rule 2 restated for the reader who signs. Do not
+  write a new version of it; point at the rule that exists.
+- **The efficiency-and-economy goal is already the promise (§3).** *"Better results, securely,
+  spending less money."* Three claims, one design. Do not restate it as a fourth thing; it is the book's
+  own one-line answer to the manager's question.
+
+---
+
 ## Concept template (for the next one)
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)

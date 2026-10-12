@@ -89,10 +89,28 @@ they will know:
 
 ## 4. Who it's for
 
-1. **The practitioner who hit the wall** — built something, shipped it, watched it confidently say
-   something false in front of a customer. Needs the model that explains what happened.
-2. **The builder who hasn't started** — about to build on the wrong assumption.
-3. **The leader signing the cheques** — needs to know why "we'll just use a bigger model" isn't a strategy.
+Written in the *For Dummies* spirit — **easy to understand, but profound**: every term defined the
+first time it appears, short sentences, the claim stated before the argument, and a rule you can
+repeat without the book open. Three readers, and the book is built so each can enter at a different
+door and meet the same rules page:
+
+1. **The person who signs the cheques** — the one approving AI spend. Needs to know why "we'll just
+   use a bigger model" isn't a strategy, and why the seats are not the expensive part. Their chapter
+   is **17** (*The most expensive model for everything*). Their rules are **2, 13, 14, 16, 17**.
+2. **The person responsible for making projects work** — the one whose team's output has to be right.
+   Needs the verification discipline: not seduced by the confidence a model shows, not trusting the
+   weights. Their chapters are **13, 15, 16** (*contract, plumbing, confinement*). Their rules are
+   **1, 2, 5, 9, 11b, 14b**.
+3. **The person who hasn't built a project yet but is responsible for building one** — the warning
+   before the mistake. Part I (*The error*) is written for them, and it is the cheapest intervention
+   the book offers.
+
+The practitioner who hit the wall (built something, shipped it, watched it confidently say something
+false in front of a customer) is reader one's technical counterpart — they need the model that
+explains what happened, and the same rules.
+
+**The one-line version a reader can repeat without the book:** *point it at what you have, verify it
+against something outside itself, keep the judgement.*
 
 Deliberately **not** for: people who want a prompt list. There is no prompt list in this book.
 
@@ -103,6 +121,11 @@ Deliberately **not** for: people who want a prompt list. There is no prompt list
 `RULES.md` — 21 rules, each as **assumption → what's actually true → what to do instead**. Placed early
 so the reader gets the payload immediately and reads the rest as the argument for it. Paid off in the
 final chapter as *"and now you know why each of these is true."*
+
+**The two-level promise (how to read the page, written for the manager):** *Read this page and you
+can act today — twenty-one things you can do differently on Monday. Read the book and you will know
+why each one is true.* No rule requires the book to be useful, and no chapter requires the rules
+page to make sense. The page is the lobby; the book is the argument.
 
 The groups: *what it is* (1–5) · *how it behaves* (6–8) · *how to use it* (9–12) · *how to choose and pay
 for it* (13–21).
@@ -498,7 +521,9 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 **27. Start here** ⬜
 - **The Rules, paid off.** Each of the 21 rules, now with the argument behind it. Plus a concrete first
-  move for each of the three readers — practitioner, builder, leader.
+  move for each of the three readers, named as the audience — **the signer of the cheques**, **the
+  builder responsible for making it work**, and **the person who has not built yet**. One move each,
+  one page, one sentence they can say out loud.
 - **The close, and it is the book's last move:** the rules are not paid off by a summary but by a
   **running system** — `DASHBOARD-IMPLEMENTATION.md`, the rule-by-rule map into the author's own code.
   Say plainly which rules are implemented, which are partial, and which are not written yet. **The book
@@ -557,6 +582,9 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | 10 | **The prompt is a knowledge artifact** — the model is not a source of method either; the brief comes from an expert, never from the model. | Ch. 20 | ✅ Captured. Rule 1 generalized from facts to process. Verified: every governing instruction in the Dashboard is hand-written. |
 | 11 | **The expert is the product** — prompt-built agents are a commodity; agents built by experts are the business. | Ch. 21 | ✅ Captured. Market evidence converging; both counterweights recorded. Prediction — must be framed as one. |
 | 12 | **The artifacts you inherit** — RLHF-produced sycophancy, fragile guardrails, and RL *increasing* hallucination; and the research fix is the capability bus. | Ch. 3 | ✅ Captured. Sourced (ICLR 2024, 2602.01002, SycEval, 2505.24630, 2505.13988, 2507.16951). ⚠️ Re-check percentages before print. |
+| 13 | **The clock is always running** — freshness is a property of the fact, not the pipeline; the expiry is a trigger to refill, not a tombstone; the milk rule (a known date is stored, never estimated). | Ch. 6 | ✅ Captured. Demos are the book's own working material (NotebookLM price cut, rename, CVE growth) — re-check before print. |
+| 14 | **Presence is not provenance** — a stored record is not evidence; whitelist per class, date every fact, meter verification by criticality; duplication is a defect. | Ch. 16 (beside the confinement rules) | ✅ Captured + sourced 12 Oct 2026 — four offboarding/administrative-drift cases in §9 with primary documents. |
+| 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 27 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 27's reader list. Adds no chapter, no rule. |
 
 ## 9. Evidence and verification status
 
@@ -1490,7 +1518,7 @@ the chapter the **author** found rather than the model is the one that holds.
 You-Are-Using-AI-Wrong/                                ← this book. NOT under version control.
 ├── 00-BOOK.md                                         ← this file. The master document.
 ├── CONCEPT.md                                         ← original concept: thesis, promise, positioning, tone rules
-├── CONCEPTS.md                                        ← all twelve concepts, verbatim + demos + fixes + guard rails
+├── CONCEPTS.md                                        ← all fifteen concepts, verbatim + demos + fixes + guard rails
 ├── Preface-Why-This-Book-Exists.md                     ← ✍️ drafted. The India class — the book's origin
 ├── Introduction-AI-Is-Already-Smart-Enough.md          ← ✍️ drafted. The claim, stated before the argument
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)

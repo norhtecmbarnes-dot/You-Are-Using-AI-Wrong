@@ -12,7 +12,7 @@
     27 chapters planned
      4 exist as prose           Preface, Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
-    12 concepts captured        CONCEPTS.md
+    15 concepts captured        CONCEPTS.md
     21 rules + 7 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
                                           11b be checkable; 11c keep the corrections;
                                           12b date it; 12c whitelist the source;
@@ -103,7 +103,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
               27 Start here                                          ⬜  planned
 
 **"Captured" means the material is written; it is not yet prose.** It lives in `CONCEPTS.md`
-(17,612 words, 12 concepts) or in section 9's evidence register. The `chapters/` folder is where each
+(now 15 concepts) or in section 9's evidence register. The `chapters/` folder is where each
 chapter's material has been gathered so it can be expanded into a chapter.
 
 ---
@@ -128,7 +128,7 @@ chapter's material has been gathered so it can be expanded into a chapter.
 ## The two registers, and how they differ
 
     RULES.md        21 rules, each written as:  assumption -> what's actually true -> the rule
-    CONCEPTS.md     12 concepts, each written in full, most owning a chapter
+    CONCEPTS.md     15 concepts, each written in full, most owning a chapter
 
     Concept  1  The promise, not the gift                          -> unplaced
     Concept  2  The opinions are inherited, and you cannot argue   -> unplaced
@@ -142,9 +142,15 @@ chapter's material has been gathered so it can be expanded into a chapter.
     Concept 10  The prompt is a knowledge artifact                 -> Ch 20
     Concept 11  The expert is the product                          -> Ch 21
     Concept 12  The artifacts you inherit                          -> unplaced
+    Concept 13  The clock is always running                       -> Ch 6
+    Concept 14  Presence is not provenance                       -> Ch 16 (beside confinement)
+    Concept 15  The manager's page (rules a signer and            -> §4, RULES.md header, Ch 27
+                a builder can both hold)
 
 **Three concepts own no chapter (1, 2, 12).** They are written and substantial. Concept 2 belongs
-near chapter 4, Concept 12 near chapter 24.
+near chapter 4, Concept 12 near chapter 24. **Concepts 13 and 14 were captured in CONCEPTS.md but
+missing from this table and from 00-BOOK.md §8 — added 12 October 2026.** Concept 15 (the manager's
+page) adds no chapter and no rule by design; it routes the existing readers.
 
 ---
 

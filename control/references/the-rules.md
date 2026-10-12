@@ -10,6 +10,12 @@
 
 None of these require you to give up AI. Every one of them makes it work better.
 
+**Two ways in.** Read this page and you can act today - every rule ends in something you can do.
+Read the book and you will know *why* each one is true. The page is the lobby; the book is the
+argument. If you sign the cheques, your rules are **2, 13, 14, 16 and 17** - start there. If you
+make projects work, your rules are **1, 2, 5, 9, 11b and 14b**. If you have not built yet, read
+Part I first; it is the warning.
+
 ---
 
 ## Part 1 - What it is
