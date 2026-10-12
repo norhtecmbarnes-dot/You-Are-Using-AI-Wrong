@@ -53,7 +53,13 @@ PLACEMENT = {
 
 SKIP = {"00-BOOK.md", "RULES.md", "CONCEPTS.md", "CONCEPT.md",
         "DASHBOARD-IMPLEMENTATION.md", "LICENSE-CONTENT",
-        "Review-Grok-2026-10-11-and-EO-14434.md"}
+        "Review-Grok-2026-10-11-and-EO-14434.md",
+        # working documents. They do not match "Chapter-*" today, so discovery already
+        # passes them by - listed anyway, because a rename is all it would take, and this
+        # project has already printed author notes into the manuscript once.
+        "START-HERE.md", "WORKFLOW.md", "OPEN-ITEMS.md", "RULES-AUDIT.md",
+        "OUTLINE-RECONCILIATION.md", "SESSION-RECORD-2026-10-11.md",
+        "STATUS.md", "README.md", "AGENT-CONTRACT.md", "Tool-Evaluation-AIWriteBook.md"}
 
 
 # ------------------------------------------------------------------ discovery
