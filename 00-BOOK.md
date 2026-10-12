@@ -967,10 +967,32 @@ controlled experiment"* (Trials, 2025; NCT06511102), measuring cognitive effort 
   House fact sheet, **29 September 2026**: the order directs agencies to use "SI" and ***"to no longer
   acknowledge the terms 'Artificial Intelligence' or 'AI'"*** — and, in the same order, **directs the
   Assistant to the President for Science and Technology *"to propose a Federal definition of 'Super
-  Intelligence'"*.** ⚑ **The name was enacted before the definition was written.** That inversion — *a word
-  chosen to fit the technology, rather than the technology measured against a word* — **is this book's
-  entire thesis, performed in a federal document.** It is the same move as *"ask me anything,"* and the
-  same move as trusting a report nobody can check.
+  Intelligence'"*.** That inversion — *a word chosen to fit the technology, rather than the technology
+  measured against a word* — **is this book's entire thesis, performed in a federal document.** It is the
+  same move as *"ask me anything,"* and the same move as trusting a report nobody can check.
+
+  **⚠️ CORRECTED 11 October 2026 — an earlier version of this entry said *"the name was enacted before the
+  definition was written."* That is wrong, and the truth is stronger.**
+
+  **The order does define the term — §3(a) — as the existing AI definition by reference:**
+  *"'Super Intelligence' and 'SI' **mean the technologies and systems encompassed by the term 'artificial
+  intelligence' as defined in section 9401(3) of title 15, United States Code**."* So the name was not
+  enacted before the definition; **it was enacted with a definition identical to the thing it claims to
+  surpass**, while §1 of the same order claims these systems *"far exceed what was envisioned"* and are
+  *"not merely artificial intelligence."* §2(b) then confirms nothing previously issued need change.
+  **The order refutes itself between its own sections.**
+
+  **⚑ And the borrowed definition has no intelligence threshold in it at all.** 15 U.S.C. § 9401(3), now read
+  from the statute rather than from commentary: *"a machine-based system that can, for a given set of
+  human-defined objectives, make predictions, recommendations or decisions influencing real or virtual
+  environments."* **No measure of capability, no comparison to a person, nothing a spreadsheet macro could
+  not satisfy.** So "Super Intelligence", as the order defines it, means **a machine that makes
+  predictions** — the opposite of what *superintelligence* means in the literature the term is borrowed
+  from (Bostrom, 2014: *any intellect that greatly exceeds human cognitive performance in virtually all
+  domains of interest*).
+  **A name was granted a capability, and the section defining the name does not ask for it.**
+  *Sources: White House 29 Sep 2026 · Federal Register vol. 91 no. 190, 2 Oct 2026, pp. 63129–63130, FR Doc
+  2026-20321 · 15 U.S.C. § 9401(3) at law.cornell.edu and law.justia.com.*
   **And the substance:** *superintelligence* is an **established term with a definition** — Bostrom (2014):
   *"any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of
   interest."* It is **a step beyond AGI**, which OpenAI defines as systems outperforming humans at most

@@ -30,8 +30,19 @@ by number. Section 1 of that same order says these systems *"far exceed what was
 'Artificial Intelligence' first came into use"* and are *"not merely artificial intelligence."* Section 3
 says they are precisely artificial intelligence, as already defined in law.
 
-**A name was granted a capability, and the section defining the name declines to grant it.** The document
+**And it is worse than that, once you read the definition it borrows.** Title 15, section 9401(3) defines
+artificial intelligence as *"a machine-based system that can, for a given set of human-defined objectives,
+make predictions, recommendations or decisions influencing real or virtual environments."* **There is no
+intelligence threshold in it.** No measure of capability, no comparison to a person, nothing that a
+spreadsheet macro could not satisfy. So "Super Intelligence", as the order defines it, means **a machine
+that makes predictions** — which is the opposite of what the word *superintelligence* means in the
+literature the order is borrowing from.
+
+**A name was granted a capability, and the section defining the name does not even ask for it.** The document
 argues with itself, and it does so in two paragraphs that sit four pages apart.
+
+*Primary sources: whitehouse.gov, 29 September 2026; Federal Register vol. 91 no. 190, 2 October 2026,
+pp. 63129–63130, FR Doc 2026-20321; 15 U.S.C. § 9401(3), read at law.cornell.edu and law.justia.com.*
 
 That inversion is the entire subject of this book. **A word was chosen to fit the technology, rather than
 the technology being measured against a word** — and it is the same move that put *"ask me anything"* on
