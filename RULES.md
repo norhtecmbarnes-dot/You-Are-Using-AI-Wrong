@@ -103,11 +103,6 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *True:* **being present is not being true.** A record may come from a source nobody vetted, or from a good source and then expire. And in any system that stores things in more than one place, the same fact ends up in several copies — so the wrong one is retrieved as readily as the right one, and nothing on the record says which is which.
 - **Rule: keep a whitelist of trusted sources, and a different list for each kind of information. Refuse a record whose source is not on it, and treat duplication as a defect: when two copies disagree, the whitelisted and fresher one wins and the other is deleted.**
 
-**14b. Spend the verification where it matters.**
-- *Assumption:* either everything in the system deserves the same scrutiny, or none of it does.
-- *True:* checking costs tokens and most facts are not worth the tokens. A wrong lunch order and a wrong safety limit are not the same error, and treating them alike spends the budget on the one that does not matter.
-- **Rule: score every fact for criticality, and let the score decide how hard you check it. Verify the critical ones every time; let the cheap ones ride.**
-
 ---
 
 ## Part 4 — How to choose and pay for it
@@ -121,6 +116,11 @@ None of these require you to give up AI. Every one of them makes it work better.
 - *Assumption:* maximum effort is maximum safety.
 - *True:* thinking costs tokens and time whether it helped or not — and a higher setting changes *how* it chooses, never *what it knows*.
 - **Rule: low effort for facts, more for exploration. Effort is a dial, not a guarantee.**
+
+**14b. Spend the verification where it matters.**
+- *Assumption:* either everything in the system deserves the same scrutiny, or none of it does.
+- *True:* checking costs tokens and most facts are not worth the tokens. A wrong lunch order and a wrong safety limit are not the same error, and treating them alike spends the budget on the one that does not matter.
+- **Rule: score every fact for criticality, and let the score decide how hard you check it. Verify the critical ones every time; let the cheap ones ride.**
 
 **15. Your first wave's trust may not transfer.**
 - *Assumption:* IT adopted it and it worked, so it's vetted for the rest of us.
