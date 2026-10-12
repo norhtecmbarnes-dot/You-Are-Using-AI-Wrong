@@ -82,8 +82,11 @@ def title_for(fname):
 SHADOWED = []          # chapter numbers claimed twice; the root wins, and we say so
 
 
+AUTHOR_MARKER = re.compile(
+    r"^\s*(?:\*\*|\*)?\s*(?:[\u26a0\ufe0f]|STATUS\s*:|NOTE\s*:|TODO\s*:|\*\()", re.I | re.M)
+
 def extract_draft(text):
-    """-> the chapter prose, or None if this is an unfilled skeleton.
+    """-> the chapter prose, or None if this is not a chapter yet.
 
     The skeletons carry the plan spec, the concept and the evidence as REFERENCE
     material. None of that belongs in the book, so once the author writes under
@@ -92,12 +95,45 @@ def extract_draft(text):
     A skeleton whose DRAFT section is still the placeholder is NOT a chapter, and
     returns None so the caller skips it. Otherwise including chapters/ would put
     twenty-three empty chapter headings in the manuscript.
+
+    ⚑ 12 Oct 2026 - a chapter's own author notes PRINTED IN THE MANUSCRIPT as though
+    they were the chapter, because the placeholder check below only matched an *italic
+    parenthetical* and this note had been written as bold text. The build cannot tell
+    good prose from scaffolding, so it no longer tries to: a DRAFT section that OPENS
+    with an author-facing marker is not a chapter. Skips are reported by
+    unfilled_skeletons() rather than being silent, because the whole failure was that
+    nobody could see it.
     """
     m = re.search(r"(?m)^##\s+DRAFT\s*$", text)
     if not m:
         return text                                  # a real chapter file: use it whole
-    body = re.sub(r"(?s)^\s*\*\(.*?\)\*\s*", "", text[m.end():]).strip()
+    body = re.sub(r"(?s)^\s*\*\(.*?\)\*", "", text[m.end():])
+    if AUTHOR_MARKER.match(body):
+        return None                                  # scaffolding, not prose
+    body = body.strip()
     return body or None
+
+
+def unfilled_skeletons():
+    """[(title, words)] - skeletons holding notes under ## DRAFT instead of prose.
+
+    Reported on every build. These are the files where an author note could leak into
+    the reading copy, so the count is printed whether or not anything is wrong.
+    """
+    out = []
+    for kind, fname, title in FILES:
+        p = os.path.join(B, fname)
+        if not os.path.exists(p):
+            continue
+        text = open(p, encoding="utf-8").read()
+        m = re.search(r"(?m)^##\s+DRAFT\s*$", text)
+        if not m or extract_draft(text) is not None:
+            continue
+        tail = re.sub(r"(?s)^\s*\*\(.*?\)\*", "", text[m.end():]).strip()
+        if not tail:
+            continue                      # a plain unfilled skeleton: expected, not a warning
+        out.append((title, len(tail.split())))
+    return out
 
 
 def discover():
@@ -493,6 +529,14 @@ def measure(only=None):
 if __name__ == "__main__":
     print("pass 1 - build with the chapter list, then render to measure")
     print("   files discovered:", len(FILES))
+    unfilled = unfilled_skeletons()
+    if unfilled:
+        print("   skeletons holding notes under '## DRAFT' rather than prose: %d" % len(unfilled))
+        for title, words in unfilled[:6]:
+            print("      - %s  (%d words of notes, not printed)" % (title, words))
+        if len(unfilled) > 6:
+            print("      ... and %d more" % (len(unfilled) - 6))
+        print("      (their notes stay in the markdown and are NOT built into the book)")
     if SHADOWED:
         print("   !! chapter numbers claimed twice - the root file wins in each case:")
         for key, shadowed, kept in SHADOWED:

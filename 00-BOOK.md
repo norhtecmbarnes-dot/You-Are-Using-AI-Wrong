@@ -675,6 +675,47 @@ self-correction this register exists to record.** Payroll and access are the cle
 
 ---
 
+**⚑ ✅ Verified 12 October 2026 — the author's own account, first-person. The highest-grade source in this register.**
+
+> **This entry is a witness, not a citation.** It is the author's own experience, recorded as he told it, and it is
+> labelled that way on purpose. **It needs no external source and it cannot be checked against one** — which is
+> exactly what makes it the strongest material in the book and the easiest to overstate. **It is presented as what
+> he saw. Nothing more is claimed for it.**
+
+**As stated by the author:**
+
+> *"I worked for a large company managing their U.S. Sales. My bonuses were based on my profit margin. The problem
+> was that the company couldn't figure out what their costs were. They had put in multiple prices on the same
+> product, and the costs were based on when the product was purchased, where it was purchased from, and other
+> factors. The numbers were loaded into a SAP system. Margins and quotes were all calculated against costing data
+> that was not verified. When I personally looked into the actual costs, I learned that one of the program managers
+> simply guessed at the costs because he lacked the ability to figure out what the costs were. When AI is
+> implemented into a SAP-like environment, it should use its tokens to validate information in the system, or the
+> company will not be able to accurately know its costs, competitively quote, or properly compute profit."*
+
+**What it establishes, and it is more than an anecdote:**
+
+- **The failure was not fraud and it was not stupidity.** A program manager who could not determine a cost
+  **supplied a plausible one**, because the workflow required a value in that field and had no way to accept
+  "unknown." **A system that demands a number will get a number.**
+- **A guessed cost and a measured cost are indistinguishable in the field.** Both are a number, formatted the same,
+  carrying no provenance and no error bar. **This is Rule 5's sentence with the nouns swapped: a memory and an
+  invention arrive through the same door, in the same voice — and a measurement and a guess arrive through the same
+  field, in the same format.**
+- **The consequence was commercial and it landed on a person.** Margins, quotes and bonuses were computed from it.
+  **The author's pay depended on a figure that was partly invented, and nothing in the system could tell him how
+  much of it.**
+- **⚑ And the remedy he names is Rule 14b, in the language of a budget:** *"it should use its tokens to validate
+  information in the system."* **Verification is metered, and costing data is where the meter should be spent** —
+  because a wrong cost silently misprices every quote that follows it.
+
+**Why this belongs in the book.** It is the model's defect and the enterprise's defect at the same time, in the same
+shape: **a value that has forgotten where it came from, in a system with no field for doubting it.** The book argues
+that a language model cannot be trusted about what it has to supply. **This entry shows the same rule collecting
+money from a large company long before a language model was involved.**
+
+---
+
 **✅ Verified since this document was first written — safe to use:**
 
 - **NotebookLM is source-grounded by construction.** *"Its defining characteristic is that it is

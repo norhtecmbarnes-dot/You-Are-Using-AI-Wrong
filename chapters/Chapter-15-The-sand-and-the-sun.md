@@ -55,21 +55,29 @@ experience and it is not.
 **Rule 10 — *Delegating the thinking costs you the ability.*** The chapter leans on it: this is the finding
 that gives the chapter its *"why bother."*
 
-## DRAFT
+---
 
-*(write it here. Target roughly 1,600 words. Every load-bearing claim to a source,*
-*citations kept, nothing invented, anything unverifiable marked ⚠️ rather than*
-*smoothed over — the same rule the rest of the book was written under.)*
+## ⚠️ NOT YET DRAFTED — the one open decision. Read this before drafting.
 
-**⚠️ One decision is the author's and is not made yet.** The plan specifies that the emotional passage — *the
-sand, the ocean, the sun, the suntan lotion* — is followed by **one short factual sentence**, and that it is not
-to be explained. **That sentence is the hinge of the chapter and it has not been chosen.** Do not draft past it.
+**The plan specifies that the emotional passage — *the sand, the ocean, the sun, the suntan lotion* — is followed
+by ONE short factual sentence, and that it is not to be explained. That sentence is the hinge of the chapter and
+it has not been chosen.** Do not draft past it.
 
-Candidates, none of them chosen — **the test is that it must not explain itself:**
+Candidates, none of them chosen — **the test is that a candidate must not explain itself:**
 
 1. *It has read all of that, and felt none of it.*
 2. *None of that was felt by anything.*
 3. *It can describe every part of that and has experienced none of it.*
 
-**The author picks one, writes a better one, or rejects the whole construction.** The three above are recorded
-only so the decision is a decision rather than an accident.
+**The author picks one, writes a better one, or rejects the whole construction.** They are recorded only so the
+decision is a decision rather than an accident.
+
+**⚑ This note lives ABOVE the DRAFT line on purpose.** Anything placed under `## DRAFT` is chapter prose as far as
+the build is concerned — and on 12 October 2026 a version of this note was placed there by mistake and printed in
+the manuscript as though it were the chapter. See `build-interior.py`'s `extract_draft` and the
+`is_all_author_notes` guard added the same day.
+
+## DRAFT
+
+*(not started — see the decision above. Target roughly 1,600 words. Every load-bearing claim to a source, nothing
+invented, anything unverifiable marked ⚠️ rather than smoothed over.)*
