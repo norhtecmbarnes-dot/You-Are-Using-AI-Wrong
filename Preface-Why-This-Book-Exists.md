@@ -1,27 +1,36 @@
 # Preface — Why This Book Exists
 
-**STATUS: draft for the author to react to.** The one thing here that is not mine to write is the detail of
-your own experience — so the story is told in your words and everything I could not know is flagged, not
-invented. Look for `⚠️ TO CONFIRM` and fill or cut.
+**STATUS: draft, India detail supplied by the author 12 October 2026.** The story is now told in your
+words. Remaining `⚠️` marks (if any) are for anything still unconfirmed — there are none in the body.
 
 ---
 
-I went to India for work. I had time on my hands, so I offered to give a short class on using AI.
+I traveled to India on business. While I was there, I offered to give a course on how to use AI more
+effectively.
+
+The conference room was filled with data scientists, program managers, proposal writers and other highly
+educated professionals. Everyone in the room had access to Claude Code. All of them had been using AI to
+help them with their work.
 
 I have spent over thirty years in the computer industry. For the last few, I have been building an AI
 system of my own — private, running on my own machine, reading my own documents, doing work I actually get
 paid for. That is what I showed them. Not a list of prompts. How the thing behaves, and how to work with it
 instead of against it.
 
-*⚠️ TO CONFIRM — what you actually covered in the class, who was in the room, and where: a paragraph of
-concrete detail here would do more for this preface than anything I can invent. What did you demonstrate?
-What surprised them first?*
+At the end of the session, one of the attendees told me that **he had never seen anyone use AI the way I
+did.**
 
-Afterwards, a student came up and said that **I used AI in a way they had never seen before.**
+I thought about this. All of these people were familiar with AI and were using it. All of them were using
+the most expensive model and were not getting the results I was showing. I had a long time to think about
+that comment while flying back from India. Over the weeks since, the premise for this book started to take
+hold. I was using AI differently and getting better results.
 
-I have thought about that sentence more than anything else anyone has said about my work, because it was
-not really about me. Everyone in that room had access to the same models I do. I am not smarter than they
-are and I do not have better tools. What they had not seen was a different *way of holding* the tool.
+My previous books were instructional. I wrote about how LLMs worked, how they are built, which models did
+what, and told users about tools they could use and prompts they could master. The books were for those
+who were hands-on users. **This book is targeted to a different audience for a different purpose. It is
+targeted to the organization** — to the organizations that are not getting the results they wanted, or
+whose results are costing them too much. It is targeted to the organization that is planning to implement
+AI, and **it is targeted to the ones who sign the cheques and want to keep their AI costs under control.**
 
 That is the gap this book is written into — not a shortage of intelligence, or effort, or curiosity. **A
 shortage of anyone telling people how these systems actually work.** And the machine itself has every

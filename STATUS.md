@@ -8,9 +8,10 @@
 ## The one-line state
 
 **The thinking is essentially complete. The drafting is not.**
+**The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
 
     27 chapters planned
-     4 exist as prose           Preface, Introduction, Ch 1, Ch 8
+     4 exist as prose           Preface (India detail confirmed), Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     15 concepts captured        CONCEPTS.md
     21 rules + 7 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;

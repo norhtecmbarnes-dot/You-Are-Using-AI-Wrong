@@ -10,18 +10,13 @@ answers are fine. "Still thinking about it" is a fine answer too.
 
 ## A. Only you can answer these — they are your own experience
 
-### A1. The Preface's India class ⚠️ **the oldest open item in the book**
+### A1. The Preface's India class ✅ **CLOSED 12 October 2026**
 
-The Preface currently says: *"I went to India for work. I had time on my hands, so I offered to give a short
-class on using AI."* That is all it says, and the note in the file has been asking for more since it was written.
-
-- **What did you actually cover in that class?** What did you demonstrate, and in what order?
-- **Who was in the room** — how many, what did they do, what did they already know?
-- **Where was it?** Which city or company, if you're happy to say.
-- **What surprised them first?** The single earliest thing that landed as new.
-
-*Why it matters:* the Preface's whole job is to earn the reader's trust in three sentences, and it currently does
-it with a sentence that could be true of anyone. **This is the highest-value thing on this list.**
+The author supplied the detail in full. The Preface now carries it verbatim: the conference room of data
+scientists, program managers and proposal writers; everyone on Claude Code; the attendee who said he had
+never seen AI used that way; the flight home; and the pivot to this book's audience — *the organization,
+the ones who sign the cheques.* The `⚠️ TO CONFIRM` mark is removed. **This was the oldest open item in
+the book, and it is now closed.**
 
 ### A2. Chapter 15's hinge sentence — pick one, write one, or reject the construction
 
@@ -154,5 +149,6 @@ confidence**. Captured as **Concept 15** in `CONCEPTS.md` and applied as routing
 
 ## The one-line summary
 
-**Two things are actually blocking:** the **India detail** for the Preface (A1), and the **four decisions in
-section C**. Everything in D is mine and running. Everything in B is research I can start on your word.
+**One thing is actually blocking:** the **four decisions in section C**. The India detail (A1) is closed —
+the Preface now carries the author's own account. Everything in D is mine and running. Everything in B is
+research I can start on your word.
