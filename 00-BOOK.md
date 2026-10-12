@@ -903,6 +903,55 @@ should be made specific before print** — *a count with no list is not a label.
 
 ---
 
+**⚑ ✅ Verified 12 October 2026 — the labour behind the feedback signal. Primary sources read. (Ch. 27)**
+
+> **Chapter 27 says: *"that is documented, dated, and checkable."* It is, and it was checked.** This is the entry that
+> makes Chapter 26's phrase *"the labour behind the feedback signal"* true inside the book rather than only in the
+> working notes.
+
+**The claim:** the signal called *human feedback* was labelled by people paid about one to two dollars an hour to
+read the worst material on the internet in long shifts.
+
+- **Who and when.** OpenAI contracted **Sama**, a San Francisco data-labelling firm, to have workers in **Nairobi,
+  Kenya** label toxic text for a classifier. Work began **November 2021.** Around **three dozen workers** on the
+  OpenAI account, split into three teams.
+- **The pay.** *"a take-home wage of between around **$1.32 and $2 per hour** depending on seniority and
+  performance"* — **TIME reviewed internal documents and payslips.** ⚠️ **Sama's own spokesperson later gave a
+  different range to The Guardian, $1.46–$3.74/hour. Both figures should travel together; the chapter's "one to two
+  dollars" matches the primary documents.**
+- **The material.** Labelled text describing *"sexual abuse, hate speech, and violence"* — child sexual abuse,
+  bestiality, murder, suicide, torture, self-harm, incest. **Between 150 and 250 passages per nine-hour shift.**
+- **The harm.** All four workers TIME interviewed described being **mentally scarred**; recurring visions,
+  paranoia, and symptoms consistent with **PTSD**. Wellness counselling was described by all four as rare and
+  unhelpful.
+- *Primary: TIME, Billy Perrigo, 18 January 2023, "OpenAI Used Kenyan Workers on Less Than $2 Per Hour" —
+  time.com/6247678/openai-chatgpt-kenya-workers/. Corroborated by The Guardian (2 Aug 2023), AP, and Business
+  Insider. A petition was later filed with the Kenyan government.*
+
+**⚠️ ONE PRECISION THE CHAPTER NEEDS, and it is the difference between a fact and a motive.** The chapter says the
+company *"ended the work because it was damaging their health."* **TIME's framing supports that. Sama's own account
+does not.** Sama's stated reasons were that (a) its agreement **did not cover illegal content**, and that OpenAI
+sent additional instructions referring to illegal categories afterward; (b) the publicity following **TIME's
+separate investigation into its Meta/Facebook moderation work**; and (c) a strategic decision **to exit content
+moderation entirely** and focus on computer vision. Sama also told TIME some staff believed the Facebook story
+prompted the cancellation.
+
+**So the accurate version is two statements, not one:**
+
+1. **The work was damaging them.** — Documented, unambiguous, and the reason the material is in this book.
+2. **The contract ended.** — True, **in February 2022, eight months early.** *Why* it ended is contested, and Sama's
+   account is on the record.
+
+**The chapter should say the first, and let the second stand on its own.** *"The work was damaging people, and the
+contract ended"* is unanswerable. *"They ended it because it was damaging their health"* is a motive claim that a
+vendor has publicly disputed — **and this book does not attribute motives.** (See §6's tone rules: *name the
+incentive, never a villain.*)
+
+**⚑ The line it supports, and it is a good one:** *"the politeness you have been talking to was purchased."* **That
+is now sourced, and it is the most uncomfortable verifiable fact in the book.**
+
+---
+
 **✅ Verified since this document was first written — safe to use:**
 
 - **NotebookLM is source-grounded by construction.** *"Its defining characteristic is that it is
