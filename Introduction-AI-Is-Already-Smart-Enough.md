@@ -120,6 +120,30 @@ new name.
 
 ---
 
+## How this book was made
+
+**This is not a book written by AI. It is a book written *with* AI.** The distinction is the whole of it.
+
+My partner in this work is an open-source model running on my own machine. **It created none of these rules. It did none of the research. It vouched for nothing out of its own knowledge.** What it did was hold me to the rules — to keep me honest in the approach. **Every assertion in this book traces back to a document it read, not to something it decided.**
+
+The method was simple, and it was not a prompt trick. I gave it a standing instruction: *every statement is backed by fact and research; if you cannot show where it came from, say so; if my claim is unsupported, say so; do not agree with me to be agreeable.* Then it did the thing I could not do at scale — **it read what I had written and asked me to justify it.** Forty-one sources were checked. Two of the claims I brought it were rejected. And when I told it about my own experience, **it asked me for witnesses.**
+
+That is where one of the rules in this book came from — the rule that a person can be the source for their own experience — **together with the companion understanding that not all information is equally important.** Not everything a human says needs to be verified. Most of it is context, illustration, or a joke, and a model has no way to tell the difference unless you tell it.
+
+**This book is itself a model of the thing it describes.** It took many hours across many sessions. The rules did not all exist when it began; **several were written in the middle of the work, because the work exposed what was missing.** That was the arrangement throughout. I brought the knowledge and the judgement. The model brought the checking. **It did not know more than I do. It would not let me be sloppy.**
+
+**It is not a book about AGI, or SI, or the next thing.** It is about working with a model whose results you **question** rather than being **seduced** — by its knowledge, or by its verbosity. Those are two different habits, and the second one is the one that costs people money.
+
+**Nor is it a book about prompting.** There is no prompt list here. **It is not about making a model perform better.** It is about improving how the *human* works with the model:
+
+- **questioning the output instead of being impressed by it**
+- **getting the most done for the least amount of money**
+- **improving processes — and doing things differently — to take real advantage of what these systems actually offer**
+
+**That is where the value is. And it is the part no vendor can sell you.**
+
+---
+
 ## Notes for the author (not part of the introduction)
 
 **Why the SI material belongs here and why it must stay short.** You asked for it *in the discussion*, and
