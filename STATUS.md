@@ -10,7 +10,7 @@
 **The thinking is essentially complete. The drafting is not.**
 **The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
 
-    27 chapters planned
+    28 chapters planned
      4 exist as prose           Preface (India detail confirmed), Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     17 concepts captured        CONCEPTS.md
@@ -50,10 +50,13 @@ Installed here as the skill `ai-usage-contract`. See README for what each is for
 
 ## Where prose goes
 
-**The build reads the book root AND `chapters/`.** Both work.
+**All chapters live in `chapters/`** — drafted chapters and skeletons alike. (This was
+reorganized 12 October 2026; the root no longer holds chapters.)
 
-    Chapter-NN-slug.md  in the book root     the drafted chapters live here
-    chapters/Chapter-NN-slug.md             written UNDER a '## DRAFT' heading
+    chapters/Chapter-NN-slug.md             drafted chapters read whole; skeletons write
+                                            UNDER a '## DRAFT' heading
+    chapters/_folded/                       retired material, folded into another chapter;
+                                            the build skips it
 
 **From a skeleton, only the text under `## DRAFT` reaches the book.** The plan spec, the concept and the
 evidence in the same file are reference material and are ignored. A skeleton with nothing under DRAFT is
@@ -65,7 +68,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
 ---
 
-## The plan — 27 chapters, four parts
+## The plan — 28 chapters, four parts
 
 `00-BOOK.md` section 7 is the outline, and it carries its own status on every chapter:
 **✍️ drafted · 📋 captured · ⬜ planned.**
@@ -163,13 +166,20 @@ page) adds no chapter and no rule by design; it routes the existing readers.
 
 ### Decisions owed by the author
 
-1. **Where do the three written-but-unplaced chapters go?**
-   `Chapter-26-Pushing-Is-Not-Cooperation`, `Chapter-27-I-Was-Never-the-Smart-Part`,
-   `Chapter-28-You-Have-Something-to-Lose` — none of these three appears in the 27-chapter plan,
-   whose 25/26/27 are *The recipe, assembled / The ways this goes wrong / Start here*.
-   **And section 7 commits to the plan's ending:** *"the reader is now the student"* — the bookend
-   to the Preface. **"You Have Something to Lose" competes with "Start here" as the close.**
-   The numbering cannot be settled until this is decided.
+1. ✅ **RESOLVED 12 October 2026 — the numbering collision is closed.** The three drafted
+   chapters are the book's actual spine at the close, and the plan now reflects them:
+   - **Ch. 26 *Pushing Is Not Cooperation*** (Rule 11c, with 11b) — the practical chapter,
+     sits immediately before the close.
+   - **Ch. 27 *I Was Never the Smart Part*** (Rule 20, with 21) — the testimony chapter.
+   - **Ch. 28 *You Have Something to Lose*** (Rule 3, with 9) — **the close.** Added to the plan
+     as a fourth Part IV chapter; the book is now 28 chapters.
+   - *The ways this goes wrong* is **folded into Ch. 25** (*The recipe, assembled*) as its second
+     half — the recipe and its failure modes are one chapter. Its skeleton is retired to
+     `chapters/_folded/`.
+   - *Start here* is **folded into Ch. 28** (the close) — the rules paid off, the running-system
+     map, and a first move for each of the three readers. Its skeleton is retired to
+     `chapters/_folded/`.
+   Grounded by the rules, not the numbers: each chapter is placed where its rule puts it.
 
 2. **Chapters 25, 26, 27 have no concept and no evidence yet.** Concepts were written for them in
    `chapters/`, assembled from material already on disk — but they have not been reviewed.
@@ -225,7 +235,7 @@ in the tracker now shows SPECCED or better. What is missing is the drafting itse
 **And the per-chapter target is not a guess — it is arithmetic.** The plan targets 40,000–50,000
 words, and front matter accounts for 2,349 of them, so:
 
-    (45,000 planned - 2,349 front matter) / 27 chapters  =  1,580 words per chapter
+    (45,000 planned - 2,349 front matter) / 28 chapters  =  1,520 words per chapter
 
 **The chapter files therefore carry a target of 1,600 words**, not the 1,300 they carried until
 11 October 2026. At 1,300 the book would have landed near 38,000 words — under its own floor, and

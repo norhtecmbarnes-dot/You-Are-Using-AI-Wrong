@@ -23,7 +23,7 @@ Run `python3 book-build/chapter-status.py` to see where everything stands, and `
 
 ## ⚑ Where we are right now
 
-    26 outline chapters · 8 pieces drafted (2 front matter + 6 chapters)
+    28 outline chapters · 10 pieces drafted (2 front matter + 8 chapters)
     11,621 words drafted = 26% of 45,000 · 33,379 words remaining ≈ 21 chapters
 
     at 1,600 words/chapter the arithmetic closes exactly, which is a good sign

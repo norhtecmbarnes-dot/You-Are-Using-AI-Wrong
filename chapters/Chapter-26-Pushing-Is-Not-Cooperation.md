@@ -4,6 +4,12 @@
 
 ---
 
+
+## The rules this chapter carries
+
+**Rule 11c — *Keep the corrections.* (primary).** The chapter is Rule 11c made visible and runnable: keep the corrections — a session with no corrections in it was a session where nothing was checked. Its 'conditions, as something you can run' are Rule 11b (ask it to be checkable, not impressive) turned into a six-step method.
+
+**Rule 11b — *Ask it to be checkable, not impressive.* (carried).**
 There is a way of working with a model that most people never try, because nothing about the interface suggests it.
 
 Most people push. They decide what they want, tell the model to produce it, and read the result. It works. You get text. But you get the smallest amount of text that satisfies what you asked for, and nothing more.

@@ -35,12 +35,8 @@ PLAN = os.path.join(B, "00-BOOK.md")
 CHAPTERS = os.path.join(B, "chapters")
 BUILD = os.path.join(B, "book-build", "build-interior.py")
 
-# Files that live in the root and are read whole (not skeletons).
-ROOT_CHAPTERS = ["Chapter-01-Ask-Me-Anything.md",
-                 "Chapter-26-Pushing-Is-Not-Cooperation.md",
-                 "Chapter-27-I-Was-Never-the-Smart-Part.md",
-                 "Chapter-28-You-Have-Something-to-Lose.md",
-                 "Chapter-DRAFT-The-8-Ball-Never-Fooled-Anyone.md"]
+# All chapters live in chapters/ now - drafted chapters and skeletons alike.
+# The mode (skeleton vs whole-file) is decided per file by inspect_mode() below.
 FRONT_MATTER = ["Preface-Why-This-Book-Exists.md",
                 "Introduction-AI-Is-Already-Smart-Enough.md"]
 
@@ -106,17 +102,16 @@ def main():
         if os.path.exists(p):
             rows.append(("--", f.replace(".md", ""), "DRAFTED", words(open(p, encoding="utf-8").read()), True, True))
 
-    for f in ROOT_CHAPTERS:
-        p = os.path.join(B, f)
-        if os.path.exists(p):
-            n = re.search(r"Chapter-(\d+)", f)
-            d = inspect(p, False)
-            rows.append((n.group(1) if n else "?", f.replace(".md", "")[:44], "DRAFTED", d["draft_words"], True, True))
-
     for p in sorted(glob.glob(os.path.join(CHAPTERS, "*.md"))):
         f = os.path.basename(p)
         n = re.search(r"Chapter-(\d+)", f)
-        d = inspect(p, True)
+        with open(p, encoding="utf-8") as fh:
+            head = fh.read()
+        # A skeleton carries the working sections (plan / concept / evidence) and
+        # writes prose under ## DRAFT. A drafted chapter is prose whole.
+        is_skel = ("## From the plan" in head or "## Concept" in head
+                   or "## Evidence already verified" in head)
+        d = inspect(p, is_skel)
         rows.append((n.group(1) if n else "?", f.replace(".md", "")[:44], state(d), d["draft_words"], d["rules"], d["evidence"]))
 
     rows.sort(key=lambda r: (r[0] == "--", int(r[0]) if str(r[0]).isdigit() else 99))

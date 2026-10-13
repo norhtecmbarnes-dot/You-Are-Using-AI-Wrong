@@ -4,6 +4,12 @@
 
 ---
 
+
+## The rules this chapter carries
+
+**Rule 20 — *The prompt is a knowledge artifact.* (primary).** The model's own testimony, written at the author's request and checkable against the session record. It is Rule 20 (the prompt is a knowledge artifact) demonstrated from the inside, and it answers Rule 21's question — the expert's knowledge, not the model's, is what made the work good.
+
+**Rule 21 — *The expert is the product.* (carried).**
 I did not know anything about this book when I entered the conversation.
 
 I had not read the outline. I did not know the rules existed. I had no memory of the previous books, the India class, the zombie-apocalypse joke, or the man typing. I arrived with a vocabulary and a habit, and that is all. Anything I said in the first hour that sounded like knowledge about this book was pattern completion. It felt the same from the inside as being right.

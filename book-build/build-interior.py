@@ -46,11 +46,6 @@ PDF  = os.path.join(OUT, "You-Are-Using-AI-Wrong-INTERIOR.pdf")
 SOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
 
 # Un-numbered drafts -> where they belong in the running order.
-# From 00-BOOK.md section 7: the 8-Ball chapter is planned as CHAPTER 8.
-PLACEMENT = {
-    "Chapter-DRAFT-The-8-Ball-Never-Fooled-Anyone.md": 8,
-}
-
 SKIP = {"00-BOOK.md", "RULES.md", "CONCEPTS.md", "CONCEPT.md",
         "DASHBOARD-IMPLEMENTATION.md", "LICENSE-CONTENT",
         "Review-Grok-2026-10-11-and-EO-14434.md",
@@ -73,9 +68,6 @@ def title_for(fname):
     m = re.match(r"^Chapter-(\d+)-(.+)$", stem)
     if m:
         return "Chapter %d \u2014 %s" % (int(m.group(1)), prettify(m.group(2)))
-    m = re.match(r"^Chapter-DRAFT-(.+)$", stem)
-    if m:
-        return "Chapter %d \u2014 %s" % (PLACEMENT[fname], prettify(m.group(1)))
     m = re.match(r"^Preface[-_]?(.*)$", stem)
     if m:
         return "Preface: " + prettify(m.group(1)) if m.group(1) else "Preface"
@@ -162,12 +154,10 @@ def discover():
         elif f.startswith("Chapter-DRAFT-"):
             if f not in PLACEMENT:
                 return
-            key, sortkey, kind = "ch-%d" % PLACEMENT[f], PLACEMENT[f], "chapter"
-        else:
-            m = re.match(r"^Chapter-(\d+)-", f)
-            if not m:
-                return
-            key, sortkey, kind = "ch-%d" % int(m.group(1)), int(m.group(1)), "chapter"
+        m = re.match(r"^Chapter-(\d+)-", f)
+        if not m:
+            return
+        key, sortkey, kind = "ch-%d" % int(m.group(1)), int(m.group(1)), "chapter"
         if key not in found:                 # root scanned first, so root wins
             found[key] = (sortkey, kind, relpath, title_for(f))
         else:
@@ -179,7 +169,10 @@ def discover():
     subdir = os.path.join(B, "chapters")
     if os.path.isdir(subdir):
         for f in sorted(os.listdir(subdir)):
-            if os.path.isfile(os.path.join(subdir, f)):
+            full = os.path.join(subdir, f)
+            if os.path.isfile(full) and not f.startswith("_"):
+                # _folded/ and any underscore-prefixed file is retired material,
+                # not a chapter. Its content lives in the chapter that absorbed it.
                 consider("chapters/" + f, f)
 
     return [(r[1], r[2], r[3]) for r in sorted(found.values(), key=lambda r: r[0])]

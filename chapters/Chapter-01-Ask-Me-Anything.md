@@ -216,6 +216,10 @@ That is the foundation for everything that follows.
 
 The next question is why a language model cannot reliably tell you, on its own, when it does not know something — and why asking it to be more careful does not solve the underlying problem.
 
+## The rules this chapter carries
+
+**Rule 1 — *It doesn't know things.* (primary).** The chapter is Rule 1 made audible: the interface teaches a category error, and we all learned it. The fix is Rule 1 at the call site — attach the facts, never ask it for knowledge. Blame the design, not the reader.
+
 ---
 
 *Verification: the Zubrowka illustration above is marked as illustrative. The benchmark result that follows it is real and reproducible — five fixed prompts, scored by code, in `src/lib/models/alpha.ts` (PersonalAI-Dashboard, `github.com/norhtecmbarnes-dot`); four models run on this machine, three scored 5/5, one invented a capital for a country that does not exist. The *Mata v. Avianca* account is verified against the court's own Opinion and Order on Sanctions, S.D.N.Y., No. 22-cv-1461 (PKC), 22 June 2023 (Judge P. Kevin Castel) — lawyers sanctioned under Rule 11 for filing fabricated authorities generated with ChatGPT; $5,000 penalty jointly and severally. Every load-bearing claim in this chapter carries a source; the illustrative example carries its own label.*

@@ -196,6 +196,30 @@ in `CONCEPTS.md` — a *framing* concept, not a new rule:
 
 ---
 
+## I. Resolved 12 October 2026 — the book is reorganized around the rules, not the numbers
+
+The numbering collision (drafted Ch. 26/27/28 vs. planned Ch. 26/27) is closed. The resolution
+was to **ground the book by its rules, not its chapter numbers** — each chapter is placed where
+the rule it carries puts it. The book is now **28 chapters**, and every chapter names its rules:
+
+| Ch | Title | Primary rule | Carries | State |
+|---|---|---|---|---|
+| 25 | The recipe, assembled (+ the ways this goes wrong) | 12 | 1, 6, 15b, 15c | SPECCED |
+| 26 | Pushing is not cooperation | 11c | 11b | DRAFTED |
+| 27 | I was never the smart part | 20 | 21 | DRAFTED |
+| 28 | You have something to lose (+ Start here) — **the close** | 3 | 9 | DRAFTED |
+
+- All chapters now live in `chapters/`; the book root holds front matter and working documents only.
+- `chapters/_folded/` holds the two retired skeletons (*The ways this goes wrong*, *Start here*).
+  Their content is folded into Ch. 25 and Ch. 28 respectively — nothing was deleted.
+- The build's root-override for the 8-Ball chapter is gone; Chapter 8 is now
+  `chapters/Chapter-08-The-8-Ball-Never-Fooled-Anyone.md`, numbered by its filename like everything else.
+- The build and the tracker decide skeleton-vs-drafted by content, not by folder.
+- The `!! chapter numbers claimed twice` warning no longer appears.
+- 00-BOOK.md §7 Part IV rewritten to match; the plan is 28 chapters across four parts.
+
+---
+
 ## D. Mine, in flight — nothing needed from you
 
 - **Gate 1 is now cleared: all 25 skeletons carry a rule mapping** (12 Oct 2026, proposed by the
@@ -204,8 +228,12 @@ in `CONCEPTS.md` — a *framing* concept, not a new rule:
   maintained: `python3 book-build/make-rule-chapter-map.py` writes
   `book-build/rule-chapter-map.csv` from the skeletons and refuses to write if any skeleton
   still holds the placeholder. **The CSV is the working index; the skeletons are the source.**
-- **The build's numbering collision.** Chapters 26/27/28 (drafted) collide with plan chapters 26/27. Fixed by
-  renumbering, not by adding or cutting.
+- ✅ **The build's numbering collision — RESOLVED 12 October 2026.** The book is now 28 chapters,
+  grounded by the rules. Ch. 26 *Pushing Is Not Cooperation* (Rule 11c), Ch. 27 *I Was Never the
+  Smart Part* (Rule 20), Ch. 28 *You Have Something to Lose* (Rule 3 — the close). *The ways this
+  goes wrong* folded into Ch. 25; *Start here* folded into Ch. 28. The two retired skeletons live
+  in `chapters/_folded/`; the build skips them. All chapters now live in `chapters/`; the build
+  no longer needs the root-override, and the `!!` collision warning is gone.
 - **Chapter 6's two demonstrations need re-verification before print** — the price change and the CVE count date
   fastest of anything in the book, by the register's own warning.
 - **One dated re-check owed on the fly/reward chain** — verified in an earlier session, now in the register

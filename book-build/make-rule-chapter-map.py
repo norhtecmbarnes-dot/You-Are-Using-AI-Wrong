@@ -47,7 +47,7 @@ def main():
         title = m.group(2).replace("-", " ")
         with open(os.path.join(CH, fname), encoding="utf-8") as f:
             s = f.read()
-        mm = re.search(r"(?s)## The rules this chapter carries(.*?)(?=\n## )", s)
+        mm = re.search(r"(?s)## The rules this chapter carries(.*?)(?=\n## |\Z)", s)
         body = (mm.group(1).strip() if mm else "")
         if not body or PLACEHOLDER in body:
             broken.append((ch, fname))

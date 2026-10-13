@@ -44,6 +44,47 @@ an earlier chapter and this chapter is wrong.
 
 ---
 
+## The ways this goes wrong (folded from the retired Chapter 26 skeleton)
+
+*The failure modes, from real scars. This section folds in the material of the former
+"The ways this goes wrong" skeleton, which is retired - its content lives here now.*
+
+(00-BOOK.md section 7)
+
+- The failure modes, from real scars: assuming a tool exists, trusting a fluent answer, letting a model
+  judge a model, fixing knowledge problems with bigger models, building on anything with a version number.
+
+---
+
+— The ways this goes wrong — from real scars *(written for this chapter; no earlier capture existed)*
+
+**What it is.** The failure modes, each one taken from something that actually happened on
+this project rather than from imagination. A failure catalog is only credible if the author
+is visibly in it.
+
+**The five, and where each one bit:**
+1. **Assuming a tool exists.** The provider layer probed for tools that were registered and
+   never present; the fix was to discover at call time instead of assuming at build time.
+   (Rule: each user has their own tools.)
+2. **Trusting a fluent answer.** Every correction in this book's own record — the claim of
+   being first, the two tools assumed to be one company, the effect that did not replicate,
+   the paper whose numbers moved between versions.
+3. **Letting a model judge a model.** Asking a model to rank models produces a confident
+   answer that is a fact you did not earn. Measure with code. (Ch. 22)
+4. **Fixing a knowledge problem with a bigger model.** Scale improves fluency faster than
+   factuality, so the failure gets harder to detect, not rarer. (Ch. 5)
+5. **Building on anything with a version number.** Mechanisms survive and products churn; a
+   book that names a model version is stale before it prints.
+
+**Each entry, same shape:** what was assumed → what happened → the rule that prevents it.
+This is the only chapter where the author's mistakes are the material, which is why it must
+not be written in a warning register. It is a ledger.
+
+**The handling rule.** No hypothetical failures. If it did not happen on this project, it does
+not get a section.
+
+---
+
 ## The rules this chapter carries
 
 **Rule 12 — *Confinement is the design, not a limitation.* (primary).** The recipe, assembled: the full architecture in one place — contracts, injection, code-scored measurement, human gates. This chapter carries Rule 12 (confinement is the design) as its spine, with Rule 1 (attach the facts) and Rule 6 (rules persist in code) as the two pillars that bear the weight.
@@ -51,6 +92,10 @@ an earlier chapter and this chapter is wrong.
 **Rule 1 — *It doesn't know things.* (carried).**
 
 **Rule 6 — *You cannot teach it anything.* (carried).**
+
+**Rule 15b — *Testimony is its own source, but only for what you witnessed.* (carried, in the failure-modes section).** The author's own cases (Dallas, NCS, FinWise, MARTA) are witness evidence, and this chapter must say which claims are sourced and which are witnessed.
+
+**Rule 15c — *Most of what a person says is not a claim.* (carried, in the failure-modes section).** A reader who has just been told "trust nothing it says" needs the corollary - and not everything YOU say is a claim either.
 
 ## DRAFT
 

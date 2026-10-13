@@ -1,10 +1,12 @@
 chapter,title,status,primary_rule,rules_carried,source_file
+1,Ask Me Anything,MAPPED,1,1;11,chapters/Chapter-01-Ask-Me-Anything.md
 2,It cannot tell you it s unsure,MAPPED,5,5;2;4,chapters/Chapter-02-It-cannot-tell-you-it-s-unsure.md
 3,Why it got worse on purpose,MAPPED,2,2;8,chapters/Chapter-03-Why-it-got-worse-on-purpose.md
 4,You cannot teach it anything,MAPPED,6,6;1;1b,chapters/Chapter-04-You-cannot-teach-it-anything.md
 5,A bigger model does not fix this,MAPPED,2,2;5,chapters/Chapter-05-A-bigger-model-does-not-fix-this.md
 6,The clock is always running,MAPPED,2,2;5;12b;14b,chapters/Chapter-06-The-clock-is-always-running.md
 7,Activity is not work,MAPPED,18,18;7,chapters/Chapter-07-Activity-is-not-work.md
+8,The 8 Ball Never Fooled Anyone,MAPPED,5,5;2,chapters/Chapter-08-The-8-Ball-Never-Fooled-Anyone.md
 9,It will not set you free,MAPPED,9,9,chapters/Chapter-09-It-will-not-set-you-free.md
 10,A function not a source,MAPPED,1,1;12,chapters/Chapter-10-A-function-not-a-source.md
 11,The world of tokens,MAPPED,8,8;2,chapters/Chapter-11-The-world-of-tokens.md
@@ -21,6 +23,7 @@ chapter,title,status,primary_rule,rules_carried,source_file
 22,You cannot ask a model who s best,MAPPED,15,15;11b,chapters/Chapter-22-You-cannot-ask-a-model-who-s-best.md
 23,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-23-Let-it-fetch-let-it-write.md
 24,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-24-Let-it-build-code-because-code-is-checkable.md
-25,The recipe assembled,MAPPED,12,12;1;6,chapters/Chapter-25-The-recipe-assembled.md
-26,The ways this goes wrong,MAPPED,2,2;11c;15;15b;15c,chapters/Chapter-26-The-ways-this-goes-wrong.md
-27,Start here,MAPPED,11b,11b;1;2,chapters/Chapter-27-Start-here.md
+25,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-25-The-recipe-assembled.md
+26,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-26-Pushing-Is-Not-Cooperation.md
+27,I Was Never the Smart Part,MAPPED,20,20;21,chapters/Chapter-27-I-Was-Never-the-Smart-Part.md
+28,You Have Something to Lose,MAPPED,3,3;9,chapters/Chapter-28-You-Have-Something-to-Lose.md

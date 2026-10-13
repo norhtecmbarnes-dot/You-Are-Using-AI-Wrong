@@ -183,3 +183,9 @@ willing to hand it. The rest of this book is that difference, and it turns out t
 build.
 
 Put the ball down. Pick up the work.
+
+## The rules this chapter carries
+
+**Rule 5 — *It cannot tell you it's unsure.* (primary).** The 8-Ball is the recurring motif paid off: ask, shake, accept — the model is the same in a suit. The chapter carries Rule 5 (the model cannot tell you it's unsure — the ball had twenty fixed answers and no way to say so) with Rule 2 (confidence is not evidence) as the habit the ball and the model share.
+
+**Rule 2 — *Confidence is not evidence.* (carried).**

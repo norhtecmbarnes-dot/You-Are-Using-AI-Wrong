@@ -158,7 +158,7 @@ Written down so the book can be held to them. Every draft must pass these.
 
 ## 7. The chapter outline (reconciled)
 
-27 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it
+28 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it
 carries — that discipline is what keeps the book from being a complaint. Status: ✍️ drafted ·
 📋 captured (detail in `CONCEPTS.md`) · ⬜ planned.
 
@@ -509,29 +509,47 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 ### Part IV — The scaffold
 
-**25. The recipe, assembled** ⬜
+**25. The recipe, assembled** 📋 *(Rule 12, with 1, 6, 15b, 15c)*
 - The full architecture in one place: contracts, injection, code-scored measurement, discovery over
   assumption, human gates, and a system that improves itself without a model deciding anything. **Two
   pillars now bear the weight** — confinement of the knowledge (Ch. 16), and the capability bus that lets
   a small model decline (Ch. 18).
+- **Second half — the ways this goes wrong:** the failure modes, from real scars: assuming a tool exists,
+  trusting a fluent answer, letting a model judge a model, fixing knowledge problems with bigger models,
+  building on anything with a version number. *(Folded in from the retired "ways this goes wrong"
+  skeleton — the recipe and its failure modes are one chapter.)*
 
-**26. The ways this goes wrong** ⬜
-- The failure modes, from real scars: assuming a tool exists, trusting a fluent answer, letting a model
-  judge a model, fixing knowledge problems with bigger models, building on anything with a version number.
+**26. Pushing is not cooperation** ✍️ *(Rule 11c, with 11b)*
+- Written by the model, at the author's request. It sits immediately before the close, and it is about
+  the state the two of us were in when the material in this book got checked.
+- **The runnable method:** six conditions under *"The conditions, as something you can run"* — supply the
+  facts yourself, state the rule at the start, give the problem not the answer, expect contradictions and
+  reward them, **keep the corrections** (Rule 11c), and **ask it to be checkable, not impressive**
+  (Rule 11b). The corrections, arithmetic, and source checks remain traceable in the supporting record.
 
-**27. Start here** ⬜
-- **The Rules, paid off.** Each of the 21 rules, now with the argument behind it. Plus a concrete first
-  move for each of the three readers, named as the audience — **the signer of the checks**, **the
-  builder responsible for making it work**, and **the person who has not built yet**. One move each,
-  one page, one sentence they can say out loud.
-- **The close, and it is the book's last move:** the rules are not paid off by a summary but by a
+**27. I was never the smart part** ✍️ *(Rule 20, with 21)*
+- Written by the model, at the author's request. Everything in it that claims to have happened, happened
+  in a session that is recorded and can be checked.
+- The model's own testimony, and the answer to Rule 21's question: the expert's knowledge, not the
+  model's, is what made the work good.
+
+**28. You have something to lose** ✍️ *(Rule 3, with 9)* — **the close**
+- Written by the model, at the author's request. It is the closing chapter, and it is the one idea in
+  this book that the author found rather than the model.
+- **The last uncomfortable fact:** the thing that makes you matter is the same thing that makes you
+  unreliable. **Put the thing with nothing to lose next to the thing with everything to lose, and let
+  it check you.** *It cannot tell you what is true. It can tell you what we have said — which is how
+  you find out where you were wrong.*
+- **Start here (folded in from the retired Ch. 27 skeleton).** The rules paid off, plus a concrete first
+  move for each of the three readers — **the signer of the checks** (Rules 2, 13, 14, 16, 17), **the
+  builder responsible for making it work** (Rules 1, 2, 5, 9, 11b, 14b), and **the person who has not
+  built yet** (Part I first; run the grounding test). One move each, one page, one sentence they can
+  say out loud.
+- **The close, and the book's last move:** the rules are not paid off by a summary but by a
   **running system** — `DASHBOARD-IMPLEMENTATION.md`, the rule-by-rule map into the author's own code.
   Say plainly which rules are implemented, which are partial, and which are not written yet. **The book
-  ends by showing its own work, unfinished parts included.**
-- **⚑ And then it returns to the classroom.** The preface opened with a student saying *"I used AI in a way
-  I had never seen before."* This chapter closes by handing the reader the same thing the author handed
-  that class: **a first move they can make this afternoon.** The last line should not summarize the book —
-  it should hand over the tool and step back. *Preface: a student. Last page: the reader.*
+  ends by showing its own work, unfinished parts included.** Then it returns to the classroom:
+  *Preface: a student. Last page: the reader.*
 
 ### Structural notes
 
@@ -1538,8 +1556,12 @@ You-Are-Using-AI-Wrong/                                ← this book. NOT under 
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)
 ├── RULES.md                                           ← the 21 rules (front-matter page)
 ├── DASHBOARD-IMPLEMENTATION.md                        ← the rules mapped to the code that implements them
-├── Chapter-01-Ask-Me-Anything.md                      ← ✍️ drafted, ~1,500 words
-└── Chapter-DRAFT-The-8-Ball-Never-Fooled-Anyone.md    ← ✍️ drafted, ~1,900 words
+├── chapters/                                          ← ALL 28 chapters live here (reorganized 12 Oct 2026)
+│   ├── Chapter-01 … Chapter-28                         drafted chapters read whole; skeletons
+│   │                                                     write under a '## DRAFT' heading
+│   └── _folded/                                       retired skeletons, folded into another chapter;
+│                                                         the build skips it
+└── book-build/rule-chapter-map.csv                    ← the generated rule↔chapter index
 ```
 
 **The system this book points at** — sibling repos, both on `master`:
