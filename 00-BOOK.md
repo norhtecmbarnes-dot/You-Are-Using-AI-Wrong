@@ -341,7 +341,7 @@ history.)*
 - Fix: **extension, not replacement.** *"How can AI help me do this better?"* — keep the work that
   builds you. Carries **Rule 10** (primary), **Rule 9** and **Rule 3**.
 
-**11. A function, not a source** 📋
+**11. A function, not a source** ✍️
 - Claim: the reliable framing is *transformation of supplied input*.
 - Demo: the same request twice — once asking it to remember, once handing it the material.
 - Fix: one rule at the call site — *attach the facts so it never needs to remember.*

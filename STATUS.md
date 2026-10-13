@@ -86,7 +86,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
               8  The 8-Ball never fooled anyone                      ✍️  drafted
               9  It will not set you free                            📋  captured
 
-    Part II   11 A function, not a source                           📋  captured
+    Part II   11 A function, not a source                           ✍️  drafted
               12 The world of tokens                                 📋  captured
               13 Language at the edges, code in the middle           ✍️  drafted
               14 Everything is a contract                          ✍️  drafted
