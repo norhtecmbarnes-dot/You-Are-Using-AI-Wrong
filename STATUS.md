@@ -91,21 +91,20 @@ about. At the time of writing it is warning about chapters 26 and 27.
               12 Language at the edges, code in the middle           📋  captured
               13 Everything is a contract                            📋  captured
               14 Your plumbing is your ceiling                       📋  captured
-              15 The sand and the sun                                📋  captured
 
-    Part III  16 Tell it where you want the truth from              📋  captured
-              17 The most expensive model for everything             📋  captured
-              18 Let it say I can't                                  📋  captured
-              19 They cooperate — that's the problem                 📋  captured
-              20 An expert wrote this, not the model                 📋  captured
-              21 The expert is the product                           📋  captured
-              22 You cannot ask a model who's best                   📋  captured
-              23 Let it fetch, let it write                          📋  captured
-              24 Let it build code, because code is checkable        📋  captured
+    Part III  16 The most expensive model for everything          ✍️  drafted
+              17 Let it say I can't                                  📋  captured
+              18 They cooperate — that's the problem                 📋  captured
+              19 An expert wrote this, not the model                 📋  captured
+              20 The expert is the product                           📋  captured
+              21 You cannot ask a model who's best                   📋  captured
+              22 Let it fetch, let it write                          📋  captured
+              23 Let it build code, because code is checkable        📋  captured
+              24 The recipe, assembled                               📋  captured
 
-    Part IV   25 The recipe, assembled                              ⬜  planned
-              26 The ways this goes wrong                            ⬜  planned
-              27 Start here                                          ⬜  planned
+    Part IV   25 Pushing is not cooperation                         ✍️  drafted
+              26 I was never the smart part                           ✍️  drafted
+              27 You have something to lose                           ✍️  drafted — the close
 
 **"Captured" means the material is written; it is not yet prose.** It lives in `CONCEPTS.md`
 (now 17 concepts) or in section 9's evidence register. The `chapters/` folder is where each
@@ -137,11 +136,11 @@ chapter's material has been gathered so it can be expanded into a chapter.
 
     Concept  1  The promise, not the gift                          -> unplaced
     Concept  2  The opinions are inherited, and you cannot argue   -> unplaced
-    Concept  3  It will not set you free                           -> Ch 9
+    Concept  3  It will not set you free                           -> Ch 10
     Concept  4  The 8-Ball                                         -> Ch 8
-    Concept  5  The most expensive model for everything            -> Ch 17
-    Concept  6  The world of tokens                                -> Ch 11
-    Concept  7  Let the model declare its own limits               -> Ch 18
+    Concept  5  The most expensive model for everything            -> Ch 16
+    Concept  6  The world of tokens                                -> Ch 12
+    Concept  7  Let the model declare its own limits               -> Ch 17
     Concept  8  Do not hand the agent the keys                     -> Ch 7
     Concept  9  They cooperate, and that is the problem            -> Ch 19
     Concept 10  The prompt is a knowledge artifact                 -> Ch 20

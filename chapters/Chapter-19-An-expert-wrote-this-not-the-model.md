@@ -1,4 +1,4 @@
-# Chapter 20 — An expert wrote this, not the model
+# Chapter 19 — An expert wrote this, not the model
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -84,10 +84,10 @@ this a thousand times knows, and hand it to the model to follow.**
 - **Do not sneer at prompt engineering.** Its practitioners discovered this the hard way and many of them
   already know it. **Credit them; the rule simply says why it works.**
 
-**Where it lands.** **Part III, as Ch. 20** — immediately after the agent evidence (Ch. 19). The sequence is
+**Where it lands.** **Part III, as Ch. 19** — immediately after the agent evidence (Ch. 18). The sequence is
 deliberate and it is the part's spine: *let the small model decline* (18) → *don't scale by multiplying
-agents* (19) → **brief it like an expert** (20) → then measure, fetch, and build. Ch. 19 shows why the swarm
-fails; Ch. 20 shows what to do instead with the one agent you keep.
+agents* (19) → **brief it like an expert** (20) → then measure, fetch, and build. Ch. 18 shows why the swarm
+fails; Ch. 19 shows what to do instead with the one agent you keep.
 
 **Guard rails:**
 

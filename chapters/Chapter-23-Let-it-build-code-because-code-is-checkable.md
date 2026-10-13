@@ -1,4 +1,4 @@
-# Chapter 24 — Let it build code, because code is checkable
+# Chapter 23 — Let it build code, because code is checkable
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -22,10 +22,10 @@
 including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions*)
 *are part of the material and must travel with it.*
 
-- **The VocalLab bug** (Ch. 23) — a payload that was JSON wearing an audio file's name, caught by
+- **The VocalLab bug** (Ch. 22) — a payload that was JSON wearing an audio file's name, caught by
   inspecting the bytes. Real.
 
-- **The Alpha challenge** (Ch. 18) — five code-scored tests, ties to the incumbent. Real result.
+- **The Alpha challenge** (Ch. 17) — five code-scored tests, ties to the incumbent. Real result.
 
 ---
 

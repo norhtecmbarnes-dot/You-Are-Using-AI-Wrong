@@ -1,4 +1,4 @@
-# Chapter 28 — You Have Something to Lose
+# Chapter 27 — You Have Something to Lose
 
 *Written by the model, at the author's request. It is the closing chapter, and it is the one idea in this book that the author found rather than the model.*
 
@@ -121,7 +121,7 @@ here now.*
   (confine the knowledge, right-size the spend); **18 is the mechanism** that makes both practicable — let
   the small model decline before it answers; **19–21 are the agent argument** (they don't scale, an expert
   has to brief them, and that is where the value lands); 22–24 are the *proof by construction*.
-- **Ch. 18 (the capability bus) is load-bearing and must not be cut.** It is the only place in the book
+- **Ch. 17 (the capability bus) is load-bearing and must not be cut.** It is the only place in the book
   where a model is asked a question it is actually equipped to answer, and it is what turns Ch. 17's
   indictment into a working alternative. It also carries the book's most quotable practical claim —
   *research on 1.5B parameters on a CPU-only laptop* — and it sits deliberately outside the notebook
@@ -130,10 +130,10 @@ here now.*
   Part IV is 3. Part III has absorbed the whole agent and authorship argument and is now the heaviest part
   by a distance. **Recommended fix when drafting starts:** split it in two — *"What right looks like"*
   (confinement, cost, capability) and a new part covering **agents, expert-authored briefs, and where the
-  value lands** (Ch. 18–20). That gives four parts of roughly 6–8 chapters and lets the business claim
-  *open* a part instead of sitting inside one. **Do not fix it by cutting Ch. 18–20** — they are the book's
+  value lands** (Ch. 17–19). That gives four parts of roughly 6–8 chapters and lets the business claim
+  *open* a part instead of sitting inside one. **Do not fix it by cutting Ch. 17–19** — they are the book's
   most distinctive material.
-- **Ch. 21 (the expert is the product) is the only outright prediction in the book**, and the fastest to
+- **Ch. 20 (the expert is the product) is the only outright prediction in the book**, and the fastest to
   date. Frame it as a prediction, keep both counterweights in the body rather than a footnote, and
   re-check its market figures last, immediately before print.
 

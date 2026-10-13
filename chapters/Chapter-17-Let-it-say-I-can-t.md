@@ -1,4 +1,4 @@
-# Chapter 18 — Let it say I can't
+# Chapter 17 — Let it say I can't
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -130,7 +130,7 @@ than any statistic the book could cite, because it is a report from someone who 
 **Where it lands.** **A new chapter in Part III, directly after "The most expensive model for
 everything."** Working title: **"Let it say *I can't*."** Ch. 17 is the indictment of over-provisioning;
 this chapter is the mechanism that makes the alternative work. It also pays off **Rule 14** (match the
-effort to the question) and gives Ch. 24 ("The recipe, assembled") its second pillar.
+effort to the question) and gives Ch. 23 ("The recipe, assembled") its second pillar.
 
 **Guard rails:** (specific things the draft must not do)
 

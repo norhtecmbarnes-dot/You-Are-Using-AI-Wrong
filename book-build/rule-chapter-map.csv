@@ -14,16 +14,15 @@ chapter,title,status,primary_rule,rules_carried,source_file
 13,Language at the edges code in the middle,MAPPED,13,13;14,chapters/Chapter-13-Language-at-the-edges-code-in-the-middle.md
 14,Everything is a contract,MAPPED,6,6;12,chapters/Chapter-14-Everything-is-a-contract.md
 15,Your plumbing is your ceiling,MAPPED,1,1;12b;12c;14b,chapters/Chapter-15-Your-plumbing-is-your-ceiling.md
-16,Tell it where you want the truth from,MAPPED,12,12;1;11,chapters/Chapter-16-Tell-it-where-you-want-the-truth-from.md
-17,The most expensive model for everything,MAPPED,13,13;16;14;14b,chapters/Chapter-17-The-most-expensive-model-for-everything.md
-18,Let it say I can t,MAPPED,17,17;5,chapters/Chapter-18-Let-it-say-I-can-t.md
-19,They cooperate that s the problem,MAPPED,19,19;18,chapters/Chapter-19-They-cooperate-that-s-the-problem.md
-20,An expert wrote this not the model,MAPPED,20,20;1,chapters/Chapter-20-An-expert-wrote-this-not-the-model.md
-21,The expert is the product,MAPPED,21,21;20,chapters/Chapter-21-The-expert-is-the-product.md
-22,You cannot ask a model who s best,MAPPED,15,15;11b,chapters/Chapter-22-You-cannot-ask-a-model-who-s-best.md
-23,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-23-Let-it-fetch-let-it-write.md
-24,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-24-Let-it-build-code-because-code-is-checkable.md
-25,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-25-The-recipe-assembled.md
-26,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-26-Pushing-Is-Not-Cooperation.md
-27,I Was Never the Smart Part,MAPPED,20,20;21,chapters/Chapter-27-I-Was-Never-the-Smart-Part.md
-28,You Have Something to Lose,MAPPED,3,3;9,chapters/Chapter-28-You-Have-Something-to-Lose.md
+16,The most expensive model for everything,MAPPED,13,13;16;12;1;11;14,chapters/Chapter-16-The-most-expensive-model-for-everything.md
+17,Let it say I can t,MAPPED,17,17;5,chapters/Chapter-17-Let-it-say-I-can-t.md
+18,They cooperate that s the problem,MAPPED,19,19;18,chapters/Chapter-18-They-cooperate-that-s-the-problem.md
+19,An expert wrote this not the model,MAPPED,20,20;1,chapters/Chapter-19-An-expert-wrote-this-not-the-model.md
+20,The expert is the product,MAPPED,21,21;20,chapters/Chapter-20-The-expert-is-the-product.md
+21,You cannot ask a model who s best,MAPPED,15,15;11b,chapters/Chapter-21-You-cannot-ask-a-model-who-s-best.md
+22,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-22-Let-it-fetch-let-it-write.md
+23,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-23-Let-it-build-code-because-code-is-checkable.md
+24,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-24-The-recipe-assembled.md
+25,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-25-Pushing-Is-Not-Cooperation.md
+26,I Was Never the Smart Part,MAPPED,20,20;21,chapters/Chapter-26-I-Was-Never-the-Smart-Part.md
+27,You Have Something to Lose,MAPPED,3,3;9,chapters/Chapter-27-You-Have-Something-to-Lose.md
