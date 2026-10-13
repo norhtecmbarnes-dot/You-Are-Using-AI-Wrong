@@ -145,6 +145,341 @@ answer (Ch. 8), and then Part II explains what to build instead.
 
 ## DRAFT
 
-*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
-*load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
-*marked ⚠️ rather than smoothed over.)*
+> *"It would be like asking someone to drill a hole with no drill."*
+
+Agents have been sold twice now as autonomy.
+
+The promise is appealing: give a system a goal, let it plan, let it break that goal into tasks, let it create more tasks, and let it continue until the work is done.
+
+Watch it operate and the promise becomes even more persuasive. The screen fills with plans, sub-tasks, tool calls, status updates, retries, and new branches of reasoning. It looks busy. It looks independent. It looks like work.
+
+But activity is not work.
+
+A system can generate a long list of actions without delivering an outcome. It can search, plan, reflect, delegate, retry, and narrate its progress while failing to produce anything useful. And if it has broad access to tools, systems, credentials, money, or executable code, it can create a second problem alongside the first:
+
+It can become expensive and unsafe while accomplishing very little.
+
+That is not an argument against agents.
+
+It is an argument against confusing autonomy with productivity.
+
+## The First Wave: Interesting to Watch
+
+My first experience with agents came shortly after the introduction of ChatGPT.
+
+I remember AgentGPT and another system I called "GODGPT," or something like it. The name was imprecise, but the memory was real: AutoGPT, the prominent autonomous-agent project of 2023, was widely associated with a "god mode" or continuous mode.
+
+These systems were interesting to watch.
+
+They would take a goal, create tasks, create more tasks from those tasks, and appear to work through a plan without constant human direction. The activity was visible. It was one of the first times many people had seen a language model apparently managing a sequence of actions on its own.
+
+That was compelling.
+
+It was also the problem.
+
+There was often a great deal of activity and very little achieved in terms of output.
+
+The agents could look industrious while struggling with the ordinary requirements of useful work: identifying the right objective, holding onto relevant context, using reliable information, making decisions at the appropriate level of confidence, and finishing the task rather than expanding it.
+
+The community's own retrospective describes the result almost exactly. In a discussion titled "Is AutoGPT dead?", one user wrote:
+
+> "AutoGPT became more of a framework for creating agents than what it used to be, like doing stuff for you (tho it barely worked, if at all)."
+
+Another described a once-active community losing momentum after its framework changes:
+
+> "I was crazy active a year ago but after forge came out it's like everything related to applying thought and automations just died."
+
+And another returning user noted that the repository had not been updated in some time.
+
+The point is not that nothing was built. It was.
+
+The point is that the first wave did not establish the autonomous agent as a dependable product for getting work done. What survived was not the original promise of an independent system that would simply do the work for you.
+
+What survived was scaffolding.
+
+CrewAI. AutoGen. OpenDevin. Devika. MetaGPT.
+
+Frameworks for defining roles, controlling workflows, assigning tools, structuring tasks, and building systems around models.
+
+The ambition was replaced by structure.
+
+That was not a retreat from progress. It was the industry learning the right lesson.
+
+The useful question was never:
+
+> Can a model keep generating the next task?
+
+It was:
+
+> Can the system deliver a bounded, verifiable result?
+
+Those are not the same thing.
+
+## A Loop Is Not a Workforce
+
+An autonomous loop can create the appearance of work because it produces a visible sequence of steps.
+
+It plans.
+
+It searches.
+
+It reflects.
+
+It asks itself what to do next.
+
+It creates sub-agents.
+
+Those sub-agents create reports for the original agent.
+
+The original agent reviews the reports, revises the plan, and starts again.
+
+At every stage, the system has something to show.
+
+But visible motion is not proof of useful progress.
+
+A meeting can be busy without producing a decision. A dashboard can be full without showing the right metric. A project can have hundreds of tasks without delivering a product.
+
+An agent is no different.
+
+A good system should be judged by the output it produces under defined constraints:
+
+- Did it complete the requested task?
+- Was the result correct enough for its intended use?
+- Did it use authorized data and tools?
+- Can a person inspect what it did?
+- Did it stay within a known cost?
+- Could it have caused harm while trying?
+
+If the answer is no, the fact that it generated twenty pages of plans is not a consolation.
+
+It is evidence of activity.
+
+Not work.
+
+## The Second Wave: Output With a Bill Attached
+
+The second wave of agents is more serious.
+
+The systems are more capable. The tool use is more real. The integrations are broader. The frameworks can operate over files, browsers, code, databases, messaging systems, APIs, and other parts of an organization's environment.
+
+That creates real potential.
+
+It also creates real cost and real exposure.
+
+OpenClaw was the release that motivated me to create the Personal AI Dashboard project. It was an MIT-licensed, self-hosted agent framework, built with Electron, Next.js, SQLite, and memory-bank files. It had features and possibilities that were worth paying attention to.
+
+But I saw the same underlying problem in a more expensive form.
+
+The system had potential, but at too high a token cost and too great a security risk.
+
+As someone who has worked in the computer industry for more than thirty years, I did not believe an organization could accept unlimited potential token costs or the security exposure created by broadly empowered autonomous agents.
+
+The reported figures make the concern concrete.
+
+OpenClaw users reported costs ranging from roughly $5 per day to $3,600 per month. A documented heavy user reportedly consumed 1.8 million tokens at a cost of $3,600 per month. A day-long test by the German magazine *c't* reportedly exceeded $100 in a single day. One overnight heartbeat—repeatedly asking whether it was daytime—cost $18.75.
+
+The pattern is visible even in the user complaints. One OpenClaw user wrote:
+
+> "Why openclaw is too expensive? I know that we are using a api key sending a lot of information to openai and anthropic but wtf... at this moment I spent like 200 dollars in openai... what do you guys use to mitigate?"
+
+This is not a complaint about intelligence.
+
+It is a complaint about unconstrained activity.
+
+The documented cost drivers were context accumulation, heartbeats that run while the system is idle, and autonomous multi-step tool use.
+
+Each is a measure of freedom.
+
+A context that grows indefinitely gives the agent more history to process, at increasing cost. A heartbeat that runs without a user request gives the agent more opportunities to spend. Autonomous multi-step tool use permits the agent to make more calls, take more actions, and create more work for itself.
+
+The more freedom the system has, the more it can do.
+
+It can also spend more while doing it.
+
+## Autonomy Is What Costs
+
+This is the sharp part.
+
+The cost of an agent is not simply the cost of intelligence.
+
+It is often the cost of autonomy.
+
+Every extra loop, heartbeat, context refresh, sub-agent, retry, browser action, and tool call is a decision to let the system continue acting without a person first deciding that the next action is worth its cost.
+
+That is sometimes useful. It is never free.
+
+The same OpenClaw material describes the remedies:
+
+- use a local model for the heartbeat;
+- increase the heartbeat interval;
+- set quiet hours;
+- enable isolated sessions;
+- use local models where appropriate;
+- route sub-agents to cheaper models.
+
+In one documented case, model routing reduced costs from $1,200 per month to $36 per month.
+
+That is a 97 percent reduction.
+
+The important lesson is not that every agent should use one particular framework or model. It is that the cure was architectural.
+
+Constrain the activity.
+
+Route inexpensive work to inexpensive systems.
+
+Do not run when there is no work to do.
+
+Do not carry unnecessary context.
+
+Do not let the agent choose an unbounded number of expensive next steps.
+
+The productivity was never in giving the system unlimited autonomy. The productivity came from giving it the right tools, within a controlled environment.
+
+## Security Is the Same Problem in Another Form
+
+The security problem has the same shape as the cost problem.
+
+A system that can reach everything can damage everything.
+
+OpenClaw's reported security record included 138+ disclosed CVEs by April 2026, approximately 45 further advisories published in a batch on June 30, 2026, a critical remote-code-execution vulnerability identified as CVE-2026-25253, four chainable time-of-check/time-of-use vulnerabilities with CVSS scores up to 9.6, and 341 malicious marketplace skills.
+
+⚠️ These figures are live security facts and must be re-verified before publication. They are included here as dated evidence, not as permanent counts. The exact number will change. The design lesson will not.
+
+A marketplace skill is not just text. It can be executable authority. It can access files, tools, accounts, services, and workflows depending on what permissions the system grants it.
+
+Three hundred and forty-one malicious skills are not merely a marketplace moderation problem. They demonstrate what happens when an ecosystem distributes executable capability at scale.
+
+The security question is not:
+
+> Is the agent intelligent enough to make good decisions?
+
+It is:
+
+> What can the agent reach if it makes a bad one?
+
+That is the blast radius.
+
+If the agent can access a customer database, send email, execute code, move money, alter infrastructure, or install software, then a mistake, prompt injection, compromised skill, malicious input, or flawed workflow can turn generated language into a real-world action.
+
+The answer is not to ask the agent to be more careful.
+
+The answer is to limit authority.
+
+Give it access only to the tools required for the job. Give each tool only the permissions required for the action. Require approval for high-consequence steps. Keep sensitive systems separate. Log every consequential action. Use local tools and local models where that reduces exposure. Make sure a failure is contained.
+
+Constrain what it can reach, and the blast radius shrinks with it.
+
+## Give the Agent Tools, Not Authority
+
+This is the rule:
+
+> **Do not hand the agent the keys.**
+
+An agent should have tools.
+
+It should not have unlimited authority.
+
+That distinction matters.
+
+A useful tool might allow an agent to search an approved document repository, calculate a value, read a customer record within the current user's permissions, draft an email without sending it, or create a support ticket for human review.
+
+Those are bounded capabilities.
+
+Unlimited authority is different. It means the agent can decide what to access, what to spend, who to contact, what software to run, what code to deploy, or what records to alter—often across multiple steps and without a defined stopping point.
+
+That is not productivity.
+
+That is delegation without governance.
+
+The Personal AI Dashboard was built to demonstrate the alternative: a constrained environment, using local models where appropriate, that could accomplish actual work without high cost and without handing an autonomous system broad access to everything it could find.
+
+The result was not less capable because it had limits.
+
+It was more useful because it had a job.
+
+## The Drill Is the Point
+
+The productivity came from tools, not autonomy.
+
+A model asked to perform a task with no access to the information, software, or systems needed to complete it is being asked to improvise.
+
+It may produce a plan. It may produce instructions. It may produce plausible language around the task.
+
+But it cannot do the work that requires a tool it does not have.
+
+> "It would be like asking someone to drill a hole with no drill."
+
+Giving the model a drill changes what it can accomplish.
+
+Giving it the keys to the whole building does not make it better at drilling holes.
+
+It only gives it more places to go wrong.
+
+A constrained agent can retrieve the right document, use the approved calculator, call the relevant API, update a permitted record, or create an output for review. It can complete a defined unit of work.
+
+A loosely governed autonomous loop can generate plans about all of those things indefinitely.
+
+The difference is not intelligence.
+
+It is design.
+
+## Build for Outcomes
+
+The right goal is not an agent that appears independent.
+
+It is a system that reliably completes useful work at an acceptable cost and risk.
+
+That means defining:
+
+- the specific task;
+- the tools needed to complete it;
+- the data the agent may access;
+- the actions it may take;
+- the maximum cost it may incur;
+- the point at which it must stop;
+- the conditions that require human approval;
+- the logs and evidence needed to review its work.
+
+An agent should know when it has completed the job.
+
+It should also know when it is not allowed to continue.
+
+That is not a limitation of the system. It is what turns activity into work.
+
+The first wave showed that autonomous motion is not enough.
+
+The second wave showed that autonomy can produce output—but that broad freedom carries a bill in tokens, security exposure, and operational risk.
+
+The better path is neither to abandon agents nor to worship them.
+
+Give them real tools.
+
+Give them bounded authority.
+
+Use local and cheaper models for cheap work.
+
+Cap spending.
+
+Keep sensitive capabilities isolated.
+
+Require evidence for consequential actions.
+
+And judge the system by what it delivers, not by how busy it looks.
+
+---
+
+*Verification: this chapter is the author's own draft, adopted with one correction — "drill an
+hole" is "drill a hole," the canonical form used everywhere else in the book (RULES.md,
+00-BOOK.md, and the concept's own handling note, which says the drill line is the chapter's
+epigraph and must be preserved exactly). Carries Rule 18 (primary) — *do not hand the agent the
+keys* — with Rule 7 (*asking again is a re-roll, not a re-check*). Every load-bearing figure
+traces to the §9 register, verified 12 October 2026: the wave-one names (AgentGPT, AutoGPT,
+"GODGPT" = AutoGPT's continuous/god mode) and the r/AutoGPT community quotes; the wave-two cost
+figures ($5/day–$3,600/month, 1.8M tokens, the c't day-long test at $100+, the $18.75 overnight
+heartbeat, the $1,200→$36 routing case = 97%); and the security record (138+ CVEs by April 2026,
+~45 advisories batch-published 30 June 2026, CVE-2026-25253, four chainable TOCTOU flaws at CVSS
+≤9.6, 341 malicious marketplace skills). ⚠️ Per the register's own standing caution — re-check
+the cost and CVE figures before print; they date fastest of anything in the book. The author's
+first-hand experience (his first agents, OpenClaw motivating the Personal AI Dashboard) is
+testimony, not a citation, and is presented as such. OpenClaw appears as an example of a pattern
+(autonomy as a design default), not as a culprit — per the book's standing rule.*
