@@ -5,7 +5,7 @@ chapter,title,status,primary_rule,rules_carried,source_file
 4,You cannot teach it anything,MAPPED,6,6;1;1b,chapters/Chapter-04-You-cannot-teach-it-anything.md
 5,The Opinions Are Inherited,MAPPED,6,6;2,chapters/Chapter-05-The-Opinions-Are-Inherited.md
 6,The clock is always running,MAPPED,2,2;5;12b;14b,chapters/Chapter-06-The-clock-is-always-running.md
-7,Activity is not work,MAPPED,18,18;7,chapters/Chapter-07-Activity-is-not-work.md
+7,Activity is not work,MAPPED,7,7;12;14,chapters/Chapter-07-Activity-is-not-work.md
 8,The 8 Ball Never Fooled Anyone,MAPPED,5,5;2;4,chapters/Chapter-08-The-8-Ball-Never-Fooled-Anyone.md
 9,The Promise Not the Gift,MAPPED,2,2;16,chapters/Chapter-09-The-Promise-Not-the-Gift.md
 10,It will not set you free,MAPPED,10,10;9;3;3b,chapters/Chapter-10-It-will-not-set-you-free.md
