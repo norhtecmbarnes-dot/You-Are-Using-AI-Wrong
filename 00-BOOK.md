@@ -389,7 +389,7 @@ history.)*
   settled:** the token definition (the author has independently agreed) and the unfaithful-trace claim
   (two primary sources, properly scoped and cited).
 
-**13. Language at the edges, code in the middle** 📋
+**13. Language at the edges, code in the middle** ✍️
 - Claim: the LLM belongs where language enters and leaves. Determinism belongs everywhere the work has
   to be right.
 - Demo: a provider router choosing between tools with no model involved — probe, filter, walk the order,
@@ -403,7 +403,7 @@ history.)*
   field, rejected.
 - Fix: define the shape before you call. Validate before you act. Reject rather than repair.
 
-**15. Your plumbing is your ceiling** 📋
+**15. Your plumbing is your ceiling** ✍️
 - Claim: if facts must be injected, the quality of the system is the quality of its retrieval. A bigger
   model does not fix a stale fact.
 - Demo: two systems, same model — one with no injection, one with live sources.
