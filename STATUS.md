@@ -80,7 +80,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
               2  It cannot tell you it's unsure                      📋  captured
               3  Why it got worse on purpose                         📋  captured
               4  You cannot teach it anything                        📋  captured
-              5  A bigger model does not fix this                    📋  captured
+              5  The opinions are inherited (Concept 2)             ✍️  drafted
               6  The clock is always running                         📋  captured
               7  Activity is not work                                📋  captured
               8  The 8-Ball never fooled anyone                      ✍️  drafted

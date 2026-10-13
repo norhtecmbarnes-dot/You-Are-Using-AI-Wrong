@@ -250,7 +250,10 @@ what the model is not; Ch. 9 names what it was sold as. The former Ch. 9
 - STATUS.md / WORKFLOW.md / README.md counts updated to 29.
 - ⚑ Open follow-up (pre-existing, unchanged): the outline's structural note
   about splitting Part III still refers to the old Ch. 19–21; it now reads
-  Ch. 20–22. And the "Ch. 5/6 merge candidate" note is unaffected.
+  Ch. 20–22. And the "Ch. 5/6 merge candidate" question is **resolved**: the former Ch. 5
+  ("A bigger model does not fix this") is retired to `chapters/_folded/` — its claim is
+  carried by Ch. 18. Ch. 5 is now "The opinions are inherited" (Concept 2), the author's
+  own chapter.
 
 ---
 

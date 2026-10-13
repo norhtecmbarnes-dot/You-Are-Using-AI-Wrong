@@ -234,11 +234,20 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - Demo: correct it, watch it agree, open a fresh chat, watch it do the identical thing. **The reset.**
 - Fix: put policy in your code and config, injected as context; never request it of the model's character.
 
-**5. A bigger model does not fix this** 📋
-- Claim: scale improves fluency faster than factuality, so the failure gets *harder to detect*.
-- Demo: the same stale fact asserted by small and large models — both wrong, one far more believable.
-- Fix: the answer is an architecture, not a model. The rest of the book.
-- *Merge candidate with 6.*
+**5. The opinions are inherited** ✍️ *(Concept 2)*
+- Claim: a model's apparent opinions are **inherited from training**, not formed in conversation —
+  what looks like a view is a training artifact, and calling it the model's opinion is like calling
+  it the photocopier's opinion.
+- Demo: it can bend within a conversation (conditioning on context), but a new chat starts from
+  the same place — *you can bend a conversation; you cannot move the model.*
+- Fix: **design around what cannot learn.** Facts, policies, preferences, corrections, and
+  institutional knowledge belong in the system around the model, where they can be updated,
+  reviewed, sourced, and controlled.
+- The reset is also a property with an upside: a stateless model cannot be permanently
+  persuaded, flattered, pressured, or gaslit by one user.
+- *(The former "5. A bigger model does not fix this" is retired to `chapters/_folded/` — its claim,
+  scale improves fluency faster than factuality, is carried by Ch. 18, "The most expensive model for
+  everything," the leader's cost chapter in Part III.)*
 
 **6. The clock is always running** 📋
 - Claim: knowledge decays, and not at one rate. Versioned, priced, dated and social facts rot in weeks;
@@ -304,12 +313,12 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   think there is a useful sense of the term 'intelligence' in which AI is more intelligent than people
   acting with the help of AI."* → **person + AI beats AI.** That is this chapter's argument, published.
 
-**12. A function, not a source** 📋
+**11. A function, not a source** 📋
 - Claim: the reliable framing is *transformation of supplied input*.
 - Demo: the same request twice — once asking it to remember, once handing it the material.
 - Fix: one rule at the call site — *attach the facts so it never needs to remember.*
 
-**11. The world of tokens** 📋 *(Concept 6 — the technical spine)*
+**12. The world of tokens** 📋 *(Concept 6 — the technical spine)*
 - Claim: it does not live in our world; it lives in a world of fragments and distances. Tokens, not
   words; compression, not storage; similarity, not meaning; **one direction only**.
 - Demo: why it can't count letters, why rendered text garbles, why a falsehood is built one confident
@@ -568,7 +577,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 ### Structural notes
 
-- **Part I is 8 chapters.** If it sags, chapters 5 and 6 are the merge candidates — both argue the problem
+- **Part I is 8 chapters.** If it sags, chapters 6 and 7 are the pressure points — both argue the problem
   is structural rather than incidental. **Do not merge 4** (the reset); it does something the others don't.
   Mitigated by putting *The Rules* up front, and now by Ch. 7 (the agents), which gives the part a hard
   factual floor before the 8-Ball closes it.
@@ -604,7 +613,7 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | # | Concept | Landed | Status / open items |
 |---|---|---|---|
 | 1 | **The promise, not the gift** — AI sold as a promise, not given as a gift. | Ch. 9 | ✅ Captured. Rule: name the incentive, never a villain. |
-| 2 | **Opinions are inherited; you cannot argue them away** — bias from training; the reset. | Ch. 4 | ✅ Captured. Precision needed: it *does* bend within a conversation (conditioning ≠ learning); weights change only by fine-tuning, never by a user in a chat. |
+| 2 | **Opinions are inherited; you cannot argue them away** — bias from training; the reset. | Ch. 5 (own chapter); Ch. 4 carries the reset | ✅ Captured. Precision needed: it *does* bend within a conversation (conditioning ≠ learning); weights change only by fine-tuning, never by a user in a chat. |
 | 3 | **It will not set you free** — not a liberator/equalizer; a multiplier; and the embodiment argument. | Split: Ch. 10 (myth) + Ch. 16 (embodiment) | ✅ Captured. Backed by evidence — see §9. |
 | 4 | **The 8-Ball** — ask, shake, accept; the model is the same in a suit. | Ch. 8, recurring motif | ✅ Captured + chapter drafted. |
 | 5 | **The most expensive model for everything** — over-provisioning, the two waves, confined knowledge, "multiple truths". | Split: Ch. 17 (confined knowledge) + Ch. 18 (cost) | ✅ Captured. **Both verifications now closed** — NotebookLM confirmed source-grounded; "Poppy" = `getpoppy.ai`. See §9. |
@@ -619,7 +628,7 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | 14 | **Presence is not provenance** — a stored record is not evidence; whitelist per class, date every fact, meter verification by criticality; duplication is a defect. | Ch. 17 (beside the confinement rules) | ✅ Captured + sourced 12 Oct 2026 — four offboarding/administrative-drift cases in §9 with primary documents. |
 | 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 29 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 27's reader list. Adds no chapter, no rule. |
 | 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 17 (sharpened), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
-| 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 11 (bridge), Ch. 17 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
+| 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 12 (bridge), Ch. 18 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
 
 ## 9. Evidence and verification status
 
@@ -1540,9 +1549,9 @@ the chapter the **author** found rather than the model is the one that holds.
 
 1. Read refs **[19], [20], [21]** first-hand, and check whether [19] and [21] have since been published
    in a peer-reviewed venue. *(Ch. 8)*
-2. **Ch. 11 — the ML review came back and has been applied; send the *rewrites* back to the same reviewer
+2. **Ch. 12 — the ML review came back and has been applied; send the *rewrites* back to the same reviewer
    for sign-off.** It is now a re-read of one section, not a review. *This is the last technical gate.*
-3. Decide whether Ch. 5 merges into Ch. 6.
+3. ~~Decide whether Ch. 5 merges into Ch. 6.~~ **RESOLVED 12 October 2026** — the former Ch. 5 ("A bigger model does not fix this") is retired to `chapters/_folded/`. Its claim (scale improves fluency faster than factuality, so the failure gets harder to detect) is carried by Ch. 18 ("The most expensive model for everything"), the leader's cost chapter in Part III. Ch. 5 is now "The opinions are inherited" (Concept 2).
 4. **Confirm the copyright line on `LICENSE-CONTENT`.** It reads `Michael C. Barnes`; the repositories use
    `AI Dashboard Contributors`. The license itself is settled — **CC BY-SA 4.0, not sold** — this is only
    about whose name is on it.
