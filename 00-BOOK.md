@@ -162,7 +162,7 @@ Written down so the book can be held to them. Every draft must pass these.
 carries — that discipline is what keeps the book from being a complaint. Status: ✍️ drafted ·
 📋 captured (detail in `CONCEPTS.md`) · ⬜ planned.
 
-### Front matter — three pieces before Chapter 1
+### Front matter — four pieces before Chapter 1
 
 **The Preface — "Why This Book Exists"** ✍️ *(`Preface-Why-This-Book-Exists.md`)*
 - The India story: a short class, and a student who said **"I used AI in a way they had never seen
@@ -191,6 +191,19 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   never be treated as a source of knowledge.*
 - ⚠️ **Keep it to two paragraphs, no motive attributed, and make sure it still works for a reader who has
   never heard of the rename.** An executive order dates; the substance does not.
+
+**The Reader's Guide — "Who This Book Is For"** ✍️
+*(`Reader-Guide-Who-This-Book-Is-For.md`)*
+- The audience routing as a reader-facing page: three readers (the signer, the
+  builder, the first-time project owner), three paths, three first moves. Each
+  path begins with the same instruction — *point it at what you have, verify it
+  against something outside itself, keep the judgment* — and closes with a
+  "say this aloud" line the reader can use in a real meeting.
+- Consolidates §4 ("Who it's for") and the RULES.md "Two ways in" block into one
+  front-door page. The Rules page itself stays as the rules page — this guide is
+  the way in, not a replacement.
+- ⚑ Placed between the Introduction and the first chapter; the build sorts it
+  `front-guide` so it lands after the Introduction.
 
 **The Rules** ✍️ *(`RULES.md`)*
 - 21 rules as **assumption → what's actually true → what to do instead.** Payload up front, so Parts I–III
@@ -383,7 +396,7 @@ history.)*
   take the first available. Same input, same decision.
 - Fix: the division of labour as a rule for any feature you're about to build.
 
-**14. Everything is a contract** 📋
+**14. Everything is a contract** ✍️
 - Claim: the boundary is where trust is decided. Output is not acted on until code has parsed and
   validated it.
 - Demo: a structured response validated against a schema — and the same response with a plausible extra

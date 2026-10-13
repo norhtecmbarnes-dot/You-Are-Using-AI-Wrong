@@ -77,6 +77,9 @@ def title_for(fname):
     m = re.match(r"^Introduction[-_]?(.*)$", stem)
     if m:
         return "Introduction: " + prettify(m.group(1)) if m.group(1) else "Introduction"
+    m = re.match(r"^Reader-Guide[-_]?(.*)$", stem)
+    if m:
+        return "Reader's Guide: " + prettify(m.group(1)) if m.group(1) else "Reader's Guide"
     return prettify(stem)
 
 
@@ -154,6 +157,8 @@ def discover():
             key, sortkey, kind = "front-preface", -2, "front"
         elif f.startswith("Introduction"):
             key, sortkey, kind = "front-intro", -1, "front"
+        elif f.startswith("Reader-Guide"):
+            key, sortkey, kind = "front-guide", -0.5, "front"
         elif f.startswith("Chapter-DRAFT-"):
             if f not in PLACEMENT:
                 return

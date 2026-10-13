@@ -86,11 +86,11 @@ about. At the time of writing it is warning about chapters 26 and 27.
               8  The 8-Ball never fooled anyone                      ✍️  drafted
               9  It will not set you free                            📋  captured
 
-    Part II   10 A function, not a source                           📋  captured
-              11 The world of tokens                                 📋  captured
-              12 Language at the edges, code in the middle           📋  captured
-              13 Everything is a contract                            📋  captured
-              14 Your plumbing is your ceiling                       📋  captured
+    Part II   11 A function, not a source                           📋  captured
+              12 The world of tokens                                 📋  captured
+              13 Language at the edges, code in the middle           📋  captured
+              14 Everything is a contract                          ✍️  drafted
+              15 Your plumbing is your ceiling                       📋  captured
 
     Part III  16 The most expensive model for everything          ✍️  drafted
               17 Let it say I can't                                  ✍️  drafted
