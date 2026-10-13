@@ -408,7 +408,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   expensive system that can reliably do the work.* **Definition comes before answer.**
 - Carries **Rule 13** (primary), **Rules 16, 12, 1, 11, 14**.
 
-**17. Let it say *I can't*** 📋 *(Concept 7 — the capability bus)*
+**17. Let it say *I can't*** ✍️ *(Concept 7 — the capability bus)*
 - Claim: **a small model should be asked whether the job is its to do, and "no" should be the cheap
   answer.** Everywhere else in this book a model's confidence is worthless — because it is reported about
   facts it cannot see. This asks a different kind of question: not *"is this true?"* but **"is this mine

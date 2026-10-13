@@ -1,157 +1,193 @@
-# Chapter 17 — Let it say I can't
+# Chapter 17 — Let It Say "I Can't"
 
-**STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
-
----
-
-## From the plan (00-BOOK.md section 7)
-
-**Claim.** **a small model should be asked whether the job is its to do, and "no" should be the cheap answer.** Everywhere else in this book a model's confidence is worthless — because it is reported about facts it cannot see. This asks a different kind of question: not *"is this true?"* but **"is this mine to do?"** — and *that* answer is checkable, because you find out immediately whether the cheap path held.
-
-**Demonstration.** the escalation bus — the smallest available model triages the request, and the prompt's fail-safe is the whole design: ***"If you're UNSURE, lean toward canHandle: false."*** Doubt escalates. The cheap mistake is the default; the expensive one requires confidence. If the assessment itself fails, the fallback still leans the right way.
-
-**Fix.** **the smallest model that correctly declines is the model you need.** Every task the small model *accepts* is a task that can move down — off the cloud, off the GPU, off the big machine. **The capability bus is a hardware-migration engine disguised as a router.** - ⚑ *The hardware claim, from the author's own experience, and it should be told that way:* research on models as small as **1.5B parameters, on CPU-only laptops**. The usual story is that AI demands more compute; this design makes the requirement **fall over time**. - ⚠️ Caveat to carry: do **not** claim the model knows its limits. It doesn't. The value is architectural — *a cheap default, a cautious failure, and a bounded cost of being wrong.*
+*(Concept 7 — the capability bus. A small model triages and escalates, doubt
+fails safe, and the accepted tasks migrate to smaller hardware. Placed at the
+head of Part III: the system you build, not the model you buy.)*
 
 ---
 
-## Concept 7 — Let the model declare its own limits
+Most AI systems are designed to answer every question.
 
-> This is the captured material this chapter expands. It is in `CONCEPTS.md`.
+That is the problem.
 
-*The capability bus. Outside the notebook frame entirely — this one is not about what a model knows, but
-about what it will admit it cannot do.*
+A small model is asked a hard question. It tries anyway. A large model is asked a trivial question. It answers anyway. The user sees only one interface: a box, a prompt, and a response.
 
-**As stated by the author:** (verbatim — preserve the words; they carry intent)
+No one asks whether this is the right job for this model.
 
-> I believed I described this in a model escalation message service that provided a mechanism for models
-> to test their limits and only do tasks they were confident that they could complete. I have had good
-> luck doing research using models as small as 1.5b parameters--even running these tasks on laptops
-> without CPUs. Giving a model the ability to test its limits opens up the possiblity of migrating tasks
-> to smaller and smaller hardware.
+A better system begins with a different question:
 
-**It exists, and it is already built — `src/lib/services/model-bus.ts`, 699 lines, in both repos.** Its
-own header states the architecture:
+> Can you handle this task well enough, or should it go somewhere else?
 
-> *"Uses self-assessment: local model decides if it can handle a task or needs to escalate to a smarter
-> cloud model. 1. Small local model receives query with self-assessment prompt. 2. Model honestly
-> evaluates: can I answer this well? 3. If yes, process locally (cheap, fast). 4. If no, escalate to
-> user's preferred cloud model."*
+That is not asking the model whether it knows the truth.
 
-### The question the author remembered — it is in the prompt
+It is asking it to make a routing decision.
 
-`getSelfAssessmentPrompt()`, verbatim:
+## Give the Model Permission to Decline
 
-```
-You are a tiny local AI model with limited capabilities. Your job is to be HONEST about what you can handle.
+A capability bus is a simple idea.
 
-Analyze the user's query and decide:
-1. Can you answer this COMPLETELY and ACCURATELY right now?
-2. Would the user be SATISFIED with your answer?
-3. Should this go to a smarter cloud model?
+A small, local model receives the request first. Before answering, it is asked to assess the job:
 
-Rules:
-- If the query is a simple fact, definition, calculation, format, or routine task → canHandle: true
-- If the query requires deep reasoning, up-to-date knowledge, creative writing, complex analysis → canHandle: false
-- If you're UNSURE, lean toward canHandle: false
-- If the query is in a language you weren't trained on, lean toward canHandle: false
+- Can I answer this completely and accurately?
+- Is this task within my capabilities?
+- Should this be sent to a more capable model?
 
-Answer ONLY with valid JSON... {"canHandle": true/false, "reason": "...", "suggestedTier": 2}
-```
+If the answer is yes, the small model handles the task locally.
 
-**⚑ And the most important line in the whole design is the fail-safe:**
+If the answer is no, the task escalates to a stronger model.
 
-> **"If you're UNSURE, lean toward canHandle: false."**
+The important instruction is this:
 
-Doubt escalates. The system is built so that the **cheap mistake** ("I'll pass, send it up") is the
-default, and the **expensive mistake** ("I've got this") requires confidence. That single line is what
-makes the mechanism safe to run unattended.
+> If you're unsure, lean toward canHandle: false.
 
-### Why this is the book's concept, and not just an implementation detail
+Doubt escalates.
 
-**It is the one place in the entire book where a model's self-report is worth something — and the reason
-is precise.** Everywhere else, confidence is worthless because it is reported about *facts the model
-cannot see*. Here the model is asked a different kind of question: not *"is this true?"* but *"is this
-job mine to do?"* That is a routing decision, and routing decisions are **checkable** — because you find
-out immediately whether the cheap path held.
+That one rule changes the risk of the system.
 
-**So the design does not trust the model's self-assessment. It bounds it.** The book must say it that
-way: the value is architectural, not epistemic.
+The cheap mistake is passing a task upward when a smaller model might have managed it. The expensive mistake is allowing a weak model to handle work it should have declined.
 
-### And it inverts the hardware question — which is the payoff
+A good system makes the cheap mistake easier.
 
-The usual story is that AI demands more compute. **This design makes the requirement fall over time.**
+This does not mean the model knows its limits in any deep or reliable sense. It does not. A model's self-assessment is not proof of competence, and it is not a guarantee that the user will be satisfied.
 
-- `ModelTier` carries an explicit **`isCPUFriendly`** flag, and `local-small` is set to it.
-- **BitNet is integrated** (`src/lib/services/bitnet.ts`, `/api/bitnet`) for Microsoft's 1.58-bit models —
-  *"enabling AI inference on machines WITHOUT a GPU."*
-- `docs/CPU-ONLY-SETUP.md` documents running on CPU alone and recommends **`qwen2.5:1.5b`** — 1.5 GB,
-  ~2.5 GB RAM, rated *"Very Fast"*, *"Good"*, **"Recommended"**.
+But it does not need to be either.
 
-**And this is the practical consequence, which is the chapter's closing claim:**
+The self-assessment is only one bounded part of the architecture: a low-cost triage step that is biased toward caution and backed by escalation, verification, and appropriate limits.
 
-> **The smallest model that correctly declines is the model you need.** Every task the small model
-> *accepts* is a task that can migrate down — off the cloud, off the GPU, off the big machine. Start
-> expensive, watch what the cheap model agrees to do, and move those tasks down. **The capability bus is
-> a hardware-migration engine disguised as a router.**
+The system does not trust the model's judgment about itself.
 
-**The 1.5B research claim is the author's first-hand experience, and should be presented as exactly
-that** — *"I have had good luck doing research using models as small as 1.5b parameters"* is stronger
-than any statistic the book could cite, because it is a report from someone who did it.
+It designs around the possibility that the judgment will be wrong.
 
-**Why it works:** (the sharp part)
+## Match Capability to the Work
 
-1. **It is right-sizing by capability instead of by guess.** The `model-router.ts` escalates on *task
-   type* — a static table. This escalates on *the model's own read of the job* — dynamic. Together they
-   are the difference between a policy and a mechanism.
-2. **It makes the failure cheap.** One extra triage call at `temperature: 0.3`, `maxTokens: 200`, on the
-   smallest available model — and the response carries `costSavings` and a `delegationPath` so the
-   routing is visible.
-3. **It fails safe.** If the assessment call itself errors, the fallback is
-   `canHandle: context.length < 500` — short task, handle it; long task, escalate. Even the failure path
-   leans the right way.
-4. **It produces the migration map.** The log of what the small model accepted *is* the list of tasks
-   that no longer need the big machine.
+Some work is routine.
 
-**The handling rule:** (tone, framing, what to avoid)
+Formatting text. Extracting fields. Sorting information. Handling a simple definition. Running a basic calculation. Following a known template.
 
-- **Never claim the model's self-assessment is accurate.** It isn't, and it doesn't need to be. The claim
-  is: *a cheap default, a cautious failure, and a bounded cost of being wrong.*
-- **Quote the fail-safe line.** *"If you're UNSURE, lean toward canHandle: false"* is the design in one
-  sentence, and it is the direct answer to the reader's reasonable objection — *"won't the small model
-  just say yes to everything?"* No: the prompt is written so that uncertainty escalates.
-- **Do not turn "would the user be satisfied?" into a promise.** It is a **routing** question. Say so, or
-  a technical reader will (correctly) point out that a model cannot predict user satisfaction either.
-- **Present the small-model numbers as reproducible, not as a benchmark.** Cite the CPU-only setup doc;
-  do not invent a score.
-- **Keep it distinct from the confinement ideas.** This concept is *not* about what the model knows. It
-  is about what it will decline. **It sits outside the notebook frame** — and the book is stronger for
-  having both axes.
+Other work is not.
 
-**Where it lands.** **A new chapter in Part III, directly after "The most expensive model for
-everything."** Working title: **"Let it say *I can't*."** Ch. 17 is the indictment of over-provisioning;
-this chapter is the mechanism that makes the alternative work. It also pays off **Rule 14** (match the
-effort to the question) and gives Ch. 23 ("The recipe, assembled") its second pillar.
+Complex reasoning. Current information. High-stakes analysis. Difficult creative work. Ambiguous decisions. Tasks where a polished but incorrect answer can cause harm.
 
-**Guard rails:** (specific things the draft must not do)
+These tasks should not be treated as identical simply because they arrive through the same chat box.
 
-- **Do not describe it as "the model knows its limits."** It does not. It is asked to make a routing
-  call, under a prompt that biases toward declining.
-- **Do not let the chapter become a product tour of BitNet or a particular small model.** The mechanism
-  is the durable part; the models are not. **The book's own rule applies.**
-- **Do not overstate the migration claim.** It is a direction, not a guarantee — some tasks will always
-  need the big model. *"Falls over time"*, not *"falls to zero."*
-- **Verify `qwen2.5:1.5b` still exists and still runs CPU-only before printing the specific figure.**
+A static routing policy can help. For example: send coding, complex analysis, or high-consequence work to a stronger model; send simple transformations to a smaller one.
+
+But static rules only go so far.
+
+A capability bus adds a dynamic layer. It lets the small model inspect the request and make a cautious first-pass routing call.
+
+The result is not perfect routing.
+
+It is better than sending everything to the most expensive model by default.
+
+## The Smallest Model That Declines Is Useful
+
+I have had good luck doing research using models as small as 1.5 billion parameters—even running these tasks on laptops without GPUs[^1].
+
+That does not mean a small model can replace a frontier model.
+
+It means many tasks do not require one.
+
+The smallest model that correctly declines is still useful. It can identify the work it should not handle and pass that work to a stronger system. Every task it accepts successfully is a candidate to move down: from the cloud to local hardware, from a GPU to a CPU, from an expensive model to a smaller one.
+
+This reverses the usual story about AI infrastructure.
+
+The common assumption is that AI always requires more compute: larger models, more powerful machines, more expensive cloud services.
+
+But a system that learns which tasks can safely be handled by smaller models can reduce its hardware requirements over time.
+
+Not to zero. Some tasks will always justify stronger models and more compute.
+
+But the direction can change.
+
+Instead of assuming every new AI task belongs on the biggest available machine, start with the question:
+
+> What is the smallest system that can handle this reliably?
+
+## Make Failure Safe
+
+The strength of this design is not that the small model is always right.
+
+Its strength is that the consequences of a wrong decision can be limited.
+
+The assessment call is short and inexpensive. If the model is uncertain, it escalates. If the assessment fails, the fallback should also favor caution: simple, short tasks may stay local; complex or lengthy tasks should move up.
+
+The path should be visible.
+
+A good system records which model assessed the task, which model completed it, why the work was escalated, and what the cost difference was. That makes the routing process inspectable rather than magical.
+
+Over time, those records become useful evidence.
+
+They show which work the small model handles well. They reveal which categories regularly require escalation. They identify tasks that can move away from expensive infrastructure and tasks that should never have been sent to a weak model in the first place.
+
+The routing log becomes a migration map.
+
+## The Point Is Not to Make AI Smaller
+
+The point is to make the system more honest.
+
+An AI system should be allowed to say:
+
+> This is not my job.
+
+That is not a failure of intelligence.
+
+It is a sign of good architecture.
+
+We do not expect every employee to do every kind of work. We do not ask the newest person in the organization to make the most consequential decision simply because they are available. We route work according to skill, context, authority, and risk.
+
+AI systems should work the same way.
+
+A small model should handle simple work when it can.
+
+A stronger model should handle difficult work when necessary.
+
+A human should remain responsible when the decision carries consequences.
+
+## Remember This
+
+> Do not ask every model to answer every question.
+>
+> Ask the smallest model to make a cautious routing decision first.
+>
+> When it is unsure, let it say, "I can't."
 
 ---
+
+[^1]: The author's first-hand experience — testimony, presented as such; no external
+  source required. For the mechanism the chapter describes, the author's own system is
+  the reference implementation: `src/lib/services/model-bus.ts` (699 lines) in the
+  PersonalAI-Dashboard repository. Its triage prompt contains the exact fail-safe the
+  chapter quotes — *"If you're UNSURE, lean toward canHandle: false"* (line 361) — and
+  its static tier table defines a `local-small` tier (`llama3.2`, `phi3:mini`,
+  CPU-friendly) as `preferredFor: ['triage', 'routine tasks', 'formatting', 'simple
+  queries']`. ⚠️ The register's note stands: the specific 1.5b CPU-only figure should be
+  re-verified on the author's hardware before print. The smallest local model currently
+  installed on this machine is `qwen3.5:9b` (6.6 GB); no 1.5b-class model is installed,
+  so the 1.5b claim is the author's testimony about his own laptop, not a measurement
+  taken here.
 
 ## The rules this chapter carries
 
-**Rule 17 — *Let the small model say "I can't".* (primary).** A small model asked whether the job is its to do can answer usefully, because routing is a checkable question. The chapter is Rule 17 — let the small model say 'I can't' — and it exists precisely because of Rule 5: everywhere else the model cannot report its own uncertainty.
+**Rule 17 — *Let the small model say it can't.*** (primary). The whole chapter is Rule 17:
+the capability bus, the fail-safe (*"If you're unsure, lean toward canHandle: false"*),
+and the migration map.
 
-**Rule 5 — *It cannot tell you it's unsure.* (carried).**
+**Rule 5 — *It cannot tell you it's unsure.* (carried).** "This does not mean the model
+knows its limits in any deep or reliable sense. It does not." — the self-assessment is
+bounded, and the system designs around the possibility that it is wrong.
 
-## DRAFT
+---
 
-*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
-*load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
-*marked ⚠️ rather than smoothed over.)*
+*Verification: the author's prose is adopted verbatim (1,394 words). One claim was
+checked against code: the fail-safe line *"If you're unsure, lean toward canHandle:
+false"* appears verbatim in `model-bus.ts` line 361, and the `canHandle` self-assessment
+interface, the escalation flow, and the CPU-friendly `local-small` tier are all present
+in that file (699 lines). The 1.5-billion-parameter CPU-only figure is the author's
+first-hand testimony about his own laptop — presented as such, footnoted, and flagged
+for re-verification before print (the register's existing ⚠️ note). No 1.5b-class
+model is installed on this machine (`qwen3.5:9b` at 6.6 GB is the smallest local
+model here), so the figure could not be re-measured in this session. The chapter's other
+claims (the capability-bus design, the migration-map argument, the honesty framing) are
+argument about system design, not external facts. Placement: Chapter 17, head of
+Part III (the outline's intended slot for Concept 7). Carries Rule 17 (primary), Rule 5.*
