@@ -472,7 +472,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   from someone who has done the work a thousand times — then let the model run it.
   **Never let it write the plan it will follow.**
 
-**20. The expert is the product** 📋 *(Concept 11)*
+**20. The expert is the product** ✍️ *(Concept 11)*
 - Claim: **a prompt-built agent knows nothing the model did not already know at training time.** So it is a
   commodity — copyable in an afternoon, worth the model's price and no more. The only thing that
   differentiates an agent is knowledge the model does not have, and that knowledge must come from outside
