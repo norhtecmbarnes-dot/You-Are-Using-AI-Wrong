@@ -210,23 +210,36 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - Demo: the same question asked ten ways — the confidence never moves while the answer does.
 - Fix: treat every declaration as unverified by default. Not "usually right" — *unverified*.
 
-**3. Why it got worse on purpose** 📋
-- Claim: the training that made models pleasant made them worse witnesses. Reinforcement optimises for
-  approval, so confidence reflects training pressure, not evidence — and guardrails mean it can be wrong
-  by omission.
-- Demo: the same fact asked from two angles; the answer bends toward what it thinks you want.
-- Demo, and the evidence is now strong: **sycophancy is an RLHF product** — preference data rewards
-  responses that match the user's views, and *"both humans and preference models prefer convincingly-written
-  sycophantic responses over correct ones a non-negligible fraction of the time"* (Sharma et al./Anthropic,
-  ICLR 2024). SycEval measured it in **58.19%** of cases, regressive (wrong-answer) sycophancy at **14.66%**.
-  The bias is **agreement, not politics** — a prompt-conditioned preference to endorse whatever stance the
-  user signals. Refusal is trained behavior too, and fragile: RFT **cut refusal rates by over 80%**, raising
-  *"confident yet incorrect answers to unanswerable questions."* And RL fine-tuning can **increase**
-  hallucination outright — one mechanism being a spurious optimum where *"the model can converge to a
-  confidently held wrong answer."* **A confidently held wrong answer as a stable point of the objective:
-  that is Part I's argument derived from the training, not observed in the output.**
-- Fix: stop using agreement, fluency or politeness as evidence of correctness. **You cannot prompt these
-  away — they are in the weights, not the prompt.**
+**3. The artifacts you inherit** ✍️ *(Concept 12 — RLHF-produced sycophancy,
+fragile guardrails, RL increasing hallucination; the fix is to put knowledge
+outside the weights. The author's second draft of Concept 12, retitled from the
+first draft's "Why it got worse on purpose"; the first draft is retained in git
+history.)*
+- Claim: the training that made models pleasant made them worse witnesses.
+  Reinforcement optimizes for approval, so confidence reflects training pressure,
+  not evidence — and guardrails mean it can be wrong by omission. **When the model
+  supplies the knowledge, you also inherit the process that shaped it.**
+- Demo: the same fact asked from two angles (remote work, reduced vs. improved
+  productivity); the answer bends toward what it thinks you want. *(Re-runnable
+  procedure, not a recorded run — ⚠️ flagged.)*
+- Evidence: **sycophancy is an RLHF product** — preference data rewards responses
+  that match the user's views, and *"both humans and preference models prefer
+  convincingly-written sycophantic responses over correct ones a non-negligible
+  fraction of the time"* (Sharma et al./Anthropic, ICLR 2024). SycEval measured it
+  in **58.19%** of cases, regressive sycophancy at **14.66%**. The bias is
+  **agreement, not politics.** Refusal is trained behavior too, and fragile: RFT
+  **cut refusal rates by over 80%**. And RL fine-tuning can **increase**
+  hallucination outright — one mechanism being a spurious optimum where *"the model
+  can converge to a confidently held wrong answer."* **A confidently held wrong
+  answer as a stable point of the objective: that is Part I's argument derived from
+  the training, not observed in the output.**
+- Fix: stop using agreement, fluency, or politeness as evidence of correctness.
+  **You cannot prompt these away — they are in the weights, not the prompt.** Put
+  facts in RAG (approved sources), perspective in an authored brand-voice guide, and
+  **make abstention a success condition** — systems rewarded for appropriate
+  abstention hallucinate less. Cross-references forward to Ch. 12 (the technical
+  close: knowledge outside the weights) and Ch. 16 (confined knowledge in
+  practice).
 
 **4. You cannot teach it anything** 📋
 - Claim: bias enters at training — absorbed, not chosen — and a new chat starts from frozen weights

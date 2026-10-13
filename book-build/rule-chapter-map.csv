@@ -1,7 +1,7 @@
 chapter,title,status,primary_rule,rules_carried,source_file
 1,Ask Me Anything,MAPPED,1,1;11,chapters/Chapter-01-Ask-Me-Anything.md
 2,It cannot tell you it s unsure,MAPPED,5,5;2;4,chapters/Chapter-02-It-cannot-tell-you-it-s-unsure.md
-3,Why it got worse on purpose,MAPPED,2,2;8,chapters/Chapter-03-Why-it-got-worse-on-purpose.md
+3,The Artifacts You Inherit,MAPPED,5,5;2;6;12,chapters/Chapter-03-The-Artifacts-You-Inherit.md
 4,You cannot teach it anything,MAPPED,6,6;1;1b,chapters/Chapter-04-You-cannot-teach-it-anything.md
 5,The Opinions Are Inherited,MAPPED,6,6;2,chapters/Chapter-05-The-Opinions-Are-Inherited.md
 6,The clock is always running,MAPPED,2,2;5;12b;14b,chapters/Chapter-06-The-clock-is-always-running.md

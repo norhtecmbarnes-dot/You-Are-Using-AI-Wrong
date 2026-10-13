@@ -78,7 +78,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
     Part I    1  Ask me anything                                     ✍️  drafted
               2  It cannot tell you it's unsure                      📋  captured
-              3  Why it got worse on purpose                         📋  captured
+              3  The artifacts you inherit (Concept 12)               ✍️  drafted
               4  You cannot teach it anything                        📋  captured
               5  The opinions are inherited (Concept 2)             ✍️  drafted
               6  The clock is always running                         📋  captured
