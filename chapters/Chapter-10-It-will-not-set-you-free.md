@@ -1,4 +1,4 @@
-# Chapter 9 — It will not set you free
+# Chapter 10 — It will not set you free
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -156,7 +156,7 @@ the problem you were building in your own head.*
   nothing is there to feel any of it — belongs at the **opening of Part III**, where the book turns
   from what's broken to what to do. It's the *why bother* for the whole practice: you're building so
   the human stays in the loop, not so the human can leave it. Proposed: it opens the part, or extends
-  Ch. 16 ("What to notice about the human").
+  Ch. 17 ("What to notice about the human").
 
 **Guard rails:**
 

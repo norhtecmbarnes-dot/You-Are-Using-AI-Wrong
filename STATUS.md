@@ -10,7 +10,7 @@
 **The thinking is essentially complete. The drafting is not.**
 **The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
 
-    28 chapters planned
+    29 chapters planned
      4 exist as prose           Preface (India detail confirmed), Introduction, Ch 1, Ch 8
     25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
     17 concepts captured        CONCEPTS.md
@@ -68,7 +68,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
 ---
 
-## The plan — 28 chapters, four parts
+## The plan — 29 chapters, four parts
 
 `00-BOOK.md` section 7 is the outline, and it carries its own status on every chapter:
 **✍️ drafted · 📋 captured · ⬜ planned.**

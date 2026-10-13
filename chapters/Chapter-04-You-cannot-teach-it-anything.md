@@ -32,7 +32,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   - **Hallucination:** RL fine-tuning can **increase** it (arXiv 2505.24630), including a spurious optimum
     where *"the model can converge to a confidently held wrong answer."*
   - **⚑ And the fix the research describes is the capability bus:** SALU (arXiv 2507.16951) rewards
-    abstention and penalises confident hallucination — hallucination falls to **1.3%**. **Ch. 18's design,
+    abstention and penalizes confident hallucination — hallucination falls to **1.3%**. **Ch. 19's design,
     reached from the opposite direction.** The project keeps producing this pattern.
 
 ---
@@ -173,7 +173,7 @@ Depending on the system, it may include:
 
 All of that competes for a finite amount of space.
 
-⚑ The exact size varies by model and product, and it changes over time — and the book's own Rule 12b applies here: a number stated without a date is not a weaker fact, it is an unknown one. This chapter deliberately states no context-window size. The mechanism is the point; a figure would date the chapter faster than it informs it. (The token-level mechanism — compression, similarity, the one-directional write — is Chapter 11's subject.)
+⚑ The exact size varies by model and product, and it changes over time — and the book's own Rule 12b applies here: a number stated without a date is not a weaker fact, it is an unknown one. This chapter deliberately states no context-window size. The mechanism is the point; a figure would date the chapter faster than it informs it. (The token-level mechanism — compression, similarity, the one-directional write — is Chapter 12's subject.)
 
 But the principle does not change: a model can only work from the information included in its current context window.
 

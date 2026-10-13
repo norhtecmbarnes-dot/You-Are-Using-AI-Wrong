@@ -1,4 +1,4 @@
-# Chapter 22 — You cannot ask a model who's best
+# Chapter 23 — You cannot ask a model who's best
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -20,9 +20,9 @@
 including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions*)
 *are part of the material and must travel with it.*
 
-- **The Alpha challenge** (Ch. 18) — five code-scored tests, ties to the incumbent. Real result.
+- **The Alpha challenge** (Ch. 19) — five code-scored tests, ties to the incumbent. Real result.
 
-- **The self-education loop** (Ch. 22) — real, verified live. 10 tools checked, 9 baselines.
+- **The self-education loop** (Ch. 23) — real, verified live. 10 tools checked, 9 baselines.
 
 ---
 

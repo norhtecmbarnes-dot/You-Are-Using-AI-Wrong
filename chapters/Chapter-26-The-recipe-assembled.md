@@ -1,4 +1,4 @@
-# Chapter 25 — The recipe, assembled
+# Chapter 26 — The recipe, assembled
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -8,8 +8,8 @@
 
 - The full architecture in one place: contracts, injection, code-scored measurement, discovery over
   assumption, human gates, and a system that improves itself without a model deciding anything. **Two
-  pillars now bear the weight** — confinement of the knowledge (Ch. 16), and the capability bus that lets
-  a small model decline (Ch. 18).
+  pillars now bear the weight** — confinement of the knowledge (Ch. 17), and the capability bus that lets
+  a small model decline (Ch. 19).
 
 ---
 
@@ -19,19 +19,19 @@
 one system and not twenty-seven complaints. Nothing new is introduced here; this is the
 assembly chapter.
 
-**Two pillars carry the weight now** — the confinement of knowledge (Ch. 16) and the
-capability bus that lets a small model decline (Ch. 18). Everything else hangs off those.
+**Two pillars carry the weight now** — the confinement of knowledge (Ch. 17) and the
+capability bus that lets a small model decline (Ch. 19). Everything else hangs off those.
 
 **The parts, in the order they were built:**
 - **Contracts at every boundary** — define the shape before you call, validate before you act,
-  reject rather than repair. (Ch. 13)
+  reject rather than repair. (Ch. 14)
 - **Injection** — facts are attached, never requested. The model transforms supplied input.
-  (Ch. 10, Ch. 16)
+  (Ch. 11, Ch. 17)
 - **Code-scored measurement** — the Alpha. Fixed tests, scored by code, ties to the incumbent.
-  No model votes. (Ch. 22)
+  No model votes. (Ch. 23)
 - **Discovery over assumption** — the provider registry probes for what is present instead of
-  assuming what should be. No LLM in the decision path. (Ch. 10, Ch. 12)
-- **Human gates** — the system queues work for approval rather than acting. (Ch. 25 rule set)
+  assuming what should be. No LLM in the decision path. (Ch. 11, Ch. 13)
+- **Human gates** — the system queues work for approval rather than acting. (Ch. 26 rule set)
 - **A system that improves itself without a model deciding anything** — it measures, it
   records, it reports; the human promotes.
 
@@ -70,7 +70,7 @@ is visibly in it.
    being first, the two tools assumed to be one company, the effect that did not replicate,
    the paper whose numbers moved between versions.
 3. **Letting a model judge a model.** Asking a model to rank models produces a confident
-   answer that is a fact you did not earn. Measure with code. (Ch. 22)
+   answer that is a fact you did not earn. Measure with code. (Ch. 23)
 4. **Fixing a knowledge problem with a bigger model.** Scale improves fluency faster than
    factuality, so the failure gets harder to detect, not rarer. (Ch. 5)
 5. **Building on anything with a version number.** Mechanisms survive and products churn; a

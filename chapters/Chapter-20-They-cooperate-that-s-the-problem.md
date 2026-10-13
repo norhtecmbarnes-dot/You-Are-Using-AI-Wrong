@@ -1,4 +1,4 @@
-# Chapter 19 — They cooperate — that's the problem
+# Chapter 20 — They cooperate — that's the problem
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -96,7 +96,7 @@ agent. **The swarm does not remove the human. It exhausts one.**
   bus*: bounded models, one constrained agent, tools not authority. **The prescription is smaller, not
   larger.**
 
-**Where it lands.** **Part III, as Ch. 19** — directly after the capability bus (Ch. 18). The sequence is
+**Where it lands.** **Part III, as Ch. 20** — directly after the capability bus (Ch. 19). The sequence is
 deliberate: *let the small model decline* (18), then *don't scale by multiplying agents* (19), then
 *measure instead of asking* (20). It pays off Rule 18 and gives Rule 19 its evidence.
 

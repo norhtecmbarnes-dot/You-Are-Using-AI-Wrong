@@ -1,4 +1,4 @@
-# Chapter 15 — The sand and the sun
+# Chapter 16 — The sand and the sun
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -22,7 +22,7 @@
 *(from `00-BOOK.md` section 9 — the book's evidence register. Quoted as it stands, including its own ⚠️
 cautions. The cautions are part of the material and must travel with it.)*
 
-- **The cognitive-offloading finding** (Ch. 9, Rule 10) — *students performed better with the tool and worse
+- **The cognitive-offloading finding** (Ch. 10, Rule 10) — *students performed better with the tool and worse
   without it; the capability didn't build.* Plus: *generative AI boosted learning for those who engaged in deep
   conversation and explanation, and hampered those who sought direct answers.* **This is the evidence under this
   chapter's "why bother."**

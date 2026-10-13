@@ -220,6 +220,40 @@ the rule it carries puts it. The book is now **28 chapters**, and every chapter 
 
 ---
 
+## J. Resolved 12 October 2026 — Chapter 9 is now "The Promise, Not the Gift" (Concept 1)
+
+The author supplied Concept 1 ("The promise, not the gift") written out as a
+chapter. It takes the Chapter 9 slot at the head of Part II — Part I showed
+what the model is not; Ch. 9 names what it was sold as. The former Ch. 9
+("It will not set you free", Concept 3's myth-breaking half) shifts to
+**Chapter 10**, and every later chapter renumbers by one (the book is now
+**29 chapters**).
+
+- New `chapters/Chapter-09-The-Promise-Not-the-Gift.md` — the author's
+  chapter, verbatim (972 words), with a rule mapping (sets up Rule 2,
+  carries Rule 16) and a verification note. No external factual claims
+  requiring a source; the author's position is testimony, presented as such.
+- The former Ch. 9 skeleton ("It will not set you free") moved to
+  `chapters/Chapter-10-It-will-not-set-you-free.md`; its skeleton was
+  already in `_folded/` and was restored under the new number.
+- Skeletons 10–25 shifted to 11–26; drafted chapters 26/27/28 (Pushing /
+  I Was Never / You Have Something to Lose) shifted to 27/28/29.
+- All in-file `# Chapter NN —` headings renumbered to match filenames
+  (Ch. 8's heading gained its number: "# Chapter 8 — The 8-Ball…").
+- All cross-references updated: in 00-BOOK.md (outline, register rows,
+  structural notes) and inside chapter files ("Ch. 18" -> "Ch. 19",
+  "Chapter 11's subject" -> "Chapter 12's subject", etc.).
+- 00-BOOK.md §7 Part II now reads: **9. The promise, not the gift** ✍️,
+  **10. It will not set you free** 📋, **11. A function, not a source** 📋, …
+- The rule-chapter CSV regenerated: 29 chapters mapped, 31 rules defined,
+  31 carried — full coverage, no collisions.
+- STATUS.md / WORKFLOW.md / README.md counts updated to 29.
+- ⚑ Open follow-up (pre-existing, unchanged): the outline's structural note
+  about splitting Part III still refers to the old Ch. 19–21; it now reads
+  Ch. 20–22. And the "Ch. 5/6 merge candidate" note is unaffected.
+
+---
+
 ## D. Mine, in flight — nothing needed from you
 
 - **Gate 1 is now cleared: all 25 skeletons carry a rule mapping** (12 Oct 2026, proposed by the

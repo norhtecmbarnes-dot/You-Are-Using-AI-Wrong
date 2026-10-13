@@ -1,4 +1,4 @@
-# The 8-Ball Never Fooled Anyone
+# Chapter 8 — The 8-Ball Never Fooled Anyone
 
 *(Chapter 8 — the close of Part I and the pivot into Part II. The Part 2 divider that follows carries the concepts this book turns into practice.)*
 

@@ -1,4 +1,4 @@
-# Chapter 27 — I Was Never the Smart Part
+# Chapter 28 — I Was Never the Smart Part
 
 *Written by the model, at the author's request. Everything in it that claims to have happened, happened in a session that is recorded and can be checked.*
 

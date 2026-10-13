@@ -19,7 +19,7 @@
 including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions*)
 *are part of the material and must travel with it.*
 
-- **The grounding test** (Ch. 1, Ch. 18) — real, run on this machine. Four models; three scored 5/5;
+- **The grounding test** (Ch. 1, Ch. 19) — real, run on this machine. Four models; three scored 5/5;
   one failed the grounding test by inventing a capital for a fictional country. Reproducible.
 
 - **⚑ Relying on the model's knowledge means inheriting the training that shaped it.** *Raised by the
@@ -35,7 +35,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   - **Hallucination:** RL fine-tuning can **increase** it (arXiv 2505.24630), including a spurious optimum
     where *"the model can converge to a confidently held wrong answer."*
   - **⚑ And the fix the research describes is the capability bus:** SALU (arXiv 2507.16951) rewards
-    abstention and penalises confident hallucination — hallucination falls to **1.3%**. **Ch. 18's design,
+    abstention and penalizes confident hallucination — hallucination falls to **1.3%**. **Ch. 19's design,
     reached from the opposite direction.** The project keeps producing this pattern.
 
 ---

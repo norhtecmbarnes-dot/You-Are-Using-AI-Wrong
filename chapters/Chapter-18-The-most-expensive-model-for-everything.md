@@ -1,4 +1,4 @@
-# Chapter 17 — The most expensive model for everything
+# Chapter 18 — The most expensive model for everything
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -81,7 +81,7 @@ This is the sharpest organizational observation in the book, and it has a precis
 
 **Same tool, two waves, radically different trustworthiness — and the difference is whether the output
 could be checked.** That is the whole argument of the book demonstrated inside one organization, and it
-is the strongest possible set-up for "let it build code, because code is checkable" (Ch. 15).
+is the strongest possible set-up for "let it build code, because code is checkable" (Ch. 16).
 
 ### 3. Confined knowledge — the prescription, and it already has a name
 
@@ -197,11 +197,11 @@ enough that the answer can exist.**
   **Consequence for the chapter:** confinement and model choice are **two independent parameters**, and
   the commercial tools each get one right. That is the argument — not a product ranking.
 
-**Where it lands.** Split across **Ch. 16 (confined knowledge — "Tell it where you want the truth
-from")** and **Ch. 17 (the most expensive model for everything)** in Part III. Ch. 16 carries the
-confinement and multiple-truths argument; Ch. 17 is the chapter written explicitly for the leader reader
-and carries the routing argument. **Ch. 12 in Part II is a different chapter** — "Language at the edges,
-code in the middle" — so this concept no longer absorbs it; Ch. 16 absorbed the old "Tell it where to
+**Where it lands.** Split across **Ch. 17 (confined knowledge — "Tell it where you want the truth
+from")** and **Ch. 18 (the most expensive model for everything)** in Part III. Ch. 17 carries the
+confinement and multiple-truths argument; Ch. 18 is the chapter written explicitly for the leader reader
+and carries the routing argument. **Ch. 13 in Part II is a different chapter** — "Language at the edges,
+code in the middle" — so this concept no longer absorbs it; Ch. 17 absorbed the old "Tell it where to
 look" material instead. See `00-BOOK.md` §7 for the reconciled outline.
 
 ---

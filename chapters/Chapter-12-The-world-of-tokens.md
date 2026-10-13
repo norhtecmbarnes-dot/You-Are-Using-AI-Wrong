@@ -1,4 +1,4 @@
-# Chapter 11 — The world of tokens
+# Chapter 12 — The world of tokens
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -381,7 +381,7 @@ job description the book gives it: **a communications manager, not a knowledge s
 
 **Why this closes the technical chapter properly.** The chapter's problem (*no provenance inside the
 weights*) needed a fix that was not "get a better model." It gets a fix that makes the model's knowledge
-**irrelevant to the answer.** Which is why Ch. 11 hands directly to the confinement chapters — and why the
+**irrelevant to the answer.** Which is why Ch. 12 hands directly to the confinement chapters — and why the
 reviewer's objection (*define the claim and support it*) is now answered: the claim is *no provenance*,
 and the support is the architecture that supplies provenance instead.
 

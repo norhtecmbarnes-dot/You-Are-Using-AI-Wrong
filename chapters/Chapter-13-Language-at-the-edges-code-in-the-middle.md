@@ -1,4 +1,4 @@
-# Chapter 12 — Language at the edges, code in the middle
+# Chapter 13 — Language at the edges, code in the middle
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -49,7 +49,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   answer?** Should this go to a smarter cloud model?"* — and the fail-safe that makes it safe:
   **"If you're UNSURE, lean toward canHandle: false."**
 
-  **Why it earns a chapter (Ch. 18).** It is the one place in the book where a model's self-report is
+  **Why it earns a chapter (Ch. 19).** It is the one place in the book where a model's self-report is
   worth something, and the reason is exact: it is asked a **routing** question — *"is this job mine to
   do?"* — not a **knowledge** question. Routing is checkable, because you find out immediately whether the
   cheap path held. **The design does not trust the self-assessment; it bounds it.**

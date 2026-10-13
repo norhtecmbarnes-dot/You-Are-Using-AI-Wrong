@@ -1,4 +1,4 @@
-# Chapter 24 — Let it build code, because code is checkable
+# Chapter 25 — Let it build code, because code is checkable
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -7,7 +7,7 @@
 ## From the plan (00-BOOK.md section 7)
 
 - Claim: code has a property prose never will — it either runs or it doesn't. Verifiable output is where
-  the model's weakness stops mattering. *(Payoff of Ch. 17's two waves.)*
+  the model's weakness stops mattering. *(Payoff of Ch. 18's two waves.)*
 - Demo: a real bug caught by **looking at the bytes** — a payload that was JSON wearing an audio file's
   name — not by asking a model whether it looked right.
 - Fix: prefer the model for work whose output can be tested. Trust the test, not the model.
@@ -22,10 +22,10 @@
 including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions*)
 *are part of the material and must travel with it.*
 
-- **The VocalLab bug** (Ch. 23) — a payload that was JSON wearing an audio file's name, caught by
+- **The VocalLab bug** (Ch. 24) — a payload that was JSON wearing an audio file's name, caught by
   inspecting the bytes. Real.
 
-- **The Alpha challenge** (Ch. 18) — five code-scored tests, ties to the incumbent. Real result.
+- **The Alpha challenge** (Ch. 19) — five code-scored tests, ties to the incumbent. Real result.
 
 ---
 

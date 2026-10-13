@@ -1,4 +1,4 @@
-# Chapter 10 — A function, not a source
+# Chapter 11 — A function, not a source
 
 **STATUS: starting markdown. The plan spec and the verified evidence are below; expand it.**
 
@@ -38,7 +38,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   - **Hallucination:** RL fine-tuning can **increase** it (arXiv 2505.24630), including a spurious optimum
     where *"the model can converge to a confidently held wrong answer."*
   - **⚑ And the fix the research describes is the capability bus:** SALU (arXiv 2507.16951) rewards
-    abstention and penalises confident hallucination — hallucination falls to **1.3%**. **Ch. 18's design,
+    abstention and penalizes confident hallucination — hallucination falls to **1.3%**. **Ch. 19's design,
     reached from the opposite direction.** The project keeps producing this pattern.
 
 ---

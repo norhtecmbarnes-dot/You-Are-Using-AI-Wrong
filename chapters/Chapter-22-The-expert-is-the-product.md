@@ -1,4 +1,4 @@
-# Chapter 21 — The expert is the product
+# Chapter 22 — The expert is the product
 
 **STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
 
@@ -83,8 +83,8 @@ actually done cannot be downloaded.**
 - **Do not name a vendor as the winner.** Harvey, Abridge and the rest are examples of a *pattern*, per the
   book's standing rule. The pattern is vertical, expert-authored, knowledge-dense.
 
-**Where it lands.** **Part III, as Ch. 21** — directly after *"An expert wrote this, not the model."*
-Ch. 20 states the rule; Ch. 21 states what the rule is worth. Together they are the book's answer to the
+**Where it lands.** **Part III, as Ch. 22** — directly after *"An expert wrote this, not the model."*
+Ch. 21 states the rule; Ch. 22 states what the rule is worth. Together they are the book's answer to the
 question every leader reader is actually holding by this point: **if the model is a commodity, where does
 the advantage come from?**
 
