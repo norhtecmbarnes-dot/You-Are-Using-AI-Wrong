@@ -155,7 +155,11 @@ A human should remain responsible when the decision carries consequences.
 ---
 
 [^1]: The author's first-hand experience — testimony, presented as such; no external
-  source required. For the mechanism the chapter describes, the author's own system is
+  source required. The author has since pointed to a newer demonstration of the same
+  point (a sub-1.5b-parameter model following instructions, shown at
+  https://www.youtube.com/watch?v=40FXBcRz4_k) — newer than the model he used, and
+  offered as evidence that small models can be useful, not as a benchmark. For the
+  mechanism the chapter describes, the author's own system is
   the reference implementation: `src/lib/services/model-bus.ts` (699 lines) in the
   PersonalAI-Dashboard repository. Its triage prompt contains the exact fail-safe the
   chapter quotes — *"If you're UNSURE, lean toward canHandle: false"* (line 361) — and

@@ -175,7 +175,9 @@ And never confuse a tool's ability to describe a decision with authority to make
   capabilities change.
 
 [^2]: The author's first-hand experience — testimony, presented as such; no external
-  source required. ⚠️ The register's existing note stands: re-verify the 1.5b
+  source required. The author has since pointed to a newer demonstration of the same
+  point (a sub-1.5b-parameter model following instructions, shown at
+  https://www.youtube.com/watch?v=40FXBcRz4_k). ⚠️ The register's existing note stands: re-verify the 1.5b
   CPU-only figure on the author's hardware before print. No 1.5b-class model is
   installed on this machine (`qwen3.5:9b` at 6.6 GB is the smallest local model
   here), so the figure could not be re-measured in this session.

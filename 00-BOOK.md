@@ -346,7 +346,7 @@ history.)*
 - Demo: the same request twice — once asking it to remember, once handing it the material.
 - Fix: one rule at the call site — *attach the facts so it never needs to remember.*
 
-**12. The world of tokens** 📋 *(Concept 6 — the technical spine)*
+**12. The world of tokens** ✍️ *(Concept 6 — the technical spine)*
 - Claim: it does not live in our world; it lives in a world of fragments and distances. Tokens, not
   words; compression, not storage; similarity, not meaning; **one direction only**.
 - Demo: why it can't count letters, why rendered text garbles, why a falsehood is built one confident
