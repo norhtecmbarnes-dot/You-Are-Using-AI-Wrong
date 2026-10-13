@@ -104,6 +104,13 @@ def main():
 
     for p in sorted(glob.glob(os.path.join(CHAPTERS, "*.md"))):
         f = os.path.basename(p)
+        pm = re.match(r"Part-0*(\d+)-", f)
+        if pm:
+            # A part divider, not a chapter. Sort it just before the first chapter
+            # of its part (key uses the part number as a float offset).
+            d = inspect(p, False)
+            rows.append((int(pm.group(1)) - 0.5, f.replace(".md", "")[:44], "PART", d["draft_words"], True, True))
+            continue
         n = re.search(r"Chapter-(\d+)", f)
         with open(p, encoding="utf-8") as fh:
             head = fh.read()
@@ -114,7 +121,14 @@ def main():
         d = inspect(p, is_skel)
         rows.append((n.group(1) if n else "?", f.replace(".md", "")[:44], state(d), d["draft_words"], d["rules"], d["evidence"]))
 
-    rows.sort(key=lambda r: (r[0] == "--", int(r[0]) if str(r[0]).isdigit() else 99))
+    def sortkey(r):
+        k = r[0]
+        if k == "--":
+            return (0, 0)
+        if isinstance(k, (int, float)):
+            return (1, k)
+        return (2, 99)
+    rows.sort(key=sortkey)
 
     total = sum(r[3] for r in rows)
     TARGET = 45000
@@ -125,8 +139,9 @@ def main():
     print("%-5s %-46s %-9s %6s %-6s %-6s" % ("ch", "file", "state", "words", "rules", "evid"))
     print("-" * 78)
     for n, name, st, w, ru, ev in rows:
+        label = ("P%d" % (int(n) + 1)) if isinstance(n, float) else n
         print("%-5s %-46s %-9s %6s %-6s %-6s" % (
-            n, name, st, w, "yes" if ru else "-", "yes" if ev else "-"))
+            label, name, st, w, "yes" if ru else "-", "yes" if ev else "-"))
 
     print("-" * 78)
     print("drafted prose: %d words = %.0f%% of %d" % (total, 100.0 * total / TARGET, TARGET))
@@ -145,7 +160,7 @@ def main():
     print()
 
     blockers = [(n, name, st, w, ru, ev) for n, name, st, w, ru, ev in rows
-                if st != "DRAFTED" or not ru]
+                if st not in ("DRAFTED", "PART") or not ru]
     print("================================ BLOCKERS ================================")
     print("%d pieces are not finished. What each one needs:" % len(blockers))
     for n, name, st, w, ru, ev in blockers:

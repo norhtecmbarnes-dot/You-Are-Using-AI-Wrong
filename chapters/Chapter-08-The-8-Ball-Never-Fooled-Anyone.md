@@ -1,6 +1,6 @@
 # The 8-Ball Never Fooled Anyone
 
-*(Chapter draft — number TBD. Written to work as the close of Part I and the pivot into Part II.)*
+*(Chapter 8 — the close of Part I and the pivot into Part II. The Part 2 divider that follows carries the concepts this book turns into practice.)*
 
 ---
 

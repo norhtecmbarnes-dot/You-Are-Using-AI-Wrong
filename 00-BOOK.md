@@ -158,7 +158,7 @@ Written down so the book can be held to them. Every draft must pass these.
 
 ## 7. The chapter outline (reconciled)
 
-28 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it
+28 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it. Each part opens with a divider page (`chapters/Part-0N-*.md`) that introduces the part to the reader.
 carries — that discipline is what keeps the book from being a complaint. Status: ✍️ drafted ·
 📋 captured (detail in `CONCEPTS.md`) · ⬜ planned.
 
@@ -1556,7 +1556,8 @@ You-Are-Using-AI-Wrong/                                ← this book. NOT under 
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)
 ├── RULES.md                                           ← the 21 rules (front-matter page)
 ├── DASHBOARD-IMPLEMENTATION.md                        ← the rules mapped to the code that implements them
-├── chapters/                                          ← ALL 28 chapters live here (reorganized 12 Oct 2026)
+├── chapters/                                          ← ALL 28 chapters + 4 part dividers live here
+│   ├── Part-01 … Part-04                               part-opening dividers (one page each)
 │   ├── Chapter-01 … Chapter-28                         drafted chapters read whole; skeletons
 │   │                                                     write under a '## DRAFT' heading
 │   └── _folded/                                       retired skeletons, folded into another chapter;

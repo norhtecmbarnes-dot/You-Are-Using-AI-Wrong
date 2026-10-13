@@ -68,6 +68,9 @@ def title_for(fname):
     m = re.match(r"^Chapter-(\d+)-(.+)$", stem)
     if m:
         return "Chapter %d \u2014 %s" % (int(m.group(1)), prettify(m.group(2)))
+    m = re.match(r"^Part[-_]0*(\d+)[-_](.*)$", stem)
+    if m:
+        return "Part %s \u2014 %s" % (int(m.group(1)), prettify(m.group(2)))
     m = re.match(r"^Preface[-_]?(.*)$", stem)
     if m:
         return "Preface: " + prettify(m.group(1)) if m.group(1) else "Preface"
@@ -154,6 +157,13 @@ def discover():
         elif f.startswith("Chapter-DRAFT-"):
             if f not in PLACEMENT:
                 return
+        m = re.match(r"^Part-0*(\d+)-", f)
+        if m:
+            n = int(m.group(1))
+            key, sortkey, kind = "part-%d" % n, n - 0.5, "part"
+            if key not in found:
+                found[key] = (sortkey, kind, relpath, title_for(f))
+            return
         m = re.match(r"^Chapter-(\d+)-", f)
         if not m:
             return
@@ -348,15 +358,22 @@ def build(toc_entries=None):
     # ---- contents ----
     doc.add_heading("Contents", level=1).paragraph_format.space_before = Inches(0.4)
     if toc_entries is None:
-        for _k, _fn, ttl in buildable():
+        for k, _fn, ttl in buildable():
             e = doc.add_paragraph(); e.paragraph_format.first_line_indent = Inches(0)
             e.paragraph_format.space_after = Pt(6)
-            e.add_run(ttl)
+            r = e.add_run(ttl)
+            if k == "part":
+                r.bold = True
+                e.paragraph_format.space_before = Pt(10)
     else:
+        kind_by_title = {t: k for k, _f, t in FILES}
         for ttl, pg in toc_entries:
             e = doc.add_paragraph(); e.paragraph_format.first_line_indent = Inches(0)
             e.paragraph_format.space_after = Pt(6)
-            e.add_run(ttl)
+            r = e.add_run(ttl)
+            if kind_by_title.get(ttl) == "part":
+                r.bold = True
+                e.paragraph_format.space_before = Pt(10)
             e.add_run("\t")
             e.add_run(str(pg))
             e.paragraph_format.tab_stops.add_tab_stop(
@@ -385,7 +402,14 @@ def build(toc_entries=None):
             continue
         if n:                                   # every chapter starts on a fresh page
             doc.add_page_break()
-        doc.add_heading(title, level=1)
+        if _kind == "part":
+            # A part divider: a full-page break already happened; render it centered
+            # and larger, as a section title rather than a chapter heading.
+            h = doc.add_heading(title, level=1)
+            for r in h.runs:
+                r.font.size = Pt(20)
+        else:
+            doc.add_heading(title, level=1)
         text = strip_author_notes(body_text)
         first_para = True
         for raw in text.split("\n"):
