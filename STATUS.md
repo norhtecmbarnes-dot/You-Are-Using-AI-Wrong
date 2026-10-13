@@ -94,7 +94,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
     Part III  16 The most expensive model for everything          ✍️  drafted
               17 Let it say I can't                                  ✍️  drafted
-              18 They cooperate — that's the problem                 📋  captured
+              18 They cooperate — that's the problem                 ✍️  drafted
               19 An expert wrote this, not the model                 📋  captured
               20 The expert is the product                           📋  captured
               21 You cannot ask a model who's best                   📋  captured

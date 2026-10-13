@@ -426,7 +426,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - ⚠️ Caveat to carry: do **not** claim the model knows its limits. It doesn't. The value is
   architectural — *a cheap default, a cautious failure, and a bounded cost of being wrong.*
 
-**18. They cooperate — that's the problem** 📋 *(Concept 9 — the multi-agent evidence)*
+**18. They cooperate — that's the problem** ✍️ *(Concept 9 — the multi-agent evidence)*
 - Claim: **agents are not a scaling axis.** Adding a second agent does not add a second unit of
   capability — and the coordination you would need to make a swarm work is the *same* coordination that
   defeats your containment. **You cannot add cooperation as a capability without adding it as an attack
