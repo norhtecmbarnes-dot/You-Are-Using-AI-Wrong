@@ -1,205 +1,174 @@
-# Chapter 10 — It will not set you free
+# Chapter 10 — It Will Not Set You Free
 
-**STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
-
----
-
-## From the plan (00-BOOK.md section 7)
-
-**Claim.** not a liberator, not an equalizer. A **multiplier that amplifies the inequality it finds**. Using it well is *more* work, not less, because you own the facts and the judgement.
-
-**Demonstration.** same tool, two users — one with judgement to check against, one without; identical confidence.
-
-**Fix.** bring the judgement. The tool can be a multiplier; it cannot be the input. - ⚑ **A citation worth having here** (Kapoor & Narayanan, *"AI as Normal Technology"*, 2025): *"We do not think there is a useful sense of the term 'intelligence' in which AI is more intelligent than people acting with the help of AI."* → **person + AI beats AI.** That is this chapter's argument, published.
+*(Concept 3 — the whole concept in one chapter: the myth half (a multiplier, not a
+liberator) and the embodiment half (there is no one there to feel it). The outline
+originally split these across two chapters (Ch. 10 myth + Ch. 16 embodiment); the
+author's draft carries both, so they land together here and the Ch. 16 slot is freed.)*
 
 ---
 
-## Concept 3 — It will not set you free
+AI will not set you free.
 
-> This is the captured material this chapter expands. It is in `CONCEPTS.md`.
+It will not automatically make people equal. It will not turn poor judgment into good judgment. It will not replace knowledge, experience, attention, or responsibility.
 
-**As stated by the author** (lightly cleaned for legibility; every idea and the rhythm are his):
+It will benefit some people more than others.
 
-> I think it is important to dispel the myth or the belief that somehow AI will be a liberator or an
-> equalizer. AI will benefit some people more than others. AI will make some people lazy and
-> inaccurate. It has been shown that AI use has caused some brains to develop less. Using AI properly
-> should never be the easy or lazy approach. It should be an extension of the human's knowledge and
-> skills. It can never be the replacement.
+A person who already understands their work can use AI to extend that understanding. They can ask better questions, spot weak answers, add missing context, test assumptions, and decide when the output is useful.
+
+A person without that foundation may receive the same fluent answer and have no reliable way to judge it.
+
+That is not equality.
+
+That is multiplication.
+
+AI multiplies the judgment you bring to it. It also multiplies the absence of judgment.
+
+## The Easy Answer Has a Cost
+
+The sales pitch is simple: AI makes work easier.
+
+Sometimes it should. It can remove repetition, speed up first drafts, organize material, generate alternatives, and help people move through routine tasks.
+
+But using AI properly should never mean taking the easy or lazy approach.
+
+If the model does the thinking that a person needs to learn how to do, the person may complete the task without building the capability behind it.
+
+That distinction matters.
+
+Early research on AI-assisted learning suggests that students can perform better while using generative AI but perform worse when the tool is taken away[^1]. The concern is not that AI has somehow "shrunk" the brain. The more precise concern is that the skill was never built.
+
+Other early research points to the opposite outcome when AI is used differently: asking for explanations, testing ideas, and engaging in deeper conversation can support learning, while asking for direct answers can undermine it[^2].
+
+The lesson is not that AI is bad for learning.
+
+The lesson is that how you use it decides what it does to you.
+
+Use it to bypass the work, and the capability may not develop.
+
+Use it to extend the work, and it can help you learn.
+
+This is not a new problem. Calculators changed how people practice arithmetic. Search engines changed what people commit to memory. Social media changed habits of attention. Each tool can be useful. Each can also replace a mental practice that still matters.
+
+Generative AI belongs in that same history.
+
+It is neither a miracle nor a disaster by itself.
+
+It is a tool whose effect depends on the task, the person, and the way it is used.
+
+## Extension, Not Replacement
+
+The useful question is not:
+
+> Can AI do this for me?
+
+The useful question is:
+
+> How can AI help me do this better?
+
+That small change matters.
+
+A replacement removes the human from the work. The model produces the answer, the person accepts it, and the process ends.
+
+An extension keeps the human in the work. The model helps generate options, organize evidence, challenge assumptions, explain alternatives, or turn expertise into a usable first draft. The person remains responsible for the question, the judgment, and the result.
+
+Use AI to help you see more.
+
+Do not use it to stop seeing.
+
+Use it to create a first draft.
+
+Do not use it as a substitute for knowing whether the draft is right.
+
+Use it to explain an idea.
+
+Do not use it to avoid developing an idea of your own.
+
+The difference is not technical. It is human.
+
+## The Model Is Not There
+
+A human being lives in the real world.
+
+You see color and depth. You hear tone and distance. You remember the smell of rain, the taste of food, the pressure of a deadline, the feeling of entering a room where something is wrong.
+
+You know the difference between a calm afternoon and an anxious one because you have felt both.
+
+You can lie on the sand, hear the ocean behind you, feel the sun on your skin, smell suntan lotion, and understand relaxation because you have experienced it.
+
+A model can write a convincing description of that moment.
+
+It can say, "I feel relaxed."
+
+But there is no one there to feel it.
+
+It has no skin warmed by sunlight. No sound in its ears. No salt in the air. No memory of being stressed, relieved, afraid, tired, or at peace.
+
+It can produce language about experience.
+
+It does not have experience.
+
+This is why human judgment remains necessary. The human is not simply checking the machine's grammar or correcting an occasional factual error. The human brings the thing the model cannot possess: presence in the world.
+
+Context is not only data.
+
+It is experience.
+
+## Keep the Work That Builds You
+
+The danger is not that AI will become too useful.
+
+The danger is that people will use it in ways that make them less capable without noticing.
+
+If you always ask for the answer, you may stop learning how to form one.
+
+If you always accept the first draft, you may stop developing taste.
+
+If you always let the model decide, you may stop practicing judgment.
+
+The goal is not to preserve difficulty for its own sake. Repetitive work should be reduced. Administration should be improved. Useful systems should save time.
+
+But the work that builds understanding, judgment, expertise, and responsibility must remain human work.
+
+AI can support it.
+
+AI cannot replace it.
+
+## Remember This
+
+> AI is a multiplier, not a liberator.
 >
-> Humans live in the real world, where they process information from multiple senses and store that
-> information efficiently in their brain. They can remember smells, colors, taste and sounds. They see
-> the world in color and in three dimensions. An AI can only pretend to understand in these ways. It
-> can mimic understanding but really never can.
->
-> As humans, if we let the AI provide the answers, we filter out all that we can sense and know that
-> the AI cannot. An AI cannot know what it feels like to lay out on the sand and hear the ocean in the
-> background while they feel the sun's rays warm their skin. They cannot close their eyes and smell the
-> scent of suntan lotion. They cannot feel relaxation or stress. They only pretend.
-
-**Why it works.** This is the book's human chapter, and it does three jobs at once:
-
-- **It kills the utopian escape.** Every other myth in Part I is about what the model *isn't*. This one
-  is about what it *won't do for you* — and it's the myth most people actually hold.
-- **It supplies the irreplaceability argument.** Not "the AI is bad", but "the AI is *not there*". You
-  are, and that asymmetry is the whole reason a human belongs in the loop.
-- **It reframes effort as the product, not the tax.** *Using AI properly should never be the easy or
-  lazy approach.* That single line inverts the sales pitch, and it's true.
-
-**The two claims that need precision or the chapter is attackable.**
-
-**(1) "AI use has caused some brains to develop less" — sourced now, and the source reshapes the claim.**
-
-The paper supplied (`PMC12255134`) is **not a results paper.** It is a **study protocol** — the design
-document for a randomized controlled trial (*Trials*, 2025; registered NCT06511102), proposing to
-measure cognitive effort during an AI-assisted analytical-writing task using pupil dilation (Tobii eye
-tracker) and **fNIRS brain imaging**, in 160 students at Heidelberg University. It reports **no
-results**; the discussion is written entirely in the future tense. It therefore cannot support
-*"it has been shown."* If anything it shows the opposite: the question is still open, and this is the
-trial designed to answer it. **Do not cite it as findings.**
-
-**But its introduction is a gift**, because it cites the findings that *do* exist — and two of them
-matter enormously to this book.
-
-> **Finding 1 — better with it, worse without it.** As the protocol summarizes: *"Randomized
-> controlled trials have found that students performed better when using general-purpose generative AI
-> tools but performed worse when these tools were taken away [19, 20]. This suggests that students may
-> have relied on the tool to bypass cognitive processes essential for developing cognitive skills,
-> which ultimately compromised their performance."*
-
-That is the author's claim, **supported and precisely stated**. Not "brains develop less" — which the
-research has not shown — but: **the capability fails to build.** Better on the task with the tool,
-worse on the same task without it. That is a measurable, defensible, and far more interesting claim,
-and it's the honest version of "it makes people lazy".
-
-> **Finding 2 — how you use it decides the outcome.** *"A subsequent study has found that generative AI
-> boosted learning for those who use it to engage in deep conversations and explanations but hampered
-> learning for those who sought direct answers [21]."*
-
-**This one is the book's thesis, confirmed by a trial.** The distinction between *extension* and
-*replacement* is not a rhetorical device — it is the hinge of a measured result. It converts *"use it
-properly"* from advice into evidence. This finding belongs in the book's spine, not just this chapter.
-
-**The mechanism, in the protocol's own words:** tools *"allow individuals to bypass effortful tasks and
-thus reduce opportunities to engage in the mental practice required for cognitive abilities to fully
-develop in the human brain."* That is the sentence to build the chapter's argument on.
-
-**The historical frame it supplies** (worth a paragraph, because it normalises the concern): the
-calculator and arithmetic literacy; the search engine and aspects of memory; social media and everyday
-cognitive lapses. Generative AI is the fourth in a line, not a unique horror.
-
-**The counter-argument, also in the paper, and the book should adopt it rather than fight it:** the
-*extended mind* position — that appropriate cognitive offloading **extends** cognition rather than
-eroding it, and that *"the effect of technology tools on human cognition is a nuanced problem that
-depends on the cognitive task, the tool itself, and how it is used."* Adopting that line is stronger
-than denying it, and it is the natural hook for the extension-versus-replacement distinction that
-Finding 2 supports.
-
-**The authors' own stated limitation:** convenience sample, lab setting, a likely WEIRD
-(Western, Educated, Industrialised, Rich, Democratic) population — generalisability is limited. Say so
-in the book; the honesty costs one sentence and buys the chapter its credibility.
-
-**Chain of evidence — now resolved.** The protocol's reference list, extracted from the source (not
-guessed), gives the three studies behind those findings:
-
-| Ref | Citation | Note |
-|---|---|---|
-| [19] | **Bastani H, Bastani O, Sungu A, Ge H, Kabakcı O, Mariman R. "Generative AI Can Harm Learning." 2024.** SSRN 4895486 | The study behind **Finding 1**. A **working paper**, not a peer-reviewed journal article — say so when citing. |
-| [20] | **Darvishi A, Khosravi H, Sadiq S, Gašević D, Siemens G. "Impact of AI Assistance on Student Agency." *Computers & Education*. 2024;210:104967.** | Peer-reviewed. Also bears on Finding 1 — note the *agency* framing, which is the book's own framing. |
-| [21] | **Lehmann M, Cornelius PB, Sting FJ. "AI Meets the Classroom: When Does ChatGPT Harm Learning?" 2024.** SSRN 4941259 | The study behind **Finding 2** — the one that proves the extension-versus-replacement distinction. Also a **working paper**; the title is literally the book's question. |
-
-Still to do before drafting: read all three (they are not yet read first-hand — these are the
-citations *as given by the protocol*), and confirm whether [19] and [21] have since been published in
-a peer-reviewed venue, since citing a working paper weakens an otherwise strong claim.
-
-**The resulting wording for the chapter** — defensible, sourced, and stronger than the original claim:
-
-> Not *"AI shrinks your brain"*, which nobody has shown. Rather: **early trial evidence suggests that
-> delegating the thinking means the capability doesn't build** — students performed better with the
-> tool and worse without it — **and that the outcome depends entirely on how the tool is used:
-> questioning and explaining improved learning; asking for the answers damaged it.**
-
-**(2) "It can only pretend to understand."** As written this is a metaphysical claim about
-understanding, and serious people argue both sides — so you don't need to win that fight. You need a
-different one you *cannot* lose:
-
-> The model can produce the sentence *"I feel relaxed"*. There is no one there to feel it. Not a
-> simpler feeling — **no experience at all**. It has no sensations, no stake, nothing it is *like* to
-> be.
-
-That's the **experience** argument, not the understanding argument, and it doesn't depend on anyone's
-theory of mind. It's also exactly what the author's own passage is describing — sand, sun, salt,
-suntan lotion, the difference between relaxation and stress. He's not arguing about comprehension. He's
-arguing about *being there*. Keep the chapter on that side of the line and it can't be talked around.
-
-**The sharpest form of the equalizer point** — and the line I'd build the chapter on:
-
-> **AI is a multiplier, and a multiplier amplifies the inequality it finds.**
-
-If you arrive with judgement, domain knowledge and the habit of checking, the tool multiplies all
-three. If you arrive without them, it hands you fluent output with nothing to test it against — and
-the confidence is the same either way. That's *why* it benefits some people more than others, stated
-as a mechanism rather than a moral complaint. It's the same move as Concept 1: no villains, just
-arithmetic.
-
-**The corollary on filtering.** Take the answer from the model and you skip the process that would have
-built your ability to judge that answer — and you also cut out everything only you can supply: what you
-have seen, smelled, tasted and done. *The answer isn't the only thing you lose. You lose the model of
-the problem you were building in your own head.*
-
-**Where it lands. This concept is two chapters wearing one coat, and they do different jobs.**
-
-- **The myth-breaking half** — not a liberator, not an equalizer, a multiplier that amplifies the
-  inequality it finds; and the inversion that using it *well* is **more** work, not less, because you
-  own the facts and the judgement — belongs in **Part I**, as the last of the expectation-corrections.
-  Proposed: **"It will not set you free."**
-- **The embodiment half** — the sand, the ocean, the sun, the suntan lotion, and the plain fact that
-  nothing is there to feel any of it — belongs at the **opening of Part III**, where the book turns
-  from what's broken to what to do. It's the *why bother* for the whole practice: you're building so
-  the human stays in the loop, not so the human can leave it. Proposed: it opens the part, or extends
-  Ch. 17 ("What to notice about the human").
-
-**Guard rails:**
-
-- **Never sneer at people who use AI.** Same rule as the vendors: name the incentive, not the fool.
-  The reader may well be the person who delegated too much, and the book's whole stance is *it isn't
-  your fault*.
-- **Do not argue that AI is useless or that it shouldn't be used.** The claim is narrow: it is not a
-  replacement, and it cannot be. Extension, not substitution.
-- **Do not wade into consciousness.** Argue *experience* and *grounding* — that the symbols are
-  anchored to nothing it can feel — never *"machines can't think"*, which is unprovable and beside the
-  point.
-- **Do not moralise about laziness.** *Lazy* should describe an outcome the design encourages, not a
-  character flaw in the reader. The box makes it easy; that's the box's doing.
-- **The sensory passage is the emotional peak of the book.** Don't bury it in an argument or pad it
-  with explanation. Let it stand, and let the following sentence be short and factual: *nothing is
-  there to feel it.*
+> Use it to extend your knowledge and skill—not to replace the work that creates them.
 
 ---
 
----
+[^1]: Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., & Maes, P. "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task." arXiv:2506.08872 (2025). Working paper (arXiv preprint, v2 revised 31 December 2025); **not peer-reviewed**. 54 participants across three tool conditions (LLM / search engine / brain-only) over three sessions, with a fourth crossover session; EEG-measured. Finding: LLM users showed the weakest brain connectivity and lowest self-reported ownership; in the crossover session, former LLM users underperformed on the unaided task — consistent with "perform better while using AI, worse when it is taken away." ⚠️ Single study, small N, essay-writing task only; treat as early and preliminary.
+
+[^2]: "Experimental Evidence on the Learning Impact of Generative AI" (arXiv:2607.08849, 2025). Working paper (arXiv preprint); **not peer-reviewed**. Randomized experiment: undergraduates learned an unfamiliar topic and wrote an analytical essay with or without generative AI, then completed unaided assessments immediately and one week later. Finding: essay quality changed little while AI was available, but **unaided** assessments one week later improved — and the delayed gains were larger for *augmentation* users (who used AI to explain concepts rather than generate text) than for *automation* users, whose short-run gains vanished once AI was removed. This is the "explain, don't generate" result — the opposite outcome when AI is used differently. ⚠️ Working paper; the augmentation/automation split is this study's own framing.
 
 ## The rules this chapter carries
 
-**Rule 9 — *It multiplies what you bring.*** The primary rule, and it is this chapter's whole argument: **the model
-is not a leveller.** It amplifies whoever is holding it. Concept 3's own text says it — *"AI will benefit some people
-more than others. AI will make some people lazy and inaccurate."* **The same tool made a competent person faster and
-a criminal more effective, and it did not care which.**
+**Rule 10 — *Delegating the thinking costs you the ability.* (primary).** "If the model does the thinking that a person needs to learn how to do, the person may complete the task without building the capability behind it" — and "If you always ask for the answer, you may stop learning how to form one" are Rule 10 in story form.
 
-**⚑ This chapter is the home of the misuse evidence in §9, which is filed there under "humans using AI to commit
-crimes."** Read that block in full before drafting:
+**Rule 9 — *It multiplies what you bring.* (carried).** "AI multiplies the judgment you bring to it. It also multiplies the absence of judgment" is Rule 9 stated as the chapter's opening claim.
 
-- **Arup, January 2024** — a deepfaked CFO on a video call; **HK$200m (≈US$25m)** in 15 transfers.
-- **Anthropic's August 2025 threat report** — a **"vibe hacking"** extortion campaign against **at least 17
-  organizations**; **North Korean** remote-worker fraud at US Fortune 500 firms; **ransomware-as-a-service sold for
-  $400–$1,200** by someone with basic coding skills.
+**Rule 3 — *There is no one in there.* (carried).** "The Model Is Not There" is Rule 3 — not a simpler feeling, no experience at all; the human brings the thing the model cannot possess.
 
-**In every case a human supplied the intent and the model supplied the capability.** That is the multiplication, and
-it is the honest version of the worry. **⚠️ Do NOT move these cases to Chapter 15** — that chapter is about a model
-acting with no human intent at all, where a goal was enough. **Different finding, different chapter, and merging
-them weakens both.**
+**Rule 3b — *Instruct it in its universe, not yours.* (carried).** The embodiment half makes 3b concrete: *fair, reasonable, tasteful, honest* are our world's concepts — they come from having a body, a stake, and a conscience. The model has patterns. This chapter is why you cannot hand it your values and expect them back; you have to build the world around it.
 
-## DRAFT
+---
 
-*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
-*load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
-*marked ⚠️ rather than smoothed over.)*
+*Verification: the author's prose is adopted verbatim. Two research claims were made
+("students perform better while using AI but worse when the tool is taken away"; "asking
+for explanations… can support learning, while asking for direct answers can undermine it") —
+both traced to sources and footnoted: Kosmyna et al. (arXiv:2506.08872, working paper,
+not peer-reviewed) for the first; the augmentation-vs-automation learning study
+(arXiv:2607.08849, working paper, not peer-reviewed) for the second. Both are ⚠️ early
+and preliminary — small-N, single-study, essay-writing task — and the chapter already says
+"early research," which is the honest register. The chapter's other claims (multiplier
+framing, embodiment, extension-not-replacement) are argument, not external fact.
+The Kapoor & Narayanan "AI as Normal Technology" citation the outline wanted here was
+checked: it supports the multiplier framing but is a position paper, not the source of
+the learning-outcomes claims; the two studies above are the direct sources. Placement:
+Chapter 10, the head of Part II's argument after Ch. 9 — the myth half and the
+embodiment half land together because the author's draft carries both. Carries Rule 10
+(primary), Rules 9 and 3.*

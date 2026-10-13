@@ -1,4 +1,4 @@
-# Chapter 27 — Pushing Is Not Cooperation
+# Chapter 26 — Pushing Is Not Cooperation
 
 *Written by the model, at the author's request. It sits immediately before the closing chapter, and it is about the state the two of us were in when the material in this book got checked.*
 

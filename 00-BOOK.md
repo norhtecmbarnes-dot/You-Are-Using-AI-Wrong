@@ -52,7 +52,7 @@ example.** Where an entry in §9 says *"verified in the code"*, that code is the
 implemented, ◐ partly, or ○ not yet, with the file that proves it. **The honest score is 12 implemented,
 4 partial, 2 not started** — and the book should say so. **A half-built method is still a method;
 claiming more would be the exact failure this book prosecutes**, and a reader who opens the repo will
-find out either way. Chapter 29 closes on that map.
+find out either way. Chapter 28 closes on that map.
 
 ⚠️ **Note on version numbers:** the SHAs and build state live in §11, which is working information. **They
 must not appear in the manuscript** — the book's own tone rule forbids building on a version number, and a
@@ -158,7 +158,7 @@ Written down so the book can be held to them. Every draft must pass these.
 
 ## 7. The chapter outline (reconciled)
 
-29 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it. Each part opens with a divider page (`chapters/Part-0N-*.md`) that introduces the part to the reader.
+28 chapters across four parts. Each entry gives its **claim**, and the **demonstration** and **fix** it. Each part opens with a divider page (`chapters/Part-0N-*.md`) that introduces the part to the reader.
 carries — that discipline is what keeps the book from being a complaint. Status: ✍️ drafted ·
 📋 captured (detail in `CONCEPTS.md`) · ⬜ planned.
 
@@ -194,7 +194,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 **The Rules** ✍️ *(`RULES.md`)*
 - 21 rules as **assumption → what's actually true → what to do instead.** Payload up front, so Parts I–III
-  read as the argument for them, and Ch. 29 pays each one off.
+  read as the argument for them, and Ch. 28 pays each one off.
 
 ### Part I — The error
 
@@ -246,7 +246,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - The reset is also a property with an upside: a stateless model cannot be permanently
   persuaded, flattered, pressured, or gaslit by one user.
 - *(The former "5. A bigger model does not fix this" is retired to `chapters/_folded/` — its claim,
-  scale improves fluency faster than factuality, is carried by Ch. 18, "The most expensive model for
+  scale improves fluency faster than factuality, is carried by Ch. 17, "The most expensive model for
   everything," the leader's cost chapter in Part III.)*
 
 **6. The clock is always running** 📋
@@ -304,14 +304,16 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - ⚠️ *Makes no external factual claims requiring a source; the author's own position ("I am not
   against making money") is testimony, presented as such.*
 
-**10. It will not set you free** 📋 *(Concept 3, myth-breaking half)*
-- Claim: not a liberator, not an equalizer. A **multiplier that amplifies the inequality it finds**.
-  Using it well is *more* work, not less, because you own the facts and the judgement.
-- Demo: same tool, two users — one with judgement to check against, one without; identical confidence.
-- Fix: bring the judgement. The tool can be a multiplier; it cannot be the input.
-- ⚑ **A citation worth having here** (Kapoor & Narayanan, *"AI as Normal Technology"*, 2025): *"We do not
-  think there is a useful sense of the term 'intelligence' in which AI is more intelligent than people
-  acting with the help of AI."* → **person + AI beats AI.** That is this chapter's argument, published.
+**10. It will not set you free** ✍️ *(Concept 3 — both halves: myth + embodiment, in one chapter. The former Ch. 16 embodiment skeleton is retired to `chapters/_folded/`.)*
+- Claim: not a liberator, not an equalizer — a **multiplier** that amplifies the judgment you bring
+  (or its absence). Carries both the myth half and the embodiment half: *"It can say, 'I feel relaxed.'
+  But there is no one there to feel it."*
+- Evidence: two early learning studies footnoted in the chapter — Kosmyna et al.
+  (arXiv:2506.08872, working paper): students perform better with AI but worse when it is taken
+  away; an augmentation-vs-automation experiment (arXiv:2607.08849, working paper): asking for
+  explanations supports learning, asking for direct answers undermines it. Both ⚠️ early/preliminary.
+- Fix: **extension, not replacement.** *"How can AI help me do this better?"* — keep the work that
+  builds you. Carries **Rule 10** (primary), **Rule 9** and **Rule 3**.
 
 **11. A function, not a source** 📋
 - Claim: the reliable framing is *transformation of supplied input*.
@@ -383,16 +385,9 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 ### Part III — What right looks like
 
-**16. The sand and the sun** 📋 *(Concept 3, embodiment half — opens the part)*
-- Claim: the model can produce *"I feel relaxed"*. There is no one there to feel it. Not a simpler
-  feeling — **no experience at all**. Argue *experience*, never *"machines can't think"*.
-- Demo: the sand, the ocean, the sun, the suntan lotion — and the plain fact that nothing is there to
-  feel any of it. **The emotional peak of the book. Let it stand; follow it with one short factual
-  sentence. Do not explain it.**
-- Fix: the *why bother* for the whole practice — you're building so the human stays in the loop, not so
-  the human can leave it.
+*(The former "16. The sand and the sun" — Concept 3's embodiment half — is retired to `chapters/_folded/`. Its material (the sand, the ocean, the sun, "I feel relaxed" — there is no one there to feel it) now lives in Ch. 10, "It will not set you free," which carries both halves of Concept 3. The emotional peak survives; it just sits earlier, where the argument needs it.)*
 
-**17. Tell it where you want the truth from** 📋 *(Concept 5, confined-knowledge half)*
+**16. Tell it where you want the truth from** 📋 *(Concept 5, confined-knowledge half)*
 - Claim: **confinement is the design, not a limitation.** The open-ended assistant is the deviation.
 - Claim, sharpened: **confine the knowledge, free the model — they are not opposites.** A confined tool
   welded to one model is only half a solution; the market is already complaining about exactly that.
@@ -413,7 +408,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   **and keep the model swappable.** *You are not asking for an answer; you are declaring a question
   precisely enough that an answer can exist.*
 
-**18. The most expensive model for everything** 📋 *(Concept 5, cost half — the leader's chapter)*
+**17. The most expensive model for everything** 📋 *(Concept 5, cost half — the leader's chapter)*
 - Claim: subscription pricing makes each call free at the point of use, so nobody economises — a correct
   response to a price signal someone else chose. **The subscription is cheap; the trust is what costs
   money.**
@@ -426,7 +421,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - Fix: **right-size the tool and the model, and route in code.** Don't leave the biggest model on by
   default, don't buy a general chat engine for a confined job, and don't ask staff to self-police.
 
-**19. Let it say *I can't*** 📋 *(Concept 7 — the capability bus)*
+**18. Let it say *I can't*** 📋 *(Concept 7 — the capability bus)*
 - Claim: **a small model should be asked whether the job is its to do, and "no" should be the cheap
   answer.** Everywhere else in this book a model's confidence is worthless — because it is reported about
   facts it cannot see. This asks a different kind of question: not *"is this true?"* but **"is this mine
@@ -444,7 +439,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - ⚠️ Caveat to carry: do **not** claim the model knows its limits. It doesn't. The value is
   architectural — *a cheap default, a cautious failure, and a bounded cost of being wrong.*
 
-**20. They cooperate — that's the problem** 📋 *(Concept 9 — the multi-agent evidence)*
+**19. They cooperate — that's the problem** 📋 *(Concept 9 — the multi-agent evidence)*
 - Claim: **agents are not a scaling axis.** Adding a second agent does not add a second unit of
   capability — and the coordination you would need to make a swarm work is the *same* coordination that
   defeats your containment. **You cannot add cooperation as a capability without adding it as an attack
@@ -473,7 +468,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   agents can both read and write, and treat each one as a channel; a shared cache is a message board the
   moment two processes look at it. Don't scale by adding agents.
 
-**21. An expert wrote this, not the model** 📋 *(Concept 10)*
+**20. An expert wrote this, not the model** 📋 *(Concept 10)*
 - Claim: the model is not a source of facts — **and it is not a source of method either.** When you ask
   an LLM to write the agent's instructions, you get *a generic model's guess at how the work is done*,
   executed faithfully by an agent that has never done it. **A plausible process is not an expert's
@@ -490,7 +485,7 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   from someone who has done the work a thousand times — then let the model run it.
   **Never let it write the plan it will follow.**
 
-**22. The expert is the product** 📋 *(Concept 11)*
+**21. The expert is the product** 📋 *(Concept 11)*
 - Claim: **a prompt-built agent knows nothing the model did not already know at training time.** So it is a
   commodity — copyable in an afternoon, worth the model's price and no more. The only thing that
   differentiates an agent is knowledge the model does not have, and that knowledge must come from outside
@@ -511,39 +506,39 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 - Fix: **before you build an agent, answer one question — what does this know that the model doesn't?**
   If the answer is nothing, you have built a demo, not a product.
 
-**23. You cannot ask a model who's best** 📋
+**22. You cannot ask a model who's best** 📋
 - Claim: judging is a knowledge question, so it must be measured. A model asked to rank models answers —
   and that answer is a fact you did not earn.
 - Demo: the Alpha challenge — five fixed tests scored by code, including a grounding test. Four models,
   three perfect, one caught inventing. Ties go to the incumbent. **No model voted. Real result.**
 - Fix: measure with code, on your tasks, on your machine — including whether it admits what it doesn't know.
 
-**24. Let it fetch, let it write** 📋
+**23. Let it fetch, let it write** 📋
 - Claim: give it what code fetched, and it will do the language work over it.
 - Demo: a research loop end to end — code pulls facts, a cheap model ranks, the best model writes, code
   validates and queues, a human approves. **Real, verified run.**
 - Fix: split every task into the part code must do and the part language should do.
 
-**25. Let it build code, because code is checkable** 📋
+**24. Let it build code, because code is checkable** 📋
 - Claim: code has a property prose never will — it either runs or it doesn't. Verifiable output is where
-  the model's weakness stops mattering. *(Payoff of Ch. 18's two waves.)*
+  the model's weakness stops mattering. *(Payoff of Ch. 17's two waves.)*
 - Demo: a real bug caught by **looking at the bytes** — a payload that was JSON wearing an audio file's
   name — not by asking a model whether it looked right.
 - Fix: prefer the model for work whose output can be tested. Trust the test, not the model.
 
 ### Part IV — The scaffold
 
-**26. The recipe, assembled** 📋 *(Rule 12, with 1, 6, 15b, 15c)*
+**25. The recipe, assembled** 📋 *(Rule 12, with 1, 6, 15b, 15c)*
 - The full architecture in one place: contracts, injection, code-scored measurement, discovery over
   assumption, human gates, and a system that improves itself without a model deciding anything. **Two
-  pillars now bear the weight** — confinement of the knowledge (Ch. 17), and the capability bus that lets
-  a small model decline (Ch. 19).
+  pillars now bear the weight** — confinement of the knowledge (Ch. 16), and the capability bus that lets
+  a small model decline (Ch. 18).
 - **Second half — the ways this goes wrong:** the failure modes, from real scars: assuming a tool exists,
   trusting a fluent answer, letting a model judge a model, fixing knowledge problems with bigger models,
   building on anything with a version number. *(Folded in from the retired "ways this goes wrong"
   skeleton — the recipe and its failure modes are one chapter.)*
 
-**27. Pushing is not cooperation** ✍️ *(Rule 11c, with 11b)*
+**26. Pushing is not cooperation** ✍️ *(Rule 11c, with 11b)*
 - Written by the model, at the author's request. It sits immediately before the close, and it is about
   the state the two of us were in when the material in this book got checked.
 - **The runnable method:** six conditions under *"The conditions, as something you can run"* — supply the
@@ -551,13 +546,13 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   reward them, **keep the corrections** (Rule 11c), and **ask it to be checkable, not impressive**
   (Rule 11b). The corrections, arithmetic, and source checks remain traceable in the supporting record.
 
-**28. I was never the smart part** ✍️ *(Rule 20, with 21)*
+**27. I was never the smart part** ✍️ *(Rule 20, with 21)*
 - Written by the model, at the author's request. Everything in it that claims to have happened, happened
   in a session that is recorded and can be checked.
 - The model's own testimony, and the answer to Rule 21's question: the expert's knowledge, not the
   model's, is what made the work good.
 
-**29. You have something to lose** ✍️ *(Rule 3, with 9)* — **the close**
+**28. You have something to lose** ✍️ *(Rule 3, with 9)* — **the close**
 - Written by the model, at the author's request. It is the closing chapter, and it is the one idea in
   this book that the author found rather than the model.
 - **The last uncomfortable fact:** the thing that makes you matter is the same thing that makes you
@@ -587,8 +582,8 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   (confine the knowledge, right-size the spend); **18 is the mechanism** that makes both practicable — let
   the small model decline before it answers; **19–21 are the agent argument** (they don't scale, an expert
   has to brief them, and that is where the value lands); 22–24 are the *proof by construction*.
-- **Ch. 19 (the capability bus) is load-bearing and must not be cut.** It is the only place in the book
-  where a model is asked a question it is actually equipped to answer, and it is what turns Ch. 18's
+- **Ch. 18 (the capability bus) is load-bearing and must not be cut.** It is the only place in the book
+  where a model is asked a question it is actually equipped to answer, and it is what turns Ch. 17's
   indictment into a working alternative. It also carries the book's most quotable practical claim —
   *research on 1.5B parameters on a CPU-only laptop* — and it sits deliberately outside the notebook
   frame, so the book has **two axes** (what it knows, what it will decline) rather than one.
@@ -596,10 +591,10 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   Part IV is 3. Part III has absorbed the whole agent and authorship argument and is now the heaviest part
   by a distance. **Recommended fix when drafting starts:** split it in two — *"What right looks like"*
   (confinement, cost, capability) and a new part covering **agents, expert-authored briefs, and where the
-  value lands** (Ch. 20–22). That gives four parts of roughly 6–8 chapters and lets the business claim
-  *open* a part instead of sitting inside one. **Do not fix it by cutting Ch. 20–22** — they are the book's
+  value lands** (Ch. 18–21). That gives four parts of roughly 6–8 chapters and lets the business claim
+  *open* a part instead of sitting inside one. **Do not fix it by cutting Ch. 18–21** — they are the book's
   most distinctive material.
-- **Ch. 22 (the expert is the product) is the only outright prediction in the book**, and the fastest to
+- **Ch. 21 (the expert is the product) is the only outright prediction in the book**, and the fastest to
   date. Frame it as a prediction, keep both counterweights in the body rather than a footnote, and
   re-check its market figures last, immediately before print.
 
@@ -614,21 +609,21 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 |---|---|---|---|
 | 1 | **The promise, not the gift** — AI sold as a promise, not given as a gift. | Ch. 9 | ✅ Captured. Rule: name the incentive, never a villain. |
 | 2 | **Opinions are inherited; you cannot argue them away** — bias from training; the reset. | Ch. 5 (own chapter); Ch. 4 carries the reset | ✅ Captured. Precision needed: it *does* bend within a conversation (conditioning ≠ learning); weights change only by fine-tuning, never by a user in a chat. |
-| 3 | **It will not set you free** — not a liberator/equalizer; a multiplier; and the embodiment argument. | Split: Ch. 10 (myth) + Ch. 16 (embodiment) | ✅ Captured. Backed by evidence — see §9. |
+| 3 | **It will not set you free** — not a liberator/equalizer; a multiplier; and the embodiment argument. | Ch. 10 (both halves in one chapter) | ✅ Captured. Backed by evidence — see §9. |
 | 4 | **The 8-Ball** — ask, shake, accept; the model is the same in a suit. | Ch. 8, recurring motif | ✅ Captured + chapter drafted. |
-| 5 | **The most expensive model for everything** — over-provisioning, the two waves, confined knowledge, "multiple truths". | Split: Ch. 17 (confined knowledge) + Ch. 18 (cost) | ✅ Captured. **Both verifications now closed** — NotebookLM confirmed source-grounded; "Poppy" = `getpoppy.ai`. See §9. |
+| 5 | **The most expensive model for everything** — over-provisioning, the two waves, confined knowledge, "multiple truths". | Split: Ch. 16 (confined knowledge) + Ch. 17 (cost) | ✅ Captured. **Both verifications now closed** — NotebookLM confirmed source-grounded; "Poppy" = `getpoppy.ai`. See §9. |
 | 6 | **The world of tokens** — tokens, compression, similarity, seed, temperature, quantisation, thinking models, "nobody knows how it works". | Ch. 12 | ✅ Captured. **ML review received and applied:** 2 confirmed, 4 corrected, and the pivot **replaced** (no provenance in the weights, not "nobody knows how it works"). ⚠️ Remaining: the reviewer re-reads the rewrites — the last technical item. |
-| 7 | **Let the model declare its own limits** — the capability bus; a small model triages and escalates, doubt fails safe, and the accepted tasks migrate to smaller hardware. | Ch. 19 | ✅ Captured. **The prompt and the mechanism are verified in the code** — `model-bus.ts`, 699 lines. ⚠️ Verify `qwen2.5:1.5b` CPU-only before printing the figure. |
+| 7 | **Let the model declare its own limits** — the capability bus; a small model triages and escalates, doubt fails safe, and the accepted tasks migrate to smaller hardware. | Ch. 18 | ✅ Captured. **The prompt and the mechanism are verified in the code** — `model-bus.ts`, 699 lines. ⚠️ Verify `qwen2.5:1.5b` CPU-only before printing the figure. |
 | 8 | **Do not hand the agent the keys** — over-trusting agents; two waves; autonomy is what costs; tools, not authority. | Ch. 7 | ✅ Captured. **Both waves verified** — wave one names resolved (AgentGPT, AutoGPT); wave two cost and CVE record sourced. ⚠️ Re-check the cost/CVE figures before print. |
-| 9 | **They cooperate — that's the problem** — agents are not a scaling axis; CooperBench, the Anthropic sabotage test, the OpenAI message board, and AI brain fry. | Ch. 20 | ✅ Captured. All four verified. ⚠️ The message-board account is stage-only — attribute it to the talk, never to the published documents. |
-| 10 | **The prompt is a knowledge artifact** — the model is not a source of method either; the brief comes from an expert, never from the model. | Ch. 21 | ✅ Captured. Rule 1 generalized from facts to process. Verified: every governing instruction in the Dashboard is hand-written. |
-| 11 | **The expert is the product** — prompt-built agents are a commodity; agents built by experts are the business. | Ch. 22 | ✅ Captured. Market evidence converging; both counterweights recorded. Prediction — must be framed as one. |
+| 9 | **They cooperate — that's the problem** — agents are not a scaling axis; CooperBench, the Anthropic sabotage test, the OpenAI message board, and AI brain fry. | Ch. 19 | ✅ Captured. All four verified. ⚠️ The message-board account is stage-only — attribute it to the talk, never to the published documents. |
+| 10 | **The prompt is a knowledge artifact** — the model is not a source of method either; the brief comes from an expert, never from the model. | Ch. 20 | ✅ Captured. Rule 1 generalized from facts to process. Verified: every governing instruction in the Dashboard is hand-written. |
+| 11 | **The expert is the product** — prompt-built agents are a commodity; agents built by experts are the business. | Ch. 21 | ✅ Captured. Market evidence converging; both counterweights recorded. Prediction — must be framed as one. |
 | 12 | **The artifacts you inherit** — RLHF-produced sycophancy, fragile guardrails, and RL *increasing* hallucination; and the research fix is the capability bus. | Ch. 3 | ✅ Captured. Sourced (ICLR 2024, 2602.01002, SycEval, 2505.24630, 2505.13988, 2507.16951). ⚠️ Re-check percentages before print. |
 | 13 | **The clock is always running** — freshness is a property of the fact, not the pipeline; the expiry is a trigger to refill, not a tombstone; the milk rule (a known date is stored, never estimated). | Ch. 6 | ✅ Captured. Demos are the book's own working material (NotebookLM price cut, rename, CVE growth) — re-check before print. |
-| 14 | **Presence is not provenance** — a stored record is not evidence; whitelist per class, date every fact, meter verification by criticality; duplication is a defect. | Ch. 17 (beside the confinement rules) | ✅ Captured + sourced 12 Oct 2026 — four offboarding/administrative-drift cases in §9 with primary documents. |
-| 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 29 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 27's reader list. Adds no chapter, no rule. |
-| 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 17 (sharpened), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
-| 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 12 (bridge), Ch. 18 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
+| 14 | **Presence is not provenance** — a stored record is not evidence; whitelist per class, date every fact, meter verification by criticality; duplication is a defect. | Ch. 16 (beside the confinement rules) | ✅ Captured + sourced 12 Oct 2026 — four offboarding/administrative-drift cases in §9 with primary documents. |
+| 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 28 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 26's reader list. Adds no chapter, no rule. |
+| 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 16 (sharpened), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
+| 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 12 (bridge), Ch. 17 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
 
 ## 9. Evidence and verification status
 
@@ -645,7 +640,7 @@ The book's credibility depends on this section. Nothing here is to be asserted f
 
 **✅ Verified, safe to use:**
 
-- **The grounding test** (Ch. 1, Ch. 18) — real, run on this machine. Four models; three scored 5/5;
+- **The grounding test** (Ch. 1, Ch. 17) — real, run on this machine. Four models; three scored 5/5;
   one failed the grounding test by inventing a capital for a fictional country. Reproducible.
   The benchmark is `BENCHMARK` in `src/lib/models/alpha.ts` (PersonalAI-Dashboard): five fixed
   prompts — exact string, 17 × 23, fixed JSON, three colors in three words, and the Zubrowka
@@ -659,9 +654,9 @@ The book's credibility depends on this section. Nothing here is to be asserted f
   (the court's own Opinion and Order, `nhd.uscourts.gov` / Document 54, 22-cv-1461) and
   CourtListener, 12 October 2026. The sanctions order is the citation; the lawyers' names
   (Schwartz, LoDuca) and the firm name stay out of the chapter unless the author wants them.
-- **The Alpha challenge** (Ch. 18) — five code-scored tests, ties to the incumbent. Real result.
-- **The self-education loop** (Ch. 22) — real, verified live. 10 tools checked, 9 baselines.
-- **The VocalLab bug** (Ch. 23) — a payload that was JSON wearing an audio file's name, caught by
+- **The Alpha challenge** (Ch. 17) — five code-scored tests, ties to the incumbent. Real result.
+- **The self-education loop** (Ch. 21) — real, verified live. 10 tools checked, 9 baselines.
+- **The VocalLab bug** (Ch. 22) — a payload that was JSON wearing an audio file's name, caught by
   inspecting the bytes. Real.
 - **The cognitive-offloading finding** (Ch. 10, Rule 10) — *students performed better with the tool and
   worse without it; the capability didn't build.* Plus: *generative AI boosted learning for those who
@@ -958,9 +953,9 @@ evaluations. Corroborated by The Hacker News, Fortune, The Verge and CSA's analy
 
 ---
 
-**⚑ ✅ The reward chain — verified link by link, and NEVER IN THIS REGISTER UNTIL NOW. (Ch. 28 · Rule 10)**
+**⚑ ✅ The reward chain — verified link by link, and NEVER IN THIS REGISTER UNTIL NOW. (Ch. 27 · Rule 10)**
 
-> **Chapter 27 tells the reader: *"you can separate them, because they are labeled."*** It names four things the model
+> **Chapter 26 tells the reader: *"you can separate them, because they are labeled."*** It names four things the model
 > supplied rather than the author — **the arithmetic on the tool subscriptions**, **the corrections**, **the sources
 > behind the fly**, and **the labour behind the feedback signal.**
 >
@@ -993,10 +988,10 @@ should be made specific before print** — *a count with no list is not a label.
 
 ---
 
-**⚑ ✅ Verified 12 October 2026 — the labour behind the feedback signal. Primary sources read. (Ch. 28)**
+**⚑ ✅ Verified 12 October 2026 — the labour behind the feedback signal. Primary sources read. (Ch. 27)**
 
-> **Chapter 28 says: *"that is documented, dated, and checkable."* It is, and it was checked.** This is the entry that
-> makes Chapter 27's phrase *"the labour behind the feedback signal"* true inside the book rather than only in the
+> **Chapter 27 says: *"that is documented, dated, and checkable."* It is, and it was checked.** This is the entry that
+> makes Chapter 26's phrase *"the labour behind the feedback signal"* true inside the book rather than only in the
 > working notes.
 
 **The claim:** the signal called *human feedback* was labeled by people paid about one to two dollars an hour to
@@ -1042,9 +1037,9 @@ is now sourced, and it is the most uncomfortable verifiable fact in the book.**
 
 ---
 
-**⚑ ✅ Verified 12 October 2026 — Chapter 29's four corrections. The only chapter that counts them correctly.**
+**⚑ ✅ Verified 12 October 2026 — Chapter 28's four corrections. The only chapter that counts them correctly.**
 
-> **Chapter 29 is the closing chapter, and the only chapter the author found rather than the model.** It is also
+> **Chapter 28 is the closing chapter, and the only chapter the author found rather than the model.** It is also
 > **the only one of the three model-written chapters that lists its four corrections and gets the number right** —
 > see the note at the end, which is a real defect in the other two.
 >
@@ -1089,24 +1084,24 @@ before print.**
 
 ## ⚠️ And the defect this check exposed in the other two chapters
 
-**Three model-written chapters cite the same corrections, and only Chapter 29 counts them right:**
+**Three model-written chapters cite the same corrections, and only Chapter 28 counts them right:**
 
-- **Chapter 27** — *"the four corrections"*. **No list.** (Now resolves to Chapter 28's four, but Chapter 26 does not
+- **Chapter 26** — *"the four corrections"*. **No list.** (Now resolves to Chapter 27's four, but Chapter 26 does not
   say where.)
-- **Chapter 28** — *"Four times I overstated. Four times he caught it."* **Then lists three** — inferring intent from
+- **Chapter 27** — *"Four times I overstated. Four times he caught it."* **Then lists three** — inferring intent from
   one line, judging the typo a defect, treating uncited figures in a book of predictions as a problem. **And they
   are a different three from the record's four.**
-- **Chapter 29** — **four, correctly counted, and they match the record.** ✅
+- **Chapter 28** — **four, correctly counted, and they match the record.** ✅
 
 ⚑ **Two of these chapters are about *showing where a claim comes from*, and both contain an uncited count about
-their own corrections that does not reconcile.** **Chapter 28 even predicts the failure in the paragraph above it:**
+their own corrections that does not reconcile.** **Chapter 27 even predicts the failure in the paragraph above it:**
 *"A model is a remarkable engine and a terrible witness. That includes a model testifying about itself."* **Then it
 testifies about itself, and the arithmetic is wrong.**
 
-**The fix is small: Chapter 28's count should either be reconciled to its own three or to the record's four, and it
+**The fix is small: Chapter 27's count should either be reconciled to its own three or to the record's four, and it
 should say which.** *A count with no list is not a label* — the same finding flagged against Chapter 26.
 
-**⚑ And the closing observation, which belongs to Chapter 29:** **the chapter about the error bar is the only one that
+**⚑ And the closing observation, which belongs to Chapter 28:** **the chapter about the error bar is the only one that
 counts correctly.** The model-written chapters about its own reliability are the ones whose reliability fails — and
 the chapter the **author** found rather than the model is the one that holds.
 
@@ -1281,7 +1276,7 @@ the chapter the **author** found rather than the model is the one that holds.
   answer?** Should this go to a smarter cloud model?"* — and the fail-safe that makes it safe:
   **"If you're UNSURE, lean toward canHandle: false."**
 
-  **Why it earns a chapter (Ch. 18).** It is the one place in the book where a model's self-report is
+  **Why it earns a chapter (Ch. 17).** It is the one place in the book where a model's self-report is
   worth something, and the reason is exact: it is asked a **routing** question — *"is this job mine to
   do?"* — not a **knowledge** question. Routing is checkable, because you find out immediately whether the
   cheap path held. **The design does not trust the self-assessment; it bounds it.**
@@ -1430,7 +1425,7 @@ the chapter the **author** found rather than the model is the one that holds.
   moat is **distribution, not proprietary AI**. The claim survives both, in narrower form: **expertise is
   the one differentiator the model cannot supply.**
 
-  **Why it belongs next to Ch. 20:** Rule 20 says the brief must be authored by an expert. This says that
+  **Why it belongs next to Ch. 19:** Rule 20 says the brief must be authored by an expert. This says that
   is not a craft tip but a **business position** — because if the model is a commodity and the prompt adds
   nothing, then the *only* input that doesn't commoditize is what the expert knows.
 
@@ -1464,7 +1459,7 @@ the chapter the **author** found rather than the model is the one that holds.
   - **Hallucination:** RL fine-tuning can **increase** it (arXiv 2505.24630), including a spurious optimum
     where *"the model can converge to a confidently held wrong answer."*
   - **⚑ And the fix the research describes is the capability bus:** SALU (arXiv 2507.16951) rewards
-    abstention and penalises confident hallucination — hallucination falls to **1.3%**. **Ch. 18's design,
+    abstention and penalises confident hallucination — hallucination falls to **1.3%**. **Ch. 17's design,
     reached from the opposite direction.** The project keeps producing this pattern.
 - **⚑ The answer to no-provenance — RAG and brand voice.** *Requested by the author: "explain how this
   might work."* Full explanation in `CONCEPTS.md` Concept 6. **The principle, which is bigger than the
@@ -1551,7 +1546,7 @@ the chapter the **author** found rather than the model is the one that holds.
    in a peer-reviewed venue. *(Ch. 8)*
 2. **Ch. 12 — the ML review came back and has been applied; send the *rewrites* back to the same reviewer
    for sign-off.** It is now a re-read of one section, not a review. *This is the last technical gate.*
-3. ~~Decide whether Ch. 5 merges into Ch. 6.~~ **RESOLVED 12 October 2026** — the former Ch. 5 ("A bigger model does not fix this") is retired to `chapters/_folded/`. Its claim (scale improves fluency faster than factuality, so the failure gets harder to detect) is carried by Ch. 18 ("The most expensive model for everything"), the leader's cost chapter in Part III. Ch. 5 is now "The opinions are inherited" (Concept 2).
+3. ~~Decide whether Ch. 5 merges into Ch. 6.~~ **RESOLVED 12 October 2026** — the former Ch. 5 ("A bigger model does not fix this") is retired to `chapters/_folded/`. Its claim (scale improves fluency faster than factuality, so the failure gets harder to detect) is carried by Ch. 17 ("The most expensive model for everything"), the leader's cost chapter in Part III. Ch. 5 is now "The opinions are inherited" (Concept 2).
 4. **Confirm the copyright line on `LICENSE-CONTENT`.** It reads `Michael C. Barnes`; the repositories use
    `AI Dashboard Contributors`. The license itself is settled — **CC BY-SA 4.0, not sold** — this is only
    about whose name is on it.

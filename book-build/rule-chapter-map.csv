@@ -6,25 +6,24 @@ chapter,title,status,primary_rule,rules_carried,source_file
 5,The Opinions Are Inherited,MAPPED,6,6;2,chapters/Chapter-05-The-Opinions-Are-Inherited.md
 6,The clock is always running,MAPPED,2,2;5;12b;14b,chapters/Chapter-06-The-clock-is-always-running.md
 7,Activity is not work,MAPPED,18,18;7,chapters/Chapter-07-Activity-is-not-work.md
-8,The 8 Ball Never Fooled Anyone,MAPPED,5,5;2,chapters/Chapter-08-The-8-Ball-Never-Fooled-Anyone.md
+8,The 8 Ball Never Fooled Anyone,MAPPED,5,5;2;4,chapters/Chapter-08-The-8-Ball-Never-Fooled-Anyone.md
 9,The Promise Not the Gift,MAPPED,2,2;16,chapters/Chapter-09-The-Promise-Not-the-Gift.md
-10,It will not set you free,MAPPED,9,9,chapters/Chapter-10-It-will-not-set-you-free.md
+10,It will not set you free,MAPPED,10,10;9;3;3b,chapters/Chapter-10-It-will-not-set-you-free.md
 11,A function not a source,MAPPED,1,1;12,chapters/Chapter-11-A-function-not-a-source.md
 12,The world of tokens,MAPPED,8,8;2,chapters/Chapter-12-The-world-of-tokens.md
 13,Language at the edges code in the middle,MAPPED,13,13;14,chapters/Chapter-13-Language-at-the-edges-code-in-the-middle.md
 14,Everything is a contract,MAPPED,6,6;12,chapters/Chapter-14-Everything-is-a-contract.md
 15,Your plumbing is your ceiling,MAPPED,1,1;12b;12c;14b,chapters/Chapter-15-Your-plumbing-is-your-ceiling.md
-16,The sand and the sun,MAPPED,3,3;3b;10,chapters/Chapter-16-The-sand-and-the-sun.md
-17,Tell it where you want the truth from,MAPPED,12,12;1;11,chapters/Chapter-17-Tell-it-where-you-want-the-truth-from.md
-18,The most expensive model for everything,MAPPED,13,13;16;14;14b,chapters/Chapter-18-The-most-expensive-model-for-everything.md
-19,Let it say I can t,MAPPED,17,17;5,chapters/Chapter-19-Let-it-say-I-can-t.md
-20,They cooperate that s the problem,MAPPED,19,19;18,chapters/Chapter-20-They-cooperate-that-s-the-problem.md
-21,An expert wrote this not the model,MAPPED,20,20;1,chapters/Chapter-21-An-expert-wrote-this-not-the-model.md
-22,The expert is the product,MAPPED,21,21;20,chapters/Chapter-22-The-expert-is-the-product.md
-23,You cannot ask a model who s best,MAPPED,15,15;11b,chapters/Chapter-23-You-cannot-ask-a-model-who-s-best.md
-24,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-24-Let-it-fetch-let-it-write.md
-25,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-25-Let-it-build-code-because-code-is-checkable.md
-26,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-26-The-recipe-assembled.md
-27,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-27-Pushing-Is-Not-Cooperation.md
-28,I Was Never the Smart Part,MAPPED,20,20;21,chapters/Chapter-28-I-Was-Never-the-Smart-Part.md
-29,You Have Something to Lose,MAPPED,3,3;9,chapters/Chapter-29-You-Have-Something-to-Lose.md
+16,Tell it where you want the truth from,MAPPED,12,12;1;11,chapters/Chapter-16-Tell-it-where-you-want-the-truth-from.md
+17,The most expensive model for everything,MAPPED,13,13;16;14;14b,chapters/Chapter-17-The-most-expensive-model-for-everything.md
+18,Let it say I can t,MAPPED,17,17;5,chapters/Chapter-18-Let-it-say-I-can-t.md
+19,They cooperate that s the problem,MAPPED,19,19;18,chapters/Chapter-19-They-cooperate-that-s-the-problem.md
+20,An expert wrote this not the model,MAPPED,20,20;1,chapters/Chapter-20-An-expert-wrote-this-not-the-model.md
+21,The expert is the product,MAPPED,21,21;20,chapters/Chapter-21-The-expert-is-the-product.md
+22,You cannot ask a model who s best,MAPPED,15,15;11b,chapters/Chapter-22-You-cannot-ask-a-model-who-s-best.md
+23,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-23-Let-it-fetch-let-it-write.md
+24,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-24-Let-it-build-code-because-code-is-checkable.md
+25,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-25-The-recipe-assembled.md
+26,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-26-Pushing-Is-Not-Cooperation.md
+27,I Was Never the Smart Part,MAPPED,20,20;21,chapters/Chapter-27-I-Was-Never-the-Smart-Part.md
+28,You Have Something to Lose,MAPPED,3,3;9,chapters/Chapter-28-You-Have-Something-to-Lose.md

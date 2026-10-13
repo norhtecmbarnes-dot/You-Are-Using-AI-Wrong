@@ -72,7 +72,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   Confinement as an unstated UI affordance is a feature. Confinement written down, in the prompt and
   enforced in code, is a **design** — which is exactly what §15's thesis claims.
 
-  **Use it as the close of Ch. 17:** three tools, one principle, at three levels of rigour.
+  **Use it as the close of Ch. 16:** three tools, one principle, at three levels of rigour.
   *NotebookLM confines. Poppy scopes. The Dashboard makes it a rule you can read.*
 
 - **NotebookLM is source-grounded by construction.** *"Its defining characteristic is that it is
@@ -84,7 +84,7 @@ including its own ⚠️ cautions. Nothing here needs re-verifying; the cautions
   **Carry the honest caveat with it:** *"This does not eliminate error entirely, but it meaningfully
   reduces the risk of receiving fabricated information."* The book claims confinement **reduces**
   fabrication. It must not claim confinement eliminates it.
-  **The gift for Ch. 17:** NotebookLM lets the reader uncheck sources so the AI isn't *"distracted"* by
+  **The gift for Ch. 16:** NotebookLM lets the reader uncheck sources so the AI isn't *"distracted"* by
   irrelevant material. That is the author's *"limit the choices to that information that is relevant"* —
   the same idea arriving as a UI feature. Quote it.
 
