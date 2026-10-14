@@ -188,11 +188,6 @@ Part I first; it is the warning.
 - *True:* organizations run processes nobody has re-costed in years - bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply - the stated purpose and the real cost - **so it needs no knowledge from the model at all.**
 - **Rule: ask it to question the process, and say plainly that questioning makes it *alert*, not *correct*. A wrong question costs nothing and the human still decides. Before you automate a process, find out whether it should exist.**
 
-⚑ **14 October 2026 - Rules 22-23 moved.** The two rules captured after this book was finished
-(*AI is not a genie - it does not grant wishes*; *prompts don't replace principles*) and their two
-closing chapters moved to the follow-on repository `The-Promise-and-the-Principle`, where they are
-that book's Rules 1-2. A rule travels with the chapter that carries it - the pairing rule both
-books keep. This page again holds exactly the rules this book's own chapters carry.
 
 ---
 
