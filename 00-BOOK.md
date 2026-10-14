@@ -481,7 +481,7 @@ history.)*
   agents can both read and write, and treat each one as a channel; a shared cache is a message board the
   moment two processes look at it. Don't scale by adding agents.
 
-**19. An expert wrote this, not the model** 📋 *(Concept 10)*
+**19. An expert wrote this, not the model** ✍️ *(Concept 10)*
 - Claim: the model is not a source of facts — **and it is not a source of method either.** When you ask
   an LLM to write the agent's instructions, you get *a generic model's guess at how the work is done*,
   executed faithfully by an agent that has never done it. **A plausible process is not an expert's

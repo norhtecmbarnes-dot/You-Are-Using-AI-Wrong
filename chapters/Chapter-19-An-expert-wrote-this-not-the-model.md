@@ -1,115 +1,254 @@
-# Chapter 19 — An expert wrote this, not the model
+# Chapter 19 — An Expert Wrote This, Not the Model
 
-**STATUS: starting markdown. The concept is below; this file is a skeleton to expand.**
-
----
-
-## From the plan (00-BOOK.md section 7)
-
-**Claim.** the model is not a source of facts — **and it is not a source of method either.** When you ask an LLM to write the agent's instructions, you get *a generic model's guess at how the work is done*, executed faithfully by an agent that has never done it. **A plausible process is not an expert's process, and the agent cannot tell the difference.**
-
-**Demonstration.** two agents, same model, same task. One is briefed with a model-generated prompt; one with an expert's actual method — the checks, the order, the things to refuse. **The difference in the output is not the model. It is the brief.** And the Dashboard's own evidence is that its system prompt is *hand-written*: a senior capture manager's voice, rules and refusals, authored by a human who knows the work — never generated.
-
-**Fix.** **the prompt is a knowledge artifact.** Write it by hand, extract it from an expert, or capture it from someone who has done the work a thousand times — then let the model run it.
+*(Concept 10 — the prompt is a knowledge artifact, not a model output. Rule 1 applied to method: facts need an approved source; methods need an accountable author. Pairs with Ch. 20 (The expert is the product), which is the commercial turn. The two-agent demo is illustrative, framed as such by the author.)*
 
 ---
 
-## Concept 10 — The prompt is a knowledge artifact, not a model output
+The book's first rule has one more job to do.
+We have applied it to facts. Do not ask the model to remember your policy, your price, or your customer's requirements. Supply the approved material, then ask it to work with that material.
+Now apply the same rule to method.
+Do not ask the model to invent how your organization performs the work, then give that invention to an agent as its operating instructions.
+Supply the method too.
+The model is not your authority for facts. It should not become your authority for procedure either.
+This does not reduce the model to copying. Understanding a request, interpreting documents, drafting a response, and adapting an explanation are substantial tasks.
+But deciding the governing method is a different responsibility.
+That belongs to someone who knows the work.
 
-> This is the captured material this chapter expands. It is in `CONCEPTS.md`.
+## The First Rule, One Level Up
 
-*The rule that completes the book's first rule. Stated by the author as a theory; it is a rule.*
+The author states the principle in the project's captured material:
 
-**As stated by the author:** (verbatim — preserve the words; they carry intent)
+> this is a theory but it is a rule. Agentic AI has great potential but the fault with agentic ai is thatmost people rely on the LLM to prompt the agent itself. A truely great agent should replect theknowledge of a true expert with experience, not a gneric self-generated prompt.
 
-> this is a theory but it is a rule. Agentic AI has great potential but the fault with agentic ai is that
-> most people rely on the LLM to prompt the agent itself. A truely great agent should replect the
-> knowledge of a true expert with experience, not a gneric self-generated prompt.
+The spelling is incidental. The distinction is not.
+An agent needs instructions. Those instructions can look impressive without containing the knowledge that makes the job dependable.
+"Act as an experienced proposal manager" is a role description.
+It is not the proposal manager's method.
+"Be thorough, accurate, and persuasive" expresses an aspiration.
+It does not establish what evidence is acceptable, which checks come first, or when the agent must stop.
+The missing ingredient is not a more elaborate personality.
+It is an authored procedure.
 
-### Why it is a rule and not a theory
+## A Plausible Process Is Not an Authorized Process
 
-**It is Rule 1, applied one level up.** The book opens by insisting that a model must never be asked for
-*knowledge* — facts are injected, never remembered. This says the same thing about **method**: the plan the
-agent follows must come from outside too.
+Ask a model to write instructions for a professional task and it may produce a useful starting draft.
+It may identify sensible stages. It may organize familiar advice clearly.
+But plausibility does not establish that the process matches your organization's obligations, evidence standards, or experience.
+The question is not whether the generated instructions sound professional.
+The question is whether a qualified person has established that these are the instructions the work should follow.
+This is the procedural version of the problem with an unsupported fact.
+A confident sentence does not establish its own truth.
+A confident checklist does not establish its own fitness for the job.
+If the agent follows an inadequate checklist consistently, consistency does not rescue the method. It reproduces the omission.
+⚠️ The supplied evidence does not establish that all model-generated procedures are inferior to all human-authored procedures. The rule here concerns authority and validation, not an automatic ranking of every possible draft.
+The governing method must earn approval outside the model that will execute it.
 
-Ask a model to write the agent's instructions and you get **a generic model's guess at how the work is
-done**, executed faithfully by an agent that has never done it. The agent cannot tell a plausible process
-from an expert's process — that is the whole problem, and it is the book's original sin one layer deeper.
-**A confident procedure is exactly as trustworthy as a confident fact.**
+## Two Agents, One Difference
 
-### The distinction that makes it sharp
+Consider two agents reviewing the same proposal against the same customer requirements.
+They use the same model and receive the same documents.
+The first receives instructions generated from a broad request:
+"Create a professional process for reviewing a proposal."
+Its brief tells it to assess completeness, clarity, persuasiveness, and alignment with the customer's needs.
+The second receives a method written by an experienced practitioner:
+"Identify each mandatory requirement before reviewing persuasive language. Compare each compliance claim with the supplied evidence. Distinguish an explicit commitment from a general capability statement. Where evidence is absent, identify the gap rather than infer compliance. Do not rewrite an unsupported claim to make it sound stronger."
+These are illustrative briefs, not quoted Dashboard instructions or results from a measured experiment.
+They show what the comparison should examine.
+The first brief defines broad qualities. The second establishes distinctions, an order, and a refusal.
+It tells the agent what must happen before polishing begins.
+If the agents produce different reviews, the model alone cannot explain the difference. The governing instructions are a changed input.
+⚠️ A controlled test would be needed to establish the size and reliability of any performance difference. No such result is supplied here.
+Nevertheless, the design question is already visible:
+Does the brief contain the knowledge that determines whether the work is acceptable?
 
-There is a real difference between two things that look alike:
+## The Plan and the Execution
 
-| | What it is | Who authors it |
-|---|---|---|
-| **The plan** | the method, the order, the checks, **the refusals** | **a human who has done the work** |
-| **The execution** | understanding the request, drafting, summarizing, formatting, talking to tools | the model, freely |
+Two responsibilities must remain distinct.
+The plan establishes the method: the sequence, the checks, the evidence standards, and the conditions for stopping.
+The execution applies that method to the current request: reading, comparing, summarizing, drafting, formatting, and using permitted tools.
+The model can do substantial work in execution.
+It may decide how best to explain a finding. It may organize a long document into a useful structure. It may draft several versions of an approved message.
+But those choices occur inside the governing method.
+The rule is not that a model must never produce a plan-shaped piece of text.
+It can draft a proposed procedure for expert review. It can summarize an existing procedure. It can adapt an approved checklist to a particular case.
+The boundary is adoption.
+A model-generated suggestion must not silently become the authority under which the agent operates.
+Someone qualified must own that decision.
 
-**Models may summarize, reformat and draft all day. What they must never author is the plan they will
-then be judged against.** That is the line, and it is checkable.
+## What Experts Put Into a Brief
 
-### Verified in the Dashboard — and it is the clearest instance in the project
+An expert's value is not confined to knowing the obvious steps.
+The useful knowledge often concerns exceptions and distinctions:
+What looks complete but is not?
+Which source takes precedence?
+What should never be inferred?
+Which omission requires a question?
+When is a polished answer worse than no answer?
+These are the details a generic instruction can miss.
+A proposal reviewer, for example, may distinguish between describing a capability and proving compliance with a requirement. A customer-service manager may distinguish between explaining policy and authorizing an exception.
+The distinction determines what the agent may do.
+Without it, the agent may produce fluent work that crosses a boundary the organization considers essential.
+The expert does not need to produce literary instructions.
+A rough but explicit rule—"If this evidence is missing, stop and ask"—can carry more operational value than a beautifully written paragraph about excellence.
+That is a design judgment, not a claim that every rough human plan outperforms every polished generated one.
+The point is to capture real knowledge rather than mistake polish for it.
 
-Every **governing instruction** in the system is hand-written by a human:
+## The Dashboard's Authorship Is Visible
 
-- `soul.md` — a senior capture manager's voice, rules, and refusals. Not a generated persona: *"You ASK
-  WHEN YOU DON'T KNOW… Guessing when you could ask is a failure."* Somebody who knows the work wrote that.
-- `knowledge-policy.ts` — 79 lines of hand-written policy, injected at every call site.
-- `strengths-policy.ts` — the strengths-only soul rule, authored.
-- `local-first.ts` — the gate, authored.
+The Dashboard provides a concrete example of this approach.
+According to the supplied project evidence, its governing instructions are human-authored rather than generated by the model.[^1]
+Its soul.md expresses a senior capture manager's voice, rules, and refusals. One instruction reads:
 
-**None of them is a model output, and none of them would work as well if it were.** The comparison to make
-is a system whose system prompt was asked for: it reads fluently and tells the agent nothing an expert
-knows.
+> "You ASK WHEN YOU DON'T KNOW… Guessing when you could ask is a failure."
 
-### The corollary: this is why skills matter
+This is more than a tone preference.
+It establishes how the agent should handle uncertainty.
+Other authored files carry distinct responsibilities:
+knowledge-policy.ts defines the knowledge policy.
+strengths-policy.ts carries the strengths-only rule.
+local-first.ts defines the gate governing local-first behavior.
+The significance is not the filenames.
+It is that important decisions exist as readable artifacts with human authorship.
+⚠️ This chapter relies on the supplied verification record; it does not independently inspect the repository. The record also does not establish how these instructions would compare experimentally with model-generated alternatives.
+What it does establish is the design choice: the model executes governing instructions it did not originate.
 
-**A skill file is how an expert's method reaches an agent.** It is a hand-authored artifact — a procedure,
-a checklist, a set of pitfalls — that the model *executes* rather than *invents*. That is the mechanism by
-which **experience, not eloquence, gets into the agent.**
+## Refusals Belong in the Method
 
-The industry has noticed without naming the principle: Claude Code skills, Vois's `SKILL.MD`, MiniMax's
-official caption-rewriter skill. All of them are the same move — **write down what a person who has done
-this a thousand times knows, and hand it to the model to follow.**
+A useful brief says more than what to do.
+It says what not to do—and what to do instead.
+Do not infer a commitment from marketing language.
+Do not treat an unsupported claim as established.
+Do not conceal missing evidence by improving the prose.
+Ask, identify the gap, or escalate.
+These are illustrative rules. The applicable refusals must come from the people responsible for the actual workflow.
+That matters because an agent's assignment can otherwise become "complete the task at all costs."
+Completion is not always success.
+Sometimes success is recognizing that a required input is absent and returning the work for clarification.
+The Dashboard's instruction about asking instead of guessing makes that boundary explicit.
+The expert's method should give the agent a legitimate stopping point.
 
-### The handling rule
+## A Skill File Carries the Method
 
-- **Lead with the completion, not the complaint.** This is not "prompting is hard." It is *the first rule of
-  the book, closing its own loop* — and the chapter should read as a payoff.
-- **State the distinction, don't blur it.** Plan versus execution. The rule is about the brief and the
-  governing instructions, **not every string the system sends.**
-- **Ask the reader a testable question at the end:** *who wrote your agent's instructions — and have they
-  ever done the job?* If the answer is "the model," the chapter has done its work.
-- **Do not sneer at prompt engineering.** Its practitioners discovered this the hard way and many of them
-  already know it. **Credit them; the rule simply says why it works.**
+A skill file is one mechanism for delivering that knowledge.
+It can contain a procedure, a checklist, examples, pitfalls, and conditions for refusal.
+The important property is not its name or file format.
+It is the relationship between the artifact and the agent:
+The artifact carries the approved method. The agent applies it.
+The supplied concept notes identify skills in several commercial tools as examples of this mechanism.
+⚠️ Product-specific implementations are not independently documented in the supplied chapter evidence, so they should not be treated here as proof of effectiveness.
+Nor is a file trustworthy merely because it is called a skill.
+A skill file can contain generic advice, stale instructions, or an unreviewed model draft.
+The same authorship questions apply:
+Who wrote it?
+Who approved it?
+What experience informs it?
+What happens when the method changes?
+The artifact is a container. Expertise is the content.
 
-**Where it lands.** **Part III, as Ch. 19** — immediately after the agent evidence (Ch. 18). The sequence is
-deliberate and it is the part's spine: *let the small model decline* (18) → *don't scale by multiplying
-agents* (19) → **brief it like an expert** (20) → then measure, fetch, and build. Ch. 18 shows why the swarm
-fails; Ch. 19 shows what to do instead with the one agent you keep.
+## Extract the Method Before Automating It
 
-**Guard rails:**
+If the expert has never written the procedure down, begin there.
+Ask them to walk through an actual case.
+Capture the order of decisions, not just the final result. Record what they checked, what they rejected, and what made them stop.
+Then distinguish three things:
+What must always happen.
+What depends on the case.
+What requires a person's authorization.
+The model can help organize those notes. It can turn a recorded explanation into a draft checklist or reveal ambiguities for discussion.
+That is transformation of supplied input—the framing from Chapter 11.
+The expert must still review the result.
+A clean summary can omit a crucial qualification. A tidy sequence can impose an order the expert never intended.
+Do not let the convenience of transcription become a transfer of authority.
 
-- **Do not let it become a chapter about prompts.** It is a chapter about **authorship** — who is allowed
-  to decide the method. Prompt tricks are not the subject; expertise is.
-- **Do not claim the expert's method must be perfect.** It must be *real*. A rough plan from someone who
-  has done the work beats a polished plan from something that hasn't.
-- **Do not contradict Ch. 11 ("A function, not a source").** The model is still doing the hard part —
-  understanding, drafting, adapting. It is being *briefed*, not deskilled.
-- **Remember the book's own rule.** The chapter must not cite a product as the answer. Skills are named as
-  the *mechanism*; the claim is the principle.
+## Respect the People Who Learned This Already
+
+This is not an argument against prompt engineering.
+Practitioners who write effective instructions are often doing exactly this work: making assumptions explicit, defining boundaries, specifying evidence, and testing failure cases.
+The principle explains why that work matters.
+The prompt is not merely a clever sentence that makes the model behave.
+It is a knowledge artifact.
+For governing instructions, its quality depends on the method it carries and the accountability behind that method.
+The expert's process need not be perfect. It needs to be explicit, reviewable, and open to correction.
+An authored method gives a team something definite to improve when a failure occurs.
+They can ask whether the instruction was wrong, incomplete, or badly executed.
+
+## Who Wrote the Instructions?
+
+Rule 20 completes Rule 1:
+
+> The prompt is a knowledge artifact.
+
+Facts need an approved source.
+Methods need an accountable author.
+The model can help draft both. It should not become the authority for either merely because its output reads well.
+Before expanding the agent, improving its persona, or giving it more tools, inspect the brief.
+Does it contain the real checks?
+Does it preserve the necessary order?
+Does it name the refusals?
+And ask the question that matters most:
+> Who wrote your agent's instructions—and have they ever done the job?
+
+If the answer is "the model," you have a draft.
+You do not yet have an expert's method.
+
+## Remember This
+
+> Facts need an approved source.
+>
+> Methods need an accountable author.
+>
+> Who wrote your agent's instructions—and have they ever done the job?
 
 ---
 
 ## The rules this chapter carries
 
-**Rule 20 — *The prompt is a knowledge artifact.* (primary).** The prompt is a knowledge artifact: a model-written brief is a generic model's guess at how the work is done, executed faithfully. The chapter is Rule 20, generalising Rule 1 from facts to method — never let it write the plan it will follow.
+**Rule 1 — *It doesn't know things.* (primary).** "The First Rule, One Level Up"
+is Rule 1 applied to method, not just facts: the model is not your authority for
+facts, and it should not become your authority for procedure either.
 
-**Rule 1 — *It doesn't know things.* (carried).**
+**Rule 20 — *The prompt is a knowledge artifact, not a model output.* (carried).**
+"Respect the People Who Learned This Already" and "Who Wrote the Instructions?" are
+Rule 20: the prompt is a knowledge artifact, and facts need an approved source
+while methods need an accountable author.
 
-## DRAFT
+**Rule 12 — *Confinement is the design, not a limitation.* (carried).** "A Skill
+File Carries the Method": the artifact carries the approved method; the agent
+applies it.
 
-*(write it here. Target roughly 1,600 words. Same rule as the rest of the book: every*
-*load-bearing claim to a source, citations kept, nothing invented, anything unverifiable*
-*marked ⚠️ rather than smoothed over.)*
+---
+
+*Verification: the author's prose is adopted verbatim (2,057 words). The paste's
+"Source notes" block ([1]-[3]) is converted into this verification note; all three
+verified this session against the PersonalAI-Dashboard repo:
+- **[2] soul.md quote** — confirmed verbatim at `soul.md` lines 32-34: "You ASK WHEN
+  YOU DON'T KNOW... Guessing when you could ask is a failure." (The chapter's
+  ellipsis form matches the source.)
+- **[1][3] Policy files** — confirmed to exist: `src/lib/config/knowledge-policy.ts`,
+  `src/lib/config/strengths-policy.ts`, `src/lib/config/local-first.ts`. The chapter's
+  descriptions of their responsibilities (knowledge policy, strengths-only rule,
+  local-first gate) match the register's record of them.
+- **The quoted "theory" line** (the author's captured material, with its original
+  spelling — "thatmost," "truely," "replect," "gneric") is the author's own statement
+  from captured project material, presented as his. It is NOT found in the Dashboard
+  repo's current files — it is testimony/quoted captured material, and the chapter
+  itself says "The spelling is incidental. The distinction is not." The quote is
+  preserved verbatim because that is the author's point. If the author wants the
+  spelling corrected, that is a one-word edit per instance.
+- **The two-agent demo** is framed by the author as illustrative ("These are
+  illustrative briefs, not quoted Dashboard instructions or results from a measured
+  experiment") — the honest register, kept. The ⚠️ note that a controlled test
+  would be needed is the author's own, kept.
+- **The author's book-writing-tools experience** (Ch. 14 carried it) is referenced
+  here via "the author states the principle" — testimony, presented as such.
+- The chapter's three ⚠️ flags (model-generated procedures not proven inferior;
+  the chapter relies on the supplied verification record, not independent repo
+  inspection; product-specific skill implementations not independently documented)
+  are the author's own, kept verbatim.
+- The chapter references Ch. 11 ("the framing from Chapter 11") — verified correct:
+  Ch. 11 is "A function, not a source," drafted (commit 196fa9b).
+
+Placement: Chapter 19, Part III — between Ch. 18 (They cooperate) and Ch. 20 (The
+expert is the product, drafted). The pair reads: the method must be authored by an
+expert (Ch. 19), and the expert's knowledge is the product (Ch. 20). Carries Rule 1
+(primary), Rules 20, 12.*
