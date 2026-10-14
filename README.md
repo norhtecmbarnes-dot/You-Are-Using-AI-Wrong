@@ -26,9 +26,9 @@ machinery that builds the manuscript — so the project can be picked up from an
     You-Are-Using-AI-Wrong/
     ├── README.md                      this file
     ├── STATUS.md                      where the project is right now  <- read this second
-    ├── 00-BOOK.md                     master document: thesis, tone rules, 29-chapter outline,
+    ├── 00-BOOK.md                     master document: thesis, tone rules, 27-chapter outline,
     │                                  and section 9, the evidence register
-    ├── RULES.md                       the 21 rules + Rule 1b — the book's spine
+    ├── RULES.md                       the rules register — 23 rules + 10 subrules — the book's spine
     ├── AGENT-CONTRACT.md              the rules as an installable contract: a prompt,
     │                                  and the three parts that actually enforce anything
     ├── control/                       the installable skill
@@ -97,7 +97,7 @@ source, that is a defect.
 
     AGENT-CONTRACT.md       the contract in three parts, plus a prompt to paste into a system prompt
     control/SKILL.md        the same rules as a loadable skill, for an agent
-    control/references/     the full 22-rule register the skill draws on
+    control/references/     the full 33-entry register (23 rules + 10 subrules), generated from RULES.md
 
 **Read `AGENT-CONTRACT.md` first, and read its first section before anything else**, because it says the
 thing most people get wrong: **a prompt cannot enforce anything.** It can only ask. The rules that hold are

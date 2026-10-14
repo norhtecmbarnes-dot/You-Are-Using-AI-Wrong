@@ -285,3 +285,30 @@ what the model is not; Ch. 9 names what it was sold as. The former Ch. 9
 **One thing is actually blocking:** the **four decisions in section C**. The India detail (A1) is closed —
 the Preface now carries the author's own account. Everything in D is mine and running. Everything in B is
 research I can start on your word.
+
+---
+
+## Addendum — 14 October 2026: the book grew after the finish
+
+The author added two rules once the book was finished, and they are captured verbatim as **Concepts 18–19**
+in `CONCEPTS.md`:
+
+- **Rule 22 — it does not grant wishes** ("AI is not a Genie"). The promise economy, from *make a million
+  dollars with AI* down to *replace your workforce* — and the receipts: employers spending more on tokens
+  than they spent on employees; employers hiring back the staff they let go.
+- **Rule 23 — prompts don't replace principles.** Value creation before maximization; three paradigm shifts
+  of one working life; and the landing line: set goals and define principles that will be part of
+  *the soul.md of every AI*.
+
+The register now reads **23 rules + 10 subrules = 33**; the generated reference, the control skill and the
+installed skill copy are re-synced to it.
+
+**New questions for you — they slot into A (only yours) and B (my research) above:**
+
+- **A-new:** Where do the two new chapters sit — a second-edition part after the close, or inserted by
+  argument (genie beside the promise chapters; principles beside the manager's page)? Insertion is the
+  renumbering case.
+- **B-new:** Shall I run the sourcing pass for the new material — IKEA's retraining scope, the
+  employers-rehired story, the token-spend story, the wealth superlative, the $500K salary claim?
+- **A-new:** Is "the soul.md of every AI" deliberate — the Dashboard's actual hand-authored file, which
+  would make this chapter's demonstration already-built — or "the soul of every AI" as a phrase?

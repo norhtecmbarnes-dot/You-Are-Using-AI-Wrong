@@ -2,9 +2,10 @@
 
 **Master document. Start here.** Everything about this book lives in this file or is linked from it.
 
-- **Status:** concept phase, complete for now. Two chapters drafted. Outline reconciled against all
-  eight concepts. Nothing is final — this is a plan to react to.
-- **Last updated:** October 2026
+- **Status:** drafted through the close — 23 of 27 chapters in prose, front matter done (**measured on
+  disk 14 October 2026**). Two post-finish rules captured (Rules 22–23; Concepts 18–19) — chapters
+  pending the author's placement. Nothing is final — this is a plan to react to.
+- **Last updated:** 14 October 2026
 - **How to resume:** read §1–§6 (the book, the thesis, the rules, the tone contract), then §7 (the
   chapter outline). §8 is the concept register — where each idea came from and what still needs
   checking. §10 lists the open actions. Do not draft from memory; the detail files under
@@ -118,7 +119,7 @@ Deliberately **not** for: people who want a prompt list. There is no prompt list
 
 ## 5. The Rules (front-matter page, before Chapter 1)
 
-`RULES.md` — 21 rules, each as **assumption → what's actually true → what to do instead**. Placed early
+`RULES.md` — 23 rules + 10 subrules, each as **assumption → what's actually true → what to do instead**. Placed early
 so the reader gets the payload immediately and reads the rest as the argument for it. Paid off in the
 final chapter as *"and now you know why each of these is true."*
 
@@ -206,8 +207,9 @@ carries — that discipline is what keeps the book from being a complaint. Statu
   `front-guide` so it lands after the Introduction.
 
 **The Rules** ✍️ *(`RULES.md`)*
-- 21 rules as **assumption → what's actually true → what to do instead.** Payload up front, so Parts I–III
-  read as the argument for them, and Ch. 27 pays each one off.
+- 23 rules + 10 subrules as **assumption → what's actually true → what to do instead.** Payload up front, so
+  Parts I–III read as the argument for them, and Ch. 27 pays each one off. *(14 Oct 2026: two more added
+  after the finish — Rules 22–23; their chapters pending placement.)*
 
 ### Part I — The error
 
@@ -637,6 +639,8 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 27 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 25's reader list. Adds no chapter, no rule. |
 | 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 16 (this chapter carries the framing), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
 | 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 12 (bridge), Ch. 16 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
+| 18 | **AI is not a genie (it does not grant wishes)** — the promise economy, from make-a-million-dollars to replace-the-workforce; a wish has no ingredients, work does. | **New after the close; placement owed** (Rule 22) | ⚠️ Captured 14 Oct 2026. The rehiring and token-spend stories need sources + dates; salary figure dates; do not overwork the 8-Ball. |
+| 19 | **Prompts don't replace principles** — value creation before maximization; three shifts of one working life; the principles go into the soul.md of every AI. | **New after the close; placement owed** (Rule 23) | ⚠️ Captured 14 Oct 2026. IKEA and Musk need sources + dates; title reads "Principals" (homophone) — Principles at print; soul.md reference to confirm (open item 13). |
 
 ## 9. Evidence and verification status
 
@@ -1586,11 +1590,11 @@ You-Are-Using-AI-Wrong/                                ← this book. NOT under 
 ├── Preface-Why-This-Book-Exists.md                     ← ✍️ drafted. The India class — the book's origin
 ├── Introduction-AI-Is-Already-Smart-Enough.md          ← ✍️ drafted. The claim, stated before the argument
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)
-├── RULES.md                                           ← the 21 rules (front-matter page)
+├── RULES.md                                           ← the rules register — 23 rules + 10 subrules
 ├── DASHBOARD-IMPLEMENTATION.md                        ← the rules mapped to the code that implements them
-├── chapters/                                          ← ALL 28 chapters + 4 part dividers live here
+├── chapters/                                          ← ALL 27 chapters + 4 part dividers live here
 │   ├── Part-01 … Part-04                               part-opening dividers (one page each)
-│   ├── Chapter-01 … Chapter-28                         drafted chapters read whole; skeletons
+│   ├── Chapter-01 … Chapter-27                         drafted chapters read whole; skeletons
 │   │                                                     write under a '## DRAFT' heading
 │   └── _folded/                                       retired skeletons, folded into another chapter;
 │                                                         the build skips it

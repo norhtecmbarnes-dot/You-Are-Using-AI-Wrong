@@ -1,6 +1,6 @@
 # Status — where this book is
 
-**Last updated:** 11 October 2026
+**Last updated:** 14 October 2026
 **Read this after `README.md`.** Everything here is measured from the files, not recalled.
 
 ---
@@ -10,19 +10,24 @@
 **The thinking is essentially complete. The drafting is not.**
 **The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
 
-    29 chapters planned
-     4 exist as prose           Preface (India detail confirmed), Introduction, Ch 1, Ch 8
-    25 have starting markdown   chapters/ — spec + concept + evidence, ready to expand
-    17 concepts captured        CONCEPTS.md
-    21 rules + 7 subrules      RULES.md   (1b skills aren't knowledge; 3b instruct in its universe;
-                                          11b be checkable; 11c keep the corrections;
-                                          12b date it; 12c whitelist the source;
-                                          14b verify by criticality)
+    27 chapters planned         the close is Ch. 27 (You Have Something to Lose); outline §7 and
+                                 the 27 chapter files on disk agree (measured 14 Oct 2026). The
+                                 28/29 in older ledgers are pre-final counts — see open item 14.
+     23 exist as prose           Preface, Introduction, Ch 1, 3, 5, 7-22, 24-27 (drafted whole)
+     3 carry draft prose         Ch 2, Ch 4, Ch 23 — prose under DRAFT, skeleton still present
+    19 concepts captured        CONCEPTS.md   (+2 on 14 Oct: Concept 18 not-a-genie, 19 principles)
+    23 rules + 10 subrules     RULES.md    (+2 on 14 Oct: 22 it does not grant wishes;
+                                          23 prompts don't replace principles.
+                                          Subrules: 1b, 3b, 11b, 11c, 12b, 12c, 14b, 15b, 15c, 21b.
+                                          The list shown here before carried 7 — incomplete:
+                                          15b, 15c and 21b had landed.)
     ⚠️→✅ the rule list existed in three places at three different counts - 28, 22 and 25.
                                  The 22 was control/references/the-rules.md and the 25 was the
                                  installed skill copy an agent actually loads. Both now
                                  REGENERATED from RULES.md by book-build/make-rules-reference.py
-                                 and all three are byte-identical. This is Rule 12c, found in the
+                                 and all three are byte-identical — re-run and re-synced 14 Oct 2026
+                                 after Rules 22-23 (the installed skill copy had gone stale again;
+                                 the sweep caught it). This is Rule 12c, found in the
                                  book's own shipped artifacts. Never hand-maintain that reference.
     ⚑  RULES-AUDIT.md          the rules page audited for holes. One real hole found, and it
                                  was Chapter 26: the model-written chapter's six-condition
@@ -38,11 +43,16 @@
                                  each chapter's own claim and concept; the author confirms
                                  or corrects, one line per chapter.
 
+    ◯  2 rules added 14 Oct 2026 - 22 (it does not grant wishes) and 23 (prompts don't replace
+                                 principles): both UNcarried until their chapters exist - 31 of 33.
+                                 Regenerate the CSV once their skeletons are placed.
+
 **And the controls are now installable** — the book is not only an argument:
 
     AGENT-CONTRACT.md   the rules as a contract in three parts + a prompt to paste
     control/SKILL.md    the same rules as a loadable agent skill
-    control/references/the-rules.md   the full 22-rule register the skill draws on
+    control/references/the-rules.md   the full 33-entry register (23 rules + 10 subrules),
+                                    generated from RULES.md
 
 Installed here as the skill `ai-usage-contract`. See README for what each is for.
 
@@ -68,7 +78,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
 ---
 
-## The plan — 29 chapters, four parts
+## The plan — 27 chapters, four parts
 
 `00-BOOK.md` section 7 is the outline, and it carries its own status on every chapter:
 **✍️ drafted · 📋 captured · ⬜ planned.**
@@ -116,6 +126,11 @@ chapter's material has been gathered so it can be expanded into a chapter.
 
 25 files, one per chapter still to draft (2–7 and 9–27). Each holds:
 
+    ⚑ 14 Oct 2026: superseded as a count — 23 of the 27 chapters are now drafted whole and three
+    carry prose under DRAFT (Ch 2, Ch 4, Ch 23). What follows is what a skeleton file is BUILT
+    from, which stays true. The plan listing above also skips Ch 10's row; the file exists and is
+    drafted (cosmetic — fix in the tracker pass).
+
     - the plan's claim / demonstration / fix      (from 00-BOOK.md section 7)
     - the captured concept, in full               (where CONCEPTS.md has one)
     - the verified evidence bearing on it         (quoted from section 9, cautions included)
@@ -131,8 +146,10 @@ chapter's material has been gathered so it can be expanded into a chapter.
 
 ## The two registers, and how they differ
 
-    RULES.md        21 rules, each written as:  assumption -> what's actually true -> the rule
-    CONCEPTS.md     17 concepts, each written in full, most owning a chapter
+    RULES.md        23 rules + 10 subrules, written as:
+                    assumption -> what's actually true -> the rule
+                    (14 Oct: + 22, 23 — the two post-finish rules)
+    CONCEPTS.md     19 concepts, each written in full, most owning a chapter (+2 on 14 Oct)
 
     Concept  1  The promise, not the gift                          -> unplaced
     Concept  2  The opinions are inherited, and you cannot argue   -> unplaced
@@ -153,6 +170,8 @@ chapter's material has been gathered so it can be expanded into a chapter.
     Concept 16  The tools are not the problem; the spend is       -> Ch 17 (framing), Rules 13/16
                                                                       and Preface (consistency)
     Concept 17  A token is a unit of intelligence               -> Ch 11 (bridge), Ch 17 (opening)
+    Concept 18  AI is not a genie (it does not grant wishes)    -> new after the close; placement owed (Rule 22)
+    Concept 19  Prompts don't replace principles                -> new after the close; placement owed (Rule 23)
 
 **Three concepts own no chapter (1, 2, 12).** They are written and substantial. Concept 2 belongs
 near chapter 4, Concept 12 near chapter 24. **Concepts 13 and 14 were captured in CONCEPTS.md but
@@ -203,7 +222,9 @@ page) adds no chapter and no rule by design; it routes the existing readers.
 
 6. NotebookLM tiers and the watermark detail; Pro's cloud storage figure (**do not state one**);
    OpenClaw's CVE and cost figures (**these date fastest of anything in the book**); `qwen2.5:1.5b`
-   running CPU-only; and the 2023 agent product names.
+   running CPU-only; and the 2023 agent product names. Plus the two new rules' dated claims — the
+   IKEA retraining scope, the employers-rehired story, the token-spend-exceeds-wages story, the
+   wealth superlative, and the $500K salary figure (open item 12).
 
 ### Reference checks outstanding
 
@@ -213,6 +234,32 @@ page) adds no chapter and no rule by design; it routes the existing readers.
    never cite it as findings.
 
 8. A competent ML reader should check chapter 11 before print.
+
+### New rules, added after the finish (14 October 2026)
+
+11. **Where do the two new chapters go, and what numbers do they carry?** AI-is-not-a-genie (Concept 18,
+    Rule 22) and prompts-don't-replace-principles (Concept 19, Rule 23) have no chapter number until
+    this is settled. Two shapes: a second-edition part after the close, or insertion by argument (genie
+    beside the promise chapters in Part I; principles late, beside the manager's page). Mid-book
+    insertion is the renumbering case — the scripted recipe exists, and the front-matter promises would
+    need the sweep too. Note: AGENT-CONTRACT.md and control/SKILL.md still carry the pre-finish rule set;
+    fold 22-23 in once settled.
+
+12. **The new material's sources.** IKEA ("replace service worker but retrained all of those employees
+    to be designers" — verify scope and numbers); the employers-rehired story; the
+    token-spend-exceeds-wages story; "richest person in the world"; the $500K prompt-engineer salary
+    claim. **None may print without a source and a date.** The research pass is the assistant's to run
+    on the author's word — it closes this list in one go.
+
+13. **"The soul.md of every AI" — deliberate?** It matches the Dashboard's actual hand-authored
+    `soul.md` (verified in Concept 10's entry — a senior capture manager's voice, rules and refusals),
+    which would make Concept 19's demonstration already-built. If intentional, the chapter cites the
+    file; if it meant "the soul of every AI" as a phrase, the manuscript wording changes at print.
+
+14. Register notes: the 28/29-chapter counts in open item 1 and OPEN-ITEMS.md are pre-final ledger
+    numbers (the shipped outline and files sit at 27, close at Ch. 27); Concept 15/16's "no new rules"
+    guards were superseded by the author's own additions (dated notes in place); and the title as
+    dictated reads "Principals" — confirm "Principles" before it prints anywhere.
 
 ### Housekeeping
 

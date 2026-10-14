@@ -75,6 +75,12 @@ already covered — by Rules 1, 12, 11 and 2 respectively. **5 and 6 are genuine
 *(A full Rule 22 would also work, but it would break every "21 rules" cross-reference in the book — which is why Rule
 1b was numbered the way it was.)*
 
+**⚑ 14 October 2026:** the author added two rules after finishing the book anyway — Rule 22 (*it does not
+grant wishes*) and Rule 23 (*prompts don't replace principles*). The cost named above is now real and
+recorded: the stale "21 rules" mentions surfaced by the 14 Oct count sweep are itemized in STATUS.md, and
+the register, the generated reference, the control skill copy and the installed skill copy all carry
+33 entries (23 rules + 10 subrules).
+
 **⚑ Note on the obvious candidate that turned out not to be a separate hole.** It looked as though the book had no
 rule for the reader's own error bar — Chapter 28 argues *"memory has no error bar; the honest product is an error bar
 on your own claims,"* and nothing numbered says so. **It is a real absence, but it is the same hole as the one above.**

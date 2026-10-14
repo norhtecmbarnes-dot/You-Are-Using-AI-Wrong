@@ -17,7 +17,7 @@ None of these require you to give up AI. Every one of them makes it work better.
 
 **Two ways in.** Read this page and you can act today — every rule ends in something you can do.
 Read the book and you will know *why* each one is true. The page is the lobby; the book is the
-argument. If you sign the checks, your rules are **2, 13, 14, 16 and 17** — start there. If you
+argument. If you sign the checks, your rules are **2, 13, 14, 16, 17, 22 and 23** — start there. If you
 make projects work, your rules are **1, 2, 5, 9, 11b and 14b**. If you have not built yet, read
 Part I first; it is the warning.
 
@@ -192,6 +192,16 @@ Part I first; it is the warning.
 - *Assumption:* the win is doing the existing work faster.
 - *True:* organizations run processes nobody has re-costed in years — bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply — the stated purpose and the real cost — **so it needs no knowledge from the model at all.**
 - **Rule: ask it to question the process, and say plainly that questioning makes it *alert*, not *correct*. A wrong question costs nothing and the human still decides. Before you automate a process, find out whether it should exist.**
+
+**22. It does not grant wishes.**
+- *Assumption:* the promises are the product — make a million dollars with AI, go viral, replace the workforce.
+- *True:* it is a powerful tool that in the right hands produces efficiency and quality. A wish has no ingredients; work does — and no genie hands you customers that were never won or a workforce that was never hired.
+- **Rule: bring the work. AI is not a genie — it does not grant wishes.**
+
+**23. Prompts don't replace principles.**
+- *Assumption:* a strong prompt can stand in for a philosophy — ask for maximum profit and manage what comes back.
+- *True:* a prompt is a goal, and the easiest path to "maximize profit" is firing people and shrinking portions. Not malice — optimization. Profit without value creation is a short-term gain that arrives as a long-term loss.
+- **Rule: define your principles before your prompts — and put them in writing, into the soul.md of every AI.**
 
 ---
 
