@@ -5,9 +5,6 @@ the markdown source keeps everything.*
 
 ## Whole blocks and tails dropped
 
-- `Part-05-The-Promise-and-the-Principle.md` - part divider skipped - no drafted chapter in its range (Ch. 28-1000000)
-- `Part-05-The-Promise-and-the-Principle.md` - part divider skipped - no drafted chapter in its range (Ch. 28-1000000)
-- `Part-05-The-Promise-and-the-Principle.md` - part divider skipped - no drafted chapter in its range (Ch. 28-1000000)
 - `Introduction-AI-Is-Already-Smart-Enough.md` - working-material tail dropped at '**One thing to decide.**' (1644 chars)
 - `Reader-Guide-Who-This-Book-Is-For.md` - trailing provenance block dropped: 811 chars from "*Verification: the author's prose is adopted verbatim (1,089"
 - `Reader-Guide-Who-This-Book-Is-For.md` - leading italic provenance block dropped after the heading: "Front matter, between the Introduction and the Rules. The author's own"
@@ -57,7 +54,6 @@ the markdown source keeps everything.*
 - `Chapter-26-I-Was-Never-the-Smart-Part.md` - apparatus section dropped: '## The rules this chapter carries' (959 chars)
 - `Chapter-27-You-Have-Something-to-Lose.md` - working-material tail dropped at '## Start here (folded from the retired Chapter 27 skeleton' (4875 chars)
 - `Chapter-27-You-Have-Something-to-Lose.md` - apparatus section dropped: '## The rules this chapter carries' (591 chars)
-- `Part-05-The-Promise-and-the-Principle.md` - part divider skipped - no drafted chapter in its range (Ch. 28-1000000)
 - `Introduction-AI-Is-Already-Smart-Enough.md` - working-material tail dropped at '**One thing to decide.**' (1644 chars)
 - `Reader-Guide-Who-This-Book-Is-For.md` - trailing provenance block dropped: 811 chars from "*Verification: the author's prose is adopted verbatim (1,089"
 - `Reader-Guide-Who-This-Book-Is-For.md` - leading italic provenance block dropped after the heading: "Front matter, between the Introduction and the Rules. The author's own"

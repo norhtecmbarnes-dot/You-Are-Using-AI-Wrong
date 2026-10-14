@@ -188,15 +188,11 @@ Part I first; it is the warning.
 - *True:* organizations run processes nobody has re-costed in years - bills posted at more than the sum being collected, actions triggered automatically against no measurement of what they cost. **AI makes those processes run better, which makes them harder to notice.** But it can also be asked a question no previous tool could answer: **does this still serve its purpose?** And that is a comparison of two things *you* supply - the stated purpose and the real cost - **so it needs no knowledge from the model at all.**
 - **Rule: ask it to question the process, and say plainly that questioning makes it *alert*, not *correct*. A wrong question costs nothing and the human still decides. Before you automate a process, find out whether it should exist.**
 
-**22. It does not grant wishes.**
-- *Assumption:* the promises are the product - make a million dollars with AI, go viral, replace the workforce.
-- *True:* it is a powerful tool that in the right hands produces efficiency and quality. A wish has no ingredients; work does - and no genie hands you customers that were never won or a workforce that was never hired.
-- **Rule: bring the work. AI is not a genie - it does not grant wishes.**
-
-**23. Prompts don't replace principles.**
-- *Assumption:* a strong prompt can stand in for a philosophy - ask for maximum profit and manage what comes back.
-- *True:* a prompt is a goal, and the easiest path to "maximize profit" is firing people and shrinking portions. Not malice - optimization. Profit without value creation is a short-term gain that arrives as a long-term loss.
-- **Rule: define your principles before your prompts - and put them in writing, into the soul.md of every AI.**
+⚑ **14 October 2026 - Rules 22-23 moved.** The two rules captured after this book was finished
+(*AI is not a genie - it does not grant wishes*; *prompts don't replace principles*) and their two
+closing chapters moved to the follow-on repository `The-Promise-and-the-Principle`, where they are
+that book's Rules 1-2. A rule travels with the chapter that carries it - the pairing rule both
+books keep. This page again holds exactly the rules this book's own chapters carry.
 
 ---
 

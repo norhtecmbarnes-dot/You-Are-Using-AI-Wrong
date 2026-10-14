@@ -26,7 +26,7 @@ machinery that builds the manuscript — so the project can be picked up from an
     You-Are-Using-AI-Wrong/
     ├── README.md                      this file
     ├── STATUS.md                      where the project is right now  <- read this second
-    ├── 00-BOOK.md                     master document: thesis, tone rules, 29-chapter outline,
+    ├── 00-BOOK.md                     master document: thesis, tone rules, 27-chapter outline,
     │                                  and section 9, the evidence register
     ├── RULES.md                       the rules register — 23 rules + 10 subrules — the book's spine
     ├── AGENT-CONTRACT.md              the rules as an installable contract: a prompt,
@@ -116,3 +116,12 @@ code that fetches its own facts, measures instead of guessing, and confines what
 
     PersonalAI-Dashboard    the system this book argues for
     Director-Dashboard      the sibling: local-first media generation
+
+
+## Follow-on
+
+The two rules and chapters drafted after the first edition — **AI is not a genie** and **Prompts
+don't replace principles** — live in their own repository: **The-Promise-and-the-Principle**, a
+follow-on to this book (which is itself the follow-on to *Building Your Own AI Dashboard*). Their
+sourcing — the five dated claims — moved with them. The `first-edition-2026` tag preserves the
+intermediate state that held them here as the last two chapters.

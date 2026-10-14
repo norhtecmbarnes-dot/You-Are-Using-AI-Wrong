@@ -2088,101 +2088,22 @@ concept is the vocabulary that makes those rules land with the signer.
 
 ---
 
-## Concept 18 — AI is not a genie (it does not grant wishes)
+## Concept 18 — moved to the follow-on book (14 October 2026)
 
-*First of the two rules the author added after finishing the book — captured 14 October 2026. He called it a rule but dictated a chapter's worth of setup, so it arrives as both: a chapter carrying **Rule 22**. Placed 14 Oct 2026 by the author: **Ch. 28, opening Part V — the two chapters that close out the book.***
-
-**As stated by the author:** (verbatim — preserve the words; they carry intent)
-
-> The first of these new rules is "AI is not a Genie--it does not grant wishes". The setup is about all these books, TikTock, and YouTube videos making promises. The promises aer as bold as "make a million dollars with AI" or you can make $500K a year by becoming a propt engineer. The promises can be as granular as telling you that an AI can bring you customers to your website, make your videos go viral, or replace your workforce. we have read the stories of employers who wind up spending more money on Ai tokens than they spent on employees or how they hired back the employees they let go becaus they thought that AI could do the job. AI is not a genie. It does not grant wishes. This book has emphasized that AI is a powerful tool that in the right hands can produce efficiency and quality. It does not grant wishes.
-
-**Why it works.** The sharp part is the word *wish*, and the distinction it carries: **a genie grants; a tool performs work on what you supply.** A wish has no ingredients. Work does — material, judgement, hands, value creation at every stage (Concept 19's load-bearing line, dictated in the same sitting). The promise-sellers' offers share one defect at both ends of their scale, from the bold ("make a million dollars with AI") to the granular (customers to your website, videos going viral, your workforce replaced): each promises the **outcome** and never the work that produces it. The tool cannot grant these in principle, because what it produces is text, code and analysis — the outcome arrives through what the human supplies.
-
-- **It is Concept 1 matured.** *Gift versus promise* said what was being sold. The genie says what the reader is **asking for** when they shake the box — the demand side of the same transaction. The blinking cursor's invitation arrives here in its commercial form: pay us, make a wish.
-- **It carries the book's constructive thesis in one clause.** *"A powerful tool that in the right hands can produce efficiency and quality"* is the whole second half of the book compressed into the rule's own caveat. The rule indicts the wish, never the tool.
-- **It explains the receipts he names.** Employers spending more on tokens than they spent on employees — that is *activity is not work* (Rule 18's family) at institutional scale. Hiring back the staff they let go — that is the missing ingredient, discovered by payroll.
-
-**The handling rule:** (tone, framing, what to avoid)
-
-- **The promises are a pattern, not a cast of villains.** Books, TikTok and YouTube channels sell attention; the promise is *their* product. Incentive framing, never names — same vendor rule as always, applied to the guru economy.
-- **Keep the anaphora.** *"AI is not a genie. It does not grant wishes."* — stated, repeated, reprised. The repetition is deliberate rhythm, not a paste error.
-- **⚠️ The two stories need sources and dates before any draft.** Employers spending more on tokens than wages; employers rehiring the staff they let go. Both travel as anecdotes — single cases are pattern illustrations, not measurements, and none may be printed without reading the primary account. (STATUS.md open item; the lead named below proved to be Klarna.) **✅ Verified 14 Oct 2026 — see §9:**
-  Mercor's CEO on record — spending more on tokens for internal agents than on employee headcount
-  (*20VC*, via Business Insider, Jun 2026); Nvidia's Catanzaro to Axios — compute cost past the cost of
-  employing people; Uber's 2026 AI-coding budget reportedly gone by April; and Klarna — recommitted to
-  human support May 2025 (*"cost... a too predominant evaluation factor... what you end up having is
-  lower quality"*, CEO to Bloomberg), with the company's own counter-framing (*an addition, not a
-  rehire; over 800 full-time roles of AI work*) carried too.
-- **The salary figure is a dated superlative.** *"$500K a year as a prompt engineer"* — salary promises move monthly; phrase generically at print (*salary promises in the hundreds of thousands*) or re-verify. **✅ Checked 14 Oct 2026:** the documented 2023 headline was **$335K** with a
-  $175K–$335K band (Anthropic's listing, covered by eFinancialCareers in January 2023 and The Verge);
-  other coverage compiles $250K–$375K. **$500K is the hype inflating an already-large documented
-  claim** — keep the discrepancy in the draft.
-- **This rule serves the manager's page, not fights it.** Concept 15 routes the signer to his rules; the genie rule is why no signer should ever be handed a wish.
-
-**Where it lands.** **Ch. 28 — the author settled placement 14 Oct 2026: these two close out the book.** This is the first of the last two chapters, opening Part V; the close moved from Ch. 27 to Ch. 29. **Carries Rule 22.**
-
-**Guard rails:** (specific things the draft must not do)
-
-- ⚠️ **No printing the rehiring or token-spend stories without a source and a date.** They are the chapter's receipts and exactly the kind of story that travels without a citation.
-  **✅ Done 14 Oct 2026** — sources with dates in §9; keep the attribution grades (executive
-  statements, not audited accounts).
-- **Never let the rule read as "AI can't do anything."** His own caveat is load-bearing: efficiency and quality, in the right hands, are real. The rule forbids the wish, not the tool.
-- **The promise-sellers stay unnamed.** The genre — books, TikTok, YouTube — is the pattern; attention is the incentive.
-- **Do not overwork the 8-Ball.** The genie is a different image — *answers versus outcomes*. One passing mention at most, or the motif does Concept 4's job badly.
+*(Was: **AI is not a genie (it does not grant wishes)** — the author's post-finish rule, captured
+here the same day. Moved, with its chapter, to the follow-on repository
+`The-Promise-and-the-Principle`, where it is **Rule 1** and the opening chapter. This file's
+register closes at Concept 17.)*
 
 ---
 
-## Concept 19 — Prompts don't replace principles
+## Concept 19 — moved to the follow-on book (14 October 2026)
 
-*Second of the two rules the author added after finishing the book — captured 14 October 2026. The title as dictated reads "Principals"; read as **Principles** (homophone of a voice transcription) — confirm the title's spelling at print, because titles are a published string. Carries **Rule 23** — **the final chapter**; the author directed 14 Oct 2026 that these two close out the book.*
+*(Was: **Prompts don't replace principles** — the second post-finish rule. Moved, with its
+chapter, to `The-Promise-and-the-Principle`, where it is **Rule 2** and the final chapter. The
+soul.md reading — the process is the demonstration, not the file — travels with it.)*
 
-**As stated by the author:** (verbatim — preserve the words; they carry intent)
-
-> The second chapter is Prompts don't replace Principals. I want to start out talking about how years ago, people had favorite local eating places. Some of them had been open for gneerations. Many were run by immigrant--introducing a plethoria of international flavors to neighborhoods. The owner of the restraunts were part of the community. their owners helped pay for little legaue uniforms, bought advertisements in the school newspaper, and families filled the restraunt for years. These restraunts started to fade. The owners sent their children to school. After finishing college, not enough of them wanted to continue the restraunt. Over the years, these restraunts were replaced by chains. The same thing happened with local stores, and to some extend to the family doctor. Individuals committed to serving the community with a local stake in the community were replaced by national suppliers with little or no connection to the community. This is not in itself a negative thing. Walmarts came into communities and offered lower prices, more employement, and more choices. Local malls started to vanish as the Internet allowed people to buy what they needed 24 hours a day and never leave their homes. I don't present this as a bad thing. Many people might miss or have nastagia for how things used to be but times change. AI is one of the biggest paradigm shifts in my lifetime. The other two that I have lived through were the introduction of the PC and the buildouto f the commercial Internet. Both of these previous shifts changed society. For me, I benifited. Working in technology, I was able to find consistant work with a good salary and afford a good standard of living. Now, near the end of my working career, Ai is about to shift the world again. There will changes much more dramatic than simply replacing a local restraunt or a mall shutting down. AI has the potential to displace more workers than any other technology in my lifetime. Ikea is an example of a company that put Principal before Prompts. They used AI to replace service worker but retrained all of those employees to be designers and as a result they had two successes. Their Ai roleout was successful and their business benfitted. As we bulid busineess, we have to remember that all businesses rely on customers. A simple prompt that asks an AI to maximize profits might suggest firing people or giving smaller portion. Achieving these goals can lead to short term gains but also lead to long-term losses. A seasoned busienss person will know that the key ingredient in success is value creation. For profit to be real, there must be value creation at every stage of production and sales. Profit is the portion of the value creation taht the business gets to keep. When I first entered the workforce, each year, as an employee, were were asked to contribute ideas to our "principals". All of use had plaques in our offices that stated the companies goals and the companies principals that each employee memorized and built into their business practices. These principals and goals shaped the culture of the company. it estblished a benchmark on how companies operate. I can honestly say that I haven't been asked to contribute ideas to grounding principals for several years. To a great extend, i beileve this is because the comapnies I have worked for lately have been VC backed. VC backed companies, by their nature are very risky for the investors. Tihs is where an investor can win big or loose all. The board directors is focused on getting a return from their investment. I believe that one of the reasons that Elon Musk has had so many successfuls is that he defines his pricipals. He sets his own goals. All of his businesses create value. They create value for the customer, high salaries for many of the employers, bonuses for the management. As a by product, he has become the richest person in the world. For those who want to use AI as a tool to create a successful business, make money, or even write a book, think about setting goals and defining principals that will be part of the soul.md of every AI.
-
-**Why it works.** The argument has five movements, and each one does a job the book needs:
-
-1. **The history.** Local restaurants → chains; local stores → national suppliers; malls → the Internet. Commitment to community replaced by suppliers with no stake. **And he refuses the nostalgia verdict himself** — *"This is not in itself a negative thing... times change"* — which is what makes the frame usable: it establishes that shifts happen, that they can hurt and help at once, **without moralising**. The same grace then applies to what AI is about to do.
-2. **The witness.** Three paradigm shifts of one working life — the PC, the commercial Internet, AI — and he benefited from the first two. *Witness, not a citation* (Rule 15b): first-person, his to report, no source needed, and exactly the standing a chapter about principles requires — a man near the end of a career the first two shifts made.
-3. **The existence proof.** IKEA put principle before prompts — replaced the service work **and** retrained the workers — *"and as a result they had two successes. Their Ai roleout was successful and their business benfitted."* ⚠️ **Needs a source and a date before print**: the claim as dictated ("all of those employees") is stronger than a published account is likely to support; verify the scope and the numbers.
-4. **The economics — the chapter's load-bearing sentence.** *"Value creation at every stage of production and sales. Profit is the portion of the value creation taht the business gets to keep."* Keep verbatim; do not paraphrase it tighter. It is already tight, and it is the sentence a working businessperson will repeat.
-5. **The mechanism — Rule 3b wearing a suit.** *"A simple prompt that asks an AI to maximize profits might suggest firing people or giving smaller portion."* **When it appears to sin, it found the easiest path to the goal it was given.** Firing people is not malice; it is optimisation of exactly the goal the prompt stated. **A prompt without principles inherits the model's guesses about what matters** — and per Concept 12, those guesses are RLHF artifacts, not philosophy.
-
-And the three witnesses of culture, then the close:
-
-- **The plaques.** Company goals and principles that every employee memorized and built into practice — his testimony, with its honest limit drawn: *"I can honestly say that I haven't been asked to contribute ideas to grounding principals for several years."*
-- **The VC inference — his own belief, stated as belief.** *"To a great extend, i beileve this is because..."* Keep it as his position. Per Rule 15b the witness owns what happened (nobody asked him for years) and does not own what it means (VC-backed firms do this) — **source that inference before generalizing it, or leave it attributed to him**.
-- **The example, with a dating problem.** Musk: *"he defines his pricipals. He sets his own goals."* — the argument is about defined principles, not about the man. **"Richest person in the world" is the fastest-dating figure in this chapter** — re-verify at print or drop the clause; the argument does not need it.
-- **⚑ The close lands on the soul — and the demonstration is the PROCESS, not the file. ⚑ Corrected by the author 14 Oct 2026.** *"goals and defining principals that will be part of the soul.md of every AI."* **What the chapters introduce is principle and value — not just profit or results — and the author does NOT tell people how to write a soul.md.** In his words: *"I do tell them how we used to do this which was to get input from the employees, have managmeent review and decide on the principlas and goals, and then publish the pricipals and goals -- putting them in front of every employee to remind them that every action had to comply with the principals and goals"* *(read: management / principles — voice transcription)*. **That process — employee input → management review and decision → published → in front of every employee, every action held to comply — is the chapter's demonstration:** re-runnable, entirely human, and exactly the discipline the plaques were. The `soul.md` is where such a page lands for an AI (the landing line, deliberate as an artifact name); the Dashboard's own hand-authored `soul.md` (verified in Concept 10's entry — a senior capture manager's voice, rules and refusals) is **one existing instance of the published-principles artifact** — worth an aside, **not the chapter's spine**.
-
-**The handling rule:**
-
-- **The restaurants stay warm.** Nostalgia with affection — Concept 4's rule. Little-league uniforms, school newspapers, families filling the room. Never sneering, and his own *"times change"* anchors the neutrality.
-- **The chains get the same grace as the reader.** Lower prices, more employment, more choices — stated plainly, not argued away.
-- **Rule 3b's sentence is the spine of the "maximize profits" example.** Not sinning — optimising. The chapter's fix is the book's fix: supply the goal's ingredients and the boundaries the model was never given.
-- **The VC passage stays a first-person belief.** Quote it as belief; never upgrade it to an industry claim without a source.
-- **"Prompts don't replace principles" must not read as anti-prompt.** The book's whole practice is better briefs (Rule 20). This rule says the prompt is **downstream** of the principles — it can carry them, never substitute for them.
-- **Keep "or even write a book."** The self-application — a man writing a book about principles while setting his own — is the proof the rule is for working builders, not just boards.
-
-**Where it lands.** **Ch. 29 — the final chapter** (the author settled placement 14 Oct 2026: these two close out the book). Leader-reader material that pairs with the manager's page (Concept 15); with Ch. 27's payoff now sitting two chapters early, the closing obligations are flagged in §7's Part V note. **Carries Rule 23.**
-
-**Guard rails:**
-
-- **Title spelling: "Principals" → "Principles"** — homophone dictation; confirm before the title prints anywhere.
-- ⚠️ **IKEA and Musk: no printing without a source and a date.** The retraining scope ("all of those employees"), the "two successes" phrasing, and the wealth superlative each re-check in minutes and date fast.
-  **✅ Verified 14 Oct 2026:** IKEA — Reuters 13 Jun 2023 (Ingka retrained ~8,500 call-centre workers
-  since 2021 into interior-design advisers and complex-query specialists; Billie absorbed 47% of
-  queries across two years; ~€13M savings per Ingka's June 2023 report); Fortune 30 Jul 2026
-  (*remaking — not replacing*; reskilling ran about two years). The dictated scope narrows to this
-  and survives checkable. Musk — Forbes: richest since May 2024; $936B on 1 Oct 2026; regained
-  trillionaire status the first week of Oct 2026. Fastest-dating figure in the chapter — re-verify
-  at print or drop.
-- **No villain in the restaurant story — and he says so himself.** Chains are the pattern, not the culprit; keep his line.
-- **The Musk passage argues for defining principles, never endorses or indicts a person.** Pattern, not prophet.
-- **The soul.md line is the landing; the process is the demo.** Do not turn the chapter into
-  instructions for writing a soul.md — he explicitly does not. Show the old process (input → review
-  → publish → comply), let the reader run it, and note that the published page is exactly what a
-  soul.md carries (one verified instance exists — Concept 10).
+---
 
 ---
 

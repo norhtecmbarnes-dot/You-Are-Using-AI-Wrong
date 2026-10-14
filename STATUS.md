@@ -10,20 +10,18 @@
 **The thinking is essentially complete. The drafting is not.**
 **The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
 
-    29 chapters planned         the author corrected 14 Oct: the two new rules CLOSE OUT the book —
-                                 they are the last two chapters (28, 29, in a new Part V); the close
-                                 moved from Ch. 27 to Ch. 29. Supersedes the 27/28 counts in older
-                                 ledgers and this file's earlier lines (see open item 14).
-     23 exist as prose           Preface, Introduction, Ch 1, 3, 5, 7-22, 24-27 (drafted whole)
-     3 carry draft prose         Ch 2, Ch 4, Ch 23 — prose under DRAFT, skeleton still present
-     2 specced post-finish       Ch 28, Ch 29 — material captured verbatim, sources verified 14 Oct,
-                                 awaiting the drafting pass
-    19 concepts captured        CONCEPTS.md   (+2 on 14 Oct: Concept 18 not-a-genie, 19 principles)
-    23 rules + 10 subrules     RULES.md    (+2 on 14 Oct: 22 it does not grant wishes;
-                                          23 prompts don't replace principles.
-                                          Subrules: 1b, 3b, 11b, 11c, 12b, 12c, 14b, 15b, 15c, 21b.
-                                          The list shown here before carried 7 — incomplete:
-                                          15b, 15c and 21b had landed.)
+    27 chapters planned         the close is Ch. 27 (You Have Something to Lose). The first edition
+                                 is published and tagged (first-edition-2026, commit b869f92).
+     2 chapters moved out       Ch 28-29 + the Part-05 divider moved 14 Oct to the follow-on repo
+                                 The-Promise-and-the-Principle (a follow-on to this book; to be
+                                 created on GitHub by the author)
+     23 exist as prose          drafted whole: Preface, Introduction, Ch 1, 3, 5, 7-22, 24-27
+     2 carry draft prose        Ch 2 (~1,461 w) and Ch 4 (~3,439 w) under DRAFT; Ch 23 is an
+                                unfilled placeholder (skipped by the build, honestly)
+    17 concepts captured        CONCEPTS.md  (18-19 moved to the follow-on; tombstones in place)
+    21 rules + 10 subrules     RULES.md   (22-23 moved to the follow-on; dated note in place).
+                                          The derived reference and the installed skill copy were
+                                          regenerated + re-synced after the move.
     ⚠️→✅ the rule list existed in three places at three different counts - 28, 22 and 25.
                                  The 22 was control/references/the-rules.md and the 25 was the
                                  installed skill copy an agent actually loads. Both now
@@ -46,12 +44,15 @@
                                  each chapter's own claim and concept; the author confirms
                                  or corrects, one line per chapter.
 
-    ✅  2 rules added 14 Oct 2026 — 22 (it does not grant wishes) and 23 (prompts don't replace
-                                 principles) — now carried by Ch. 28 and Ch. 29 (Part V), the two
-                                 chapters that close out the book. Map regenerated same day: 33 of
-                                 33 rules carried. The new mappings (28: 22 primary + 18; 29: 23
-                                 primary + 6, 20, 3b) are PROPOSED and await the author's one-line
-                                 confirmation.
+    ✅  25 of 25 skeletons        have their "rules this chapter carries" filled in.
+                                 (12 Oct 2026; re-verified 14 Oct after the follow-on move.)
+                                 All 31 rules are carried by at least one chapter; the map is
+                                 GENERATED from the skeletons by book-build/make-rule-chapter-map.py
+                                 into book-build/rule-chapter-map.csv — the CSV is the index, the
+                                 skeletons are the source. Mappings are PROPOSED from each
+                                 chapter's own claim and concept; the author confirms or
+                                 corrects, one line per chapter. (The two post-finish rules
+                                 moved OUT with their chapters — the follow-on carries them.)
 
 **And the controls are now installable** — the book is not only an argument:
 
@@ -84,7 +85,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
 ---
 
-## The plan — 29 chapters, five parts
+## The plan — 27 chapters, four parts
 
 `00-BOOK.md` section 7 is the outline, and it carries its own status on every chapter:
 **✍️ drafted · 📋 captured · ⬜ planned.**
@@ -120,13 +121,10 @@ about. At the time of writing it is warning about chapters 26 and 27.
 
     Part IV   25 Pushing is not cooperation                         ✍️  drafted
               26 I was never the smart part                           ✍️  drafted
-              27 You have something to lose                           ✍️  drafted
-
-    Part V    28 AI is not a genie                                  📋  captured (added 14 Oct)
-              29 Prompts don't replace principles                   📋  captured — the close (added 14 Oct)
+              27 You have something to lose                           ✍️  drafted — the close
 
 **"Captured" means the material is written; it is not yet prose.** It lives in `CONCEPTS.md`
-(now 19 concepts) or in section 9's evidence register. The `chapters/` folder is where each
+(now 17 concepts) or in section 9's evidence register. The `chapters/` folder is where each
 chapter's material has been gathered so it can be expanded into a chapter.
 
 ---
@@ -231,11 +229,10 @@ page) adds no chapter and no rule by design; it routes the existing readers.
 
 6. NotebookLM tiers and the watermark detail; Pro's cloud storage figure (**do not state one**);
    OpenClaw's CVE and cost figures (**these date fastest of anything in the book**); `qwen2.5:1.5b`
-   running CPU-only; and the 2023 agent product names. Plus the two new rules' dated claims — the
-   IKEA retraining scope, the employers-rehired story, the token-spend-exceeds-wages story, the
-   wealth superlative, and the salary figures (open item 12 — ✅ sourced 14 Oct with dates; the
-   fastest-spoiling two stay here for the print pass, and note the documented 2023 headline was
-   $335K, not $500K).
+   running CPU-only; and the 2023 agent product names. Plus — 14 Oct: the post-finish claims moved WITH their chapters to the follow-on repo;
+   its `00-BOOK.md` §9 carries the dated verification for the IKEA retraining scope, the
+   employers-rehired story, the token-spend story, the wealth superlative, and the salary
+   headline (documented $335K, not $500K).
 
 ### Reference checks outstanding
 
@@ -246,40 +243,24 @@ page) adds no chapter and no rule by design; it routes the existing readers.
 
 8. A competent ML reader should check chapter 11 before print.
 
-### New rules, added after the finish (14 October 2026)
 
-11. ✅ **RESOLVED 14 Oct 2026 — and corrected by the author the same day: the two new chapters CLOSE
-    OUT the book.** They are the last two chapters, 28 and 29, in a new Part V; the close moved from
-    Ch. 27 to Ch. 29. Remaining from this item: AGENT-CONTRACT.md and control/SKILL.md still carry the
-    pre-finish rule set — fold 22-23 in.
 
-12. ✅ **RESOLVED 14 Oct 2026 — the sourcing pass ran; all five claims verified with sources and
-    dates** (§9, "the after-the-finish rules" block): IKEA's ~8,500 retrained (Reuters 13 Jun 2023;
-    Fortune 30 Jul 2026); Klarna's May 2025 recommitment, with the company's own counter-framing
-    (Bloomberg / CX Dive); Mercor's tokens-exceed-headcount statement (Business Insider, Jun 2026);
-    the documented 2023 salary headline — **$335K, not $500K** (a material correction); the wealth
-    superlative (Forbes — dated; re-verify at print). The receipts may now enter a draft.
+### The follow-on move (14 October 2026)
 
-13. ✅ **RESOLVED 14 Oct 2026, with a correction the author supplied.** soul.md is deliberate — and the
-    chapter does **not** tell people how to write one. The demonstration is the PROCESS, in his words:
-    *"get input from the employees, have management review and decide on the principals and goals, and
-    then publish the principals and goals — putting them in front of every employee to remind them
-    that every action had to comply with the principals and goals"* *(read: management / principles —
-    voice transcription)*. The Dashboard's `soul.md` (verified in Concept 10) is one existing instance
-    of the published-principles artifact — an aside, not the spine. Concept 19's entry carries the
-    correction.
+11. ✅ **RESOLVED by the move.** Items 11-13 here were the after-the-finish questions
+    (placement, sources, soul.md) — all were answered 14 Oct, and then the author moved the
+    material to its own follow-on repository: **everything** (Rules 22-23, Concepts 18-19, the
+    Part-05 divider, the Chapter-28/29 skeletons, and the five-claim verified-sources block) now
+    lives at `C:/ai/proposal genie/The-Promise-and-the-Principle`. Labeled by the author as **a
+    follow-on to this book** — which is itself the follow-on to *Building Your Own AI Dashboard*.
+    This book reverted: 27 chapters, the close at Ch. 27, tombstone pointers where each piece left.
 
-14. Register notes: the pre-final chapter counts in open item 1 and OPEN-ITEMS.md are superseded (the
-    book is 29 chapters, closing on Ch. 29); Concept 15/16's "no new rules" guards were superseded by
-    the author's own additions (dated notes in place); and the title as dictated reads "Principals" —
-    confirm "Principles" before it prints anywhere.
+12. ✅ **The first-edition tag preserves the intermediate state.** `first-edition-2026` (b869f92)
+    is the build that printed all 33 rule entries with Ch. 27 ending the reading copy. HEAD's
+    rebuilt interior prints this book's own 31; the follow-on's book will carry the other two.
 
-15. ⚑ **The closing-obligation sweep (decisions owed by the author).** The close moved from Ch. 27 to
-    Ch. 29. Promises that referenced the final chapter: the rules page *paid off in the final chapter*
-    (00-BOOK §5); the bookend *Preface: a student. Last page: the reader* (Ch. 27's outline entry);
-    Ch. 27's folded *Start here* material (the payoff, the first moves, the running-system map) now
-    sits in a mid-book chapter. Each is the author's editorial call at drafting; the list is recorded
-    in §7's Part V note, and the full folder sweep is logged there.
+13. ✅ **The close is Ch. 27 again** — item 15's closing-obligation sweep is moot; the front
+    matter's promises (payoff, bookend, preface line) hold against Ch. 27 as they always did.
 
 ### Housekeeping
 
@@ -301,9 +282,9 @@ in the tracker now shows SPECCED or better. What is missing is the drafting itse
 **And the per-chapter target is not a guess — it is arithmetic.** The plan targets 40,000–50,000
 words, and front matter accounts for 2,349 of them, so:
 
-    (45,000 planned - 2,349 front matter) / 29 chapters  =  ~1,470 words per chapter
-    (corrected 14 Oct 2026: the book is 29 chapters. The files carry 1,600 — 29 x 1,600 = 46,400,
-    + 2,349 front matter = ~48,750, inside the book's own 40-50k floor.)
+    (45,000 planned - 2,349 front matter) / 27 chapters  =  ~1,580 words per chapter
+    (corrected 14 Oct 2026: the shipped outline has 27 chapters — the 28/29 counting was the
+    post-finish state, now moved to the follow-on. The files carry 1,600 — inside the floor.)
 
 **The chapter files therefore carry a target of 1,600 words**, not the 1,300 they carried until
 11 October 2026. At 1,300 the book would have landed near 38,000 words — under its own floor, and
