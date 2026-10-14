@@ -100,7 +100,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
               21 You cannot ask a model who's best                   ✍️  drafted
               22 Let it fetch, let it write                          ✍️  drafted
               23 Let it build code, because code is checkable        📋  captured
-              24 The recipe, assembled                               📋  captured
+              24 The recipe, assembled                               ✍️  drafted
 
     Part IV   25 Pushing is not cooperation                         ✍️  drafted
               26 I was never the smart part                           ✍️  drafted

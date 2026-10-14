@@ -541,7 +541,7 @@ history.)*
 
 ### Part IV — The scaffold
 
-**24. The recipe, assembled** 📋 *(Rule 12, with 1, 6, 15b, 15c)*
+**24. The recipe, assembled** ✍️ *(Rule 12, with 1, 6, 15b, 15c)*
 - The full architecture in one place: contracts, injection, code-scored measurement, discovery over
   assumption, human gates, and a system that improves itself without a model deciding anything. **Two
   pillars now bear the weight** — confinement of the knowledge (Ch. 16), and the capability bus that lets
