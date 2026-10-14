@@ -2,9 +2,9 @@
 
 **Master document. Start here.** Everything about this book lives in this file or is linked from it.
 
-- **Status:** drafted through the close — 23 of 27 chapters in prose, front matter done (**measured on
-  disk 14 October 2026**). The two post-finish rules + their chapters **moved the same day to the
-  follow-on repo** (`The-Promise-and-the-Principle`). Nothing is final — this is a plan to react to.
+- **Status:** ALL 27 chapters hold prose (**Ch 23 drafted 14 October 2026**; measured on disk).
+  Front matter done. The two post-finish rules + their chapters **moved to the follow-on repo**
+  (`The-Promise-and-the-Principle`). Nothing is final — this is a plan to react to.
 - **How to resume:** read §1–§6 (the book, the thesis, the rules, the tone contract), then §7 (the
   chapter outline). §8 is the concept register — where each idea came from and what still needs
   checking. §10 lists the open actions. Do not draft from memory; the detail files under

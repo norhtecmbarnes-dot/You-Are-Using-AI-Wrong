@@ -7,17 +7,19 @@
 
 ## The one-line state
 
-**The thinking is essentially complete. The drafting is not.**
-**The Preface's India detail is confirmed (12 Oct 2026) — the oldest open item is closed.**
+**Drafted: all 27 chapters hold prose — Ch 23 was completed 14 October 2026.** The first
+edition is published and tagged (first-edition-2026). What remains: the author's read-through,
+and the follow-on book (two chapters specced, in its own repo).
 
     27 chapters planned         the close is Ch. 27 (You Have Something to Lose). The first edition
                                  is published and tagged (first-edition-2026, commit b869f92).
      2 chapters moved out       Ch 28-29 + the Part-05 divider moved 14 Oct to the follow-on repo
                                  The-Promise-and-the-Principle (a follow-on to this book; to be
                                  created on GitHub by the author)
-     23 exist as prose          drafted whole: Preface, Introduction, Ch 1, 3, 5, 7-22, 24-27
-     2 carry draft prose        Ch 2 (~1,461 w) and Ch 4 (~3,439 w) under DRAFT; Ch 23 is an
-                                unfilled placeholder (skipped by the build, honestly)
+     27 chapters hold prose     every chapter of the outline — Ch 23 drafted 14 Oct 2026;
+                                tracker: book-build/chapter-status.py (26 drafted + Ch 23)
+     2 keep prose under DRAFT   Ch 2 (~1,461 w) and Ch 4 (~3,439 w) — skeleton files whose
+                                DRAFT sections the build prints like any chapter
     17 concepts captured        CONCEPTS.md  (18-19 moved to the follow-on; tombstones in place)
     21 rules + 10 subrules     RULES.md   (22-23 moved to the follow-on; dated note in place).
                                           The derived reference and the installed skill copy were
