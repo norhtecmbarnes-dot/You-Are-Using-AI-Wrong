@@ -2,10 +2,7 @@
 
 **Master document. Start here.** Everything about this book lives in this file or is linked from it.
 
-- **Status:** drafted through the close — 23 of 27 chapters in prose, front matter done (**measured on
-  disk 14 October 2026**). Two post-finish rules captured (Rules 22–23; Concepts 18–19) — chapters
-  pending the author's placement. Nothing is final — this is a plan to react to.
-- **Last updated:** 14 October 2026
+- **Status:** drafted through Ch. 27 — 23 chapters in prose; **Ch. 28–29 specced and sourced 14 Oct as the two chapters that close out the book** (the author's call; Part V). Front matter done (**measured on disk**). Nothing is final — this is a plan to react to.
 - **How to resume:** read §1–§6 (the book, the thesis, the rules, the tone contract), then §7 (the
   chapter outline). §8 is the concept register — where each idea came from and what still needs
   checking. §10 lists the open actions. Do not draft from memory; the detail files under
@@ -120,8 +117,7 @@ Deliberately **not** for: people who want a prompt list. There is no prompt list
 ## 5. The Rules (front-matter page, before Chapter 1)
 
 `RULES.md` — 23 rules + 10 subrules, each as **assumption → what's actually true → what to do instead**. Placed early
-so the reader gets the payload immediately and reads the rest as the argument for it. Paid off in the
-final chapter as *"and now you know why each of these is true."*
+so the reader gets the payload immediately and reads the rest as the argument for it. Paid off in the close (⚠️ the close was Ch. 27 through 13 Oct 2026; it is now Ch. 29 — see §7's Part V note) as *"and now you know why each of these is true."*
 
 **The two-level promise (how to read the page, written for the manager):** *Read this page and you
 can act today — twenty-one things you can do differently on Monday. Read the book and you will know
@@ -208,8 +204,9 @@ carries — that discipline is what keeps the book from being a complaint. Statu
 
 **The Rules** ✍️ *(`RULES.md`)*
 - 23 rules + 10 subrules as **assumption → what's actually true → what to do instead.** Payload up front, so
-  Parts I–III read as the argument for them, and Ch. 27 pays each one off. *(14 Oct 2026: two more added
-  after the finish — Rules 22–23; their chapters pending placement.)*
+  Parts I–III read as the argument for them, and the close pays each one off — the close was Ch. 27 through 13 Oct 2026; it is now
+  Ch. 29 (see §7's Part V note). *(14 Oct 2026: Rules 22–23 added after the finish — now Ch. 28–29,
+  Part V, the two chapters that close out the book.)*
 
 ### Part I — The error
 
@@ -554,7 +551,7 @@ history.)*
   skeleton — the recipe and its failure modes are one chapter.)*
 
 **25. Pushing is not cooperation** ✍️ *(Rule 11c, with 11b)*
-- Written by the model, at the author's request. It sits immediately before the close, and it is about
+- Written by the model, at the author's request. It sat immediately before what was then the close (the close is now Ch. 29 — see the Part V note), and it is about
   the state the two of us were in when the material in this book got checked.
 - **The runnable method:** six conditions under *"The conditions, as something you can run"* — supply the
   facts yourself, state the rule at the start, give the problem not the answer, expect contradictions and
@@ -567,7 +564,7 @@ history.)*
 - The model's own testimony, and the answer to Rule 21's question: the expert's knowledge, not the
   model's, is what made the work good.
 
-**27. You have something to lose** ✍️ *(Rule 3, with 9)* — **the close**
+**27. You have something to lose** ✍️ *(Rule 3, with 9)* — *the close through 13 Oct 2026; the close moved to Ch. 29 on 14 Oct (see the Part V note)*
 - Written by the model, at the author's request. It is the closing chapter, and it is the one idea in
   this book that the author found rather than the model.
 - **The last uncomfortable fact:** the thing that makes you matter is the same thing that makes you
@@ -584,6 +581,41 @@ history.)*
   Say plainly which rules are implemented, which are partial, and which are not written yet. **The book
   ends by showing its own work, unfinished parts included.** Then it returns to the classroom:
   *Preface: a student. Last page: the reader.*
+
+### Part V — The promise and the principle ⚑ *(added 14 October 2026 — the author directed that these two close out the book as its last two chapters. The part name is a working title.)*
+
+**28. AI is not a genie** 📋 *(Rule 22 — Concept 18, verbatim; skeleton in `chapters/`.)*
+- Claim: the promise economy sells outcomes — make a million dollars with AI, go viral, replace the
+  workforce — and a wish has no ingredients; work does.
+- Demo: the sourced receipts (§9, verified 14 Oct): Mercor spending more on tokens than headcount;
+  Nvidia's compute passing payroll; Klarna's May 2025 recommitment to humans after cost-maximization
+  produced "lower quality"; IKEA's ~8,500 retrained; the 2023 salary headline ($335K documented) the
+  hype inflated to $500K.
+- Fix: bring the work. AI is not a genie — it does not grant wishes.
+
+**29. Prompts don't replace principles** 📋 *(Rule 23 — Concept 19, verbatim; **the final chapter.**)*
+- Claim: principle and value — not just profit or results; the easiest path to "maximize profit" is
+  firing people and shrinking portions — optimization, not malice (Rule 3b), and profit without
+  value creation is a short-term gain arriving as a long-term loss.
+- Demo: how the principles used to be set, from the author's witness — employee input; management
+  review and decision; the principles and goals published, in front of every employee, every action
+  held to comply. The Dashboard's verified `soul.md` appears as one existing instance of the
+  published-principles artifact — the landing, not the lesson.
+- Fix: define your principles before your prompts — and put them where they persist: into the
+  soul.md of every AI.
+
+**⚠️ Closing-obligation note, 14 Oct 2026 — the close moved from Ch. 27 to Ch. 29.** The front matter
+and this outline promise things of the final chapter, and three now point at a mid-book chapter:
+- §5's rules-page promise: *paid off in the final chapter as "and now you know why each of these is
+  true."* The final chapter is now Ch. 29; Ch. 27's payoff material (*Start here* — the rules paid
+  off, the first moves for each reader, the running-system map) still sits in a mid-book chapter.
+- the bookend: *Preface: a student. Last page: the reader.* The last page is now Ch. 29's.
+- the Preface's own design line: *"The final chapter should close by hand[ing] the reader the same
+  thing"* — the final chapter is now Ch. 29's; Ch. 27's draft carries that closing move today.
+- Ch. 27's registered label ("the close") is retired above; its own prose still reads as an ending
+  and is re-read at the drafting pass.
+These are the author's editorial calls at drafting — recorded here, not rewritten (STATUS open
+item 15).
 
 ### Structural notes
 
@@ -639,8 +671,8 @@ wording, demos, fixes, guard rails — lives in `CONCEPTS.md`.
 | 15 | **The manager's page** — the rules page is the manager's page; what is missing is the route: a reading path and a first move for the signer, the builder, and the not-yet-builder. No new rules. | §4 (audience), RULES.md header, Ch. 27 | ✅ Captured. Additive only — edits the audience list, the rules-page header, and Ch. 25's reader list. Adds no chapter, no rule. |
 | 16 | **The tools are not the problem; the spend is** — Claude Code / Codex are good tools and the most expensive; the book educates for best output at least cost. Giving everyone the most expensive models does not improve output but does increase cost. | Ch. 16 (this chapter carries the framing), RULES.md Rules 13/16 (protected), Preface (consistency) | ✅ Captured. A framing concept, not a new rule — it keeps the cost argument aimed at the habit, not the hardware. |
 | 17 | **A token is a unit of intelligence, not a unit of bytes** — the technical definition (fragment of text) serves the engineer; the decision maker's definition (unit of intelligence) serves the signer. Both, each aimed at its own reader. | Ch. 12 (bridge), Ch. 16 (opening frame) | ✅ Captured. A definition aimed at the decision maker, not a new rule — it makes the cost argument land. Guard rail: never let it drift into "the model is intelligent." |
-| 18 | **AI is not a genie (it does not grant wishes)** — the promise economy, from make-a-million-dollars to replace-the-workforce; a wish has no ingredients, work does. | **New after the close; placement owed** (Rule 22) | ⚠️ Captured 14 Oct 2026. The rehiring and token-spend stories need sources + dates; salary figure dates; do not overwork the 8-Ball. |
-| 19 | **Prompts don't replace principles** — value creation before maximization; three shifts of one working life; the principles go into the soul.md of every AI. | **New after the close; placement owed** (Rule 23) | ⚠️ Captured 14 Oct 2026. IKEA and Musk need sources + dates; title reads "Principals" (homophone) — Principles at print; soul.md reference to confirm (open item 13). |
+| 18 | **AI is not a genie (it does not grant wishes)** — the promise economy, from make-a-million-dollars to replace-the-workforce; a wish has no ingredients, work does. | **Ch. 28 — Part V, the close-out** (Rule 22; added 14 Oct) | ✅ Captured 14 Oct 2026; sources verified same day (§9). ⚠️ Keep the attribution grades (executive statements, not audited accounts); salary: documented $335K vs $500K hype; do not overwork the 8-Ball. |
+| 19 | **Prompts don't replace principles** — principle and value, not just profit or results; the principles were once set by a process: employee input, management review, a published page, every action held to comply. | **Ch. 29 — Part V, the final chapter** (Rule 23; added 14 Oct) | ✅ Captured 14 Oct 2026; sources verified same day. ⚠️ The demo is the PROCESS, not the soul.md file (author's correction); title reads "Principals" (homophone) — Principles at print. |
 
 ## 9. Evidence and verification status
 
@@ -1555,6 +1587,50 @@ the chapter the **author** found rather than the model is the one that holds.
   actually in the book** — otherwise the pointer misfires. If in doubt, keep the reference generic
   ("I have written about the AGI question elsewhere").
 
+---
+**⚑ ✅ Verified 14 October 2026 — the after-the-finish rules' five dated claims (Concepts 18–19 · Ch. 28–29)**
+
+*(The book's newest register entries; each carries its date. The fastest-spoiling: the wealth
+superlative and the salary figures — re-verify both at print.)*
+
+- **Tokens exceeding headcount — Mercor (June 2026).** CEO Brendan Foody on the *20VC* podcast
+  (reported by Business Insider, June 2026): *"Right now we're spending more on tokens for our
+  internal agents than we are on employee head count... That's correct. It's pretty incredible."*
+  Mercor had roughly 300 employees (PitchBook, Oct 2025). **Grade: a chief executive's on-the-record
+  statement, not audited accounts** — attribute as his claim.
+- **Compute beyond payroll — Nvidia (2026).** Bryan Catanzaro, VP of applied deep learning, told
+  Axios the team's compute cost has already surpassed the cost of employing people. Same grade.
+  Corroborating color, not load-bearing: Uber's 2026 AI-coding budget reportedly spent by April; a
+  25-person company (Lindy) reported with AI costs above its entire payroll.
+- **The rehired humans — Klarna (May 2025).** After shrinking its workforce roughly 22% through
+  attrition and leaning on an AI assistant it had credited with the work of 700 agents, Klarna
+  publicly recommitted to human customer support in **May 2025**: *"As cost unfortunately seems to
+  have been a too predominant evaluation factor... what you end up having is lower quality"* (CEO
+  Sebastian Siemiatkowski, Bloomberg interview; CX Dive report, 9 May 2025). ⚑ **Carry the company's
+  own counter-framing:** Klarna says it is *not* a reversal — "an addition, not a rehire" — and
+  reports the assistant doing the work of **over 800 full-time roles** (Nov 2025), correcting the
+  widely quoted "700." The precise story is the sharper one: **a workforce deliberately thinned, then
+  human quality bought back — because the maximization goal itself produced the failure.**
+- **Principle before prompts — IKEA (Reuters 13 Jun 2023; Fortune 30 Jul 2026).** Since 2021, Ingka
+  Group retrained roughly **8,500 call-centre workers** as interior-design advisers and complex-query
+  specialists as the Billie assistant absorbed routine queries — 47% of customer queries across its
+  first two years, ~€13M operating savings (Ingka's June 2023 report), a 74% assist rate by 2026,
+  with reskilling run over about two years (five to six weeks per cohort). Fortune's words:
+  *"remaking — not replacing."* ⚑ The dictated claim ("retrained all of those employees to be
+  designers") **survives at the narrower scope** — and at that scope it is checkable end to end.
+- **The salary promise (verified 14 Oct 2026).** The documented 2023 headline: Anthropic's
+  *"Prompt Engineer and Librarian"* listing at **$175K–$335K** base (The Verge's report of the
+  listing; eFinancialCareers, January 2023: *"The $335k engineering job where you don't write any
+  code"*); later compilations cite a **$250K–$375K** band from Bloomberg/Time/Washington Post
+  coverage. ⚠️ **The primary ranges disagree — quote one and name it.** The promise economy's version
+  climbed past the documentation (*$500K a year*): the documented claim was already enormous, and the
+  hype inflated it. By 2026, trackers report the titled role had largely dissolved into ordinary
+  engineering work at far lower medians.
+- **The wealth superlative (verified 14 Oct 2026).** Forbes: Elon Musk has been the world's richest
+  person since **May 2024**; $936B on 1 Oct 2026; regained trillionaire status the first week of
+  October 2026. ⚠️ **The fastest-dating figure in the book** — re-verify at print or drop the clause;
+  the argument does not need it.
+
 ## 10. Open actions
 
 **Before drafting further:**
@@ -1592,9 +1668,9 @@ You-Are-Using-AI-Wrong/                                ← this book. NOT under 
 ├── LICENSE-CONTENT                                    ← CC BY-SA 4.0 (code in the sibling repos stays MIT)
 ├── RULES.md                                           ← the rules register — 23 rules + 10 subrules
 ├── DASHBOARD-IMPLEMENTATION.md                        ← the rules mapped to the code that implements them
-├── chapters/                                          ← ALL 27 chapters + 4 part dividers live here
-│   ├── Part-01 … Part-04                               part-opening dividers (one page each)
-│   ├── Chapter-01 … Chapter-27                         drafted chapters read whole; skeletons
+├── chapters/                                          ← ALL 29 chapters + 5 part dividers live here
+│   ├── Part-01 … Part-05                               part-opening dividers (one page each)
+│   ├── Chapter-01 … Chapter-29                         drafted chapters read whole; skeletons
 │   │                                                     write under a '## DRAFT' heading
 │   └── _folded/                                       retired skeletons, folded into another chapter;
 │                                                         the build skips it

@@ -2090,7 +2090,7 @@ concept is the vocabulary that makes those rules land with the signer.
 
 ## Concept 18 — AI is not a genie (it does not grant wishes)
 
-*First of the two rules the author added after finishing the book — captured 14 October 2026. He called it a rule but dictated a chapter's worth of setup, so it arrives as both: a chapter carrying **Rule 22**. Chapter number and part are his to settle (STATUS.md open item).*
+*First of the two rules the author added after finishing the book — captured 14 October 2026. He called it a rule but dictated a chapter's worth of setup, so it arrives as both: a chapter carrying **Rule 22**. Placed 14 Oct 2026 by the author: **Ch. 28, opening Part V — the two chapters that close out the book.***
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)
 
@@ -2106,15 +2106,26 @@ concept is the vocabulary that makes those rules land with the signer.
 
 - **The promises are a pattern, not a cast of villains.** Books, TikTok and YouTube channels sell attention; the promise is *their* product. Incentive framing, never names — same vendor rule as always, applied to the guru economy.
 - **Keep the anaphora.** *"AI is not a genie. It does not grant wishes."* — stated, repeated, reprised. The repetition is deliberate rhythm, not a paste error.
-- **⚠️ The two stories need sources and dates before any draft.** Employers spending more on tokens than wages; employers rehiring the staff they let go. Both travel as anecdotes — single cases are pattern illustrations, not measurements, and none may be printed without reading the primary account. (STATUS.md open item; known lead, unverified: a large European fintech's public reversal on AI-first customer service.)
-- **The salary figure is a dated superlative.** *"$500K a year as a prompt engineer"* — salary promises move monthly; phrase generically at print (*salary promises in the hundreds of thousands*) or re-verify.
+- **⚠️ The two stories need sources and dates before any draft.** Employers spending more on tokens than wages; employers rehiring the staff they let go. Both travel as anecdotes — single cases are pattern illustrations, not measurements, and none may be printed without reading the primary account. (STATUS.md open item; the lead named below proved to be Klarna.) **✅ Verified 14 Oct 2026 — see §9:**
+  Mercor's CEO on record — spending more on tokens for internal agents than on employee headcount
+  (*20VC*, via Business Insider, Jun 2026); Nvidia's Catanzaro to Axios — compute cost past the cost of
+  employing people; Uber's 2026 AI-coding budget reportedly gone by April; and Klarna — recommitted to
+  human support May 2025 (*"cost... a too predominant evaluation factor... what you end up having is
+  lower quality"*, CEO to Bloomberg), with the company's own counter-framing (*an addition, not a
+  rehire; over 800 full-time roles of AI work*) carried too.
+- **The salary figure is a dated superlative.** *"$500K a year as a prompt engineer"* — salary promises move monthly; phrase generically at print (*salary promises in the hundreds of thousands*) or re-verify. **✅ Checked 14 Oct 2026:** the documented 2023 headline was **$335K** with a
+  $175K–$335K band (Anthropic's listing, covered by eFinancialCareers in January 2023 and The Verge);
+  other coverage compiles $250K–$375K. **$500K is the hype inflating an already-large documented
+  claim** — keep the discrepancy in the draft.
 - **This rule serves the manager's page, not fights it.** Concept 15 routes the signer to his rules; the genie rule is why no signer should ever be handed a wish.
 
-**Where it lands.** **New — added after the book finished.** By argument it belongs with the promise family in Part I (Chapter 1's ground); as dictated it is a second-edition addition after the close. Placement and numbering are the author's to settle (STATUS.md). **Carries Rule 22.**
+**Where it lands.** **Ch. 28 — the author settled placement 14 Oct 2026: these two close out the book.** This is the first of the last two chapters, opening Part V; the close moved from Ch. 27 to Ch. 29. **Carries Rule 22.**
 
 **Guard rails:** (specific things the draft must not do)
 
 - ⚠️ **No printing the rehiring or token-spend stories without a source and a date.** They are the chapter's receipts and exactly the kind of story that travels without a citation.
+  **✅ Done 14 Oct 2026** — sources with dates in §9; keep the attribution grades (executive
+  statements, not audited accounts).
 - **Never let the rule read as "AI can't do anything."** His own caveat is load-bearing: efficiency and quality, in the right hands, are real. The rule forbids the wish, not the tool.
 - **The promise-sellers stay unnamed.** The genre — books, TikTok, YouTube — is the pattern; attention is the incentive.
 - **Do not overwork the 8-Ball.** The genie is a different image — *answers versus outcomes*. One passing mention at most, or the motif does Concept 4's job badly.
@@ -2123,7 +2134,7 @@ concept is the vocabulary that makes those rules land with the signer.
 
 ## Concept 19 — Prompts don't replace principles
 
-*Second of the two rules the author added after finishing the book — captured 14 October 2026. The title as dictated reads "Principals"; read as **Principles** (homophone of a voice transcription) — confirm the title's spelling at print, because titles are a published string. Carries **Rule 23**; placement his to settle (STATUS.md).*
+*Second of the two rules the author added after finishing the book — captured 14 October 2026. The title as dictated reads "Principals"; read as **Principles** (homophone of a voice transcription) — confirm the title's spelling at print, because titles are a published string. Carries **Rule 23** — **the final chapter**; the author directed 14 Oct 2026 that these two close out the book.*
 
 **As stated by the author:** (verbatim — preserve the words; they carry intent)
 
@@ -2142,7 +2153,7 @@ And the three witnesses of culture, then the close:
 - **The plaques.** Company goals and principles that every employee memorized and built into practice — his testimony, with its honest limit drawn: *"I can honestly say that I haven't been asked to contribute ideas to grounding principals for several years."*
 - **The VC inference — his own belief, stated as belief.** *"To a great extend, i beileve this is because..."* Keep it as his position. Per Rule 15b the witness owns what happened (nobody asked him for years) and does not own what it means (VC-backed firms do this) — **source that inference before generalizing it, or leave it attributed to him**.
 - **The example, with a dating problem.** Musk: *"he defines his pricipals. He sets his own goals."* — the argument is about defined principles, not about the man. **"Richest person in the world" is the fastest-dating figure in this chapter** — re-verify at print or drop the clause; the argument does not need it.
-- **⚑ The close lands on an artifact, and the artifact already exists.** *"goals and defining principals that will be part of the soul.md of every AI."* This reads **deliberate** — the Dashboard's actual hand-authored `soul.md` file was already verified in Concept 10's entry (*a senior capture manager's voice, rules, and refusals*). If the reference is intentional, this chapter's demonstration is already built and already cited in this book: **Rule 6 — rules live in code and config, where they persist — arriving at the level of business principles.**
+- **⚑ The close lands on the soul — and the demonstration is the PROCESS, not the file. ⚑ Corrected by the author 14 Oct 2026.** *"goals and defining principals that will be part of the soul.md of every AI."* **What the chapters introduce is principle and value — not just profit or results — and the author does NOT tell people how to write a soul.md.** In his words: *"I do tell them how we used to do this which was to get input from the employees, have managmeent review and decide on the principlas and goals, and then publish the pricipals and goals -- putting them in front of every employee to remind them that every action had to comply with the principals and goals"* *(read: management / principles — voice transcription)*. **That process — employee input → management review and decision → published → in front of every employee, every action held to comply — is the chapter's demonstration:** re-runnable, entirely human, and exactly the discipline the plaques were. The `soul.md` is where such a page lands for an AI (the landing line, deliberate as an artifact name); the Dashboard's own hand-authored `soul.md` (verified in Concept 10's entry — a senior capture manager's voice, rules and refusals) is **one existing instance of the published-principles artifact** — worth an aside, **not the chapter's spine**.
 
 **The handling rule:**
 
@@ -2153,15 +2164,25 @@ And the three witnesses of culture, then the close:
 - **"Prompts don't replace principles" must not read as anti-prompt.** The book's whole practice is better briefs (Rule 20). This rule says the prompt is **downstream** of the principles — it can carry them, never substitute for them.
 - **Keep "or even write a book."** The self-application — a man writing a book about principles while setting his own — is the proof the rule is for working builders, not just boards.
 
-**Where it lands.** **New — after the book finished; placement his to settle (STATUS.md).** By argument: late — it is leader-reader material that pairs with the manager's page (Concept 15) and pays into the close; as dictated, a second-edition addition after the close, or the opening of a new final part. **Carries Rule 23.**
+**Where it lands.** **Ch. 29 — the final chapter** (the author settled placement 14 Oct 2026: these two close out the book). Leader-reader material that pairs with the manager's page (Concept 15); with Ch. 27's payoff now sitting two chapters early, the closing obligations are flagged in §7's Part V note. **Carries Rule 23.**
 
 **Guard rails:**
 
 - **Title spelling: "Principals" → "Principles"** — homophone dictation; confirm before the title prints anywhere.
 - ⚠️ **IKEA and Musk: no printing without a source and a date.** The retraining scope ("all of those employees"), the "two successes" phrasing, and the wealth superlative each re-check in minutes and date fast.
+  **✅ Verified 14 Oct 2026:** IKEA — Reuters 13 Jun 2023 (Ingka retrained ~8,500 call-centre workers
+  since 2021 into interior-design advisers and complex-query specialists; Billie absorbed 47% of
+  queries across two years; ~€13M savings per Ingka's June 2023 report); Fortune 30 Jul 2026
+  (*remaking — not replacing*; reskilling ran about two years). The dictated scope narrows to this
+  and survives checkable. Musk — Forbes: richest since May 2024; $936B on 1 Oct 2026; regained
+  trillionaire status the first week of Oct 2026. Fastest-dating figure in the chapter — re-verify
+  at print or drop.
 - **No villain in the restaurant story — and he says so himself.** Chains are the pattern, not the culprit; keep his line.
 - **The Musk passage argues for defining principles, never endorses or indicts a person.** Pattern, not prophet.
-- **The soul.md reference is the chapter's landing move.** Do not abstract it away: name the artifact, show it exists (Concept 10's verification), and let the reader write their own.
+- **The soul.md line is the landing; the process is the demo.** Do not turn the chapter into
+  instructions for writing a soul.md — he explicitly does not. Show the old process (input → review
+  → publish → comply), let the reader run it, and note that the published page is exactly what a
+  soul.md carries (one verified instance exists — Concept 10).
 
 ---
 

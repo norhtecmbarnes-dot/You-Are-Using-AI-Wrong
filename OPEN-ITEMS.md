@@ -305,10 +305,19 @@ installed skill copy are re-synced to it.
 
 **New questions for you — they slot into A (only yours) and B (my research) above:**
 
-- **A-new:** Where do the two new chapters sit — a second-edition part after the close, or inserted by
-  argument (genie beside the promise chapters; principles beside the manager's page)? Insertion is the
-  renumbering case.
-- **B-new:** Shall I run the sourcing pass for the new material — IKEA's retraining scope, the
-  employers-rehired story, the token-spend story, the wealth superlative, the $500K salary claim?
-- **A-new:** Is "the soul.md of every AI" deliberate — the Dashboard's actual hand-authored file, which
-  would make this chapter's demonstration already-built — or "the soul of every AI" as a phrase?
+- **A-new:** Where do the two new chapters sit? **✅ ANSWERED 14 Oct — corrected by the author the
+  same day: they CLOSE OUT the book.** The last two chapters (28 and 29, in a new Part V); the close
+  moved from Ch. 27 to Ch. 29. One editorial question remains: Ch. 27's closing material — the
+  payoff, the first moves, the running-system map — now sits two chapters early. How it leads into
+  the new final part is his call at drafting (STATUS open item 15).
+- **B-new:** Run the sourcing pass? **✅ DONE 14 Oct — all five verified with sources and dates**
+  (§9, "the after-the-finish rules" block). **One material correction: the documented 2023 salary
+  headline was $335K, not $500K** — the $500K version is the hype inflating an already-large
+  documented claim, which is itself good chapter material. The wealth superlative stays on the
+  verify-before-print list.
+- **A-new:** Is "the soul.md of every AI" deliberate? **✅ ANSWERED 14 Oct — deliberate, with a
+  correction that reshapes the chapter:** the chapters introduce principle and value — not just
+  profit or results — and the author does NOT tell people how to write a soul.md. He tells how it
+  used to be done: employee input → management review decides → publish the principles and goals →
+  in front of every employee, every action held to comply. That process is the demonstration; the
+  Dashboard's verified `soul.md` is one instance of the artifact it lands in, not the spine.

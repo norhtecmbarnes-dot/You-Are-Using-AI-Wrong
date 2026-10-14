@@ -26,7 +26,7 @@ machinery that builds the manuscript — so the project can be picked up from an
     You-Are-Using-AI-Wrong/
     ├── README.md                      this file
     ├── STATUS.md                      where the project is right now  <- read this second
-    ├── 00-BOOK.md                     master document: thesis, tone rules, 27-chapter outline,
+    ├── 00-BOOK.md                     master document: thesis, tone rules, 29-chapter outline,
     │                                  and section 9, the evidence register
     ├── RULES.md                       the rules register — 23 rules + 10 subrules — the book's spine
     ├── AGENT-CONTRACT.md              the rules as an installable contract: a prompt,
