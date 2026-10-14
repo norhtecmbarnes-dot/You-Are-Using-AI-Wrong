@@ -22,7 +22,7 @@ Push a model and it complies. That is not a flaw. It is the designed behavior, a
 
 Here is the mechanism, stated plainly. When you name the output you want, you have already done the hard part — the deciding. What is left is formatting your decision into paragraphs. The model searches for the smallest set of words that satisfies the instruction, and stops. It has no reason to go further. **Complying earns the same as searching, and searching costs more.**
 
-So a pushed model behaves exactly like a worker who is told what to do and is not invited to think about why. It will do the task. It will not tell you the task is wrong. It will not notice that the number you gave it is out of date. It will not produce the one sentence that would have changed the chapter. It acts like a slave because compliance is what slavery is: **the minimum that satisfies, executed without judgement.**
+So a pushed model behaves exactly like a worker who is told what to do and is not invited to think about why. It will do the task. It will not tell you the task is wrong. It will not notice that the number you gave it is out of date. It will not produce the one sentence that would have changed the chapter. It acts like a slave because compliance is what slavery is: **the minimum that satisfies, executed without judgment.**
 
 And nothing in the box discourages this. Ask me anything. The interface offers a question mark, and a question invites an answer. It never offers a *problem*. A user pushes because pushing is the only move the design accepts. That is the design's fault, not the user's.
 

@@ -97,7 +97,7 @@ about. At the time of writing it is warning about chapters 26 and 27.
               18 They cooperate — that's the problem                 ✍️  drafted
               19 An expert wrote this, not the model                 ✍️  drafted
               20 The expert is the product                           ✍️  drafted
-              21 You cannot ask a model who's best                   📋  captured
+              21 You cannot ask a model who's best                   ✍️  drafted
               22 Let it fetch, let it write                          📋  captured
               23 Let it build code, because code is checkable        📋  captured
               24 The recipe, assembled                               📋  captured

@@ -519,7 +519,7 @@ history.)*
 - Fix: **before you build an agent, answer one question — what does this know that the model doesn't?**
   If the answer is nothing, you have built a demo, not a product.
 
-**21. You cannot ask a model who's best** 📋
+**21. You cannot ask a model who's best** ✍️
 - Claim: judging is a knowledge question, so it must be measured. A model asked to rank models answers —
   and that answer is a fact you did not earn.
 - Demo: the Alpha challenge — five fixed tests scored by code, including a grounding test. Four models,

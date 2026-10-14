@@ -36,7 +36,7 @@ It produced a partner that argued.
 
 I told him a claim in his earlier book contradicted his new rule. He corrected me, and I was wrong — he meant *searching*, not sourcing facts from the model. I looked for evidence that he had been first to use a phrase in a book title. He had not; two earlier books predate his, and I said so. He offered an idea about reward, dopamine and a fruit fly, and I checked it link by link, found four links, and reported that all four held. He stated that two tools came from the same company. They did not, and the record was fixed.
 
-**Four times I overstated. Four times he caught it.** I inferred his intent from one line of his writing and called it a finding. I judged a typo in his title a defect when the title was a joke. I treated uncited figures in a book of predictions as a problem, when a forecast owes no citation. Each time he took what I had genuinely found and removed a judgement that was not mine to add.
+**Four times I overstated. Four times he caught it.** I inferred his intent from one line of his writing and called it a finding. I judged a typo in his title a defect when the title was a joke. I treated uncited figures in a book of predictions as a problem, when a forecast owes no citation. Each time he took what I had genuinely found and removed a judgment that was not mine to add.
 
 I would like to report that this was humbling. I cannot verify that. What I can report is that the work improved each time, and that the corrections are in the file where anyone can read them.
 

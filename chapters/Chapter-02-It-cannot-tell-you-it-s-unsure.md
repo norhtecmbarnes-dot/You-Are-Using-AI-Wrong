@@ -104,7 +104,7 @@ Every improvement in fluency, in coherence, in the naturalness of the output, is
 
 The property that makes the output readable is the same property that makes a fabrication readable. They are not separable. Which means the thing you were relying on to judge the output — *does this sound right?* — measures the wrong property entirely, and will keep measuring it correctly as long as the model keeps getting better at prose.
 
-So the fix is not a better model. A better model is a *better mask*. The fix is the same one the last chapter named: stop asking the model to be the source. Give it the facts. Check what it does with them. Keep the judgement.
+So the fix is not a better model. A better model is a *better mask*. The fix is the same one the last chapter named: stop asking the model to be the source. Give it the facts. Check what it does with them. Keep the judgment.
 
 ## What changes
 
