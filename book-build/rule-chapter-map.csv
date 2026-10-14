@@ -20,7 +20,7 @@ chapter,title,status,primary_rule,rules_carried,source_file
 19,An expert wrote this not the model,MAPPED,1,1;20;12,chapters/Chapter-19-An-expert-wrote-this-not-the-model.md
 20,The expert is the product,MAPPED,21,21;20,chapters/Chapter-20-The-expert-is-the-product.md
 21,You cannot ask a model who s best,MAPPED,15,15;11b;1,chapters/Chapter-21-You-cannot-ask-a-model-who-s-best.md
-22,Let it fetch let it write,MAPPED,1,1;12;21b,chapters/Chapter-22-Let-it-fetch-let-it-write.md
+22,Let it fetch let it write,MAPPED,1,1;12;21b;13,chapters/Chapter-22-Let-it-fetch-let-it-write.md
 23,Let it build code because code is checkable,MAPPED,15,15;11b,chapters/Chapter-23-Let-it-build-code-because-code-is-checkable.md
 24,The recipe assembled,MAPPED,12,12;1;6;15b;15c,chapters/Chapter-24-The-recipe-assembled.md
 25,Pushing Is Not Cooperation,MAPPED,11c,11c;11b,chapters/Chapter-25-Pushing-Is-Not-Cooperation.md

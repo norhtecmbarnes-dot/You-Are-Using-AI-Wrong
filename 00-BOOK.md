@@ -526,7 +526,7 @@ history.)*
   three perfect, one caught inventing. Ties go to the incumbent. **No model voted. Real result.**
 - Fix: measure with code, on your tasks, on your machine — including whether it admits what it doesn't know.
 
-**22. Let it fetch, let it write** 📋
+**22. Let it fetch, let it write** ✍️
 - Claim: give it what code fetched, and it will do the language work over it.
 - Demo: a research loop end to end — code pulls facts, a cheap model ranks, the best model writes, code
   validates and queues, a human approves. **Real, verified run.**
